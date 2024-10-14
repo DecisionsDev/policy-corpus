@@ -1,0 +1,224 @@
+{
+  "kind": "DecisionService",
+  "api_version": "v1beta1",
+  "metadata": {
+    "display_name": "Loan Approval",
+    "name": "Loan Approval",
+    "locale": "en-US",
+    "publisher": "IBM",
+    "type": "model",
+    "summary": "Check the eligibility of a loan application."
+  },
+  "datamodel": {
+    "classes": [
+    {
+        "name": "LoanApplication",
+        "jsonname": "LoanApplication",
+        "description": "Loan Application",
+        "Fields": [
+          {
+            "name": "age",
+            "type": "integer",
+            "description": "the age of the applicant"
+          },
+          {
+            "name": "residency",
+            "type": "string",
+            "description": "the residency of the applicant"
+          },
+          {
+            "name": "credit_score",
+            "type": "integer",
+            "description": "the credit score of the applicant"
+          },
+          {
+            "name": "income",
+            "type": "integer",
+            "description": "the income of the applicant"
+          },
+          {
+            "name": "employment_status",
+            "type": "string",
+            "description": "the employment status of the applicant"
+          },
+          {
+            "name": "debt_to_income_ratio",
+            "type": "integer",
+            "description": "the debt to income ratio of the applicant"
+          },
+          {
+            "name": "loan_amount",
+            "type": "integer",
+            "description": "the loan amount"
+          }
+        ]
+      },
+      {
+        "name": "LoanTerms",
+        "jsonname": "LoanTerms",
+        "description": "Loan Terms",
+        "Fields": [
+          {
+            "name": "interest_rate",
+            "type": "integer",
+            "description": "the interest rate"
+          },
+          {
+            "name": "repayment_period",
+            "type": "integer",
+            "description": "the repayment period"
+          }
+        ]
+      },
+      {
+        "name": "LoanEligibility",
+        "jsonname": "LoanEligibility",
+        "description": "Loan Eligibility",
+        "Fields": [
+          {
+            "name": "eligible",
+            "type": "boolean",
+            "description": "eligible or not"
+          },
+           {
+            "name": "co_signer",
+            "type": "boolean",
+            "description": "co-signer or not"
+          }
+        ]
+      }
+    ]
+  },
+ "decisionmodel": {
+    "nodes" : [
+      {
+        "kind": "input",
+        "name": "LoanApplication",
+        "type": "LoanApplication",
+        "description": "Loan Application"
+      },
+      {
+        "kind" : "decision",
+        "name": "Eligibility",
+        "type": "boolean",
+        "description": "Check eligibility",
+        "policy" : "first",
+        "requirements" : [ "LoanApplication"],
+        "artifacts" : [
+          {
+            "kind": "rule",
+            "name": "age rule 1",
+            "bal": "if the age of 'LoanApplication' is less than 18 then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "residency rule 1",
+            "bal": "if the residency of 'LoanApplication' is not \"United States\" then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "credit score rule 1",
+            "bal": "if the credit_score of 'LoanApplication' is less than 600 then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "income rule 1",
+            "bal": "if the income of 'LoanApplication' is less than 30000 then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "employment status rule 1",
+            "bal": "if the employment_status of 'LoanApplication' is not \"stable\" then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "debt to income ratio rule 1",
+            "bal": "if the debt_to_income_ratio of 'LoanApplication' is more than 40 then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "loan amount rule 1",
+            "bal": "if the loan_amount of 'LoanApplication' is less than 5000 or more than 50000 then set 'LoanEligibility' to a new LoanEligibility where eligible is false;"
+          },
+          {
+            "kind": "rule",
+            "name": "default-rule",
+            "default": true,
+            "bal": "set Eligible to true;"
+          }
+        ]
+      },
+      {
+        "kind" : "decision",
+        "name": "Co-Signer",
+        "type": "boolean",
+        "description": "Check co-signer",
+        "policy" : "first",
+        "requirements" : [ "LoanApplication", "Eligibility" ],
+        "artifacts" : [
+          {
+            "kind": "rule",
+            "name": "eligibility rule 1",
+            "bal": "if it is not true that Eligible then set Co-Signer to true;"
+          },
+          {
+            "kind": "rule",
+            "name": "default-rule",
+            "default": true,
+            "bal": "set Co-Signer to false;"
+          }
+        ]
+      },
+      {
+        "kind" : "decision",
+        "name": "LoanTerms",
+        "type": "LoanTerms",
+        "description": "The loan terms",
+        "policy" : "sequence",
+        "requirements" : [ "Eligibility", "Co-Signer" ],
+        "artifacts" : [
+          {
+            "kind": "rule",
+            "name": "interest rate rule 1",
+            "bal": "if the credit_score of 'LoanApplication' is less than 650 then set 'LoanTerms' to a new LoanTerms where interest_rate is 10;"
+          },
+          {
+            "kind": "rule",
+            "name": "interest rate rule 2",
+            "bal": "if the credit_score of 'LoanApplication' is less than 700 then set 'LoanTerms' to a new LoanTerms where interest_rate is 12;"
+          },
+          {
+            "kind": "rule",
+            "name": "interest rate rule 3",
+            "bal": "if the credit_score of 'LoanApplication' is less than 750 then set 'LoanTerms' to a new LoanTerms where interest_rate is 15;"
+          },
+          {
+            "kind": "rule",
+            "name": "repayment period rule 1",
+            "bal": "if the loan_amount of 'LoanApplication' is less than 10000 then set 'LoanTerms' to a new LoanTerms where repayment_period is 12;"
+          },
+          {
+            "kind": "rule",
+            "name": "repayment period rule 2",
+            "bal": "if the loan_amount of 'LoanApplication' is less than 20000 then set 'LoanTerms' to a new LoanTerms where repayment_period is 24;"
+          },
+          {
+            "kind": "rule",
+            "name": "repayment period rule 3",
+            "bal": "if the loan_amount of 'LoanApplication' is less than 30000 then set 'LoanTerms' to a new LoanTerms where repayment_period is 36;"
+          },
+          {
+            "kind": "rule",
+            "name": "repayment period rule 4",
+            "bal": "if the loan_amount of 'LoanApplication' is less than 40000 then set 'LoanTerms' to a new LoanTerms where repayment_period is 48;"
+          },
+          {
+            "kind": "rule",
+            "name": "repayment period rule 5",
+            "bal": "if the loan_amount of 'LoanApplication' is less than 50000 then set 'LoanTerms' to a new LoanTerms where repayment_period is 60;"
+          }
+        ]
+      }
+    ]
+  }
+}
