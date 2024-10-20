@@ -3,7 +3,7 @@ Purpose:
 To establish clear criteria for the approval or rejection of loan applications for customers in the United States to ensure consistency and mitigate risk.
 
 Scope:
-This policy applies to all individual loan applications submitted to [Company Name] within the United States.
+This policy applies to all individual loan applications submitted to Acme car Insurance within the United States.
 
 Eligibility Criteria
 To be considered for a loan, applicants must meet the following requirements:
