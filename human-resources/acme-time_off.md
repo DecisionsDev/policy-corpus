@@ -9,6 +9,6 @@ Associated code contains:
 - [a policy runner against the request dataset in Python](acme_time_off_runner.py)
 
 Data provided out of the box:
-- [request dataset with 1000 requests](acme_time_off_requests_1000.py)
-- [decisions dataset with 1000 requests extended by outcomes](acme_time_off_decisions_1000.py)
+- [a request dataset with 1000 requests](acme_time_off_requests_1000.csv)
+- [a decision dataset with 1000 requests extended by outcomes](acme_time_off_decisions_1000.csv)
 
