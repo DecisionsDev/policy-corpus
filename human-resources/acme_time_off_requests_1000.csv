@@ -1,0 +1,1001 @@
+name,employment_type,hire_date,supplemental,request_date
+Sandra Griffith,regular full-time,2014-08-30,True,2024-08-27
+Bonnie Romero,regular full-time,2004-02-27,True,2024-02-22
+Gregory Jones,regular full-time,2014-04-25,False,2024-04-22
+Brett Brown,regular full-time,2004-05-02,False,2024-04-27
+Jeanne White,regular full-time,2014-05-28,False,2024-05-25
+Luis Woods,regular full-time,2004-10-04,False,2024-09-29
+Amanda Martinez,regular full-time,2014-09-13,False,2024-09-10
+Joyce Clay,regular full-time,2004-04-10,False,2024-04-05
+Steven Lee,regular full-time,2014-08-22,False,2024-08-19
+Jessica Foster,regular full-time,2004-06-06,False,2024-06-01
+Sarah Smith,supplemental,2013-10-19,False,2024-12-09
+Emily Marshall,supplemental,2016-06-25,False,2024-07-09
+Anthony Ferguson,supplemental,1998-10-27,False,2024-05-09
+Lisa Oneal,supplemental,1998-05-19,False,2024-04-08
+Brandy Padilla,supplemental,2017-10-19,False,2024-05-09
+Michael Ramirez,supplemental,1999-06-15,False,2024-01-09
+Sabrina Adams,supplemental,2022-09-14,False,2024-01-04
+James Miller,supplemental,2013-06-19,True,2024-09-01
+Vincent Davidson,supplemental,2008-02-27,False,2024-11-21
+Laura Rivera,supplemental,2000-06-23,False,2024-04-30
+Mr. Adam Morrison,part-time,2020-03-03,True,2024-05-15
+Timothy White,part-time,2004-12-14,True,2024-04-07
+Lisa Jennings,part-time,2009-04-09,True,2024-11-10
+Lawrence Cooke,part-time,2003-12-29,False,2024-10-04
+William Travis,part-time,2014-03-13,True,2023-12-28
+Jade Hull,part-time,2003-01-20,False,2024-03-18
+Mr. Tyler Hatfield MD,part-time,1995-03-07,True,2024-02-21
+Patricia Delgado,part-time,2009-07-08,False,2024-05-10
+Michael Wilson,part-time,1995-10-24,True,2024-02-09
+Victoria Smith,part-time,2009-08-21,False,2024-03-31
+Kimberly Vasquez,regular full-time,2024-04-12,False,2024-05-22
+Elizabeth Glenn,regular full-time,2023-12-01,False,2023-12-22
+Joseph Mitchell,regular full-time,2024-03-11,False,2024-03-24
+Nicole Little,regular full-time,2023-12-10,False,2024-02-05
+Tracy Wallace,regular full-time,2024-07-26,False,2024-08-08
+Mrs. Chloe Jones,regular full-time,2024-07-01,False,2024-07-08
+Patricia Cummings,regular full-time,2024-07-26,False,2024-09-23
+Laura Leonard,regular full-time,2024-06-07,True,2024-08-06
+Elizabeth Watson,regular full-time,2024-03-23,False,2024-04-26
+Katie Rivera,regular full-time,2024-02-16,False,2024-03-06
+Jill Jones,supplemental,2020-12-01,True,2024-02-18
+Jessica Gonzales,part-time,2005-10-13,False,2024-07-29
+Tiffany Peterson,part-time,2019-09-28,False,2024-04-07
+Andrea Munoz,regular full-time,2001-11-08,False,2024-07-01
+Amanda Porter DVM,supplemental,1997-08-25,True,2024-08-30
+Shannon Johnson,regular full-time,1997-09-23,False,2024-08-05
+Toni Perez,supplemental,2012-09-22,True,2024-06-27
+John Dalton,part-time,2020-11-09,False,2024-07-20
+Mr. Johnny Richards,part-time,1998-04-22,False,2024-05-15
+Anne Matthews,supplemental,2016-11-15,True,2023-12-18
+Robert Rosario,contractor,2005-01-19,False,2024-09-05
+Brenda Gomez,contractor,1998-04-13,False,2024-09-15
+Rachel Morris,supplemental,2020-05-21,True,2024-02-22
+Jessica Morse,regular full-time,2022-04-06,False,2024-02-23
+Kristina Tran,contractor,2002-10-14,False,2024-12-09
+Jesse Rivera,supplemental,2006-04-23,True,2023-12-16
+Jacqueline Phelps,supplemental,2005-03-18,True,2024-01-09
+Judith Garcia,contractor,2003-09-25,False,2024-04-26
+Martha Welch,contractor,2023-09-19,False,2024-03-17
+Brooke Walters,contractor,2011-02-12,False,2024-05-13
+Dr. Carl Griffin,supplemental,2011-01-12,True,2024-09-15
+Tyler Wagner,supplemental,2012-04-23,True,2024-06-15
+Sarah Dickson,contractor,2007-08-29,False,2023-12-15
+Eric Mccall,regular full-time,2016-12-09,False,2024-08-14
+Melanie Roberts,supplemental,2002-10-07,True,2024-04-22
+Elizabeth Holmes,part-time,2000-08-10,False,2024-03-12
+Kevin Martinez,regular full-time,1997-04-07,False,2024-12-04
+Tamara Thompson,regular full-time,2008-10-09,False,2024-10-11
+Joshua Ware,part-time,1996-01-02,False,2024-03-10
+Joseph Hogan,supplemental,2022-06-23,True,2024-01-28
+Chelsea Garcia,part-time,2011-02-20,False,2024-08-07
+April Kane,part-time,2015-06-10,False,2024-08-05
+Angel Roy,regular full-time,2019-12-19,False,2024-11-19
+Kelli Bailey,regular full-time,2006-03-23,False,2024-08-21
+Sarah Edwards,part-time,1999-02-25,False,2024-03-13
+Nancy Summers,supplemental,2015-01-14,True,2024-03-06
+Jonathan Park,part-time,2019-09-20,False,2024-02-19
+Sara Johnson,regular full-time,2000-12-02,False,2024-04-08
+Madison Brown,part-time,2014-09-16,False,2024-08-25
+Steven Williams,regular full-time,2021-08-03,False,2024-03-15
+Vanessa Williams,contractor,2008-07-11,False,2024-12-02
+Kevin Schwartz,part-time,2018-08-09,False,2024-08-26
+Stephanie Wall,part-time,2006-01-19,False,2024-02-28
+Anthony Brooks,contractor,2019-04-11,False,2024-10-07
+Christine Lewis,contractor,2013-10-02,False,2024-04-10
+Angela Young,part-time,2024-01-28,False,2024-01-29
+Carrie Williams,supplemental,2004-07-19,True,2024-06-19
+Henry Bradford,supplemental,1998-02-21,True,2024-10-18
+Cheryl Sanders,regular full-time,2018-04-16,False,2024-08-08
+Kevin Green,part-time,2022-01-18,False,2024-01-05
+Elizabeth Montgomery,part-time,2016-06-04,False,2024-07-02
+Dawn Newman,regular full-time,2008-01-03,False,2024-05-27
+Brendan Hansen,regular full-time,2002-03-31,False,2024-08-04
+Leslie Long,regular full-time,2021-03-20,False,2024-10-30
+Jennifer Tanner,contractor,2000-02-17,False,2023-12-23
+Jennifer Ruiz,supplemental,2015-01-20,True,2024-03-30
+Erika Anderson,part-time,2009-05-20,False,2024-10-29
+Gregory Mitchell,regular full-time,2000-08-17,False,2024-01-29
+April Miranda,regular full-time,2006-01-25,False,2024-11-20
+Eric Brown,supplemental,2015-05-26,True,2024-10-06
+Maria Curry,supplemental,1998-08-27,True,2024-09-19
+Bethany Torres,regular full-time,2007-05-24,False,2024-06-30
+Pamela Roach,part-time,2022-04-24,False,2024-03-25
+Natalie Williams,contractor,2002-09-27,False,2024-06-04
+Collin Brown,contractor,1999-01-30,False,2024-02-23
+Patrick Dawson,part-time,2013-12-17,False,2024-09-23
+Leroy Ellis,contractor,2013-02-24,False,2024-09-21
+Teresa Austin,part-time,2020-04-10,False,2024-08-21
+Jacob Brown,part-time,2024-02-23,False,2024-02-28
+Robert Lee,regular full-time,1999-05-01,False,2024-09-08
+Angela Thomas,regular full-time,2018-12-03,False,2024-09-08
+Kimberly Case,part-time,2007-01-15,False,2024-10-18
+Robert Delacruz,part-time,1998-12-06,False,2024-08-01
+Jared Ruiz,supplemental,2022-12-02,True,2024-09-29
+Mary Harris,regular full-time,2017-03-20,False,2024-01-05
+Victoria Prince,part-time,2012-11-15,False,2024-05-15
+Michael Wood,contractor,2009-03-09,False,2024-08-12
+Julie Walsh,supplemental,2023-08-24,True,2024-01-21
+Jeffrey Hunter,regular full-time,2006-06-24,False,2024-03-29
+Kelsey Miles,contractor,2011-03-04,False,2024-10-03
+Megan Espinoza,regular full-time,1995-11-29,False,2024-12-12
+Rachel Zuniga,supplemental,2008-06-09,True,2024-05-31
+Elizabeth Nguyen,contractor,2002-01-11,False,2024-04-27
+Heather Knight,supplemental,2015-11-13,True,2024-11-02
+Janet Williams,part-time,2019-12-23,False,2024-07-01
+Robert Moore,contractor,2000-05-14,False,2024-03-10
+Heather Johnson,regular full-time,2005-04-06,False,2024-06-21
+Samuel Wade,contractor,2016-05-18,False,2024-07-25
+Tamara Walker,contractor,1997-08-19,False,2024-06-12
+Gabriel Kennedy,supplemental,2002-07-05,True,2024-02-07
+John Perez,contractor,2000-09-26,False,2024-06-02
+Cassandra Harmon,regular full-time,2007-08-23,False,2024-11-27
+Stephen Hernandez,contractor,2012-12-25,False,2024-04-11
+Rebecca Hernandez,contractor,2000-06-21,False,2024-03-19
+Angela Patrick,part-time,2009-04-04,False,2024-11-12
+Thomas Clark,supplemental,2011-02-14,True,2024-06-01
+Alicia Jackson,regular full-time,2022-05-20,False,2024-09-20
+Amy Nichols,contractor,2015-12-24,False,2024-07-05
+Regina Ellis,supplemental,2010-01-16,True,2024-03-29
+Michelle Mcknight,contractor,1998-11-13,False,2024-11-04
+Brandon Miller,regular full-time,2005-05-28,False,2024-07-12
+Martin Stone,supplemental,2006-02-07,True,2024-05-21
+Marcus Bishop,contractor,2007-07-06,False,2024-07-08
+Thomas Hernandez,part-time,2006-07-18,False,2024-10-30
+Tabitha Blake,regular full-time,2018-05-24,False,2024-03-11
+Brandi Phillips,supplemental,2007-10-26,True,2024-02-05
+Gilbert Simpson,part-time,2001-09-25,False,2024-02-18
+Stephanie Torres,contractor,2021-03-31,False,2023-12-24
+Ann Walton,regular full-time,2017-08-05,False,2024-12-12
+Sandra Powell,part-time,2001-07-02,False,2024-11-11
+David Foster,contractor,2013-10-17,False,2024-05-14
+Matthew Leonard,regular full-time,2016-11-03,False,2024-05-09
+Sierra Carson,supplemental,2018-11-28,True,2024-08-14
+Mathew Martin,contractor,2022-12-09,False,2024-08-07
+Patrick Frank,supplemental,1999-03-28,True,2024-03-03
+Debbie Williams,supplemental,2013-09-23,True,2024-05-26
+Christopher Chavez,part-time,2024-01-17,False,2024-05-29
+Curtis Anderson,contractor,2012-06-14,False,2024-09-12
+Michelle Horton,contractor,2020-06-15,False,2024-02-14
+Monica Sanchez,regular full-time,2014-03-29,False,2024-12-09
+Elizabeth Perez,supplemental,2018-12-25,True,2024-01-12
+Nicholas Bell,supplemental,2005-05-03,True,2024-04-11
+Linda Carroll,supplemental,2018-10-19,True,2024-09-16
+Paul Carr DDS,part-time,2009-08-07,False,2024-04-25
+Trevor Jensen,contractor,2021-08-03,False,2024-02-08
+Barbara Vasquez,part-time,2001-05-21,False,2024-10-07
+Matthew Duncan,part-time,2013-04-22,False,2024-08-02
+Mr. Bryan Day Jr.,supplemental,2019-06-05,True,2024-11-01
+Michael Henderson,part-time,2023-08-03,False,2024-10-15
+Jennifer Rodriguez,regular full-time,2007-04-29,False,2024-02-19
+Alyssa Dalton,part-time,2018-01-09,False,2024-06-16
+Joel Mays,contractor,2013-03-27,False,2024-12-12
+Chad Pittman,regular full-time,1997-05-11,False,2024-08-31
+Kevin Hubbard,contractor,1997-04-07,False,2024-07-12
+Kyle Rivers,regular full-time,2005-04-06,False,2024-10-31
+Kevin Flores,supplemental,2017-03-07,True,2024-02-09
+Tracey Shah,part-time,2019-03-19,False,2024-08-01
+Robert Baxter PhD,regular full-time,2019-08-04,False,2024-08-23
+Stephanie Burns,supplemental,2007-11-03,True,2024-01-06
+Andrew Reyes,contractor,2005-12-31,False,2024-05-05
+Ronald Davis,contractor,2014-11-02,False,2024-12-12
+Daniel Bradley,regular full-time,2006-11-30,False,2024-06-15
+Joshua Williams,part-time,2022-04-16,False,2024-06-17
+Emily Livingston,part-time,2018-11-03,False,2024-04-22
+Destiny Rodriguez,part-time,1997-03-15,False,2024-03-18
+Christopher Scott,regular full-time,2020-05-16,False,2024-02-10
+Molly Taylor,contractor,2004-02-20,False,2024-03-20
+James Hernandez,supplemental,2021-03-28,True,2024-10-14
+Andrew Meyers,part-time,2002-11-12,False,2024-12-08
+Elizabeth Gutierrez,part-time,1996-03-31,False,2024-06-21
+David Wiggins,supplemental,2015-09-16,True,2024-12-12
+Elizabeth Smith,supplemental,1999-11-04,True,2024-09-08
+Erin Houston,part-time,2019-05-06,False,2024-04-17
+Matthew Hill,part-time,2023-01-27,False,2024-07-26
+Caitlin Woodard,part-time,2021-05-15,False,2024-10-11
+Lisa Hood,regular full-time,1998-04-06,False,2024-03-04
+Troy Alvarado,contractor,2023-03-17,False,2024-03-21
+Megan Lane,contractor,2003-06-16,False,2024-01-04
+Douglas Jarvis,part-time,2009-03-09,False,2024-04-16
+Anthony Anderson,contractor,2008-09-04,False,2024-11-11
+Eric Glass,supplemental,2006-07-02,True,2024-02-05
+Anthony Vazquez,regular full-time,2002-07-23,False,2024-10-25
+Michele Foster,contractor,2004-07-15,False,2024-03-25
+Bradley Jordan,contractor,1995-08-19,False,2024-07-10
+Kayla Haas,part-time,2008-12-28,False,2024-08-10
+Lindsay Cervantes,part-time,2023-02-12,False,2024-03-21
+Jennifer Fleming,regular full-time,2016-04-21,False,2024-11-08
+Vanessa Reed,supplemental,2013-02-01,True,2024-03-30
+Alexander Davis,regular full-time,2004-05-04,False,2024-09-08
+Jennifer Bell,supplemental,1998-05-31,True,2024-03-21
+Timothy Baker,supplemental,1997-02-08,True,2024-02-14
+Scott James,contractor,2008-08-13,False,2024-06-03
+Erin Rodriguez,supplemental,2009-12-02,True,2024-04-23
+Kayla Proctor,regular full-time,2003-10-06,False,2024-08-19
+Johnny Chen,regular full-time,2020-07-19,False,2024-07-09
+Mackenzie Johnson,regular full-time,2012-11-10,False,2024-11-18
+Gene Spence,regular full-time,2022-11-10,False,2024-02-29
+Linda James,part-time,2014-06-03,False,2024-10-28
+Justin Scott,part-time,2000-03-31,False,2024-11-28
+Suzanne Williams,regular full-time,1998-01-13,False,2024-06-06
+Dennis May,contractor,2018-08-30,False,2023-12-16
+Amanda Riddle,part-time,2013-11-18,False,2024-05-29
+Beverly Cook,regular full-time,2011-07-10,False,2024-02-02
+Tyler Morse,supplemental,2010-01-03,True,2024-06-21
+Adam Dixon,supplemental,2015-12-23,True,2024-11-30
+Anthony Rush,regular full-time,2017-04-26,False,2023-12-28
+Russell Cohen,part-time,1996-02-09,False,2024-09-24
+Bobby Pacheco,part-time,2023-11-02,False,2024-02-10
+Crystal Hernandez,supplemental,1996-05-17,True,2024-06-13
+Maria Lopez,contractor,2008-05-13,False,2024-07-08
+Adam Frost,part-time,2017-01-06,False,2024-07-20
+Michelle Lawson,supplemental,2003-09-19,True,2024-10-12
+Jennifer Brown,part-time,2020-09-04,False,2024-09-27
+Juan Stanley,contractor,2004-03-30,False,2024-10-21
+Mary Mann,regular full-time,2021-08-13,False,2024-11-14
+Daniel Gomez DDS,part-time,2020-01-29,False,2024-05-02
+William Bray,regular full-time,2021-07-01,False,2024-06-09
+Ryan Hardy,supplemental,2022-02-13,True,2024-06-25
+Yvonne Smith,contractor,2014-09-28,False,2024-07-18
+Kara Johnson DDS,regular full-time,2023-08-12,False,2024-02-13
+Adrian Taylor,part-time,2005-01-15,False,2024-03-01
+Gary Greer,contractor,2022-10-21,False,2024-02-27
+Anthony Schwartz,contractor,1998-04-28,False,2024-02-05
+Scott Morales,regular full-time,2003-06-06,False,2024-10-17
+Kimberly Allen,regular full-time,2015-01-11,False,2024-02-09
+Daniel Miller,supplemental,1996-09-20,True,2024-01-25
+George Garcia DVM,part-time,2024-06-01,False,2024-06-18
+Kelsey Walker,supplemental,1995-06-12,True,2024-05-27
+Jessica Burns,regular full-time,1997-02-13,False,2024-11-17
+Mr. Alexander Cook DDS,supplemental,2008-04-28,True,2024-02-15
+Alex Ferguson,part-time,2005-06-10,False,2024-07-31
+Justin Williams,contractor,2001-10-07,False,2024-02-21
+Sheila Allen,regular full-time,1997-12-13,False,2024-09-21
+Aaron Ramirez,regular full-time,2006-04-05,False,2024-11-30
+Heather Peterson,contractor,2018-08-14,False,2024-07-06
+Daisy Byrd,supplemental,2012-12-23,True,2024-05-31
+Luis Gibson,contractor,2001-02-24,False,2024-06-14
+Johnny Carter,regular full-time,2007-07-11,False,2024-09-08
+Vincent Trujillo,part-time,2001-05-26,False,2024-05-22
+Mrs. Heather Valdez,regular full-time,2020-12-21,False,2024-12-05
+Candace Wright,regular full-time,1999-10-24,False,2024-09-28
+Samantha Butler,contractor,2012-11-04,False,2024-07-07
+Jonathan Herring,supplemental,1998-02-13,True,2024-08-30
+Richard Robinson,supplemental,2001-03-16,True,2024-07-09
+Dana Underwood,regular full-time,2014-02-17,False,2023-12-17
+Gregory Johnson,part-time,1995-07-21,False,2024-11-13
+Susan Taylor,supplemental,2010-09-08,True,2024-03-10
+Tammy Miller,regular full-time,2006-04-08,False,2024-01-30
+Krystal Hall,contractor,2017-11-02,False,2024-05-16
+Wendy Leach,regular full-time,2001-02-07,False,2024-09-10
+Michelle Campbell,regular full-time,2014-12-26,False,2024-02-12
+George Stafford,contractor,2007-10-26,False,2024-05-15
+Heather Christensen,part-time,2023-01-06,False,2024-07-01
+Melanie Ingram,supplemental,1997-07-29,True,2024-07-31
+Jessica Thomas,regular full-time,2024-01-02,False,2024-04-29
+Cody Hall,contractor,2002-08-31,False,2024-01-14
+Laura Calderon,regular full-time,2012-04-09,False,2024-10-17
+Marcus Dunn,supplemental,1996-10-05,True,2024-01-10
+Natalie Baker,part-time,2008-11-25,False,2024-03-30
+Ashley Lewis,regular full-time,2017-07-17,False,2024-01-25
+Jason Ingram,part-time,2004-03-20,False,2024-01-03
+Lori Johnson,regular full-time,2021-11-08,False,2024-04-07
+Steve Mcdowell,supplemental,2019-02-22,True,2024-09-26
+Michelle Gallagher,part-time,2017-07-17,False,2024-10-22
+Amy Jones,part-time,2001-05-10,False,2024-07-25
+Bryan Ramos,part-time,1998-04-09,False,2024-11-11
+Alex Yoder,contractor,2015-06-19,False,2024-07-24
+Lori Clark,regular full-time,2018-11-15,False,2024-02-05
+Mark Flynn,contractor,2015-07-24,False,2024-04-22
+Paul Wiley,regular full-time,2002-08-31,False,2024-08-14
+Michelle Andersen,regular full-time,1997-11-06,False,2024-01-20
+Richard Jones,contractor,2014-07-02,False,2024-08-20
+Candace Maldonado,regular full-time,2019-02-22,False,2024-06-23
+Shelby Cordova,regular full-time,1997-11-06,False,2024-05-25
+Maria Terrell,part-time,2007-04-29,False,2024-04-05
+Alexander Miranda,supplemental,2022-12-03,True,2023-12-14
+Jesse Schultz,supplemental,2003-08-14,True,2024-03-22
+Kimberly Bates,regular full-time,2011-03-26,False,2024-07-07
+Donna Mcconnell,part-time,2007-03-06,False,2024-01-04
+Randy Olson,part-time,1998-05-08,False,2024-08-21
+Traci Chavez,part-time,2023-08-31,False,2024-12-04
+Paula Ward,regular full-time,1995-10-05,False,2024-10-19
+Peter Morris,supplemental,1997-06-11,True,2024-12-07
+Pamela Pratt,supplemental,2000-11-30,True,2024-04-19
+Alyssa Petersen,regular full-time,2019-01-19,False,2024-06-20
+Ebony Harper,contractor,2000-05-31,False,2024-02-09
+Kevin Moore,supplemental,1997-06-08,True,2024-11-10
+Megan Miranda,supplemental,1995-09-07,True,2024-04-23
+Lisa Blake,regular full-time,2020-10-31,False,2024-05-23
+Erica Price,part-time,2008-03-07,False,2024-04-23
+Tiffany Stewart,part-time,2014-01-31,False,2024-03-15
+Ryan Moore,contractor,2006-12-14,False,2024-05-20
+Becky Daniel,part-time,2014-12-09,False,2024-07-29
+Theresa Kramer,supplemental,2015-09-01,True,2024-10-30
+Annette Johnson,contractor,2005-06-29,False,2024-11-17
+Matthew Smith,part-time,2004-03-08,False,2024-05-28
+Jonathan Jones,supplemental,2003-11-14,True,2024-10-03
+Matthew Moreno,part-time,2012-09-14,False,2024-03-20
+John Lopez,supplemental,2018-09-04,True,2024-01-14
+Steven Dean,supplemental,2008-03-02,True,2024-04-20
+Kristina Brown,regular full-time,2017-01-10,False,2024-07-16
+Phillip Rosario,regular full-time,2016-04-25,False,2024-08-27
+Tammie Harris,part-time,2023-04-20,False,2024-12-06
+Shawn Adams,supplemental,2020-03-29,True,2024-08-17
+Jeffrey Davis,part-time,2009-02-13,False,2024-08-15
+Robert Orozco,part-time,1995-07-15,False,2023-12-28
+Melissa Hansen,contractor,2014-02-18,False,2024-10-08
+Megan Weeks,contractor,2024-09-11,False,2024-06-12
+Monica Vasquez,contractor,1996-09-11,False,2024-04-06
+David Baker,regular full-time,2024-11-25,False,2024-10-11
+Luke Garcia,contractor,2012-08-01,False,2024-04-11
+Tony Walsh,supplemental,2011-06-28,True,2024-09-22
+Elizabeth Fuller,part-time,2005-09-06,False,2024-04-28
+Evan White MD,supplemental,2002-09-27,True,2024-10-13
+Kevin Caldwell,contractor,1997-11-04,False,2024-11-07
+David Choi,part-time,1999-11-25,False,2024-10-23
+Bryan Sosa,part-time,2022-09-18,False,2024-07-22
+Brian Stark,regular full-time,1996-04-23,False,2024-04-22
+John Miller,contractor,2015-03-30,False,2024-07-14
+Jason Mitchell,supplemental,2012-02-19,True,2024-10-06
+Michael Cabrera,regular full-time,2017-05-05,False,2024-12-07
+George Garza,part-time,2007-02-10,False,2024-08-05
+Donald Combs,part-time,2016-08-24,False,2024-11-03
+Brenda Williams,supplemental,2002-12-21,True,2024-03-10
+Brenda Yu,part-time,2012-09-19,False,2024-01-08
+Cynthia Barton,regular full-time,2022-01-17,False,2024-10-14
+Terri Perez,supplemental,2022-04-18,True,2024-11-22
+Rodney Smith,contractor,2016-10-06,False,2024-02-16
+Charlotte Martin,contractor,1995-06-04,False,2024-12-10
+Carrie Cooper,regular full-time,2014-10-26,False,2024-05-10
+Amanda Woods,part-time,2016-03-02,False,2024-11-06
+Christy Manning,part-time,2011-06-11,False,2024-05-26
+Amber Bauer,supplemental,1998-05-13,True,2024-07-29
+Jamie Mcneil,supplemental,1998-10-02,True,2024-10-10
+Morgan Valdez,supplemental,2011-11-22,True,2024-10-14
+Julie Nash,part-time,2018-06-14,False,2024-05-25
+Michael Reed,regular full-time,1997-04-26,False,2024-05-20
+Megan Garcia,supplemental,2007-09-26,True,2024-05-05
+John Frazier,regular full-time,2011-04-26,False,2024-10-09
+Luis Roman,regular full-time,2017-01-26,False,2024-06-09
+Ronald Smith,regular full-time,2024-06-21,False,2024-03-10
+Caroline Stevenson,supplemental,2024-03-05,True,2024-09-03
+Michael Steele,supplemental,2003-01-22,True,2024-07-13
+Penny Kelly,supplemental,2012-01-04,True,2024-03-22
+Scott Madden,regular full-time,1999-07-31,False,2024-12-01
+Jason Wheeler,supplemental,2003-07-08,True,2024-06-13
+Donald Robinson,supplemental,1999-04-28,True,2024-05-19
+Zoe Gordon,supplemental,2015-10-30,True,2024-08-09
+Eugene Alvarado,regular full-time,2009-07-17,False,2024-03-18
+Savannah Bryant,supplemental,2018-04-19,True,2024-09-05
+Ms. Patricia King,contractor,2018-05-07,False,2024-07-27
+Jennifer Goodman,supplemental,2023-07-20,True,2024-01-28
+Caroline Green,contractor,2005-07-30,False,2024-05-24
+Alex Thompson,part-time,2007-03-10,False,2024-11-26
+James Brown,supplemental,2017-08-07,True,2024-11-17
+Eric Norton,supplemental,2018-05-11,True,2024-06-29
+Eric Green,supplemental,2012-08-03,True,2023-12-14
+Frank Combs,contractor,2002-03-30,False,2024-08-05
+Daniel Gonzales,contractor,2017-09-04,False,2024-07-09
+Paul Garcia Jr.,supplemental,2023-03-16,True,2024-11-13
+Gregory Williams,regular full-time,2023-10-12,False,2024-01-15
+Adam Woodard,part-time,2010-08-21,False,2024-01-23
+Matthew Hill,part-time,2003-12-27,False,2024-09-19
+Richard Jones,contractor,2018-04-13,False,2024-01-25
+Jessica Lynn,supplemental,1995-04-24,True,2024-02-01
+Stephanie Thomas,part-time,2022-11-25,False,2024-11-27
+Abigail Smith,regular full-time,2002-04-06,False,2024-02-06
+Maria Massey,regular full-time,2019-09-09,False,2024-06-09
+Stephanie Phillips,regular full-time,2008-07-05,False,2024-05-28
+Michael Atkins,contractor,2021-08-24,False,2024-07-14
+Terri Sanchez,contractor,2017-11-22,False,2023-12-28
+Diane Miller,contractor,2021-09-04,False,2024-07-28
+Laura Bennett,regular full-time,2023-05-31,False,2024-01-18
+Linda Moore,part-time,2019-10-21,False,2024-02-04
+John Hernandez,regular full-time,1997-09-21,False,2024-08-05
+Debra Rowe,contractor,1997-09-03,False,2024-07-19
+Dawn Scott,supplemental,2009-04-28,True,2024-09-27
+Kathleen Cobb,contractor,2003-06-19,False,2024-01-23
+Diana Ramirez,part-time,2015-11-21,False,2024-01-17
+Tamara Wise,supplemental,2007-07-29,True,2024-08-13
+John Johnson,regular full-time,2023-05-11,False,2024-02-08
+Patrick Hester,supplemental,1997-05-27,True,2024-01-18
+Cynthia Mccarthy,regular full-time,2019-07-04,False,2024-10-23
+Heather Thomas,regular full-time,1998-04-06,False,2023-12-19
+Charles Romero,regular full-time,2005-08-15,False,2024-11-24
+Jonathan Jones,regular full-time,2013-04-07,False,2024-08-13
+Benjamin Pope,contractor,2002-12-25,False,2024-10-21
+Laura Leach,part-time,2001-07-06,False,2024-11-22
+Mary Decker,regular full-time,1996-10-31,False,2024-02-27
+Larry Williams,supplemental,2019-06-16,True,2024-12-02
+Corey Jensen,supplemental,2020-08-22,True,2024-05-25
+Patricia Cook,regular full-time,1995-03-22,False,2024-03-21
+Amanda Hale,contractor,2021-09-03,False,2024-07-01
+Taylor Williams,part-time,2010-08-04,False,2024-10-14
+Nathan Esparza,regular full-time,2008-02-28,False,2024-10-18
+William Sanchez,supplemental,2011-04-07,True,2024-08-14
+Shannon Wilson,part-time,2022-03-04,False,2024-04-11
+Anthony Morales,contractor,2024-06-03,False,2024-10-28
+Brenda Peters,contractor,2016-02-25,False,2024-06-29
+Abigail Reed,contractor,1995-10-17,False,2023-12-22
+Matthew Gonzalez,supplemental,2019-04-09,True,2024-07-14
+Emma Mccarty,part-time,2017-05-09,False,2024-11-13
+Sylvia Munoz,regular full-time,2016-01-29,False,2023-12-24
+Brooke Andrews,contractor,2013-08-08,False,2024-02-02
+Taylor Wilcox,part-time,2016-09-16,False,2023-12-17
+Joshua Ayala,supplemental,1996-05-21,True,2024-03-10
+Jacqueline Johnson,supplemental,2018-03-31,True,2024-11-17
+Jennifer Carroll,supplemental,1997-03-23,True,2024-08-08
+Austin Mcneil,contractor,2012-04-12,False,2024-01-14
+Kyle Johnson,contractor,2004-03-21,False,2024-06-30
+John Edwards,regular full-time,2020-07-29,False,2024-01-13
+Michelle Preston,contractor,1995-08-08,False,2024-08-10
+James Smith,regular full-time,2017-02-20,False,2023-12-22
+Nathan Shaw,regular full-time,2011-03-23,False,2023-12-14
+Michael Vance,contractor,2003-03-02,False,2024-02-13
+Tyler Robinson,part-time,1998-03-29,False,2024-09-25
+Daniel Daniels,regular full-time,2008-12-30,False,2024-03-28
+Benjamin Coleman,contractor,2012-06-07,False,2024-10-22
+Andrew Farrell,contractor,1995-01-07,False,2024-04-24
+Rebecca Lloyd,part-time,2021-04-06,False,2024-04-09
+Richard Guerra,regular full-time,2001-04-19,False,2024-07-12
+Jason Perez,contractor,2005-02-23,False,2024-06-12
+Erik Clark,contractor,2016-11-09,False,2024-07-15
+Tina Lee,part-time,1997-11-24,False,2024-11-09
+Mary Ferguson,supplemental,2020-07-20,True,2024-09-03
+Robin Lawrence,part-time,2021-11-21,False,2024-03-27
+Corey Ward,supplemental,2003-07-08,True,2023-12-26
+Laura Miller,regular full-time,2005-01-14,False,2024-02-10
+Kelly Santana,part-time,2002-06-28,False,2024-03-14
+Joseph Clayton,regular full-time,2005-12-27,False,2024-03-12
+Richard Braun,regular full-time,2014-11-17,False,2024-06-28
+Rachael Taylor,part-time,1995-08-04,False,2024-04-16
+Tonya Spencer,part-time,2002-04-30,False,2024-07-27
+Erica Greer,contractor,2023-08-25,False,2024-06-18
+Jennifer Barnett,regular full-time,2007-03-19,False,2024-10-28
+Carl Gonzales,part-time,1995-07-01,False,2024-09-24
+Brenda Martinez,regular full-time,2004-02-01,False,2024-06-30
+Christina Montes,contractor,2011-07-05,False,2023-12-29
+Patrick Thompson,supplemental,2019-09-05,True,2024-04-03
+Ronnie Howard,supplemental,2006-02-16,True,2024-08-04
+Emily Stanley,part-time,2023-03-15,False,2024-03-22
+Taylor Woods,regular full-time,2003-03-10,False,2024-02-07
+Crystal Bass,supplemental,2023-01-01,True,2024-06-27
+Brenda Dawson,part-time,2011-11-07,False,2023-12-18
+Russell Fuller,supplemental,2000-04-17,True,2024-06-26
+Sheila Price,regular full-time,2001-07-14,False,2024-04-30
+Joanna Hoffman,contractor,2001-02-15,False,2024-01-23
+Mark Robinson,supplemental,1999-07-02,True,2024-11-15
+Tina Jenkins,contractor,2018-02-26,False,2024-10-23
+Randy Christian,part-time,2012-06-02,False,2024-01-06
+John Diaz,contractor,2018-06-08,False,2024-08-11
+Angelica Guzman,regular full-time,2004-11-19,False,2024-07-29
+Larry Gates,supplemental,2012-04-30,True,2024-04-06
+Karen Dodson,supplemental,2001-11-30,True,2023-12-21
+Christina Taylor,part-time,2004-02-28,False,2024-05-28
+April Trujillo MD,regular full-time,1996-12-30,False,2024-08-15
+Alexis Gilbert,supplemental,2005-02-12,True,2024-09-20
+Sharon Hunt,contractor,1998-03-26,False,2024-07-27
+Darlene Morris,supplemental,2008-04-25,True,2023-12-25
+Nathan Woods,contractor,2006-01-13,False,2024-06-15
+Patricia Hoffman,contractor,2011-03-08,False,2024-11-15
+Scott Martinez,contractor,2011-12-05,False,2024-03-06
+Matthew Fox,part-time,2006-07-16,False,2024-04-17
+Abigail Charles,supplemental,2008-02-23,True,2024-04-05
+Joshua Mcpherson,contractor,1995-01-02,False,2024-02-07
+Daniel Hernandez Jr.,supplemental,2014-01-05,True,2024-03-17
+Kendra Walker,regular full-time,1999-09-08,False,2024-05-15
+Jared Bates,part-time,2013-05-29,False,2024-08-28
+Sean Nichols,regular full-time,2016-09-11,False,2024-03-13
+Jessica Hayes,part-time,2021-08-08,False,2024-06-15
+Tina Moore,part-time,2005-04-24,False,2024-07-25
+James Nolan,supplemental,1997-10-31,True,2023-12-30
+Jane Weaver,regular full-time,2012-09-21,False,2024-02-25
+Janet Reynolds,part-time,2008-11-24,False,2024-10-27
+Allison Hodges,part-time,2005-07-04,False,2024-02-22
+Jaime Harris,contractor,1995-05-24,False,2024-07-18
+James Ferguson,contractor,2017-11-03,False,2024-11-20
+Melanie Donovan,part-time,1995-10-08,False,2024-09-08
+Kurt Neal,part-time,2022-10-09,False,2024-09-11
+Karen Hernandez,supplemental,2016-07-28,True,2024-06-07
+Amy Richardson,regular full-time,2003-06-23,False,2024-07-17
+Lawrence Miller,regular full-time,2004-07-20,False,2024-07-10
+Lisa Jimenez,contractor,2012-12-17,False,2024-04-06
+Jennifer Simpson,contractor,2013-11-29,False,2024-07-05
+Joseph Gill,regular full-time,1995-08-24,False,2024-05-26
+Dawn Bradshaw,part-time,2005-11-10,False,2024-04-27
+Kirsten Webster,part-time,1995-11-26,False,2024-05-16
+Michael Simmons,supplemental,2011-08-05,True,2024-07-07
+Kim Cooper,regular full-time,2001-01-03,False,2024-10-03
+Jeffrey Morton,contractor,2015-10-09,False,2024-02-16
+David Gonzalez,part-time,1999-02-23,False,2024-11-14
+Steven West,part-time,1997-10-18,False,2024-05-27
+Carla Richardson,part-time,2022-09-11,False,2024-06-01
+Susan Nunez,part-time,2002-03-09,False,2024-03-20
+Kenneth Robinson,contractor,2000-05-27,False,2024-01-06
+Michael Garcia,contractor,2014-05-26,False,2023-12-29
+Bill Bowman,supplemental,2023-04-27,True,2024-04-27
+Melissa Wilson,contractor,2009-11-18,False,2024-11-22
+Sandra Clark,part-time,2019-04-25,False,2024-03-17
+William Perry,supplemental,2011-05-14,True,2024-04-12
+Dana Li,contractor,2016-05-11,False,2024-05-22
+David Santana,regular full-time,2017-10-21,False,2024-05-19
+John Dudley,part-time,1997-08-05,False,2024-11-20
+Benjamin Carter,part-time,2001-06-07,False,2023-12-27
+Nicholas Gilbert,supplemental,2008-06-15,True,2024-07-25
+Adrian Mccann,part-time,2019-01-27,False,2024-07-18
+Michael Kelley,contractor,2001-01-14,False,2024-08-23
+Paul Ruiz,contractor,1997-03-11,False,2024-11-15
+Robert Nelson,supplemental,2008-03-30,True,2024-08-31
+Sherri Andrews,contractor,2009-06-20,False,2024-10-10
+Joshua Martin,part-time,2012-01-18,False,2024-08-28
+Melissa Flores,supplemental,2007-10-24,True,2024-01-11
+Ashley Wilson,contractor,2003-06-07,False,2024-09-08
+Daniel Reid,part-time,2000-02-08,False,2023-12-21
+Alyssa Lopez,part-time,1997-04-15,False,2024-02-01
+Corey Jones,contractor,2022-07-02,False,2024-05-25
+Robert Wallace,supplemental,2022-04-14,True,2024-06-15
+Katherine Gibson,supplemental,2018-04-10,True,2024-03-02
+Jenna Khan,contractor,2023-09-19,False,2024-06-18
+Michael Gomez,contractor,2004-12-28,False,2024-01-08
+Ana Holland,regular full-time,2003-07-02,False,2024-06-24
+Leroy Davis,part-time,2015-08-19,False,2024-01-11
+Jodi Kirby,contractor,2005-03-03,False,2024-03-03
+Yolanda Moore,supplemental,2020-10-19,True,2024-02-22
+David Velasquez,supplemental,2017-02-11,True,2024-07-03
+Tanya Wilkins,regular full-time,1996-05-04,False,2024-08-15
+Rachael Richardson,regular full-time,2021-10-15,False,2024-09-18
+Megan Price,supplemental,2005-01-12,True,2024-01-28
+Vanessa Owens,part-time,2022-07-03,False,2024-05-29
+Angela Clark,part-time,2016-08-24,False,2024-05-10
+Melissa Williams,contractor,2015-06-07,False,2024-04-19
+Monica Fleming,contractor,2014-05-24,False,2024-04-20
+Haley Li,supplemental,2014-04-23,True,2024-10-14
+Adam Holland,supplemental,2024-03-02,True,2024-04-16
+Beth Farrell,regular full-time,2009-08-24,False,2024-07-28
+Rachel Fernandez,regular full-time,2004-08-26,False,2024-05-18
+Aaron Sharp,supplemental,2021-04-14,True,2024-06-19
+Dr. Blake Hunt,part-time,2021-02-25,False,2024-03-07
+Adam Williams,regular full-time,2002-09-02,False,2024-10-17
+Ashley Woods,supplemental,2018-11-05,True,2024-01-09
+Steven Hayes,contractor,2005-03-08,False,2024-01-14
+Daniel Contreras,supplemental,2005-11-21,True,2024-07-06
+Daniel Reed,part-time,2014-12-28,False,2024-07-31
+Paul Gillespie,regular full-time,1999-11-12,False,2023-12-17
+Javier Wallace,part-time,2011-06-26,False,2024-01-21
+Dennis Gross,part-time,2017-10-23,False,2024-11-21
+Francisco Clark,regular full-time,2006-09-04,False,2024-05-08
+Dawn Welch,contractor,2005-12-13,False,2024-06-26
+Mark Russell,contractor,2022-04-27,False,2024-11-14
+Ernest Morales,regular full-time,1998-11-09,False,2024-06-15
+Robert Hunter,contractor,1997-04-03,False,2024-08-26
+Travis Turner,supplemental,2015-03-22,True,2024-05-28
+Ariana Hodge,contractor,1996-05-19,False,2024-07-15
+Nicholas Carter,part-time,2023-05-28,False,2024-07-29
+Virginia Davis,contractor,2004-07-12,False,2024-07-10
+Larry Horn,contractor,2016-12-01,False,2024-10-18
+Joseph Ford,regular full-time,1999-02-24,False,2024-12-05
+Tammy Lee,contractor,1997-11-11,False,2024-06-06
+Kyle Petty,supplemental,2014-05-11,True,2024-03-28
+Donald Daniels,contractor,2011-06-02,False,2024-01-30
+Melinda Moses,supplemental,2015-05-07,True,2024-06-24
+David Porter,contractor,2022-07-12,False,2024-08-27
+John Barker,part-time,2003-11-11,False,2024-03-02
+Dominique Green,contractor,2005-07-07,False,2024-09-12
+James Johnson,part-time,1998-06-13,False,2024-01-13
+Barbara Jimenez,contractor,2020-09-30,False,2024-01-08
+Kelsey Wiley,contractor,2011-01-24,False,2024-02-14
+Tony Henson,supplemental,2009-07-22,True,2024-03-02
+Jason Howard,supplemental,2015-08-24,True,2024-01-14
+Jesus Jensen,supplemental,2024-01-14,True,2024-05-04
+Dennis Rojas,part-time,2009-11-02,False,2024-02-12
+Rick Bryan,regular full-time,2020-03-22,False,2024-09-30
+Christy Rogers,part-time,2006-07-19,False,2024-07-04
+Cheryl Fisher,supplemental,2010-09-05,True,2024-04-02
+Wendy Payne,regular full-time,2016-08-14,False,2024-08-11
+Felicia Robinson,part-time,1999-08-28,False,2024-04-12
+Sandra Hines,supplemental,2003-05-13,True,2023-12-31
+Margaret Woods,regular full-time,2004-02-12,False,2024-01-22
+Ian Meyer,contractor,2018-09-08,False,2024-08-29
+Amy Williams,supplemental,2008-12-30,True,2023-12-14
+Denise Wood,part-time,2021-06-21,False,2024-06-26
+Jennifer Garcia,supplemental,2017-02-17,True,2024-01-29
+Donna Cooper,supplemental,2012-08-20,True,2024-01-29
+Mary Rivera,part-time,1997-03-05,False,2024-09-30
+Robin Lozano,part-time,2013-01-31,False,2024-11-03
+Teresa Williams,contractor,1999-08-23,False,2024-02-19
+Jacob Rollins,supplemental,2004-03-23,True,2024-09-23
+Stephen James,supplemental,1998-08-13,True,2024-06-29
+Darrell Hood,part-time,2000-09-13,False,2024-10-14
+Michelle Richardson,contractor,2017-03-31,False,2024-11-26
+Ashley Perkins,contractor,2007-12-04,False,2024-09-05
+Pedro Harrison MD,regular full-time,2011-05-29,False,2024-12-05
+David Young,supplemental,2024-07-04,True,2024-08-04
+Linda Moore,contractor,2001-06-02,False,2024-03-25
+Kyle Pierce,supplemental,2000-02-28,True,2024-01-25
+Jason Nguyen,part-time,2020-10-19,False,2024-01-16
+Vanessa Knight,contractor,2018-07-07,False,2024-03-13
+Jessica Hudson,regular full-time,1999-08-15,False,2024-12-07
+Keith Morgan,supplemental,2023-05-17,True,2024-04-26
+Johnny Lamb,contractor,2010-06-05,False,2024-07-28
+Ashley Price,contractor,2015-02-28,False,2024-02-27
+Toni Allen,regular full-time,2022-03-06,False,2024-05-24
+Duane Wilkins,part-time,1998-12-03,False,2024-01-29
+Sean Pearson III,supplemental,2023-04-24,True,2024-11-26
+Kelly Jensen,contractor,1999-04-01,False,2024-11-30
+Paul Williams,part-time,2020-04-22,False,2024-04-19
+Haley Mejia,regular full-time,2022-03-08,False,2024-09-06
+Michael Allen,regular full-time,2016-01-16,False,2024-05-21
+Christina Herrera,contractor,2018-11-11,False,2023-12-20
+Melissa Gonzales,supplemental,2012-12-16,True,2024-11-04
+John Roberts MD,regular full-time,2008-06-15,False,2024-05-01
+Timothy Tanner,part-time,1997-11-08,False,2024-01-20
+James Gilmore II,supplemental,2005-07-27,True,2024-07-26
+Billy Robbins,contractor,2011-01-31,False,2024-06-01
+Darryl Garrett,supplemental,2014-02-23,True,2024-04-23
+Teresa Rodriguez,contractor,1995-12-12,False,2024-02-14
+Stacy Green,contractor,2018-01-02,False,2024-06-03
+Sherri Olson,supplemental,2010-09-05,True,2024-08-20
+Michelle Hamilton,supplemental,2023-10-12,True,2024-02-27
+Steven Moore,contractor,2017-03-11,False,2023-12-30
+Valerie Phillips,regular full-time,1999-08-10,False,2024-03-22
+Patrick Wu,part-time,2017-02-01,False,2024-01-16
+Tamara James,supplemental,2010-06-23,True,2024-04-23
+Donna Meadows,part-time,2017-08-07,False,2024-08-21
+Denise King,supplemental,2008-03-02,True,2024-05-13
+Shannon Harrison,contractor,2006-11-01,False,2024-01-04
+Dr. John Brown,contractor,2001-08-15,False,2024-09-04
+James Pierce,part-time,2011-11-24,False,2024-01-15
+Kelly Parker,part-time,2005-08-27,False,2024-01-27
+Julie Smith,regular full-time,2012-01-25,False,2024-05-06
+Jeffrey Blake,supplemental,2006-12-15,True,2024-10-11
+Alexander Simmons,part-time,2002-10-16,False,2024-12-08
+Andrew Pacheco,contractor,2012-05-06,False,2024-01-22
+Joshua Gordon,part-time,2012-07-19,False,2024-11-09
+David Gomez,supplemental,2013-09-24,True,2024-10-07
+Zachary Holden,supplemental,2000-08-25,True,2024-09-27
+Michael Ramirez,contractor,2008-06-01,False,2024-01-10
+Jerry Pineda,contractor,2014-08-04,False,2024-04-01
+Lisa Stanton,supplemental,2015-04-06,True,2024-06-02
+Christina Murphy,supplemental,2001-09-16,True,2024-01-22
+Heather Shaw,supplemental,2017-03-12,True,2024-10-29
+Jennifer Greene,regular full-time,2006-02-19,False,2024-08-19
+Caroline Paul,part-time,2004-05-11,False,2024-04-19
+Levi Mcgee,supplemental,2011-12-31,True,2024-02-04
+Laura Knapp,contractor,2018-11-26,False,2024-03-17
+Megan Diaz,contractor,2011-02-03,False,2024-05-05
+Andrew Mitchell,supplemental,2004-10-24,True,2024-04-01
+Mrs. Heather Rodriguez,supplemental,2014-07-29,True,2024-08-11
+Michael Moore,supplemental,2004-01-26,True,2024-11-25
+Erin Trujillo,regular full-time,2015-05-30,False,2024-01-22
+Lisa Robinson,contractor,2005-08-12,False,2023-12-16
+Jose Evans,regular full-time,2004-11-30,False,2024-08-07
+Randy Donovan,part-time,2021-09-15,False,2024-02-06
+Holly Vincent,regular full-time,2013-10-14,False,2024-08-18
+Raven Escobar DDS,part-time,2017-04-29,False,2024-04-05
+Roy Ewing,part-time,2004-11-04,False,2024-04-26
+Megan Keith,contractor,2015-05-25,False,2024-11-12
+Michele Brown,contractor,2013-05-09,False,2024-04-01
+Theresa Baker,regular full-time,2009-02-25,False,2024-10-12
+Eric Norton,regular full-time,2008-02-22,False,2024-06-25
+Kevin Spears,contractor,2018-08-02,False,2024-03-30
+Jamie Garrett,supplemental,2023-04-11,True,2024-04-20
+Darryl Sanders,part-time,2014-11-05,False,2024-05-16
+Andrew Martin,supplemental,1996-07-01,True,2024-08-01
+Eric Hayes,supplemental,2015-12-14,True,2024-08-27
+Ronald Williams,contractor,2019-12-06,False,2024-10-30
+David Moore,part-time,2016-11-01,False,2024-06-24
+Debra Andrews,part-time,2022-08-05,False,2024-07-26
+Andrea Jones,contractor,2000-06-28,False,2024-01-12
+Melissa Watson,regular full-time,2008-11-24,False,2024-05-28
+Travis Garcia MD,contractor,2007-02-11,False,2024-05-27
+Jaime Brown MD,supplemental,1998-02-10,True,2024-10-14
+Hannah Jackson,part-time,1998-04-26,False,2024-11-09
+John Thompson,regular full-time,1999-10-24,False,2023-12-23
+Charles Kirby,regular full-time,2010-07-15,False,2024-05-17
+John Jensen,part-time,2023-08-26,False,2024-09-16
+Kimberly Snyder,regular full-time,2005-06-22,False,2024-08-17
+Melissa Roberts,contractor,2003-01-07,False,2024-08-25
+Brittany Stuart,supplemental,2024-05-23,True,2024-08-02
+Shirley Peterson,supplemental,2004-09-08,True,2024-11-28
+Jose Davies,contractor,2005-08-13,False,2024-10-29
+Paul Benson,regular full-time,2007-01-23,False,2024-07-01
+Glen Ruiz,part-time,1998-08-12,False,2024-09-23
+Melissa Morgan,contractor,2011-08-04,False,2024-04-20
+Dustin Johnson,regular full-time,2016-12-18,False,2024-03-20
+Donald Sawyer,part-time,2016-06-12,False,2024-09-09
+Stephen White,part-time,2003-07-20,False,2024-03-16
+Carolyn Little,contractor,2000-06-13,False,2024-11-19
+Mary Aguilar,supplemental,2006-01-23,True,2024-05-24
+Ashley Harrell,contractor,2008-10-09,False,2024-04-30
+Christopher Gutierrez,contractor,2001-05-30,False,2024-10-09
+Monique Johnson,contractor,2014-10-05,False,2024-11-08
+Christine Barrett,regular full-time,2007-11-20,False,2024-04-28
+Melinda Strickland DVM,contractor,2023-10-10,False,2024-01-29
+Joshua Ramirez,regular full-time,2019-02-28,False,2024-04-25
+Jessica Frazier,supplemental,1999-10-12,True,2024-01-14
+Tommy Mathis,regular full-time,1998-11-04,False,2024-01-08
+Michael Nguyen,part-time,2019-07-19,False,2024-06-17
+Patricia Hanson,regular full-time,2023-12-14,False,2024-09-20
+Kristin Mcguire,regular full-time,2009-09-08,False,2024-07-05
+Connie Washington,regular full-time,2021-06-07,False,2024-10-15
+Joshua Stevens,supplemental,2009-09-27,True,2024-08-14
+Brenda Kelly,supplemental,2015-01-05,True,2024-09-17
+David Lee,contractor,2023-09-15,False,2024-02-07
+Kelly Johnson,contractor,1998-12-26,False,2024-10-30
+Wesley Boyd,regular full-time,2005-07-15,False,2024-12-05
+Mr. Travis Brown III,regular full-time,2022-01-03,False,2024-11-18
+Cynthia Roberts,part-time,2007-05-01,False,2024-09-20
+Austin Keller,regular full-time,2016-03-09,False,2024-04-08
+Michael Romero,supplemental,2024-11-19,True,2024-05-23
+Laurie Hardy,supplemental,2007-04-18,True,2024-10-17
+Donna Johnson,regular full-time,2023-01-17,False,2024-01-24
+David Adams,contractor,2019-01-06,False,2024-10-17
+Danielle Bond,supplemental,2013-10-13,True,2024-05-27
+Teresa Wood,regular full-time,1995-09-28,False,2024-03-14
+Joseph White,part-time,2019-12-06,False,2024-10-31
+Gavin Campbell,regular full-time,2008-04-25,False,2024-11-08
+Brittany Mullen,contractor,2021-01-26,False,2024-07-26
+Jonathan Torres,regular full-time,2020-07-23,False,2024-11-12
+Alexis Sweeney,part-time,2015-02-23,False,2024-05-18
+Kellie Bartlett,regular full-time,2001-07-02,False,2024-09-30
+Christine Richards,part-time,2005-03-07,False,2024-07-06
+Dylan Oliver,part-time,2002-04-08,False,2024-03-27
+Emily Terrell,supplemental,2016-12-17,True,2024-10-06
+Eric Cohen,contractor,2008-07-18,False,2024-03-22
+Mr. Rodney Smith,supplemental,2019-08-19,True,2024-10-08
+Felicia Pratt,part-time,2009-08-26,False,2024-03-09
+Roy Carter,regular full-time,2006-01-04,False,2024-06-04
+Kyle Cardenas Jr.,supplemental,2021-09-08,True,2024-03-08
+Morgan Johnson,contractor,2021-02-10,False,2024-11-04
+Steven Davis,part-time,2016-04-08,False,2024-09-13
+Ethan Ferguson,regular full-time,2024-05-08,False,2024-07-29
+Mr. Daniel Rodriguez,regular full-time,2019-05-07,False,2024-07-27
+Mrs. Jacqueline White DVM,part-time,1996-04-20,False,2024-08-30
+Thomas Lane,regular full-time,1995-08-30,False,2024-01-25
+Carla Sanders,supplemental,2021-12-29,True,2024-07-08
+Rachel Reynolds,regular full-time,1996-04-04,False,2023-12-27
+Donna Hurley,regular full-time,2009-02-21,False,2024-11-19
+Jennifer Graves,supplemental,1995-06-22,True,2024-03-27
+Amy Callahan,part-time,2019-02-05,False,2024-09-15
+Emily Harper,part-time,2024-01-31,False,2024-06-09
+Todd Ferguson,part-time,2018-08-31,False,2024-01-16
+Amy Wright,part-time,2000-10-18,False,2023-12-13
+Claire Porter,regular full-time,2023-11-26,False,2024-06-09
+Hunter Miller,regular full-time,2017-05-27,False,2024-09-12
+Matthew Smith,part-time,2021-08-07,False,2024-05-12
+Misty Thompson,contractor,2003-11-03,False,2024-05-27
+Deborah Coffey,supplemental,2007-09-28,True,2024-08-01
+Jack Conner,supplemental,2018-05-29,True,2023-12-17
+Raymond Jackson,contractor,2003-09-06,False,2024-06-19
+Nicole Woods,contractor,1999-10-05,False,2024-04-11
+Kelly Burns,part-time,2004-09-04,False,2024-07-23
+Diane Hicks,contractor,2005-05-26,False,2024-09-26
+Michael Quinn,part-time,2011-02-18,False,2024-04-20
+Abigail Rodriguez,contractor,2003-08-31,False,2024-09-06
+Cynthia Espinoza,regular full-time,1998-04-20,False,2024-06-05
+Ivan Hoover,part-time,2004-04-05,False,2024-05-17
+Mark Morgan,regular full-time,2023-08-22,False,2024-09-26
+Zachary Morris,supplemental,2007-11-05,True,2024-04-09
+David Yu,supplemental,1998-12-22,True,2024-11-25
+Terry Smith,part-time,2015-08-15,False,2024-11-21
+Amanda Mcdowell,regular full-time,2008-07-05,False,2024-08-18
+Melissa Moore,supplemental,2018-07-21,True,2024-02-26
+Sara Mendez,part-time,2018-03-22,False,2024-05-19
+Steven Stone,contractor,1995-01-17,False,2024-11-19
+Richard Taylor,supplemental,2007-10-12,True,2024-10-25
+Austin Knight,contractor,2005-07-22,False,2024-05-28
+Jay Dominguez,part-time,2014-10-21,False,2024-06-26
+Brittany Montgomery,regular full-time,2011-03-10,False,2024-06-04
+Daniel Petersen,part-time,2014-06-05,False,2024-09-02
+Ethan Fleming,supplemental,2012-08-16,True,2024-06-06
+Tiffany Reed,regular full-time,2001-01-23,False,2024-07-24
+Amy Sampson,regular full-time,2005-12-05,False,2024-12-06
+Shannon King,contractor,2003-03-17,False,2024-08-07
+Tina Lewis,part-time,2020-04-28,False,2024-01-08
+John Johnson,regular full-time,1995-12-26,False,2024-09-15
+Travis Kim,part-time,2021-08-12,False,2024-02-20
+Henry Mills,contractor,2021-11-09,False,2024-11-12
+Amanda Buchanan,contractor,2005-10-05,False,2024-12-10
+Kayla Fox,regular full-time,2002-11-22,False,2023-12-27
+Jennifer Brown,supplemental,2009-01-02,True,2024-01-18
+Justin Martin,supplemental,2003-12-04,True,2024-10-11
+Rebecca Elliott,regular full-time,2018-06-24,False,2024-10-14
+Jack Brewer,contractor,2020-08-13,False,2024-04-25
+Eddie Mcintosh,supplemental,1998-11-13,True,2024-06-08
+Monica Wilson,contractor,2019-07-05,False,2024-06-08
+Travis Thomas,contractor,2014-09-11,False,2024-09-07
+Steven Rios,regular full-time,2005-04-19,False,2024-06-18
+Todd Ruiz,regular full-time,2021-10-02,False,2024-09-14
+Tammy Owens,supplemental,2019-04-04,True,2024-02-06
+Amanda Patterson,part-time,2015-09-15,False,2024-07-17
+Debbie Kelley,contractor,2004-11-26,False,2024-02-20
+Amy Thompson,part-time,2008-05-16,False,2024-08-23
+Christopher Schneider,supplemental,2020-02-11,True,2024-08-26
+Alexandra Collins,part-time,1999-02-13,False,2024-04-11
+Karina Kramer,contractor,2006-10-20,False,2024-03-13
+Darrell Johnston,part-time,2005-02-22,False,2024-04-02
+Taylor Patel,part-time,2006-05-21,False,2024-10-23
+Alfred Douglas,regular full-time,2021-05-08,False,2024-05-18
+Anthony Kerr,supplemental,2002-11-03,True,2024-02-13
+Kelly Rose,contractor,1995-01-27,False,2024-01-04
+Tammy Cook,supplemental,1996-01-14,True,2024-06-15
+Tyler Gregory,part-time,2004-02-09,False,2024-03-21
+Amanda Jackson,part-time,2000-05-20,False,2024-07-21
+Alvin Erickson,part-time,2019-01-22,False,2024-02-13
+Kimberly Copeland,regular full-time,2001-07-31,False,2024-07-20
+Mitchell Hoffman,part-time,1996-09-24,False,2023-12-15
+Jennifer Booth,contractor,2013-03-15,False,2024-05-01
+Deanna Lopez,supplemental,2004-10-22,True,2024-03-30
+Jeff Carter,regular full-time,2001-02-03,False,2024-08-11
+Jeffrey Taylor DDS,part-time,2000-12-03,False,2024-07-05
+Lisa Harris,contractor,2017-10-17,False,2024-02-07
+Lawrence Collins,contractor,2022-10-29,False,2024-04-01
+Tommy Griffin,supplemental,2007-07-02,True,2024-04-05
+David Ross Jr.,regular full-time,2021-01-15,False,2024-08-07
+Carlos Bell,contractor,2015-09-30,False,2023-12-23
+Heather Johnson,contractor,2015-12-07,False,2024-08-20
+Angelica Wright,part-time,2021-04-28,False,2024-01-24
+Timothy Jones,part-time,2015-02-20,False,2024-10-24
+Aaron Sawyer,regular full-time,2008-02-06,False,2024-12-09
+Anna Johnson,regular full-time,2013-04-30,False,2024-02-26
+Karen Castillo DVM,supplemental,2005-11-06,True,2024-11-17
+Derek Riley,part-time,2016-06-06,False,2024-03-30
+Anita Brown,part-time,2022-01-03,False,2024-09-04
+Jeremy Walters,regular full-time,2006-10-12,False,2023-12-24
+Karen Ward,contractor,1999-06-05,False,2024-10-30
+Nathan White,supplemental,1997-12-26,True,2024-11-30
+Carlos Prince,part-time,2019-06-11,False,2024-06-02
+Alan Reyes,contractor,1996-06-08,False,2024-10-22
+Amy Davis,regular full-time,1995-07-04,False,2024-02-29
+Michael Dunn,part-time,2010-01-22,False,2024-11-28
+Kylie Hartman,supplemental,2010-01-28,True,2024-08-21
+Lee Gonzales,supplemental,2011-05-26,True,2024-07-05
+Christine Johnson,supplemental,1997-12-27,True,2024-11-15
+Paula Miller,regular full-time,2008-04-03,False,2024-06-21
+Elizabeth Briggs,part-time,2015-09-08,False,2024-07-01
+Phillip Arroyo,part-time,2013-05-13,False,2024-06-01
+Brian Roth,supplemental,2000-07-06,True,2024-01-25
+John Copeland,regular full-time,2020-03-04,False,2024-03-04
+Carla Lewis,regular full-time,2004-09-21,False,2024-04-05
+Jacob Carter,contractor,2000-02-26,False,2024-09-01
+Heather Harmon,contractor,2019-09-28,False,2024-04-18
+Elizabeth Kelley,supplemental,2022-11-07,True,2024-08-11
+Leslie Dodson,supplemental,2011-12-28,True,2024-09-16
+Cristian Schultz,part-time,2024-01-13,False,2024-11-05
+Christopher Huerta,contractor,1996-12-26,False,2024-10-04
+Tara Figueroa,supplemental,2004-11-07,True,2024-01-24
+Jasmine Smith,contractor,1995-02-16,False,2024-03-18
+Roy Berry,contractor,2024-03-07,False,2024-09-27
+Jacob Jimenez,part-time,2001-09-22,False,2024-04-26
+Jeff Dyer,regular full-time,2002-05-23,False,2024-06-30
+Michael Rivera,regular full-time,2009-02-22,False,2024-04-16
+Stephen Miller,part-time,2019-12-19,False,2024-04-25
+Kyle Montgomery,contractor,2020-05-04,False,2024-04-01
+Travis Suarez,part-time,2000-02-19,False,2023-12-18
+Ryan Jimenez,contractor,1996-07-23,False,2024-03-01
+Katherine Cook,regular full-time,2020-06-16,False,2024-02-03
+Thomas Phelps,regular full-time,2024-01-27,False,2023-12-13
+Ronald Ramos,contractor,2015-10-16,False,2024-07-08
+Steven Ross,supplemental,2008-10-05,True,2024-03-03
+Sandra White,contractor,1999-08-11,False,2024-12-03
+Steven Nguyen,supplemental,2008-01-07,True,2024-08-18
+Christopher Hall,part-time,2005-01-12,False,2024-09-10
+Amanda Dominguez,regular full-time,2021-03-15,False,2024-03-01
+Michael Cook,part-time,2017-01-28,False,2024-10-08
+Samuel Zamora,part-time,2005-10-24,False,2024-01-09
+Brian Phillips,part-time,2010-04-10,False,2024-06-18
+Willie Werner,regular full-time,2015-02-19,False,2024-04-14
+Daniel Martin,contractor,1998-01-26,False,2024-05-08
+Mary Ferguson,contractor,2012-10-12,False,2024-08-03
+Trevor Carney,contractor,2009-05-06,False,2024-09-26
+Robert Higgins,regular full-time,2013-03-25,False,2024-11-10
+Jack Montes,regular full-time,2011-01-23,False,2024-11-28
+Amber Phelps,part-time,2007-07-06,False,2024-12-01
+Caitlin Johnson,regular full-time,2006-07-18,False,2024-04-27
+Joshua Lopez,contractor,2014-03-05,False,2024-10-05
+Ryan Mendoza,regular full-time,2002-08-10,False,2024-08-04
+Christopher Brown,regular full-time,2000-06-06,False,2024-08-21
+Crystal Richards,part-time,2006-01-27,False,2024-11-30
+Gabrielle Anderson,regular full-time,2010-03-07,False,2024-05-11
+Rickey Dickson MD,part-time,2001-09-27,False,2024-09-19
+Thomas Martin,part-time,2019-10-11,False,2024-07-18
+Laura Hawkins,part-time,2020-10-25,False,2024-02-29
+Robert Le,supplemental,2006-11-30,True,2024-02-02
+Kelly Patton,supplemental,2003-04-08,True,2024-08-15
+Robert Salazar,supplemental,2021-09-15,True,2024-03-13
+Stephanie Griffin,supplemental,2012-05-14,True,2024-02-18
+Alice Wise,contractor,2022-02-02,False,2024-04-07
+George Snyder,regular full-time,2003-10-27,False,2024-08-05
+Mark Johnson,part-time,2002-10-04,False,2024-08-06
+George Johnson,contractor,1997-07-22,False,2024-09-23
+Cody Martin,part-time,2009-04-11,False,2024-05-02
+William Hudson,part-time,2020-02-10,False,2024-06-22
+Troy Carson,contractor,2002-05-29,False,2024-06-19
+Paul Golden,regular full-time,2008-10-12,False,2024-06-17
+Andrew Underwood,regular full-time,2002-09-01,False,2024-03-23
+Cheryl Watson,regular full-time,2001-06-22,False,2024-02-15
+Mark Wright Jr.,part-time,2001-04-27,False,2023-12-22
+John Franklin,regular full-time,2017-09-07,False,2024-05-14
+Christopher Wilson,part-time,2010-05-17,False,2024-09-10
+Victoria Garrett,regular full-time,1995-07-16,False,2024-12-09
+Ryan Roth,supplemental,2017-04-24,True,2024-07-10
+Nicholas Thomas,regular full-time,1995-08-03,False,2024-04-25
+Robert Wilkins,regular full-time,2011-12-31,False,2024-07-18
+Tiffany Lynch,part-time,1997-05-28,False,2024-06-22
+Mr. Jason Greer,supplemental,2019-10-27,True,2024-08-09
+Dean Robertson,supplemental,2013-10-31,True,2024-05-20
+Joshua Walker,contractor,2008-06-03,False,2024-05-23
+Amanda Spence,regular full-time,2007-02-05,False,2024-07-16
+Tammy Williams,supplemental,2006-07-16,True,2024-03-29
+Patrick Horton,part-time,2022-10-18,False,2024-01-02
+Thomas Campbell,contractor,2016-09-03,False,2024-09-30
+Timothy Robinson,supplemental,2015-11-12,True,2024-10-02
+Arthur Williams,regular full-time,1996-05-07,False,2024-04-09
+Stacy Rodriguez,regular full-time,2007-07-24,False,2023-12-14
+Jeffrey Vasquez,supplemental,2016-06-05,True,2024-02-25
+Christian Bryan,regular full-time,2015-07-14,False,2024-06-06
+Robert Schultz,supplemental,2005-06-20,True,2024-06-19
+Denise Allen,regular full-time,2018-05-17,False,2024-06-19
+Kathleen Peterson,regular full-time,2014-03-01,False,2024-10-11
+Benjamin Phillips,contractor,2012-04-10,False,2024-01-06
+Michael Evans,part-time,1996-08-31,False,2024-10-01
+Jason Shah,contractor,2012-12-16,False,2024-08-15
+Kyle Huff,contractor,2022-06-28,False,2024-02-07
+Mitchell Wilson,part-time,2018-08-22,False,2024-08-17
+Philip Russell,contractor,2009-10-18,False,2024-09-07
+Alexandra Murray,contractor,2021-05-05,False,2024-11-15
+Jacob Dixon,contractor,2023-05-05,False,2024-09-26
+Michael Campbell,supplemental,2004-01-26,True,2024-11-10
+Donna Flores,regular full-time,2017-10-01,False,2024-11-22
+Tonya Lozano,regular full-time,2013-01-20,False,2024-03-02
+Amber Larson,supplemental,2015-06-03,True,2024-03-02
+Lauren Powell,supplemental,1997-12-23,True,2024-10-31
+Yolanda Mann,supplemental,2021-08-03,True,2024-06-08
+Thomas Zavala,regular full-time,2004-11-05,False,2024-11-15
+Denise Ellis,part-time,1998-07-26,False,2024-09-16
+Mark Wood,part-time,2018-01-09,False,2024-11-21
+Lisa Walsh,supplemental,1996-08-08,True,2024-05-25
+Ana Santiago,regular full-time,2024-08-20,False,2024-04-29
+Holly Parker,supplemental,2015-11-19,True,2024-10-09
+Amy Hill,part-time,2017-04-02,False,2024-04-05
+Ronald Clayton,supplemental,2020-10-18,True,2024-11-16
+Jessica Robertson,part-time,1996-03-14,False,2024-08-09
+Ruth Hanna,part-time,2007-07-03,False,2024-11-24
+James Curry,supplemental,2022-04-30,True,2024-08-13
+James Hartman,supplemental,2024-09-29,True,2024-03-01
+Rodney Henderson,regular full-time,2011-07-05,False,2024-04-04
+Christopher Lawrence,part-time,2021-01-07,False,2024-08-25
+Nicole Mcfarland,regular full-time,2001-03-02,False,2023-12-18
+Mary Thomas,supplemental,2018-06-30,True,2024-07-22
+Amanda Moses,part-time,2000-04-28,False,2024-01-22
+Shannon Barnes,part-time,2014-12-18,False,2024-03-28
+Taylor White,regular full-time,2017-03-12,False,2024-02-19
+Holly Grant,part-time,2019-07-29,False,2023-12-16
+Linda Riddle,contractor,2016-10-20,False,2024-01-14
+Tiffany Evans,part-time,2003-05-18,False,2024-01-09
+Richard Smith,part-time,2019-03-03,False,2024-07-28
+Cindy Snyder,part-time,2006-11-03,False,2024-08-20
+Vanessa Hutchinson,supplemental,2002-08-11,True,2024-02-21
+Daniel Wright,part-time,2018-06-09,False,2024-06-23
+Michelle Walter,contractor,2019-07-23,False,2024-08-28
+Derek Flores,regular full-time,2006-06-11,False,2024-08-30
+John Gonzales,contractor,2010-02-11,False,2024-02-24
+Sandra Ho,supplemental,2017-04-08,True,2024-06-21
+Paul Hicks,contractor,2024-12-06,False,2024-08-05
+Darren Combs,supplemental,2021-06-13,True,2024-12-04
+Tiffany Johnson,supplemental,1999-08-15,True,2024-06-02
+Peter Warren,contractor,2010-09-10,False,2023-12-25
+Bryan Martin,supplemental,1995-12-30,True,2024-04-03
+Amanda Norton,supplemental,2015-02-27,True,2024-03-05
+Tiffany Dawson,regular full-time,2011-05-18,False,2024-09-11
+Sean Cox,supplemental,2023-03-17,True,2024-10-15
+Kimberly Evans,contractor,2007-06-24,False,2024-05-11
+Rita Moore,regular full-time,2016-09-29,False,2024-03-24
+Tina Garcia,contractor,2017-05-29,False,2024-01-05
+Lisa Cummings,contractor,2011-03-31,False,2024-09-25
+Nicholas Curtis,regular full-time,2009-10-07,False,2024-11-30
+Levi Burns,regular full-time,2001-04-29,False,2024-04-15
+Donald Gay,contractor,2001-10-18,False,2024-09-18
+Kevin Thompson,contractor,2014-03-26,False,2024-01-23
