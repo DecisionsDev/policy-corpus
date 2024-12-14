@@ -127,6 +127,6 @@ def generate_test_dataset(num_samples=100):
 
 # Generate and save the dataset
 data = generate_test_dataset(100)
-data.to_csv("test_dataset.csv", index=False)
+data.to_csv("luggage/luggage-compliance-pricing-requests-dataset.csv", index=False)
 
 print("Test dataset generated and saved to 'test_dataset.csv'")
