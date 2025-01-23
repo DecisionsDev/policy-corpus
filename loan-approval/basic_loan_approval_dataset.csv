@@ -1,0 +1,131 @@
+Age,Residency,Credit Score,Annual Income,Employment Status,DTI,Loan Amount,Eligibility
+75,US Citizen,848,91905,Self-Employed,0.52,54219,False
+47,Non-US,370,46622,Employed,0.58,46430,False
+76,Non-US,759,90206,Self-Employed,0.49,40557,False
+42,US Resident,729,24507,Employed,0.34,48631,False
+36,US Resident,543,79640,Unemployed,0.42,55508,False
+28,Non-US,366,31284,Self-Employed,0.14,44721,False
+38,US Citizen,778,94262,Unemployed,0.34,13232,False
+36,US Resident,377,37482,Employed,0.15,28201,False
+66,US Resident,709,29964,Self-Employed,0.58,15774,False
+72,Non-US,669,86603,Self-Employed,0.11,28350,False
+68,US Resident,484,41437,Self-Employed,0.17,19786,False
+68,Non-US,722,59338,Unemployed,0.59,3384,False
+35,Non-US,828,34391,Unemployed,0.35,55422,False
+47,Non-US,698,76798,Employed,0.16,1593,False
+73,US Resident,761,29980,Self-Employed,0.39,35807,False
+61,US Resident,475,32098,Unemployed,0.55,53589,False
+59,US Resident,827,24282,Employed,0.58,8289,False
+44,Non-US,575,51638,Self-Employed,0.07,25409,False
+18,US Resident,321,77765,Employed,0.44,26122,False
+33,US Citizen,414,46235,Self-Employed,0.49,5127,False
+75,Non-US,640,99285,Unemployed,0.28,44257,False
+49,US Citizen,793,56112,Self-Employed,0.28,47555,True
+27,US Resident,543,88937,Unemployed,0.51,56281,False
+31,US Citizen,633,38445,Employed,0.43,35537,False
+55,US Citizen,417,86728,Self-Employed,0.35,21109,False
+30,Non-US,345,94480,Self-Employed,0.16,54988,False
+71,US Resident,534,23468,Unemployed,0.31,43839,False
+25,US Citizen,403,47624,Unemployed,0.51,23709,False
+52,Non-US,536,49149,Employed,0.55,2257,False
+52,US Citizen,748,34902,Self-Employed,0.09,42034,True
+41,US Resident,603,66509,Self-Employed,0.21,19580,True
+61,Non-US,379,32349,Unemployed,0.5,31309,False
+32,US Citizen,307,42612,Unemployed,0.54,4867,False
+55,US Resident,757,41833,Self-Employed,0.41,36397,False
+37,US Resident,359,64242,Self-Employed,0.34,32040,False
+57,US Resident,662,40384,Employed,0.51,29950,False
+39,US Resident,595,51689,Self-Employed,0.09,14989,False
+72,Non-US,672,67696,Employed,0.45,55946,False
+45,US Citizen,457,76883,Employed,0.16,30780,False
+54,US Resident,783,21716,Employed,0.4,48849,False
+20,Non-US,534,68010,Self-Employed,0.37,13851,False
+38,US Resident,599,37490,Self-Employed,0.55,49488,False
+57,US Resident,574,39592,Employed,0.08,58270,False
+42,US Citizen,404,71945,Unemployed,0.59,34741,False
+35,US Resident,666,73259,Employed,0.46,36256,False
+67,US Resident,844,76426,Self-Employed,0.25,51519,False
+40,US Citizen,379,69403,Self-Employed,0.6,36115,False
+51,US Citizen,506,35060,Employed,0.34,9754,False
+70,Non-US,711,43540,Employed,0.23,40217,False
+80,US Citizen,413,83127,Employed,0.13,52140,False
+53,Non-US,781,56968,Self-Employed,0.35,9923,False
+58,US Resident,437,36904,Employed,0.47,13021,False
+78,Non-US,442,95101,Unemployed,0.59,37231,False
+25,Non-US,393,60651,Unemployed,0.14,16928,False
+53,US Citizen,783,87176,Self-Employed,0.17,46628,True
+36,US Resident,727,82335,Self-Employed,0.26,21598,True
+55,US Resident,799,21415,Employed,0.35,18416,False
+69,US Citizen,687,82017,Employed,0.45,10568,False
+52,Non-US,309,91340,Employed,0.08,38325,False
+46,US Citizen,691,52312,Employed,0.41,38351,False
+75,Non-US,432,22049,Employed,0.54,41971,False
+68,US Citizen,467,85317,Employed,0.26,29475,False
+68,Non-US,519,65002,Unemployed,0.6,9385,False
+20,US Resident,313,36411,Employed,0.49,25062,False
+54,Non-US,386,40898,Self-Employed,0.27,44837,False
+19,Non-US,475,61313,Unemployed,0.08,51766,False
+57,US Resident,702,20040,Employed,0.58,22213,False
+51,US Resident,545,58240,Unemployed,0.06,18513,False
+70,US Citizen,621,96294,Self-Employed,0.35,28427,True
+65,US Citizen,610,52976,Self-Employed,0.59,24292,False
+75,US Resident,547,36712,Self-Employed,0.12,58340,False
+46,US Citizen,439,85420,Employed,0.51,34416,False
+67,US Resident,668,85366,Self-Employed,0.4,52568,False
+47,US Citizen,421,33745,Self-Employed,0.26,28809,False
+40,US Citizen,630,48296,Employed,0.11,24664,True
+40,US Resident,790,51074,Employed,0.48,46048,False
+79,Non-US,575,63302,Self-Employed,0.57,42388,False
+77,Non-US,724,76049,Self-Employed,0.13,3141,False
+20,US Citizen,683,45275,Unemployed,0.58,6000,False
+71,Non-US,804,77577,Employed,0.23,23556,False
+30,US Resident,712,57389,Employed,0.24,31568,True
+72,Non-US,509,29333,Unemployed,0.1,26334,False
+30,Non-US,587,29254,Unemployed,0.38,23075,False
+62,US Citizen,738,82872,Employed,0.39,43322,True
+44,US Resident,847,74236,Self-Employed,0.5,34978,False
+23,Non-US,443,85996,Employed,0.1,13563,False
+61,Non-US,688,39408,Self-Employed,0.08,57613,False
+26,Non-US,519,71755,Self-Employed,0.27,35033,False
+37,US Citizen,783,71110,Unemployed,0.15,55497,False
+58,US Citizen,706,72707,Employed,0.46,18916,False
+37,US Resident,601,89311,Employed,0.22,32038,True
+46,Non-US,729,49024,Self-Employed,0.11,42419,False
+67,Non-US,799,20244,Self-Employed,0.27,11621,False
+63,Non-US,537,66902,Employed,0.38,47695,False
+59,US Citizen,733,57290,Unemployed,0.49,59427,False
+75,US Citizen,573,93326,Employed,0.08,30087,False
+61,Non-US,801,95794,Self-Employed,0.57,15139,False
+69,Non-US,699,23533,Employed,0.49,9930,False
+45,US Citizen,604,77812,Unemployed,0.49,54794,False
+42,US Citizen,503,70555,Self-Employed,0.2,15736,False
+78,US Resident,709,36263,Employed,0.21,34627,True
+20,US Citizen,647,67996,Self-Employed,0.17,21719,True
+45,US Citizen,606,47116,Employed,0.15,33299,True
+77,US Citizen,696,74351,Self-Employed,0.11,42853,True
+21,US Citizen,791,39276,Self-Employed,0.18,6839,True
+38,US Resident,657,48308,Employed,0.09,35133,True
+78,US Resident,816,60606,Self-Employed,0.33,26861,True
+67,US Resident,776,53266,Self-Employed,0.34,17407,True
+47,US Citizen,833,66004,Self-Employed,0.13,15333,True
+59,US Citizen,755,38523,Employed,0.13,13557,True
+61,US Citizen,682,75017,Employed,0.39,24844,True
+39,US Citizen,739,99980,Self-Employed,0.37,28724,True
+71,US Citizen,760,35142,Employed,0.23,39297,True
+55,US Citizen,683,69687,Employed,0.12,36677,True
+55,US Citizen,766,56102,Self-Employed,0.16,7509,True
+54,US Citizen,682,78651,Employed,0.08,26656,True
+64,US Resident,771,88790,Employed,0.2,40739,True
+79,US Citizen,836,53025,Self-Employed,0.1,21595,True
+43,US Citizen,717,76167,Self-Employed,0.4,49080,True
+66,US Citizen,757,47089,Employed,0.13,40351,True
+70,US Citizen,735,74206,Employed,0.27,13350,True
+23,US Resident,755,97166,Self-Employed,0.37,11154,True
+29,US Citizen,843,33095,Employed,0.07,13092,True
+37,US Citizen,739,72514,Self-Employed,0.36,46419,True
+68,US Resident,817,60575,Employed,0.13,34664,True
+66,US Citizen,642,36220,Self-Employed,0.37,39393,True
+57,US Resident,605,80037,Employed,0.22,33115,True
+60,US Resident,785,66029,Employed,0.13,22148,True
+67,US Resident,624,53686,Self-Employed,0.1,15344,True
+47,US Citizen,631,61076,Employed,0.09,38578,True
