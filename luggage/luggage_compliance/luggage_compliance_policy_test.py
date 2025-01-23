@@ -1,9 +1,9 @@
+import pprint
 import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 import time
 
-# Assuming the LuggagePolicy class is defined in luggage_compliance.py
 from luggage_compliance_pricing import LuggagePolicy
 
 # Load the CSV file
@@ -89,3 +89,14 @@ print(f"F1 Score: {f1}")
 print(f"Recall: {recall}")
 print(f"Precision: {precision}")
 print(f"Average Execution Time for validate_carry_on: {average_execution_time} seconds")
+
+diff_indices = np.where(y_true != y_pred)[0]
+
+for el in diff_indices:
+    print("Case:\n----------")
+    pprint.pprint(data.loc[el])
+    print("---------\n")
+    print(f"True value: {y_true[el]}\nPredicted: {y_pred[el]}, Carry on: {carry_on_results[el]}, "
+          f"Checked: {checked_results[el]}, Message: {checked_messages[el]}")
+    print("=========\n")
+
