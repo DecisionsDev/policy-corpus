@@ -1,19 +1,19 @@
 import csv
 import random
 
-fields = ['Age', 'Residency', 'Credit Score', 'Annual Income', 'Employment Status', 'DTI', 'Loan Amount', 'Eligibility']
+fields = ['age', 'residency', 'credit score', 'annual income', 'employment status', 'dti', 'loan amount', 'eligibility']
 
 
 def check_eligibility(age, residency, credit_score, annual_income, employment_status, dti, loan_amount):
     if age < 18:
         return False
-    if residency not in ['US Citizen', 'US Resident']:
+    if residency not in ['citizen', 'resident']:
         return False
     if credit_score < 600:
         return False
     if annual_income < 30000:
         return False
-    if employment_status == 'Unemployed':
+    if employment_status == 'unemployed':
         return False
     if dti > 0.40:
         return False
@@ -30,10 +30,10 @@ def generate_test_dataset(num_samples=100):
 
     while len(data) < num_samples:
         age = random.randint(18, 80)
-        residency = random.choice(['US Citizen', 'US Resident', 'Non-US'])
+        residency = random.choice(['citizen', 'resident', 'foreigner'])
         credit_score = random.randint(300, 850)
         annual_income = random.randint(20000, 100000)
-        employment_status = random.choice(['Employed', 'Self-Employed', 'Unemployed'])
+        employment_status = random.choice(['employed', 'self-employed', 'unemployed'])
         dti = round(random.uniform(0.05, 0.60), 2)  # Debt-to-Income Ratio
         loan_amount = random.randint(1000, 60000)
 
@@ -54,10 +54,10 @@ def generate_test_dataset(num_samples=100):
     if eligible_count < 0.4 * num_samples:
         while eligible_count < 0.4 * num_samples:
             age = random.randint(18, 80)
-            residency = random.choice(['US Citizen', 'US Resident'])
+            residency = random.choice(['citizen', 'resident'])
             credit_score = random.randint(600, 850)
             annual_income = random.randint(30000, 100000)
-            employment_status = random.choice(['Employed', 'Self-Employed'])
+            employment_status = random.choice(['employed', 'self-employed'])
             dti = round(random.uniform(0.05, 0.40), 2)  # Debt-to-Income Ratio
             loan_amount = random.randint(5000, 50000)
 
@@ -70,10 +70,10 @@ def generate_test_dataset(num_samples=100):
     if non_eligible_count < 0.4 * num_samples:
         while non_eligible_count < 0.4 * num_samples:
             age = random.randint(18, 80)
-            residency = random.choice(['Non-US'])
+            residency = random.choice(['foreigner'])
             credit_score = random.randint(300, 599)
             annual_income = random.randint(20000, 29999)
-            employment_status = 'Unemployed'
+            employment_status = 'unemployed'
             dti = round(random.uniform(0.41, 0.60), 2)  # Debt-to-Income Ratio
             loan_amount = random.choice([1000, 60000])
 
