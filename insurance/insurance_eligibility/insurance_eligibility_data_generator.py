@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 columns = [
     'applicant_age',
     'has_valid_license',
@@ -15,7 +14,6 @@ columns = [
     'minimum_liability_coverage',
     'eligibility'
 ]
-
 
 def determine_eligibility(row):
     if row['applicant_age'] < 18 or row['applicant_age'] > 75:
@@ -40,9 +38,7 @@ def determine_eligibility(row):
         return False
     return True
 
-
 def generate_test_dataset(num_samples=100):
-    # Generate data
     data = {
         'applicant_age': np.random.randint(16, 85, num_samples),
         'has_valid_license': np.random.choice([True, False], num_samples),
@@ -59,20 +55,32 @@ def generate_test_dataset(num_samples=100):
     df = pd.DataFrame(data)
     df['eligibility'] = df.apply(determine_eligibility, axis=1)
 
-    # Ensure at least 40% of the values in the 'eligibility' column are different
     eligible_count = df['eligibility'].sum()
     ineligible_count = num_samples - eligible_count
 
-    if eligible_count < 0.4 * num_samples:
-        num_to_change = int(0.4 * num_samples - eligible_count)
-        ineligible_indices = df[df['eligibility'] == False].index
-        change_indices = np.random.choice(ineligible_indices, num_to_change, replace=False)
-        df.loc[change_indices, 'eligibility'] = True
-    elif ineligible_count < 0.4 * num_samples:
-        num_to_change = int(0.4 * num_samples - ineligible_count)
-        eligible_indices = df[df['eligibility'] == True].index
-        change_indices = np.random.choice(eligible_indices, num_to_change, replace=False)
-        df.loc[change_indices, 'eligibility'] = False
+    while eligible_count < 0.4 * num_samples or ineligible_count < 0.4 * num_samples:
+        additional_data = {
+            'applicant_age': np.random.randint(18, 75, 10),
+            'has_valid_license': [True] * 10,
+            'vehicle_registered': [True] * 10,
+            'vehicle_age': np.random.randint(0, 20, 10),
+            'clean_driving_record': [True] * 10,
+            'prior_insurance_coverage': [True] * 10,
+            'resides_in_country': [True] * 10,
+            'credit_score': np.random.randint(500, 850, 10),
+            'vehicle_usage': ['personal'] * 10,
+            'minimum_liability_coverage': [True] * 10
+        }
+
+        additional_df = pd.DataFrame(additional_data)
+        additional_df['eligibility'] = additional_df.apply(determine_eligibility, axis=1)
+
+        df = pd.concat([df, additional_df], ignore_index=True)
+
+        eligible_count = df['eligibility'].sum()
+        ineligible_count = len(df) - eligible_count
+
+    df = df.sample(n=num_samples, random_state=1).reset_index(drop=True)
 
     return df
 
