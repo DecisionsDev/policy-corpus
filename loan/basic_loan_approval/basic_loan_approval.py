@@ -49,9 +49,6 @@ class LoanApprovalPolicy:
     def meets_loan_amount_requirement(self, loan_amount):
         return self.MIN_LOAN_AMOUNT <= loan_amount <= self.MAX_LOAN_AMOUNT
 
-def parse_column_name_function(column):
-    return column.replace(" ", "_")
-
 
 if __name__ == "__main__":
     policy = LoanApprovalPolicy()

@@ -1,7 +1,7 @@
 import csv
 import random
 
-fields = ['age', 'residency', 'credit score', 'annual income', 'employment status', 'dti', 'loan amount', 'eligibility']
+fields = ['age', 'residency', 'credit_score', 'annual_income', 'employment_status', 'dti', 'loan_amount', 'eligibility']
 
 
 def check_eligibility(age, residency, credit_score, annual_income, employment_status, dti, loan_amount):
