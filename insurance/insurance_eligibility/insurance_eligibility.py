@@ -1,4 +1,7 @@
-class InsuranceEligibilityPolicy:
+from common.Policy import Policy
+
+
+class InsuranceEligibilityPolicy(Policy):
     MIN_AGE = 18
     MAX_AGE_FOR_ADDITIONAL_ASSESSMENTS = 75
     MAX_VEHICLE_AGE = 20
@@ -9,17 +12,17 @@ class InsuranceEligibilityPolicy:
         self.credit_score_threshold = credit_score_threshold
         pass
 
-    def test_eligibility(self, applicant_info):
-        applicant_age = applicant_info.get('applicant_age')
-        has_valid_license = applicant_info.get('has_valid_license')
-        vehicle_registered = applicant_info.get('vehicle_registered')
-        vehicle_age = applicant_info.get('vehicle_age')
-        clean_driving_record = applicant_info.get('clean_driving_record')
-        prior_insurance_coverage = applicant_info.get('prior_insurance_coverage')
-        resides_in_country = applicant_info.get('resides_in_country')
-        credit_score = applicant_info.get('credit_score')
-        vehicle_usage = applicant_info.get('vehicle_usage')
-        minimum_liability_coverage = applicant_info.get('minimum_liability_coverage')
+    def test_eligibility(self, info):
+        applicant_age = info.get('applicant_age')
+        has_valid_license = info.get('has_valid_license')
+        vehicle_registered = info.get('vehicle_registered')
+        vehicle_age = info.get('vehicle_age')
+        clean_driving_record = info.get('clean_driving_record')
+        prior_insurance_coverage = info.get('prior_insurance_coverage')
+        resides_in_country = info.get('resides_in_country')
+        credit_score = info.get('credit_score')
+        vehicle_usage = info.get('vehicle_usage')
+        minimum_liability_coverage = info.get('minimum_liability_coverage')
 
         if applicant_age < self.MIN_AGE:
             return False, "Applicant must be at least 18 years old."

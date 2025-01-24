@@ -1,4 +1,7 @@
-class LuggagePolicy:
+from common.Policy import Policy
+
+
+class LuggagePolicy(Policy):
     def __init__(self):
         self.classes = {
             "Economy": {
@@ -69,16 +72,16 @@ class LuggagePolicy:
 
         return f"Luggage complies with the policy. Total fees: ${fees}"
 
-    def test_eligibility(self, applicant_info):
-        travel_class = applicant_info['travel_class']
-        passenger_type = applicant_info['passenger_type']
-        carry_on_weight = applicant_info['carry_on_weight']
-        num_carry_on_items = applicant_info['num_carry_on_items']
-        num_personal_items = applicant_info['num_personal_items']
-        carry_on_items = applicant_info['carry_on_items']
-        personal_items = applicant_info['personal_items']
-        checked_items = applicant_info['checked_items']
-        num_checked_items = applicant_info['num_checked_items']
+    def test_eligibility(self, info):
+        travel_class = info['travel_class']
+        passenger_type = info['passenger_type']
+        carry_on_weight = info['carry_on_weight']
+        num_carry_on_items = info['num_carry_on_items']
+        num_personal_items = info['num_personal_items']
+        carry_on_items = info['carry_on_items']
+        personal_items = info['personal_items']
+        checked_items = info['checked_items']
+        num_checked_items = info['num_checked_items']
 
         # Ensure the number of items matches the provided items
         if num_carry_on_items != len(carry_on_items):

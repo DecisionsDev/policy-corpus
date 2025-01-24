@@ -1,4 +1,7 @@
-class LoanApprovalPolicy:
+from common.Policy import Policy
+
+
+class LoanApprovalPolicy(Policy):
     MIN_AGE = 18
     MIN_CREDIT_SCORE = 600
     MIN_ANNUAL_INCOME = 30000
@@ -6,20 +9,20 @@ class LoanApprovalPolicy:
     MIN_LOAN_AMOUNT = 5000
     MAX_LOAN_AMOUNT = 50000
 
-    def test_eligibility(self, applicant_info):
-        if not self.meets_age_requirement(applicant_info['age']):
+    def test_eligibility(self, info):
+        if not self.meets_age_requirement(info['age']):
             return False, "Applicant does not meet the age requirement."
-        if not self.meets_residency_requirement(applicant_info['residency']):
+        if not self.meets_residency_requirement(info['residency']):
             return False, "Applicant does not meet the residency requirement."
-        if not self.meets_credit_score_requirement(applicant_info['credit_score']):
+        if not self.meets_credit_score_requirement(info['credit_score']):
             return False, "Applicant does not meet the credit score requirement."
-        if not self.meets_income_requirement(applicant_info['annual_income']):
+        if not self.meets_income_requirement(info['annual_income']):
             return False, "Applicant does not meet the income requirement."
-        if not self.meets_employment_status_requirement(applicant_info['employment_status'], applicant_info.get('financial_records')):
+        if not self.meets_employment_status_requirement(info['employment_status'], info.get('financial_records')):
             return False, "Applicant does not meet the employment status requirement."
-        if not self.meets_dti_requirement(applicant_info['annual_income'], applicant_info['dti']):
+        if not self.meets_dti_requirement(info['annual_income'], info['dti']):
             return False, "Applicant does not meet the debt-to-income ratio requirement."
-        if not self.meets_loan_amount_requirement(applicant_info['loan_amount']):
+        if not self.meets_loan_amount_requirement(info['loan_amount']):
             return False, "Applicant does not meet the loan amount requirement."
 
         return True, "Applicant is eligible for the loan."
