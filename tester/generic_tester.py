@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 
-from loan.basic_loan_approval.basic_loan_approval import LoanApprovalPolicy, parse_column_name_function
+from loan.basic_loan_approval.basic_loan_approval import LoanApprovalPolicy
 
 
 class PolicyTester:
@@ -96,7 +96,7 @@ if __name__ == "__main__":
     loan_config = {
         'policy_class': LoanApprovalPolicy,
         'csv_file': '../loan/basic_loan_approval/basic_loan_approval_dataset.csv',
-        'parse_functions': {'*c': parse_column_name_function}
+        'parse_functions': {}
     }
 
     # Run the policy tester with the desired configuration
