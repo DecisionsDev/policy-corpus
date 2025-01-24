@@ -1,0 +1,101 @@
+travel_class,passenger_type,carry_on_weight,num_carry_on_items,num_personal_items,carry_on_items,personal_items,checked_items,num_checked_items,eligibility
+Business,adult,4.1,0,1,,4.1kg (50x35x25),37.96kg (100x80x70),1,False
+Economy,child,20.87,2,1,1.76kg (6x30x14) | 14.58kg (60x45x30),4.53kg (50x35x25),,0,False
+Economy,infant,17.85,2,2,0.62kg (24x16x20) | 10.74kg (60x45x30),2.51kg (13x14x8) | 3.98kg (50x35x25),,0,False
+Economy,adult,7.9,1,2,1.97kg (6x28x8),2.11kg (34x23x1) | 3.82kg (50x35x25),39.28kg (100x80x70),1,False
+Business,adult,27.64,3,2,4.63kg (31x36x8) | 3.71kg (32x15x6) | 14.13kg (60x45x30),1.64kg (19x25x9) | 3.53kg (50x35x25),,0,False
+Economy,child,14.49,3,2,2.76kg (51x19x21) | 3.8kg (10x27x2) | 2.53kg (37x34x14),0.53kg (12x23x17) | 4.87kg (50x35x25),34.52kg (100x80x70),1,False
+First,infant,4.88,0,1,,4.88kg (50x35x25),34.14kg (100x80x70),1,False
+First,infant,15.53,1,1,10.84kg (60x45x30),4.69kg (50x35x25),,0,False
+First,infant,7.21,0,2,,2.6kg (2x27x12) | 4.61kg (50x35x25),39.92kg (100x80x70),1,False
+Business,infant,23.41,2,2,2.96kg (54x40x1) | 13.64kg (60x45x30),2.78kg (36x25x4) | 4.03kg (50x35x25),,0,False
+Business,adult,1.73,0,1,,1.73kg (11x13x20),13.17kg (11x16x36),1,True
+First,child,4.26,1,1,3.44kg (19x7x14),0.82kg (25x7x20),21.79kg (43x31x51),1,True
+First,adult,10.4,2,1,4.3kg (46x5x8) | 4.96kg (43x27x2),1.14kg (33x25x9),17.0kg (22x32x38) | 15.52kg (15x47x17) | 22.57kg (16x44x14),3,True
+First,child,9.82,3,1,1.59kg (55x24x5) | 3.0kg (27x22x17) | 3.67kg (43x19x3),1.56kg (14x6x5),25.85kg (15x63x51),1,True
+Business,child,11.18,2,1,4.83kg (54x29x16) | 4.35kg (44x40x7),2.0kg (11x24x5),12.43kg (21x58x37) | 22.78kg (17x65x46) | 30.4kg (38x61x57) | 25.13kg (60x29x26) | 30.48kg (47x70x33),5,True
+Business,child,5.45,1,1,4.27kg (25x4x6),1.18kg (11x1x18),24.87kg (26x67x46) | 8.83kg (61x44x9),2,True
+Business,adult,2.65,1,1,1.37kg (40x40x17),1.28kg (36x3x9),12.44kg (69x40x12),1,True
+Economy,adult,1.47,1,0,1.47kg (52x31x19),,18.52kg (5x47x44),1,True
+First,infant,5.78,1,1,3.01kg (51x13x18),2.77kg (14x18x13),9.29kg (6x15x30) | 6.53kg (57x37x54),2,True
+Economy,adult,2.47,1,0,2.47kg (11x11x7),,12.36kg (29x29x31),1,True
+First,infant,10.13,2,1,4.97kg (46x38x3) | 3.31kg (33x2x10),1.85kg (9x11x18),,0,True
+Business,adult,0.0,0,0,,,12.77kg (53x46x20) | 30.63kg (43x35x40) | 19.86kg (11x49x31) | 27.44kg (10x24x12),4,True
+Business,adult,6.07,2,0,4.68kg (52x20x18) | 1.39kg (43x13x20),,,0,True
+Economy,infant,4.61,2,0,2.06kg (26x33x7) | 2.55kg (41x1x18),,,0,True
+Business,infant,9.42,3,1,1.84kg (30x19x10) | 0.8kg (4x16x15) | 4.69kg (6x36x7),2.09kg (26x9x1),,0,True
+Economy,adult,2.11,1,1,1.29kg (33x36x2),0.82kg (22x24x8),19.8kg (56x52x13),1,True
+Business,adult,6.4,2,0,2.87kg (44x12x2) | 3.53kg (22x39x7),,28.76kg (20x11x15) | 12.16kg (24x4x26) | 15.42kg (37x45x55) | 5.14kg (25x54x3) | 21.64kg (59x18x57),5,True
+Economy,adult,4.01,1,1,2.73kg (11x15x4),1.28kg (32x1x5),6.25kg (21x21x54),1,True
+Business,infant,7.68,1,1,4.81kg (1x3x21),2.87kg (18x10x16),7.18kg (72x46x3) | 6.46kg (16x35x12),2,True
+Business,infant,8.52,2,0,4.65kg (19x13x5) | 3.87kg (20x24x22),,,0,True
+Economy,infant,4.22,2,0,2.69kg (49x39x17) | 1.53kg (10x37x18),,,0,True
+Economy,infant,3.96,1,0,3.96kg (35x38x17),,8.04kg (19x40x27) | 8.82kg (32x44x57),2,True
+First,child,5.45,2,1,2.49kg (54x31x16) | 1.4kg (8x1x12),1.56kg (2x23x5),23.65kg (18x52x52),1,True
+Business,infant,11.42,3,1,2.26kg (10x22x23) | 3.19kg (17x1x17) | 4.87kg (30x27x17),1.1kg (12x5x15),,0,True
+Business,infant,0.57,0,1,,0.57kg (27x9x9),,0,True
+Economy,adult,6.26,2,1,4.22kg (54x32x13) | 0.94kg (5x33x16),1.1kg (33x24x6),5.69kg (68x42x35),1,True
+Economy,adult,4.91,3,0,2.17kg (4x8x14) | 1.25kg (55x15x14) | 1.49kg (36x7x12),,,0,True
+First,infant,3.25,1,0,3.25kg (9x7x23),,9.63kg (58x18x38),1,True
+Economy,adult,6.66,3,0,3.14kg (26x22x3) | 2.68kg (5x37x13) | 0.84kg (9x7x9),,15.63kg (37x21x11),1,True
+Economy,adult,4.59,1,0,4.59kg (25x35x2),,16.71kg (68x54x7) | 19.37kg (28x1x16) | 22.47kg (65x56x11),3,True
+Business,adult,10.08,3,1,2.74kg (38x26x11) | 1.92kg (11x37x10) | 3.47kg (10x16x20),1.95kg (10x2x12),,0,True
+First,child,4.78,1,1,4.07kg (41x6x15),0.71kg (2x29x17),22.1kg (65x2x47) | 28.82kg (18x3x57) | 17.69kg (55x52x21) | 23.36kg (11x18x35) | 18.61kg (10x25x29),5,True
+Economy,adult,6.41,2,0,3.64kg (53x15x22) | 2.77kg (46x14x12),,21.22kg (16x31x16),1,True
+Economy,infant,5.01,3,0,1.02kg (21x40x3) | 3.07kg (6x3x18) | 0.92kg (25x35x23),,6.63kg (8x14x27),1,True
+Economy,adult,0.0,0,0,,,,0,True
+Business,child,8.38,3,1,2.06kg (53x9x22) | 0.81kg (38x31x8) | 2.98kg (20x29x14),2.53kg (16x24x9),5.52kg (6x41x57) | 20.25kg (30x14x47) | 8.36kg (37x44x47),3,True
+Business,child,7.15,2,1,2.05kg (14x31x19) | 3.12kg (49x2x14),1.98kg (14x2x11),12.52kg (28x19x25) | 11.79kg (17x29x22) | 27.05kg (35x37x31),3,True
+Economy,adult,6.73,2,0,4.93kg (11x15x22) | 1.8kg (26x16x1),,13.6kg (54x1x9) | 12.11kg (67x25x20) | 12.57kg (7x15x22) | 16.33kg (46x12x37),4,True
+First,infant,10.32,3,0,1.86kg (15x33x19) | 4.03kg (5x39x22) | 4.43kg (27x2x17),,,0,True
+First,infant,3.09,1,0,3.09kg (15x12x15),,,0,True
+Economy,infant,5.57,2,0,2.0kg (38x28x9) | 3.57kg (11x30x2),,,0,True
+Economy,child,4.52,1,0,4.52kg (50x3x8),,13.85kg (49x18x9) | 13.91kg (25x16x20) | 6.9kg (80x32x8),3,True
+Business,infant,0.52,0,1,,0.52kg (9x6x6),,0,True
+Economy,child,4.65,2,0,2.08kg (53x13x9) | 2.57kg (47x8x10),,10.98kg (55x28x11) | 17.54kg (22x61x35) | 5.36kg (72x43x21),3,True
+Economy,adult,4.74,1,1,3.55kg (23x33x18),1.19kg (13x15x3),22.37kg (19x48x20),1,True
+Economy,child,1.4,0,1,,1.4kg (36x25x9),19.66kg (17x39x51),1,True
+Business,adult,1.18,0,1,,1.18kg (23x8x3),22.46kg (46x17x37) | 14.69kg (39x34x46) | 18.52kg (65x3x31) | 30.16kg (59x69x12),4,True
+Economy,infant,1.47,0,1,,1.47kg (13x7x14),,0,True
+Economy,adult,0.0,0,0,,,22.9kg (55x5x37) | 5.49kg (25x70x49) | 22.42kg (4x67x26) | 8.24kg (36x36x47),4,True
+Business,infant,10.47,2,1,4.99kg (55x28x11) | 4.78kg (14x8x22),0.7kg (16x12x4),5.34kg (54x5x28) | 6.7kg (4x64x14),2,True
+Economy,child,6.55,2,0,4.69kg (40x3x12) | 1.86kg (51x38x6),,,0,True
+Economy,adult,0.85,1,0,0.85kg (16x26x3),,20.85kg (4x34x17),1,True
+Business,adult,6.22,1,1,4.23kg (23x7x20),1.99kg (7x30x18),12.75kg (11x25x41),1,True
+First,infant,4.58,3,0,0.81kg (41x30x12) | 2.93kg (51x38x8) | 0.84kg (14x23x18),,,0,True
+Economy,adult,2.08,0,1,,2.08kg (22x18x18),,0,True
+Business,infant,4.53,1,0,4.53kg (46x1x15),,7.28kg (71x25x58),1,True
+Economy,adult,5.09,2,0,2.89kg (48x5x15) | 2.2kg (15x33x17),,21.67kg (20x42x11) | 5.23kg (69x33x24),2,True
+Economy,infant,4.75,2,0,4.14kg (33x17x2) | 0.61kg (46x29x15),,,0,True
+Business,child,1.38,1,0,1.38kg (47x12x1),,,0,True
+Economy,adult,5.62,3,0,0.59kg (26x21x21) | 0.56kg (53x20x23) | 4.47kg (22x24x5),,,0,True
+Economy,adult,2.61,0,1,,2.61kg (27x18x7),15.12kg (15x37x8),1,True
+Economy,infant,4.2,1,0,4.2kg (42x6x7),,,0,True
+Economy,child,4.58,1,0,4.58kg (23x4x14),,7.87kg (65x66x11) | 6.77kg (31x36x21) | 18.06kg (60x44x16) | 5.87kg (1x4x54) | 9.2kg (49x4x37),5,True
+Economy,adult,0.0,0,0,,,16.83kg (37x18x28),1,True
+Business,infant,5.2,1,1,4.36kg (37x8x14),0.84kg (17x18x12),,0,True
+Economy,infant,0.0,0,0,,,6.48kg (12x19x54),1,True
+Economy,child,2.96,0,1,,2.96kg (9x12x17),,0,True
+Business,child,6.18,1,1,3.72kg (25x36x8),2.46kg (36x2x14),12.73kg (26x29x6) | 22.07kg (38x24x10) | 29.23kg (15x59x30),3,True
+First,infant,1.77,1,0,1.77kg (29x23x10),,,0,True
+Business,infant,0.0,0,0,,,9.55kg (40x4x34),1,True
+Business,infant,8.66,3,1,1.72kg (44x20x23) | 1.68kg (3x13x21) | 3.88kg (22x31x7),1.38kg (34x12x12),6.03kg (45x8x36),1,True
+Economy,infant,2.38,0,1,,2.38kg (4x28x15),,0,True
+Economy,adult,6.55,3,0,3.73kg (49x34x15) | 0.94kg (41x31x1) | 1.88kg (6x25x7),,13.15kg (71x29x58),1,True
+Economy,adult,5.8,2,0,3.27kg (22x18x21) | 2.53kg (40x9x6),,,0,True
+First,child,1.89,0,1,,1.89kg (7x19x14),,0,True
+Economy,adult,0.0,0,0,,,18.72kg (80x1x37) | 8.85kg (33x22x56) | 9.18kg (47x61x38),3,True
+Business,infant,0.0,0,0,,,,0,True
+Business,infant,5.23,3,0,0.57kg (47x28x12) | 3.66kg (33x38x1) | 1.0kg (14x38x4),,,0,True
+First,adult,4.25,1,0,4.25kg (54x5x7),,13.97kg (68x44x22) | 18.92kg (51x55x50) | 11.43kg (31x32x51),3,True
+First,adult,6.59,1,1,4.05kg (47x25x10),2.54kg (28x2x20),13.51kg (45x33x2) | 22.86kg (27x60x28) | 13.74kg (15x41x27),3,True
+Business,infant,3.74,1,1,0.78kg (35x23x19),2.96kg (1x20x5),,0,True
+Business,infant,5.64,1,1,3.32kg (21x6x1),2.32kg (8x12x18),,0,True
+Business,infant,10.82,3,0,3.84kg (22x32x12) | 4.34kg (1x11x16) | 2.64kg (51x26x3),,,0,True
+First,infant,2.54,2,0,0.86kg (34x30x6) | 1.68kg (25x33x7),,,0,True
+Economy,child,0.0,0,0,,,8.22kg (32x9x32) | 9.91kg (4x70x36) | 17.25kg (29x44x34) | 16.0kg (15x43x27),4,True
+First,infant,0.0,0,0,,,,0,True
+Economy,child,0.0,0,0,,,11.63kg (11x1x3),1,True
+Business,infant,4.91,1,1,3.53kg (5x6x11),1.38kg (13x29x5),,0,True
+First,infant,5.7,2,0,1.25kg (4x40x14) | 4.45kg (11x30x13),,,0,True
+Business,adult,0.0,0,0,,,18.47kg (77x43x1) | 13.69kg (25x68x5),2,True

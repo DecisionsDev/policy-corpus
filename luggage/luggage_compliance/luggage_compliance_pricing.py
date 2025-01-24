@@ -1,5 +1,3 @@
-# Implementing the LuggagePolicy code provided earlier and running the synthetic data test cases
-
 class LuggagePolicy:
     def __init__(self):
         self.classes = {
@@ -56,7 +54,7 @@ class LuggagePolicy:
             if total_size > class_policy["size_limit"] and total_size <= 203:
                 fees += self.excess_fees["oversize"]
             if weight > 32 or total_size > 203:
-                return False, f"Item with weight {weight}kg or size {total_size}cm must be shipped as cargo."
+                return False, f"Item with weight {weight}kg or size {total_size}cm must be shipped as cargo.", fees
 
         return True, f"Checked luggage complies with the policy. Fees: ${fees}", fees
 
@@ -71,18 +69,30 @@ class LuggagePolicy:
 
         return f"Luggage complies with the policy. Total fees: ${fees}"
 
+    def test_eligibility(self, applicant_info):
+        travel_class = applicant_info['travel_class']
+        passenger_type = applicant_info['passenger_type']
+        carry_on_weight = applicant_info['carry_on_weight']
+        num_carry_on_items = applicant_info['num_carry_on_items']
+        num_personal_items = applicant_info['num_personal_items']
+        carry_on_items = applicant_info['carry_on_items']
+        personal_items = applicant_info['personal_items']
+        checked_items = applicant_info['checked_items']
+        num_checked_items = applicant_info['num_checked_items']
 
-# Instantiate the policy
-policy = LuggagePolicy()
+        # Ensure the number of items matches the provided items
+        if num_carry_on_items != len(carry_on_items):
+            return False, "Mismatch between number of carry-on items and provided carry-on items."
+        if num_personal_items != len(personal_items):
+            return False, "Mismatch between number of personal items and provided personal items."
+        if num_checked_items != len(checked_items):
+            return False, "Mismatch between number of checked items and provided checked items."
 
-# Test case: Validate carry-on and checked luggage for Economy class
-carry_on_items = [[50, 35, 20]]  # One bag with dimensions in cm
-personal_items = [[30, 20, 10]]  # One personal item
-carry_on_weight = 6  # within weight limit
-checked_items = [
-    {"weight": 25, "dimensions": [70, 50, 30]},  # One checked bag within limits
-]
+        # Validate luggage
+        result_message = self.validate_luggage(travel_class, carry_on_items, personal_items, carry_on_weight, checked_items, passenger_type)
 
-result = policy.validate_luggage("Economy", carry_on_items, personal_items, carry_on_weight, checked_items)
-result
-print(result)
+        # Determine eligibility based on the result message
+        if "complies with the policy" in result_message:
+            return True, result_message
+        else:
+            return False, result_message

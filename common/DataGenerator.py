@@ -13,6 +13,8 @@ class DataGenerator(ABC):
         """
         pass
 
+    ## PUT ALL OTHER CONSTANTS/ENUMS USED IN THE CODE HERE
+
     def __init_subclass__(cls, **kwargs):
         super().__init_subclass__(**kwargs)
         if 'eligibility' not in cls.COLUMN_NAMES:
@@ -46,7 +48,7 @@ class DataGenerator(ABC):
         """
         constants = {}
         for attr_name in dir(self):
-            attr = getattr(self, attr_name)
-            if isinstance(attr, property) and attr.fget is None:
+            attr = getattr(self.__class__, attr_name)
+            if not callable(attr) and not attr_name.startswith("__") and not attr_name.startswith("_"):
                 constants[attr_name] = attr
         return constants
