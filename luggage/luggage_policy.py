@@ -89,9 +89,7 @@ class LuggagePolicy:
         #return f"Luggage complies with the policy. Total fees: ${fees}"
         return checked_result, checked_message, fees
 
-
-def main():
-
+def test1():
     # Instantiate the policy
     policy = LuggagePolicy()
     travel_class = "Economy"
@@ -103,6 +101,38 @@ def main():
 
     result = policy.validate_luggage(travel_class, carry_on_items, personal_items, checked_items)
     print(result)
+
+def test2():
+    # Instantiate the policy
+    policy = LuggagePolicy()
+    travel_class = "Economy"
+
+    # Test case: Validate carry-on and checked luggage for Economy class
+    carry_on_items = [{"weight": 5, "dimensions": [90, 35, 20]}]  # One carry-on bag
+    personal_items = [{"weight": 2, "dimensions": [30, 20, 100]}]  # One personal item
+    checked_items = [{"weight": 33, "dimensions": [70, 50, 30]}, {"weight": 50, "dimensions": [70, 50, 30]} ] # One checked bag
+
+    result = policy.validate_luggage(travel_class, carry_on_items, personal_items, checked_items)
+    print(result)
+
+def test3():
+    # Instantiate the policy
+    policy = LuggagePolicy()
+    travel_class = "Economy"
+
+    # Test case: Validate carry-on and checked luggage for Economy class
+    carry_on_items = [{"weight": 1, "dimensions": [20, 35, 20]}]  # One carry-on bag
+    personal_items = [{"weight": 5, "dimensions": [30, 20, 30]}]  # One personal item
+    checked_items = [{"weight": 13, "dimensions": [70, 50, 30]} ] # One checked bag
+
+    result = policy.validate_luggage(travel_class, carry_on_items, personal_items, checked_items)
+    print(result)
+
+def main():
+
+    #test1()
+    #test2()
+    test3()
 
 if __name__ == "__main__":
     main()
