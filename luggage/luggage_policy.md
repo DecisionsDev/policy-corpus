@@ -29,6 +29,7 @@ An example of a decision row of the dataset, cumulating input and output paramet
 
 ### Datasets
 Data provided out of the box and produced by the generator and policy reference implementation:
+- [a decision dataset with 100 entries](luggage_policy_decisions_100.csv)
 - [a decision dataset with 1000 entries](luggage_policy_decisions_1K.csv)
 - [a decision dataset with 10000 entries](luggage_policy_decisions_10K.csv)
 - [a decision dataset with 100000 entries](luggage_policy_decisions_100K.csv)
