@@ -9,7 +9,7 @@ This luggage compliance and pricing policy aims to provide clear guidelines to p
 ## Code
 Associated code contains:
 - [a reference implementation of the policy in Python](luggage_policy.py)
-- [a generator of decisions with respect to the reference Python implamentation](luggage_policy_decision_generator.py)
+- [a generator of decisions with respect to the reference Python implementation](luggage_policy_decision_generator.py)
 
 ## Data
 ### Schema
