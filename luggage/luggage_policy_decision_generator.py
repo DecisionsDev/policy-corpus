@@ -134,7 +134,7 @@ def main():
     generate(100)
     generate(1000)
     generate(10000)
-    generate(10000)
+    generate(100000)
 
 if __name__ == "__main__":
     main()
