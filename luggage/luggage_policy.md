@@ -25,7 +25,7 @@ The outcomes of the decision are:
 * reason,
 * fees
 
-An example: Business,"[{'w': 0, 'dim': [33, 25, 23]}, {'w': 11, 'dim': [44, 34, 17]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+An example of a decision row of the dataset, cumulating input and output parameters: Business,"[{'w': 0, 'dim': [33, 25, 23]}, {'w': 11, 'dim': [44, 34, 17]}]",[],[],adult,True,Checked luggage complies with the policy.,0
 
 ### Datasets
 Data provided out of the box and produced by the generator and policy reference implementation:
