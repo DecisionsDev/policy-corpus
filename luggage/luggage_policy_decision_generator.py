@@ -9,18 +9,6 @@ from luggage_policy import LuggagePolicy
 policy = LuggagePolicy()
 
 def generate_carry_on_weight(mean=8, std_dev=10):
-    """
-    Generates random weights for carry-on luggage using a Gaussian distribution.
-    
-    Parameters:
-        mean (float): The average weight of carry-on luggage (in kg). Default is 8 kg.
-        std_dev (float): The standard deviation of the weights. Default is 2 kg.
-        num_samples (int): The number of luggage weights to generate. Default is 1.
-    
-    Returns:
-        float or list: A single weight (if num_samples=1) or a list of weights.
-    """
-
     # Ensure weight are non-negative and rounded to 2 decimal places
     w = np.random.normal(mean, std_dev)
     weight = max(0, w)
@@ -112,9 +100,22 @@ def generate_decisions(n):
 
     return results
 
-def main():
-    # Number of requests to generate
-    n = 100
+def format_data_units(n):
+    nb_units = round(n / 1000000)
+    if nb_units >= 1:
+        unit = "M"
+    else: 
+        nb_units = round(n / 1000)
+        if nb_units >= 1:
+            unit = "K"
+        else:
+            nb_units = n
+            unit = ""
+    
+    label = f'{nb_units}{unit}'
+    return label
+
+def generate(n):
 
     # Generate the requests and their results
     data = generate_decisions(n)
@@ -123,10 +124,17 @@ def main():
     df = pd.DataFrame(data)
 
     # Save DataFrame to CSV
-    output_file = "luggage/luggage_policy_data.csv"
+    data_units = format_data_units(n)
+    output_file = "luggage/luggage_policy_decisions_" + data_units + ".csv"
     df.to_csv(output_file, index=False)
 
     print(f"Generated {n} luggage requests and saved to {output_file}.")
+
+def main():
+    generate(100)
+    generate(1000)
+    generate(10000)
+    generate(10000)
 
 if __name__ == "__main__":
     main()
