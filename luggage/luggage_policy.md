@@ -12,7 +12,23 @@ Associated code contains:
 - [a generator of decisions with respect to the reference Python implamentation](luggage_policy_decision_generator.py)
 
 ## Data
-Data provided out of the box:
+### Schema
+The request attributes are:
+* travel_class,
+* carry_on_items,
+* personal_items,
+* checked_items,
+* passenger_type.
+
+The outcomes of the decision are:
+* compliance,
+* reason,
+* fees
+
+An example: Business,"[{'w': 0, 'dim': [33, 25, 23]}, {'w': 11, 'dim': [44, 34, 17]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+
+### Datasets
+Data provided out of the box and produced by the generator and policy reference implementation:
 - [a decision dataset with 1000 entries](luggage_policy_decisions_1K.csv)
 - [a decision dataset with 10000 entries](luggage_policy_decisions_10K.csv)
 - [a decision dataset with 100000 entries](luggage_policy_decisions_100K.csv)
