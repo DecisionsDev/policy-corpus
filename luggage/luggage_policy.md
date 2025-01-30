@@ -13,7 +13,7 @@ Associated code contains:
 
 ## Data
 ### Schema
-
+#### Input parameters
 | Name | Type  | Values |
 |-------|--------|------|
 | travel_class | string  | "Economy", "Business", "First" |
@@ -22,6 +22,7 @@ Associated code contains:
 | checked_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
 | passenger_type | string  | "infant", "child", "adult" |
 
+#### Output parameters
 | Name | Type  | Values |
 |-------|--------|------|
 | compliance | string  | "True"", "False" |
