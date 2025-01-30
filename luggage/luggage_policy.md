@@ -17,10 +17,12 @@ Associated code contains:
 | Name | Type  | Values |
 |-------|--------|------|
 | travel_class | string  | "Economy", "Business", "First" |
-| carry_on_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
-| personal_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
-| checked_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
+| carry_on_items | string capturing in JSON elements  | {'w': theweight, 'dim': [height, width, depth]} |
+| personal_items | string capturing in JSON elements  | {'w': theweight, 'dim': [height, width, depth]} |
+| checked_items | string capturing in JSON elements  | {'w': theweight, 'dim': [higheighth, width, depth]} |
 | passenger_type | string  | "infant", "child", "adult" |
+
+Units are kg and cm.
 
 #### Output parameters
 | Name | Type  | Values |
