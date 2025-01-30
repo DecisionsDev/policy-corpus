@@ -13,17 +13,20 @@ Associated code contains:
 
 ## Data
 ### Schema
-The request attributes are:
-* travel_class,
-* carry_on_items,
-* personal_items,
-* checked_items,
-* passenger_type.
 
-The outcomes of the decision are:
-* compliance,
-* reason,
-* fees
+| Name | Type  | Values |
+|-------|--------|------|
+| travel_class | string  | "Economy", "Business", "First" |
+| carry_on_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
+| personal_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
+| checked_items | string capturing in JSON elements  | {'w': theweight, 'dim': [high, width, prof]} |
+| passenger_type | string  | "infant", "child", "adult" |
+
+| Name | Type  | Values |
+|-------|--------|------|
+| compliance | string  | "True"", "False" |
+| reason | string | The description of the outcome|
+| fees | number | numeric value |
 
 An example of a decision row of the dataset, cumulating input and output parameters: Business,"[{'w': 0, 'dim': [33, 25, 23]}, {'w': 11, 'dim': [44, 34, 17]}]",[],[],adult,True,Checked luggage complies with the policy.,0
 
