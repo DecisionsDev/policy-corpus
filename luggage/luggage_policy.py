@@ -1,3 +1,5 @@
+import unittest
+
 class LuggagePolicy:
     def __init__(self):
         self.classes = {
@@ -128,14 +130,25 @@ def test3():
     result = policy.validate_luggage(travel_class, carry_on_items, personal_items, checked_items)
     print(result)
 
-def main():
+class TestAdd(unittest.TestCase):
+    def test1(self):
+        test1()
+        self.assertEqual(5, 5)
 
-    #test1()
-    #test2()
-    test3()
+    def test2(self):
+        test2()
+        self.assertEqual(0, 0)
 
 if __name__ == "__main__":
-    main()
+    unittest.main()
+
+#def main():
+#    #test1()
+#    #test2()
+#    test3()
+
+#if __name__ == "__main__":
+#    main()
 
 
 
