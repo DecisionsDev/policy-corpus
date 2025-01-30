@@ -29,7 +29,7 @@ Units are kg and cm.
 |-------|--------|------|
 | compliance | string  | "True"", "False" |
 | reason | string | The description of the outcome|
-| fees | number | numeric value |
+| fees | number | numeric value. 0 is compliance is false |
 
 An example of a decision row of the dataset, cumulating input and output parameters: Business,"[{'w': 0, 'dim': [33, 25, 23]}, {'w': 11, 'dim': [44, 34, 17]}]",[],[],adult,True,Checked luggage complies with the policy.,0
 
