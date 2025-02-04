@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import json
 
-from luggage_policy import LuggagePolicy
+from luggage_policy import LuggageCompliance
 
 # Instantiate the policy
-policy = LuggagePolicy()
+policy = LuggageCompliance()
 
 def generate_carry_on_weight(mean=8, std_dev=10):
     # Ensure weight are non-negative and rounded to 2 decimal places

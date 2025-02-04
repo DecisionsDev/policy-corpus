@@ -9,6 +9,13 @@ This luggage compliance and pricing policy aims to provide clear guidelines to p
 ## Code
 Associated code contains:
 - [a reference implementation of the policy in Python](luggage_policy.py)
+   - How to run it with unit tests
+    ```console
+    coverage run -m unittest luggage/luggage_policy.py
+    ```
+    ```console
+    coverage report -m
+    ```
 - [a generator of decisions with respect to the reference Python implementation](luggage_policy_decision_generator.py)
 
 ## Data
