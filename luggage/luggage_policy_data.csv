@@ -1,0 +1,101 @@
+travel_class,carry_on_items,personal_items,checked_items,passenger_type,compliance,reason,fees
+Economy,"[{'w': 24, 'dim': [23, 39, 15]}, {'w': 0, 'dim': [49, 25, 14]}]","[{'w': 0, 'dim': [72, 57, 41]}]",[],adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Business,"[{'w': 12, 'dim': [24, 29, 15]}]","[{'w': 4, 'dim': [53, 31, 42]}]",[],adult,False,Exceeded carry-on weight limit.,0
+Economy,"[{'w': 2, 'dim': [49, 33, 23]}]",[],"[{'w': 29, 'dim': [74, 50, 35]}, {'w': 4, 'dim': [64, 78, 22]}, {'w': 0, 'dim': [73, 57, 45]}]",adult,True,Checked luggage complies with the policy.,675
+Economy,"[{'w': 0, 'dim': [41, 35, 29]}, {'w': 5, 'dim': [27, 33, 29]}]","[{'w': 23, 'dim': [51, 65, 27]}]",[],adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Business,"[{'w': 0, 'dim': [23, 37, 24]}, {'w': 3, 'dim': [28, 30, 22]}]","[{'w': 14, 'dim': [80, 60, 30]}]",[],child,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 0, 'dim': [32, 40, 21]}, {'w': 10, 'dim': [35, 30, 26]}]",[],"[{'w': 0, 'dim': [64, 61, 27]}]",adult,False,Carry-on bag exceeds size limits.,0
+First,"[{'w': 0, 'dim': [30, 26, 27]}]",[],"[{'w': 0, 'dim': [61, 52, 27]}]",adult,False,Carry-on bag exceeds size limits.,0
+Business,[],"[{'w': 19, 'dim': [58, 39, 41]}, {'w': 0, 'dim': [66, 58, 22]}]",[],adult,False,Exceeded carry-on weight limit.,0
+Economy,"[{'w': 2, 'dim': [22, 25, 25]}]","[{'w': 4, 'dim': [63, 48, 38]}]","[{'w': 53, 'dim': [82, 46, 28]}]",adult,False,Carry-on bag exceeds size limits.,0
+Business,"[{'w': 12, 'dim': [30, 38, 28]}]",[],"[{'w': 0, 'dim': [100, 49, 25]}]",child,False,Carry-on bag exceeds size limits.,0
+Economy,"[{'w': 0, 'dim': [48, 40, 14]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+Economy,[],[],[],adult,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 5, 'dim': [33, 20, 12]}, {'w': 7, 'dim': [37, 33, 20]}]",[],"[{'w': 11, 'dim': [71, 80, 39]}]",child,False,Exceeded carry-on weight limit.,0
+Economy,[],[],"[{'w': 23, 'dim': [74, 73, 45]}, {'w': 34, 'dim': [60, 39, 23]}, {'w': 11, 'dim': [67, 33, 36]}]",child,False,Item with weight 34kg or size 122cm must be shipped as cargo.,475
+Business,"[{'w': 4, 'dim': [26, 34, 27]}]","[{'w': 24, 'dim': [53, 30, 50]}, {'w': 6, 'dim': [69, 51, 32]}]","[{'w': 3, 'dim': [78, 32, 26]}, {'w': 22, 'dim': [73, 43, 44]}]",adult,False,Exceeded carry-on weight limit.,0
+Economy,[],[],[],child,True,Checked luggage complies with the policy.,0
+First,"[{'w': 12, 'dim': [24, 23, 12]}]",[],[],child,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 15, 'dim': [36, 33, 10]}]",[],[],adult,False,Exceeded carry-on weight limit.,0
+Economy,[],"[{'w': 0, 'dim': [59, 45, 40]}]",[],adult,True,Checked luggage complies with the policy.,0
+Business,"[{'w': 4, 'dim': [23, 31, 15]}]","[{'w': 0, 'dim': [87, 31, 47]}]","[{'w': 18, 'dim': [74, 44, 50]}, {'w': 23, 'dim': [95, 78, 50]}]",adult,False,Item with weight 23kg or size 223cm must be shipped as cargo.,100
+First,[],"[{'w': 8, 'dim': [72, 39, 38]}, {'w': 49, 'dim': [85, 49, 47]}]",[],adult,False,Exceeded carry-on weight limit.,0
+Economy,"[{'w': 0, 'dim': [27, 21, 14]}, {'w': 0, 'dim': [36, 34, 27]}]",[],"[{'w': 0, 'dim': [50, 67, 25]}]",adult,False,Carry-on bag exceeds size limits.,0
+Business,[],[],"[{'w': 28, 'dim': [93, 65, 21]}]",adult,True,Checked luggage complies with the policy.,100
+Business,[],[],"[{'w': 35, 'dim': [61, 41, 31]}]",child,False,Item with weight 35kg or size 133cm must be shipped as cargo.,75
+Business,"[{'w': 0, 'dim': [30, 39, 20]}]",[],[],infant,True,Checked luggage complies with the policy.,0
+First,[],[],[],adult,True,Checked luggage complies with the policy.,0
+Business,[],[],[],infant,True,Checked luggage complies with the policy.,0
+First,"[{'w': 12, 'dim': [49, 27, 29]}]","[{'w': 5, 'dim': [52, 36, 31]}, {'w': 45, 'dim': [51, 51, 47]}]",[],adult,False,Exceeded carry-on weight limit.,0
+Economy,[],[],"[{'w': 22, 'dim': [82, 56, 22]}]",adult,True,Checked luggage complies with the policy.,100
+First,[],"[{'w': 0, 'dim': [58, 57, 42]}, {'w': 17, 'dim': [65, 38, 41]}]","[{'w': 12, 'dim': [83, 41, 45]}]",child,False,Exceeded carry-on weight limit.,0
+Economy,[],"[{'w': 0, 'dim': [56, 42, 20]}, {'w': 22, 'dim': [83, 52, 26]}]",[],adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 4, 'dim': [26, 38, 27]}, {'w': 9, 'dim': [34, 38, 11]}]","[{'w': 10, 'dim': [88, 32, 42]}]","[{'w': 32, 'dim': [75, 44, 32]}]",adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 0, 'dim': [39, 35, 15]}]","[{'w': 22, 'dim': [81, 50, 43]}, {'w': 25, 'dim': [85, 35, 30]}]",[],adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 0, 'dim': [37, 25, 21]}, {'w': 3, 'dim': [35, 23, 30]}]","[{'w': 0, 'dim': [69, 56, 28]}, {'w': 33, 'dim': [65, 44, 45]}]",[],adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Economy,"[{'w': 16, 'dim': [49, 36, 20]}, {'w': 0, 'dim': [20, 31, 18]}]",[],[],child,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 1, 'dim': [37, 23, 18]}, {'w': 0, 'dim': [45, 27, 19]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 10, 'dim': [22, 37, 13]}, {'w': 0, 'dim': [48, 23, 16]}]","[{'w': 0, 'dim': [63, 57, 50]}]","[{'w': 0, 'dim': [55, 71, 22]}]",adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+First,"[{'w': 0, 'dim': [40, 23, 16]}, {'w': 10, 'dim': [27, 36, 26]}]",[],[],adult,False,Carry-on bag exceeds size limits.,0
+First,"[{'w': 0, 'dim': [41, 26, 23]}]",[],"[{'w': 0, 'dim': [78, 41, 26]}]",adult,True,Checked luggage complies with the policy.,0
+Business,"[{'w': 0, 'dim': [40, 37, 29]}, {'w': 2, 'dim': [49, 23, 14]}]","[{'w': 0, 'dim': [89, 67, 49]}]",[],adult,False,Carry-on bag exceeds size limits.,0
+Economy,"[{'w': 0, 'dim': [45, 29, 28]}, {'w': 10, 'dim': [26, 38, 10]}]",[],[],adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 0, 'dim': [28, 27, 10]}, {'w': 7, 'dim': [29, 25, 27]}]",[],[],adult,False,Carry-on bag exceeds size limits.,0
+Business,[],[],[],adult,True,Checked luggage complies with the policy.,0
+First,"[{'w': 22, 'dim': [44, 28, 25]}, {'w': 5, 'dim': [25, 29, 25]}]","[{'w': 37, 'dim': [79, 60, 31]}]","[{'w': 0, 'dim': [67, 45, 42]}, {'w': 17, 'dim': [71, 33, 25]}, {'w': 3, 'dim': [84, 55, 47]}, {'w': 11, 'dim': [78, 46, 25]}]",child,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 3, 'dim': [33, 34, 25]}, {'w': 10, 'dim': [39, 35, 22]}]",[],"[{'w': 0, 'dim': [74, 51, 35]}]",adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 5, 'dim': [28, 26, 14]}]",[],[],infant,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 21, 'dim': [40, 26, 22]}, {'w': 23, 'dim': [41, 26, 21]}]","[{'w': 55, 'dim': [62, 58, 44]}, {'w': 16, 'dim': [90, 45, 41]}]",[],adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Economy,"[{'w': 0, 'dim': [34, 28, 12]}]",[],"[{'w': 0, 'dim': [79, 41, 27]}]",child,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 8, 'dim': [34, 26, 26]}, {'w': 0, 'dim': [22, 39, 20]}]",[],[],child,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 10, 'dim': [28, 33, 16]}, {'w': 0, 'dim': [40, 30, 30]}]",[],"[{'w': 25, 'dim': [64, 59, 34]}]",adult,False,Carry-on bag exceeds size limits.,0
+Business,"[{'w': 11, 'dim': [44, 25, 19]}]","[{'w': 0, 'dim': [56, 55, 37]}]","[{'w': 69, 'dim': [84, 76, 40]}, {'w': 1, 'dim': [72, 49, 34]}, {'w': 39, 'dim': [86, 77, 27]}]",adult,False,Item with weight 69kg or size 200cm must be shipped as cargo.,325
+Business,[],"[{'w': 17, 'dim': [80, 59, 36]}]",[],child,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 0, 'dim': [49, 25, 18]}, {'w': 18, 'dim': [37, 36, 16]}]","[{'w': 0, 'dim': [90, 33, 24]}, {'w': 0, 'dim': [86, 63, 32]}]","[{'w': 0, 'dim': [67, 56, 31]}, {'w': 46, 'dim': [58, 52, 30]}]",adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+First,"[{'w': 0, 'dim': [35, 24, 12]}, {'w': 0, 'dim': [28, 28, 19]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+Business,"[{'w': 0, 'dim': [37, 32, 12]}]",[],"[{'w': 16, 'dim': [62, 39, 22]}]",adult,True,Checked luggage complies with the policy.,0
+First,[],"[{'w': 30, 'dim': [74, 54, 31]}, {'w': 2, 'dim': [52, 53, 22]}]","[{'w': 0, 'dim': [85, 68, 39]}]",adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 4, 'dim': [40, 21, 18]}, {'w': 5, 'dim': [35, 23, 18]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+Economy,[],"[{'w': 1, 'dim': [70, 47, 21]}]","[{'w': 17, 'dim': [92, 53, 23]}]",adult,True,Checked luggage complies with the policy.,100
+Business,"[{'w': 0, 'dim': [30, 32, 12]}]","[{'w': 0, 'dim': [58, 65, 48]}]",[],adult,True,Checked luggage complies with the policy.,0
+First,[],[],[],adult,True,Checked luggage complies with the policy.,0
+First,[],[],"[{'w': 30, 'dim': [67, 69, 31]}, {'w': 11, 'dim': [54, 53, 34]}]",infant,True,Checked luggage complies with the policy.,400
+Economy,"[{'w': 8, 'dim': [47, 28, 18]}]",[],[],adult,False,Exceeded carry-on weight limit.,0
+First,[],"[{'w': 0, 'dim': [73, 33, 35]}]","[{'w': 0, 'dim': [63, 63, 45]}, {'w': 71, 'dim': [78, 39, 20]}]",adult,False,Item with weight 71kg or size 137cm must be shipped as cargo.,175
+Economy,[],"[{'w': 2, 'dim': [88, 59, 38]}, {'w': 0, 'dim': [66, 54, 37]}]",[],child,True,Checked luggage complies with the policy.,0
+Business,[],"[{'w': 3, 'dim': [77, 44, 28]}]","[{'w': 23, 'dim': [53, 66, 49]}, {'w': 12, 'dim': [59, 34, 36]}]",adult,True,Checked luggage complies with the policy.,100
+Business,[],"[{'w': 0, 'dim': [58, 46, 31]}, {'w': 36, 'dim': [83, 38, 44]}]","[{'w': 18, 'dim': [59, 44, 49]}]",child,False,Exceeded carry-on weight limit.,0
+Business,[],[],[],infant,True,Checked luggage complies with the policy.,0
+Business,[],"[{'w': 1, 'dim': [68, 56, 43]}]","[{'w': 37, 'dim': [57, 30, 43]}]",adult,False,Item with weight 37kg or size 130cm must be shipped as cargo.,75
+Economy,"[{'w': 5, 'dim': [21, 20, 26]}]","[{'w': 0, 'dim': [50, 57, 50]}, {'w': 22, 'dim': [86, 42, 39]}]","[{'w': 0, 'dim': [74, 76, 45]}, {'w': 31, 'dim': [87, 63, 42]}]",adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Business,"[{'w': 0, 'dim': [28, 40, 15]}, {'w': 4, 'dim': [29, 29, 12]}]","[{'w': 0, 'dim': [90, 53, 46]}]","[{'w': 17, 'dim': [79, 66, 44]}, {'w': 0, 'dim': [55, 51, 27]}, {'w': 12, 'dim': [56, 31, 23]}]",adult,True,Checked luggage complies with the policy.,250
+Business,"[{'w': 18, 'dim': [27, 34, 29]}, {'w': 11, 'dim': [23, 31, 22]}]",[],[],adult,False,Exceeded carry-on weight limit.,0
+First,[],"[{'w': 0, 'dim': [85, 41, 35]}]",[],child,True,Checked luggage complies with the policy.,0
+Business,[],"[{'w': 4, 'dim': [72, 60, 20]}]","[{'w': 9, 'dim': [66, 74, 20]}]",infant,True,Checked luggage complies with the policy.,100
+Business,[],"[{'w': 78, 'dim': [83, 50, 36]}]","[{'w': 34, 'dim': [52, 63, 46]}, {'w': 31, 'dim': [83, 73, 37]}]",adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 10, 'dim': [22, 33, 27]}, {'w': 3, 'dim': [38, 27, 18]}]",[],[],adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 0, 'dim': [50, 29, 13]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+First,[],"[{'w': 0, 'dim': [57, 30, 28]}, {'w': 16, 'dim': [85, 55, 43]}]",[],adult,False,Exceeded carry-on weight limit.,0
+Economy,[],[],"[{'w': 0, 'dim': [50, 38, 21]}]",child,True,Checked luggage complies with the policy.,0
+First,[],"[{'w': 20, 'dim': [83, 61, 22]}, {'w': 11, 'dim': [74, 68, 33]}]","[{'w': 27, 'dim': [59, 32, 45]}, {'w': 5, 'dim': [81, 60, 34]}]",adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 2, 'dim': [42, 20, 30]}]","[{'w': 0, 'dim': [79, 61, 31]}]","[{'w': 9, 'dim': [98, 43, 24]}, {'w': 6, 'dim': [83, 39, 41]}]",child,False,Carry-on bag exceeds size limits.,0
+First,"[{'w': 6, 'dim': [36, 27, 10]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 1, 'dim': [21, 20, 17]}, {'w': 19, 'dim': [20, 23, 30]}]",[],"[{'w': 13, 'dim': [62, 50, 28]}]",adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 0, 'dim': [42, 29, 14]}, {'w': 9, 'dim': [45, 34, 15]}]","[{'w': 0, 'dim': [90, 42, 28]}]",[],adult,True,Checked luggage complies with the policy.,0
+Business,"[{'w': 14, 'dim': [34, 40, 24]}]","[{'w': 45, 'dim': [54, 32, 26]}, {'w': 13, 'dim': [57, 30, 39]}]",[],adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 0, 'dim': [35, 25, 17]}]",[],"[{'w': 0, 'dim': [83, 67, 27]}]",adult,True,Checked luggage complies with the policy.,100
+First,"[{'w': 11, 'dim': [42, 38, 13]}, {'w': 0, 'dim': [28, 31, 24]}]","[{'w': 0, 'dim': [56, 32, 21]}, {'w': 0, 'dim': [53, 67, 21]}]",[],adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Business,"[{'w': 19, 'dim': [41, 22, 28]}, {'w': 6, 'dim': [44, 34, 28]}]",[],[],adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 12, 'dim': [20, 40, 26]}, {'w': 16, 'dim': [32, 28, 14]}]","[{'w': 37, 'dim': [60, 43, 40]}]","[{'w': 0, 'dim': [93, 50, 38]}]",adult,False,Exceeded carry-on weight limit.,0
+Economy,"[{'w': 0, 'dim': [47, 32, 20]}]",[],[],adult,True,Checked luggage complies with the policy.,0
+Economy,"[{'w': 0, 'dim': [24, 29, 17]}]","[{'w': 0, 'dim': [90, 58, 42]}]","[{'w': 0, 'dim': [91, 66, 32]}, {'w': 2, 'dim': [53, 32, 40]}]",adult,True,Checked luggage complies with the policy.,250
+Economy,"[{'w': 12, 'dim': [41, 40, 25]}]","[{'w': 0, 'dim': [52, 53, 30]}]",[],adult,False,Exceeded carry-on weight limit.,0
+Business,"[{'w': 0, 'dim': [20, 31, 26]}, {'w': 8, 'dim': [35, 37, 28]}]","[{'w': 0, 'dim': [51, 41, 31]}]","[{'w': 0, 'dim': [78, 65, 50]}]",adult,False,Carry-on bag exceeds size limits.,0
+Economy,"[{'w': 0, 'dim': [22, 35, 13]}]","[{'w': 22, 'dim': [85, 49, 32]}, {'w': 0, 'dim': [71, 35, 30]}]","[{'w': 0, 'dim': [80, 45, 39]}]",adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Economy,"[{'w': 11, 'dim': [46, 22, 11]}, {'w': 3, 'dim': [22, 26, 21]}]","[{'w': 0, 'dim': [54, 68, 37]}, {'w': 0, 'dim': [56, 49, 20]}]","[{'w': 32, 'dim': [67, 36, 33]}]",adult,False,Exceeded carry-on quantity allowance (including personal items).,0
+Economy,[],"[{'w': 11, 'dim': [65, 31, 36]}]","[{'w': 25, 'dim': [90, 71, 48]}]",adult,False,Exceeded carry-on weight limit.,0
+First,[],[],"[{'w': 12, 'dim': [77, 74, 32]}]",adult,True,Checked luggage complies with the policy.,100
+Economy,[],"[{'w': 25, 'dim': [89, 54, 27]}, {'w': 0, 'dim': [78, 43, 23]}]",[],adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 0, 'dim': [41, 20, 20]}]","[{'w': 13, 'dim': [83, 40, 25]}, {'w': 7, 'dim': [86, 55, 29]}]","[{'w': 0, 'dim': [53, 31, 25]}, {'w': 27, 'dim': [92, 39, 24]}]",adult,False,Exceeded carry-on weight limit.,0
+First,"[{'w': 0, 'dim': [49, 20, 30]}, {'w': 0, 'dim': [42, 31, 15]}]","[{'w': 2, 'dim': [62, 34, 29]}]","[{'w': 10, 'dim': [97, 75, 44]}]",adult,False,Carry-on bag exceeds size limits.,0
+First,[],"[{'w': 0, 'dim': [65, 30, 34]}]",[],adult,True,Checked luggage complies with the policy.,0
