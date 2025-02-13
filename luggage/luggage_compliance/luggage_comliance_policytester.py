@@ -1,7 +1,7 @@
 from tester.generic_tester import PolicyTester
 import pandas as pd
 
-from luggage_compliance.luggage_compliance_pricing import LuggagePolicy
+from luggage_compliance.luggage_compliance import LuggagePolicy
 
 
 def parse_items(item_str):

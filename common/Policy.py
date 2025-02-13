@@ -11,15 +11,14 @@ class Policy(ABC):
     """
 
     @abstractmethod
-    def test_eligibility(self, info) -> Tuple[bool, int]:
+    def test_eligibility(self, info) -> Tuple[bool, ...]:
         """
         Abstract method to test the eligibility of an applicant based on the provided information.
 
         Args:
-            info (dict): A dictionary containing the applicant's information.
+            info (dict): A super class, containing the row information.
 
-        Returns:
-            Tuple[bool, int]: A tuple where the first element is a boolean indicating eligibility,
-                              and the second element is an integer code or message explaining the result.
+        Returns: Tuple[bool, ...]: A tuple where the first element is a boolean indicating eligibility, and other
+        elements are external parameters, returned with the result (fee, error message, etc).
         """
         pass

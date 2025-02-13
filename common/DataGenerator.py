@@ -48,7 +48,8 @@ class DataGenerator(ABC):
         """
         constants = {}
         for attr_name in dir(self):
-            attr = getattr(self.__class__, attr_name)
-            if not callable(attr) and not attr_name.startswith("__") and not attr_name.startswith("_"):
-                constants[attr_name] = attr
+            if attr_name.isupper():  # Check if the attribute name is in uppercase
+                attr = getattr(self.__class__, attr_name)
+                if not callable(attr):
+                    constants[attr_name] = attr
         return constants
