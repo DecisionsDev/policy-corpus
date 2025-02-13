@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-from common.DataGenerator import DataGenerator
+from common.common.DataGenerator import DataGenerator
 
 
 class InsuranceEligibilityDataGenerator(DataGenerator):

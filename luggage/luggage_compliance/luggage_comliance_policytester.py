@@ -1,8 +1,6 @@
-from tester.generic_tester import PolicyTester
+from luggage_compliance.luggage_compliance import LuggageCompliance
+from common.generic_tester import PolicyTester
 import pandas as pd
-
-from luggage_compliance.luggage_compliance import LuggagePolicy
-
 
 def parse_items(item_str):
     if pd.isna(item_str):
@@ -32,7 +30,7 @@ def parse_carry_on_items(item_str):
 if __name__ == "__main__":
     # Define the configuration for the PolicyTester
     config = {
-        'policy_class': LuggagePolicy,
+        'policy_class': LuggageCompliance,
         'csv_file': 'luggage_policy_test_dataset.csv',
         'parse_functions': {
             'carry_on_items': parse_carry_on_items,

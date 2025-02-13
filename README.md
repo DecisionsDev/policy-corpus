@@ -5,5 +5,5 @@ It includes synthetic policies and a catalog of links of real public policies fo
 
 - [time off](human-resources/acme_time_off.md)
 - [insurance](insurance)
-- [loan approval](loan)
-- [luggage complaince & pricing](luggage/luggage-compliance-pricing.md)
+- [loan approval](loan-approval)
+- [luggage compliance & pricing](luggage/luggage_policy.md)

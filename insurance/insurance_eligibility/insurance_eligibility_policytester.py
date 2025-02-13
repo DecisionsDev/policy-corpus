@@ -1,5 +1,5 @@
 from insurance.insurance_eligibility.insurance_eligibility import InsuranceEligibilityPolicy
-from tester.generic_tester import PolicyTester
+from common.common.generic_tester import PolicyTester
 
 if __name__ == "__main__":
     config = {

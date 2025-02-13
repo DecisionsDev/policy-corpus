@@ -1,9 +1,8 @@
-import csv
 import random
 
 import pandas as pd
 
-from common.DataGenerator import DataGenerator
+from common.common.DataGenerator import DataGenerator
 
 
 class BasicLoanApprovalDataGenerator(DataGenerator):

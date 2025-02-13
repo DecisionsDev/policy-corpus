@@ -16,7 +16,8 @@ Quantity: One carry-on bag plus one personal item (e.g., purse, laptop bag).
 Size Limit: Carry-on bag must not exceed 55 cm x 40 cm x 23 cm (22 in x 16 in x 9 in).
 Weight Limit: Combined weight not to exceed 7 kg (15 lbs).
 Business/First Class:
-Quantity: Two carry-on bags plus one personal item.Size Limit: Each bag must not exceed 55 cm x 40 cm x 23 cm.Weight Limit: Combined weight not to exceed 12 kg (26 lbs).
+Quantity: Two carry-on bags plus one personal item.Size Limit: Each bag must not exceed 55 cm x 40 cm x 23 cm.
+Weight Limit: Combined weight not to exceed 12 kg (26 lbs).
 
 Notes:
 All carry-on items must fit in the overhead compartment or under the seat in front.
@@ -125,3 +126,7 @@ For questions or clarifications, contact SkyWings Airlines customer service at 1
 15. Compliance
 
 This policy complies with international aviation regulations, including IATA and TSA guidelines.
+
+Summary
+
+This luggage compliance and pricing policy aims to provide clear guidelines to passengers for preparing their baggage when flying with SkyWings Airlines. By adhering to these rules, passengers can ensure a smooth check-in process and contribute to overall flight safety and punctuality.

@@ -1,4 +1,4 @@
-from common.Policy import Policy
+from common.common.Policy import Policy
 
 
 class LoanApprovalPolicy(Policy):

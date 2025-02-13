@@ -1,10 +1,9 @@
 import random
 import json
-import csv
 from typing import List, Dict
 import pandas as pd
 
-from common.DataGenerator import DataGenerator
+from common.common.DataGenerator import DataGenerator
 from luggage_compliance import LuggageCompliance
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
@@ -144,11 +143,29 @@ class LuggageDataGenerator(DataGenerator):
         return super().get_constant()
 
 
+def format_data_units(n):
+    nb_units = round(n / 1000000)
+    if nb_units >= 1:
+        unit = "M"
+    else:
+        nb_units = round(n / 1000)
+        if nb_units >= 1:
+            unit = "K"
+        else:
+            nb_units = n
+            unit = ""
+
+    label = f'{nb_units}{unit}'
+    return label
+
+
 if __name__ == "__main__":
-    sizes = [100, 1000, 10000]
+    sizes = [100, 1000, 10000, 100000]
 
     generator = LuggageDataGenerator()
 
     for size in sizes:
         df = generator.generate_test_dataset(size)
-        df.to_csv(f'luggage_policy_test_dataset_{size}.csv', index=False)
+
+        data_units = format_data_units(size)
+        df.to_csv(f'luggage_policy_test_dataset_{data_units}.csv', index=False)

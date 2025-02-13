@@ -3,14 +3,17 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "luggage_compliance"
+name = "common"
 version = "0.1.0"
-
-dependencies = [
-    "common"
-]
-
+#
+#dependencies = [
+#    # You can list your dependencies here
+#    # "some-package>=1.0.0",
+#]
 requires-python = ">=3.7"
 
 [tool.setuptools.packages.find]
-where = ["luggage_compliance"]
+where = ["."]
+
+[tool.setuptools.package-data]
+"*" = ["*"]

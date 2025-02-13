@@ -1,5 +1,5 @@
 from loan.basic_loan_approval.basic_loan_approval import LoanApprovalPolicy
-from tester.generic_tester import PolicyTester
+from common.common.generic_tester import PolicyTester
 
 if __name__ == "__main__":
     config = {
