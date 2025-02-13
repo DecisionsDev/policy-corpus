@@ -8,7 +8,6 @@ from luggage_compliance import LuggageCompliance
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
 
-
 class LuggageDataGenerator(DataGenerator):
     COLUMN_NAMES = [
         "travel_class", "age_category", "luggages", "eligibility",
@@ -99,49 +98,53 @@ class LuggageDataGenerator(DataGenerator):
         return luggages
 
     def generate_eligible_luggages(self, travel_class, age_category) -> List[Luggage]:
-        luggages = []
-        class_policy = self.compliance_checker.classes[travel_class]
+        while True:
+            luggages = []
+            class_policy = self.compliance_checker.classes[travel_class]
 
-        # Generate carry-on luggage
-        for _ in range(class_policy["carry_on"]["quantity"]):
-            storage = "carry-on"
-            excess = False
-            special = False
-            compliance = True
-            weight = random.uniform(0, class_policy["carry_on"]["weight_limit"])
-            dim = {
-                "height": random.uniform(0, class_policy["carry_on"]["size_limit"][0]),
-                "width": random.uniform(0, class_policy["carry_on"]["size_limit"][1]),
-                "depth": random.uniform(0, class_policy["carry_on"]["size_limit"][2]),
-                "unit": "cm"
-            }
-            luggage = Luggage(storage, excess, special, compliance, weight, dim)
-            luggages.append(luggage)
+            # Generate carry-on luggage
+            for _ in range(class_policy["carry_on"]["quantity"]):
+                storage = "carry-on"
+                excess = False
+                special = False
+                compliance = True
+                weight = round(random.uniform(0, class_policy["carry_on"]["weight_limit"]), 2)
+                dim = {
+                    "height": round(random.uniform(0, class_policy["carry_on"]["size_limit"][0]), 2),
+                    "width": round(random.uniform(0, class_policy["carry_on"]["size_limit"][1]), 2),
+                    "depth": round(random.uniform(0, class_policy["carry_on"]["size_limit"][2]), 2),
+                    "unit": "cm"
+                }
+                luggage = Luggage(storage, excess, special, compliance, weight, dim)
+                luggages.append(luggage)
 
-        # Generate checked luggage
-        for _ in range(class_policy["checked"]["allowance"]):
-            storage = "checked"
-            excess = False
-            special = False
-            compliance = True
-            weight = random.uniform(0, class_policy["checked"]["weight_limit"])
-            dim = {
-                "height": random.uniform(0, class_policy["checked"]["size_limit"]),
-                "width": random.uniform(0, class_policy["checked"]["size_limit"]),
-                "depth": random.uniform(0, class_policy["checked"]["size_limit"]),
-                "unit": "cm"
-            }
-            luggage = Luggage(storage, excess, special, compliance, weight, dim)
-            luggages.append(luggage)
+            # Generate checked luggage
+            for _ in range(class_policy["checked"]["allowance"]):
+                storage = "checked"
+                excess = False
+                special = False
+                compliance = True
+                weight = round(random.uniform(0, class_policy["checked"]["weight_limit"]), 2)
+                dim = {
+                    "height": round(random.uniform(0, class_policy["checked"]["size_limit"]), 2),
+                    "width": round(random.uniform(0, class_policy["checked"]["size_limit"]), 2),
+                    "depth": round(random.uniform(0, class_policy["checked"]["size_limit"]), 2),
+                    "unit": "cm"
+                }
+                luggage = Luggage(storage, excess, special, compliance, weight, dim)
+                luggages.append(luggage)
 
-        return luggages
+            request = LuggageComplianceRequest(travel_class, age_category, luggages)
+            compliance_result, _, _, _ = self.compliance_checker.test_eligibility(request)
+
+            if compliance_result:
+                return luggages
 
     def determine_eligibility(self, row) -> bool:
         return row["eligibility"]
 
     def get_constant(self) -> Dict:
         return super().get_constant()
-
 
 def format_data_units(n):
     nb_units = round(n / 1000000)
@@ -158,9 +161,9 @@ def format_data_units(n):
     label = f'{nb_units}{unit}'
     return label
 
-
 if __name__ == "__main__":
-    sizes = [100, 1000, 10000, 100000]
+    sizes = [100, 1000]
+             # 10000, 100000]
 
     generator = LuggageDataGenerator()
 

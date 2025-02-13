@@ -5,9 +5,6 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
 
-from loan.basic_loan_approval.basic_loan_approval import LoanApprovalPolicy
-
-
 class PolicyTester:
     def __init__(self, policy_class, csv_file, parse_functions):
         self.policy_class = policy_class
@@ -30,19 +27,19 @@ class PolicyTester:
 
     def test_policy(self):
         results = []
-        messages = []
+        parameters = []
         execution_times = []
 
         for index, row in self.data.iterrows():
             start_time = time.time()
-            result, message = self.policy.test_eligibility(row)
+            result = self.policy.test_eligibility(row)
             execution_time = time.time() - start_time
 
-            results.append(result)
-            messages.append(message)
+            results.append(result[0])
+            parameters.append(result)
             execution_times.append(execution_time)
 
-        return results, messages, execution_times
+        return results, parameters, execution_times
 
     def calculate_metrics(self, y_true, y_pred):
         accuracy = accuracy_score(y_true, y_pred)
@@ -75,31 +72,3 @@ class PolicyTester:
             print("---------\n")
             print(f"True value: {y_true[el]}\nPredicted: {y_pred[el]}, Message: {messages[el]}")
             print("=========\n")
-
-
-if __name__ == "__main__":
-    # luggage_config = {
-    #     'policy_class': LuggagePolicy,
-    #     'csv_file': '../luggage/luggage_compliance/luggage-compliance-pricing-requests-dataset.csv',
-    #     'parse_functions': {
-    #         'carry_on_items': parse_carry_on_items,
-    #         'personal_items': parse_carry_on_items,
-    #         'checked_items': parse_items
-    #     }
-    # }
-    #
-    # # Run the policy tester with the desired configuration
-    # config = luggage_config  # Change to loan_config to test loan approval policy
-    # tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'])
-    # tester.run()
-
-    loan_config = {
-        'policy_class': LoanApprovalPolicy,
-        'csv_file': '../loan/basic_loan_approval/basic_loan_approval_dataset.csv',
-        'parse_functions': {}
-    }
-
-    # Run the policy tester with the desired configuration
-    config = loan_config  # Change to loan_config to test loan approval policy
-    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'])
-    tester.run()

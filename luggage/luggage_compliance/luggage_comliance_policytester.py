@@ -1,4 +1,7 @@
-from luggage_compliance.luggage_compliance import LuggageCompliance
+import json
+
+from luggage import Luggage
+from luggage_compliance import LuggageCompliance
 from common.generic_tester import PolicyTester
 import pandas as pd
 
@@ -31,11 +34,10 @@ if __name__ == "__main__":
     # Define the configuration for the PolicyTester
     config = {
         'policy_class': LuggageCompliance,
-        'csv_file': 'luggage_policy_test_dataset.csv',
+        'csv_file': 'luggage_policy_test_dataset_100.csv',
         'parse_functions': {
-            'carry_on_items': parse_carry_on_items,
-            'personal_items': parse_carry_on_items,
-            'checked_items': parse_items
+            'luggages': lambda x: [Luggage.from_dict(item) for item in json.loads(x)],
+            'cargo_items': lambda x: [Luggage.from_dict(item) for item in json.loads(x)] if pd.notnull(x) else []
         }
     }
 
