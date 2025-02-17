@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "luggage_compliance"
+version = "0.1.0"
+
+dependencies = [
+    "common"
+]
+
+requires-python = ">=3.7"
+
+[tool.setuptools.packages.find]
+where = ["luggage_compliance"]
