@@ -2,8 +2,11 @@ import random
 import json
 from typing import List, Dict
 import pandas as pd
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.common.DataGenerator import DataGenerator
+from common.DataGenerator import DataGenerator
 from luggage_compliance import LuggageCompliance
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
