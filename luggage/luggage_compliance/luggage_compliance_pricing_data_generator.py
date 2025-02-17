@@ -6,7 +6,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.DataGenerator import DataGenerator
+from common.generic_data_generator import DataGenerator
 from luggage_compliance import LuggageCompliance
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest

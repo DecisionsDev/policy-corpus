@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.Policy import Policy
+from common.generic_policy import Policy
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
 
