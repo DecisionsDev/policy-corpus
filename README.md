@@ -7,3 +7,5 @@ It includes synthetic policies and a catalog of links of real public policies fo
 - [insurance](insurance)
 - [loan approval](loan-approval)
 - [luggage compliance & pricing](luggage/luggage_policy.md)
+
+If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](adding_policy.md)
