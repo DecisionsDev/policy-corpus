@@ -1,7 +1,7 @@
 # Common elements description
 ## generic_tester.py
 
-The ``PolicyTester`` class is designed to evaluate the performance of a policy implementation by testing its eligibility function on a dataset loaded from a CSV file. The class supports custom parsing of input data, execution time measurement, and statistical evaluation of policy results.
+The ``PolicyTester`` class inside is designed to evaluate the performance of a policy implementation by testing its eligibility function on a dataset loaded from a CSV file. The class supports custom parsing of input data, execution time measurement, and statistical evaluation of policy results.
 
 ---
 
@@ -119,3 +119,4 @@ Orchestrates the entire testing process:
 **🚨 Limitations for JSON-Based Data**:
 
 The ``eval_columns`` parameter must contain exact sequence of the column names, as they are returned by the policy's ``test`` method. Thus means, if ``test`` method returns: ``({eligibility}, {messages}, {fee})``, then the ``eval_columns`` must be: ``['eligibility', 'messages', 'fee']``.
+

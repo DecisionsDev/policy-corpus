@@ -1,4 +1,8 @@
-from common.common.Policy import Policy
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from common.generic_policy import Policy
 
 
 class LoanApprovalPolicy(Policy):
