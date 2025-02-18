@@ -2,10 +2,14 @@ import random
 
 import pandas as pd
 
-from common.common.DataGenerator import DataGenerator
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from common.generic_data_generator import DataGenerator
 
 
-class BasicLoanApprovalDataGenerator(DataGenerator):
+class LoanApprovalDataGenerator(DataGenerator):
     COLUMN_NAMES = [
         'age',
         'residency',
@@ -127,7 +131,7 @@ class BasicLoanApprovalDataGenerator(DataGenerator):
 
 
 if __name__ == "__main__":
-    generator = BasicLoanApprovalDataGenerator()
+    generator = LoanApprovalDataGenerator()
 
     data = generator.generate_test_dataset()
     # Write the data to a CSV file

@@ -17,7 +17,7 @@ class Policy(ABC):
         Abstract method to test the eligibility of an applicant based on the provided information.
 
         Args:
-            case (class | dict): A super class, containing the row information.
+            case (dict | (preferably) related to the policy class): A super class, containing the row information.
 
         Returns: Tuple: A tuple, which allows to determine if the outcome of the test is positive and negative.
         Elements of the tuple are external parameters, returned with the result (eligibility, fee, error message, etc).
