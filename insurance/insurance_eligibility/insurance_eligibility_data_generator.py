@@ -1,98 +1,83 @@
+import random
+import sys
+import os
 import pandas as pd
-import numpy as np
+from typing import List, Dict
 
-from common.common.DataGenerator import DataGenerator
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from common.generic_data_generator import DataGenerator
+from insurance_eligibility_compliance import CarInsuranceCompliance
 
 
-class InsuranceEligibilityDataGenerator(DataGenerator):
+class CarInsuranceDataGenerator(DataGenerator):
     COLUMN_NAMES = [
-        'applicant_age',
-        'has_valid_license',
-        'vehicle_registered',
-        'vehicle_age',
-        'clean_driving_record',
-        'prior_insurance_coverage',
-        'resides_in_country',
-        'credit_score',
-        'vehicle_usage',
-        'minimum_liability_coverage',
-        'eligibility'
+        "age", "license_status", "vehicle_registered", "vehicle_use", "vehicle_age",
+        "major_violations", "minor_violations", "insurance_lapse", "residency_valid",
+        "credit_score", "liability_coverage", "state_min_liability",
+        "eligible", "premium_fee", "error_message"
     ]
 
-    def determine_eligibility(self, row):
-        if row['applicant_age'] < 18 or row['applicant_age'] > 75:
-            return False
-        if not row['has_valid_license']:
-            return False
-        if not row['vehicle_registered']:
-            return False
-        if row['vehicle_age'] > 20:
-            return False
-        if not row['clean_driving_record']:
-            return False
-        if not row['prior_insurance_coverage']:
-            return False
-        if not row['resides_in_country']:
-            return False
-        if row['credit_score'] < 500:
-            return False
-        if row['vehicle_usage'] != 'personal':
-            return False
-        if not row['minimum_liability_coverage']:
-            return False
-        return True
+    EVAL_COLUMN_NAMES = ["eligible", "premium_fee", "error_message"]
 
-    def generate_test_dataset(self, num_samples=100):
-        data = {
-            'applicant_age': np.random.randint(16, 85, num_samples),
-            'has_valid_license': np.random.choice([True, False], num_samples),
-            'vehicle_registered': np.random.choice([True, False], num_samples),
-            'vehicle_age': np.random.randint(0, 30, num_samples),
-            'clean_driving_record': np.random.choice([True, False], num_samples),
-            'prior_insurance_coverage': np.random.choice([True, False], num_samples),
-            'resides_in_country': np.random.choice([True, False], num_samples),
-            'credit_score': np.random.randint(300, 850, num_samples),
-            'vehicle_usage': np.random.choice(['personal', 'commercial', 'rideshare'], num_samples),
-            'minimum_liability_coverage': np.random.choice([True, False], num_samples)
+    def __init__(self):
+        super().__init__(CarInsuranceCompliance())
+
+    def generate_eligible_case(self) -> Dict:
+        case = {
+            "age": random.randint(18, 75),
+            "license_status": random.choice(["valid", "international"]),
+            "vehicle_registered": True,
+            "vehicle_use": "personal",
+            "vehicle_age": random.randint(0, 20),
+            "major_violations": 0,
+            "minor_violations": random.randint(0, 3),
+            "insurance_lapse": False,
+            "residency_valid": True,
+            "credit_score": random.randint(500, 850),
+            "liability_coverage": random.randint(50000, 200000),
+            "state_min_liability": random.randint(10000, 50000)
         }
+        eligibility_result = self.determine_eligibility(case)
+        case.update({
+            "eligible": eligibility_result[0],
+            "premium_fee": eligibility_result[1],
+            "error_message": eligibility_result[2]
+        })
+        return case
 
-        df = pd.DataFrame(data)
-        df['eligibility'] = df.apply(self.determine_eligibility, axis=1)
-
-        eligible_count = df['eligibility'].sum()
-        ineligible_count = num_samples - eligible_count
-
-        while eligible_count < 0.4 * num_samples or ineligible_count < 0.4 * num_samples:
-            additional_data = {
-                'applicant_age': np.random.randint(18, 75, 10),
-                'has_valid_license': [True] * 10,
-                'vehicle_registered': [True] * 10,
-                'vehicle_age': np.random.randint(0, 20, 10),
-                'clean_driving_record': [True] * 10,
-                'prior_insurance_coverage': [True] * 10,
-                'resides_in_country': [True] * 10,
-                'credit_score': np.random.randint(500, 850, 10),
-                'vehicle_usage': ['personal'] * 10,
-                'minimum_liability_coverage': [True] * 10
-            }
-
-            additional_df = pd.DataFrame(additional_data)
-            additional_df['eligibility'] = additional_df.apply(self.determine_eligibility, axis=1)
-
-            df = pd.concat([df, additional_df], ignore_index=True)
-
-            eligible_count = df['eligibility'].sum()
-            ineligible_count = len(df) - eligible_count
-
-        df = df.sample(n=num_samples, random_state=1).reset_index(drop=True)
-
-        return df
+    def generate_non_eligible_case(self) -> Dict:
+        case = {
+            "age": random.choice([random.randint(0, 17), random.randint(76, 100)]),
+            "license_status": random.choice(["expired", "revoked", "invalid"]),
+            "vehicle_registered": random.choice([True, False]),
+            "vehicle_use": random.choice(["commercial", "rental"]),
+            "vehicle_age": random.randint(21, 30),
+            "major_violations": random.randint(1, 5),
+            "minor_violations": random.randint(4, 10),
+            "insurance_lapse": True,
+            "residency_valid": False,
+            "credit_score": random.randint(300, 499),
+            "liability_coverage": random.randint(0, 9000),
+            "state_min_liability": random.randint(10000, 50000)
+        }
+        eligibility_result = self.determine_eligibility(case)
+        case.update({
+            "eligible": eligibility_result[0],
+            "premium_fee": eligibility_result[1],
+            "error_message": eligibility_result[2]
+        })
+        return case
 
 
+from common.generic_data_generator import format_data_units
+
+# paste this in the end of {policy_name}_data_generator.py file
 if __name__ == "__main__":
-    generator = InsuranceEligibilityDataGenerator()
-    df = generator.generate_test_dataset(num_samples=100)
+    sizes = [100, 1000]
+    generator = CarInsuranceDataGenerator()
 
-    df.to_csv('insurance_eligibility_dataset.csv', index=False)
-
-    print("CSV dataset generated successfully.")
+    for size in sizes:
+        df = generator.generate_test_dataset(size)
+        data_units = format_data_units(size)
+        df.to_csv(f'insurance_test_dataset_{data_units}.csv', index=False)

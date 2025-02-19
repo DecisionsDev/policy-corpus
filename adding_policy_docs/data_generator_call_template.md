@@ -9,5 +9,5 @@ if __name__ == "__main__":
     for size in sizes:
         df = generator.generate_test_dataset(size)
         data_units = format_data_units(size)
-        df.to_csv(f'loan_policy_test_dataset_{data_units}.csv', index=False)
+        df.to_csv(f'{policy_name}_test_dataset_{data_units}.csv', index=False)
 ```

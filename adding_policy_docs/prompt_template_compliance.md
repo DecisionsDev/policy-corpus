@@ -12,7 +12,7 @@ from typing import Tuple
 
 class Compliance(ABC):
     """
-    Abstract base class for defining a policy.
+    Abstract base class for defining a policy compliance.
 
     This class provides a template for implementing various policies that need to test eligibility
     based on certain criteria. Any subclass must implement the `test_eligibility` method

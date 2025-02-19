@@ -24,7 +24,7 @@ class PolicyTester:
         self.policy = None
 
     def load_data(self):
-        self.data = pd.read_csv(self.csv_file)
+        self.data = pd.read_csv(self.csv_file, na_filter=True).fillna("")
         for column, parse_function in self.parse_functions.items():
             if column == '*c':
                 for df_column in self.data.columns:
