@@ -19,13 +19,19 @@ if __name__ == "__main__":
         #     'luggages': lambda x: [Luggage.from_dict(item) for item in json.loads(x)],
         #     'cargo_items': lambda x: [Luggage.from_dict(item) for item in json.loads(x)] if pd.notnull(x) else []
         # }
-        # Can be empty
+        # (Optional), but if not set -> no statistical evaluation
         'parse_functions': {dictionary_of_parse_functions}, # format: {'{column_name}': {function_call}}
         'eval_columns': [{list_of_columns_names_exactly_as_they_are_returned_with_compliance}], # Example:  ["compliance_result", "compliance_message", "cargo_items", "fees"],
         # (Optional):
         'evaluators': [{list_of_evaluators_functions}] # Example: [cargo_items_evaluator]
     }
-    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'], config['eval_columns'], config.setdefault('evaluators', None))
+    tester = PolicyTester(
+        config['policy_class'], 
+        config['csv_file'], 
+        config.setdefault('parse_functions', None), 
+        config.setdefault('eval_columns', None), 
+        config.setdefault('evaluators', None)
+    )
     tester.run()
 
 ```

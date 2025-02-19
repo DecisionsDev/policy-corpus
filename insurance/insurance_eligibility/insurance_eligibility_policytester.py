@@ -11,8 +11,13 @@ if __name__ == "__main__":
     config = {
         'policy_class': CarInsuranceCompliance,
         'csv_file': 'insurance_test_dataset_1K.csv',
-        'parse_functions': {},
         'eval_columns': ["eligible", "premium_fee", "error_message"],
     }
-    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'], config['eval_columns'], config.setdefault('evaluators', None))
+    tester = PolicyTester(
+        config['policy_class'],
+        config['csv_file'],
+        config.setdefault('parse_functions', None),
+        config.setdefault('eval_columns', None),
+        config.setdefault('evaluators', None)
+    )
     tester.run()

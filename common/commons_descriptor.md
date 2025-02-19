@@ -9,13 +9,13 @@ The ``PolicyTester`` class inside is designed to evaluate the performance of a p
 
 #### Constructor
 ```python
-def __init__(self, policy_class, csv_file, parse_functions, eval_columns=None, evaluators=None)
+def __init__(self, policy_class, csv_file, parse_functions=None, eval_columns=None, evaluators=None)
 ```
 
 **Parameters**:
 * ``policy_class`` (class): The class implementing the policy to be tested. It should have a method test_eligibility(row), which processes a single data row and returns a result.
 * ``csv_file`` (str): Path to the CSV file containing test cases.
-* ``parse_functions`` (dict): A dictionary where keys are column names and values are functions to parse and preprocess column data.
+* ``parse_functions`` (dict, optional): A dictionary where keys are column names and values are functions to parse and preprocess column data.
 * ``eval_columns`` (list, optional): A list of column names expected in the policy results, used for evaluation.
 * ``evaluators`` (list, optional): A list of custom evaluation functions that take in the dataset and test results.
 

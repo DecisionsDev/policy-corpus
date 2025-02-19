@@ -3,11 +3,11 @@ import time
 import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_score
-from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
+from sklearn.preprocessing import LabelEncoder
 
 
 class PolicyTester:
-    def __init__(self, policy_class, csv_file, parse_functions, eval_columns=None, evaluators=None):
+    def __init__(self, policy_class, csv_file, parse_functions=None, eval_columns=None, evaluators=None):
         """
         :param policy_class: The policy class to be tested.
         :param csv_file: Path to the CSV file.
@@ -25,6 +25,8 @@ class PolicyTester:
 
     def load_data(self):
         self.data = pd.read_csv(self.csv_file, na_filter=True).fillna("")
+        if not self.parse_functions:
+            return
         for column, parse_function in self.parse_functions.items():
             if column == '*c':
                 for df_column in self.data.columns:
