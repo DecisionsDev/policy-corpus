@@ -10,7 +10,7 @@ from abc import ABC, abstractmethod
 from typing import Tuple
 
 
-class Policy(ABC):
+class Compliance(ABC):
     """
     Abstract base class for defining a policy.
 
@@ -56,14 +56,16 @@ class Policy(ABC):
    * Unit tests should cover as many meaningful cases from the policy document as possible, ensuring full validation.
    * Ensure edge cases, normal cases, and failure cases are tested.
 4. Import Instead of Redefining Abstract Class:
-   * Do not repeat the provided abstract Policy class.
+   * Do not repeat the provided abstract Compliance class.
    * Instead, import it at the beginning of the implementation:
+
 ```python
 import sys
 import os
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.generic_policy import Policy
+from common.generic_policy import Compliance
 ```
 5. Pythonic & Readable Code:
    * The implementation must follow Pythonic best practices.

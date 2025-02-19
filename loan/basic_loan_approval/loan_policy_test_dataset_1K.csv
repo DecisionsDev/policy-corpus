@@ -1,0 +1,1001 @@
+age,residency,credit_score,income,employment_status,financial_records,dti,loan_amount,co_signer,eligibility,interest_rate,message
+42,US,750,56508,employed,True,0.37,43353,{'credit_score': 770},True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,600,76883,self-employed,False,0.13,7001,{'credit_score': 718},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+52,US,650,78007,self-employed,False,0.22,35328,{'credit_score': 644},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+61,US,600,75284,employed,False,0.19,43773,,True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,600,91032,employed,True,0.23,12805,{'credit_score': 748},True,10.0,Loan Approved. Interest Rate: 10.0%
+52,US,650,87726,self-employed,True,0.15,43253,,True,10.0,Loan Approved. Interest Rate: 10.0%
+25,US,650,97347,employed,False,0.29,49392,{'credit_score': 680},True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,700,36733,employed,False,0.12,18644,,True,7.5,Loan Approved. Interest Rate: 7.5%
+36,US,800,31694,employed,True,0.25,17611,{'credit_score': 761},True,5.0,Loan Approved. Interest Rate: 5.0%
+24,US,750,125382,self-employed,False,0.36,30076,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+43,US,600,137177,self-employed,False,0.32,19212,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+52,US,750,84101,self-employed,False,0.22,5927,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+19,US,650,114483,employed,False,0.19,11804,{'credit_score': 703},True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,700,130198,employed,True,0.25,23340,,True,7.5,Loan Approved. Interest Rate: 7.5%
+18,US,600,112958,employed,True,0.12,23501,{'credit_score': 602},True,10.0,Loan Approved. Interest Rate: 10.0%
+20,US,750,127825,employed,True,0.22,9330,,True,5.0,Loan Approved. Interest Rate: 5.0%
+36,US,800,58595,self-employed,False,0.22,32905,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+30,US,750,63915,self-employed,False,0.13,44767,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+21,US,600,33774,employed,False,0.36,22562,,True,10.0,Loan Approved. Interest Rate: 10.0%
+52,US,800,74815,employed,True,0.33,15021,{'credit_score': 740},True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,700,134691,self-employed,True,0.26,30507,{'credit_score': 773},True,7.5,Loan Approved. Interest Rate: 7.5%
+45,US,600,35479,self-employed,False,0.2,31951,{'credit_score': 765},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+36,US,650,46231,self-employed,False,0.35,39921,{'credit_score': 752},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+43,US,800,145057,employed,False,0.37,11661,,True,5.0,Loan Approved. Interest Rate: 5.0%
+24,US,800,96510,self-employed,False,0.27,48438,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+41,US,800,138028,employed,True,0.22,37622,,True,5.0,Loan Approved. Interest Rate: 5.0%
+41,US,600,121152,employed,False,0.13,33890,,True,10.0,Loan Approved. Interest Rate: 10.0%
+64,US,750,130603,employed,True,0.23,11411,,True,5.0,Loan Approved. Interest Rate: 5.0%
+28,US,650,67907,employed,False,0.36,18831,,True,10.0,Loan Approved. Interest Rate: 10.0%
+65,US,800,48531,self-employed,False,0.13,11557,{'credit_score': 610},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+55,US,750,116751,employed,False,0.29,15427,{'credit_score': 798},True,5.0,Loan Approved. Interest Rate: 5.0%
+30,US,750,124496,employed,True,0.21,32541,,True,5.0,Loan Approved. Interest Rate: 5.0%
+30,US,700,139888,employed,True,0.12,46453,,True,7.5,Loan Approved. Interest Rate: 7.5%
+51,US,800,147329,employed,True,0.36,7822,,True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,650,60223,employed,False,0.17,48759,,True,10.0,Loan Approved. Interest Rate: 10.0%
+44,US,750,87215,self-employed,True,0.28,5058,,True,5.0,Loan Approved. Interest Rate: 5.0%
+46,US,650,121669,employed,True,0.2,5767,{'credit_score': 619},True,10.0,Loan Approved. Interest Rate: 10.0%
+61,US,750,46329,employed,False,0.11,9064,{'credit_score': 742},True,5.0,Loan Approved. Interest Rate: 5.0%
+57,US,650,73801,self-employed,False,0.15,8371,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+41,US,750,40689,self-employed,True,0.31,36264,,True,5.0,Loan Approved. Interest Rate: 5.0%
+39,US,750,106707,employed,False,0.25,49464,,True,5.0,Loan Approved. Interest Rate: 5.0%
+19,US,600,136081,self-employed,True,0.33,23576,,True,10.0,Loan Approved. Interest Rate: 10.0%
+61,US,600,77985,employed,False,0.36,44354,,True,10.0,Loan Approved. Interest Rate: 10.0%
+49,US,700,51440,self-employed,False,0.31,19922,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+31,US,800,145703,self-employed,True,0.25,13305,,True,5.0,Loan Approved. Interest Rate: 5.0%
+41,US,650,57492,self-employed,True,0.12,19221,{'credit_score': 716},True,10.0,Loan Approved. Interest Rate: 10.0%
+60,US,600,57897,employed,False,0.22,21440,,True,10.0,Loan Approved. Interest Rate: 10.0%
+59,US,700,59524,employed,False,0.15,25421,,True,7.5,Loan Approved. Interest Rate: 7.5%
+54,US,700,101578,self-employed,False,0.36,43187,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+53,US,750,89631,employed,True,0.17,48262,,True,5.0,Loan Approved. Interest Rate: 5.0%
+33,US,750,32280,self-employed,True,0.1,27102,,True,5.0,Loan Approved. Interest Rate: 5.0%
+45,US,750,143134,employed,True,0.27,40817,{'credit_score': 679},True,5.0,Loan Approved. Interest Rate: 5.0%
+18,US,600,113030,employed,True,0.25,46931,,True,10.0,Loan Approved. Interest Rate: 10.0%
+65,US,700,59268,self-employed,True,0.15,8875,,True,7.5,Loan Approved. Interest Rate: 7.5%
+37,US,650,44477,employed,False,0.31,18617,,True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,800,62514,self-employed,False,0.34,16295,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+19,US,800,119145,self-employed,False,0.15,20353,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+18,US,700,54619,self-employed,False,0.18,32501,{'credit_score': 800},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+42,US,750,48031,self-employed,False,0.3,43391,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+62,US,600,112726,employed,True,0.34,32237,,True,10.0,Loan Approved. Interest Rate: 10.0%
+63,US,600,31387,employed,True,0.11,16009,,True,10.0,Loan Approved. Interest Rate: 10.0%
+48,US,800,146222,self-employed,True,0.18,34498,{'credit_score': 788},True,5.0,Loan Approved. Interest Rate: 5.0%
+61,US,650,121988,employed,False,0.26,12872,,True,10.0,Loan Approved. Interest Rate: 10.0%
+40,US,750,121059,self-employed,True,0.34,27639,,True,5.0,Loan Approved. Interest Rate: 5.0%
+35,US,750,69217,employed,True,0.12,30536,,True,5.0,Loan Approved. Interest Rate: 5.0%
+37,US,650,62252,employed,True,0.34,30259,{'credit_score': 725},True,10.0,Loan Approved. Interest Rate: 10.0%
+35,US,750,78680,employed,False,0.13,13375,,True,5.0,Loan Approved. Interest Rate: 5.0%
+20,US,650,121097,self-employed,False,0.17,19061,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+35,US,650,125178,employed,False,0.39,10302,{'credit_score': 607},True,10.0,Loan Approved. Interest Rate: 10.0%
+23,US,750,120138,employed,True,0.37,22223,,True,5.0,Loan Approved. Interest Rate: 5.0%
+37,US,700,106322,self-employed,True,0.14,8279,,True,7.5,Loan Approved. Interest Rate: 7.5%
+43,US,700,39331,self-employed,True,0.26,23729,,True,7.5,Loan Approved. Interest Rate: 7.5%
+37,US,600,104969,self-employed,True,0.21,25051,,True,10.0,Loan Approved. Interest Rate: 10.0%
+28,US,700,39517,employed,False,0.3,46650,{'credit_score': 624},True,7.5,Loan Approved. Interest Rate: 7.5%
+22,US,650,129433,self-employed,True,0.31,18736,{'credit_score': 604},True,10.0,Loan Approved. Interest Rate: 10.0%
+45,US,800,31547,employed,False,0.22,20519,,True,5.0,Loan Approved. Interest Rate: 5.0%
+20,US,700,105421,self-employed,True,0.39,20174,{'credit_score': 693},True,7.5,Loan Approved. Interest Rate: 7.5%
+65,US,800,63375,self-employed,False,0.16,43255,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+41,US,800,146419,employed,False,0.28,9006,,True,5.0,Loan Approved. Interest Rate: 5.0%
+64,US,800,127949,self-employed,True,0.27,9187,,True,5.0,Loan Approved. Interest Rate: 5.0%
+22,US,700,129834,self-employed,False,0.3,6280,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+35,US,600,67405,employed,False,0.36,22478,,True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,800,71595,self-employed,True,0.35,14744,,True,5.0,Loan Approved. Interest Rate: 5.0%
+24,US,650,96639,employed,False,0.36,25674,,True,10.0,Loan Approved. Interest Rate: 10.0%
+40,US,750,52437,employed,True,0.35,31002,{'credit_score': 717},True,5.0,Loan Approved. Interest Rate: 5.0%
+65,US,800,38757,self-employed,True,0.28,23558,,True,5.0,Loan Approved. Interest Rate: 5.0%
+45,US,650,77924,self-employed,True,0.34,46707,,True,10.0,Loan Approved. Interest Rate: 10.0%
+25,US,700,69703,employed,False,0.27,36386,,True,7.5,Loan Approved. Interest Rate: 7.5%
+49,US,800,138012,self-employed,True,0.31,8481,{'credit_score': 700},True,5.0,Loan Approved. Interest Rate: 5.0%
+57,US,600,103041,employed,True,0.18,42908,,True,10.0,Loan Approved. Interest Rate: 10.0%
+19,US,800,121891,employed,False,0.16,43884,{'credit_score': 766},True,5.0,Loan Approved. Interest Rate: 5.0%
+26,US,600,96101,self-employed,True,0.31,43298,,True,10.0,Loan Approved. Interest Rate: 10.0%
+42,US,700,93541,self-employed,True,0.34,9367,,True,7.5,Loan Approved. Interest Rate: 7.5%
+59,US,600,132674,self-employed,False,0.11,47423,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+41,US,650,141973,self-employed,False,0.36,10106,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+26,US,800,145950,employed,True,0.27,29809,{'credit_score': 608},True,5.0,Loan Approved. Interest Rate: 5.0%
+45,US,650,116545,employed,False,0.25,31612,,True,10.0,Loan Approved. Interest Rate: 10.0%
+24,US,700,50300,self-employed,True,0.12,34620,,True,7.5,Loan Approved. Interest Rate: 7.5%
+27,US,650,59752,self-employed,False,0.12,43165,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+45,US,750,44421,employed,False,0.18,6742,{'credit_score': 708},True,5.0,Loan Approved. Interest Rate: 5.0%
+49,US,650,126019,self-employed,False,0.23,37062,{'credit_score': 670},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+48,US,750,49064,employed,False,0.17,42954,{'credit_score': 766},True,5.0,Loan Approved. Interest Rate: 5.0%
+59,US,700,31173,self-employed,False,0.1,9397,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+25,US,650,140052,self-employed,True,0.38,31331,,True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,650,89891,employed,False,0.26,30653,,True,10.0,Loan Approved. Interest Rate: 10.0%
+46,US,700,31276,employed,True,0.24,44549,,True,7.5,Loan Approved. Interest Rate: 7.5%
+30,US,700,65357,self-employed,False,0.12,48621,{'credit_score': 749},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+28,US,700,118424,employed,False,0.33,39751,{'credit_score': 641},True,7.5,Loan Approved. Interest Rate: 7.5%
+42,US,650,134660,employed,False,0.24,19846,{'credit_score': 603},True,10.0,Loan Approved. Interest Rate: 10.0%
+32,US,700,147834,self-employed,True,0.21,48138,,True,7.5,Loan Approved. Interest Rate: 7.5%
+27,US,700,56163,employed,False,0.19,10669,,True,7.5,Loan Approved. Interest Rate: 7.5%
+63,US,650,90566,self-employed,True,0.15,49938,,True,10.0,Loan Approved. Interest Rate: 10.0%
+41,US,800,132177,employed,True,0.32,39060,,True,5.0,Loan Approved. Interest Rate: 5.0%
+23,US,600,37374,self-employed,False,0.22,8423,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+54,US,800,65798,self-employed,False,0.25,37645,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+46,US,750,131249,self-employed,False,0.28,18848,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+59,US,800,110265,self-employed,False,0.34,22124,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+58,US,700,146724,self-employed,True,0.15,25412,,True,7.5,Loan Approved. Interest Rate: 7.5%
+36,US,700,30041,self-employed,True,0.39,45437,,True,7.5,Loan Approved. Interest Rate: 7.5%
+25,US,750,133122,self-employed,True,0.21,29958,,True,5.0,Loan Approved. Interest Rate: 5.0%
+51,US,700,85899,self-employed,True,0.35,27621,,True,7.5,Loan Approved. Interest Rate: 7.5%
+42,US,700,36949,employed,True,0.32,9924,,True,7.5,Loan Approved. Interest Rate: 7.5%
+59,US,750,106756,self-employed,False,0.36,40366,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+18,US,600,75915,self-employed,True,0.21,17361,,True,10.0,Loan Approved. Interest Rate: 10.0%
+63,US,650,45101,employed,False,0.24,27041,,True,10.0,Loan Approved. Interest Rate: 10.0%
+47,US,600,143441,self-employed,True,0.17,22423,{'credit_score': 627},True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,800,117730,employed,False,0.35,30973,{'credit_score': 773},True,5.0,Loan Approved. Interest Rate: 5.0%
+48,US,700,142298,employed,False,0.22,48881,{'credit_score': 655},True,7.5,Loan Approved. Interest Rate: 7.5%
+24,US,700,57719,employed,True,0.22,19446,{'credit_score': 755},True,7.5,Loan Approved. Interest Rate: 7.5%
+49,US,600,71017,employed,True,0.34,28391,,True,10.0,Loan Approved. Interest Rate: 10.0%
+62,US,800,43162,employed,True,0.11,46801,,True,5.0,Loan Approved. Interest Rate: 5.0%
+63,US,600,124008,employed,True,0.22,7374,,True,10.0,Loan Approved. Interest Rate: 10.0%
+19,US,750,71288,employed,False,0.13,20435,,True,5.0,Loan Approved. Interest Rate: 5.0%
+27,US,700,38136,self-employed,True,0.35,34882,,True,7.5,Loan Approved. Interest Rate: 7.5%
+40,US,650,86952,employed,False,0.36,43308,{'credit_score': 668},True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,700,44494,employed,False,0.34,16846,,True,7.5,Loan Approved. Interest Rate: 7.5%
+62,US,750,65265,employed,False,0.17,45312,,True,5.0,Loan Approved. Interest Rate: 5.0%
+28,US,700,61347,employed,True,0.19,30219,,True,7.5,Loan Approved. Interest Rate: 7.5%
+43,US,600,123248,employed,True,0.29,17111,{'credit_score': 765},True,10.0,Loan Approved. Interest Rate: 10.0%
+50,US,750,81146,self-employed,False,0.38,5346,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+37,US,700,117587,employed,True,0.21,42801,{'credit_score': 608},True,7.5,Loan Approved. Interest Rate: 7.5%
+18,US,700,98398,employed,True,0.17,29776,,True,7.5,Loan Approved. Interest Rate: 7.5%
+46,US,650,54696,employed,True,0.29,47858,{'credit_score': 745},True,10.0,Loan Approved. Interest Rate: 10.0%
+22,US,650,33025,employed,False,0.2,26833,,True,10.0,Loan Approved. Interest Rate: 10.0%
+50,US,700,69306,self-employed,False,0.24,35397,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+55,US,750,76045,employed,True,0.18,19073,,True,5.0,Loan Approved. Interest Rate: 5.0%
+26,US,750,85412,employed,False,0.11,49089,,True,5.0,Loan Approved. Interest Rate: 5.0%
+26,US,750,128314,employed,True,0.12,27478,,True,5.0,Loan Approved. Interest Rate: 5.0%
+29,US,800,97902,employed,True,0.2,19672,,True,5.0,Loan Approved. Interest Rate: 5.0%
+48,US,650,116157,self-employed,False,0.23,47947,{'credit_score': 686},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+41,US,750,130176,self-employed,True,0.21,20414,{'credit_score': 794},True,5.0,Loan Approved. Interest Rate: 5.0%
+32,US,800,139997,employed,False,0.29,44047,,True,5.0,Loan Approved. Interest Rate: 5.0%
+33,US,800,131417,self-employed,True,0.38,5617,{'credit_score': 652},True,5.0,Loan Approved. Interest Rate: 5.0%
+27,US,700,57830,employed,False,0.31,49965,,True,7.5,Loan Approved. Interest Rate: 7.5%
+47,US,650,126707,employed,False,0.17,13065,{'credit_score': 794},True,10.0,Loan Approved. Interest Rate: 10.0%
+61,US,750,67207,self-employed,True,0.34,16119,{'credit_score': 716},True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,800,49085,employed,True,0.12,28066,,True,5.0,Loan Approved. Interest Rate: 5.0%
+35,US,600,143198,employed,False,0.27,48055,{'credit_score': 647},True,10.0,Loan Approved. Interest Rate: 10.0%
+58,US,600,143648,employed,True,0.24,10986,,True,10.0,Loan Approved. Interest Rate: 10.0%
+26,US,750,112008,employed,False,0.33,36306,{'credit_score': 721},True,5.0,Loan Approved. Interest Rate: 5.0%
+25,US,800,135393,self-employed,True,0.27,43603,,True,5.0,Loan Approved. Interest Rate: 5.0%
+50,US,700,144757,self-employed,True,0.11,8945,,True,7.5,Loan Approved. Interest Rate: 7.5%
+54,US,700,41419,self-employed,True,0.33,38248,{'credit_score': 682},True,7.5,Loan Approved. Interest Rate: 7.5%
+63,US,750,142968,employed,False,0.33,18852,,True,5.0,Loan Approved. Interest Rate: 5.0%
+23,US,700,83271,self-employed,True,0.13,40819,,True,7.5,Loan Approved. Interest Rate: 7.5%
+37,US,600,47218,self-employed,True,0.36,37446,,True,10.0,Loan Approved. Interest Rate: 10.0%
+61,US,650,89211,self-employed,True,0.35,37143,{'credit_score': 661},True,10.0,Loan Approved. Interest Rate: 10.0%
+54,US,600,48068,self-employed,False,0.2,37636,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+46,US,650,145219,self-employed,True,0.18,48108,,True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,750,71183,self-employed,False,0.3,11567,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+51,US,650,38511,employed,False,0.33,5997,,True,10.0,Loan Approved. Interest Rate: 10.0%
+44,US,650,40901,self-employed,False,0.16,27666,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+57,US,800,109610,employed,True,0.37,38152,{'credit_score': 760},True,5.0,Loan Approved. Interest Rate: 5.0%
+49,US,750,104205,self-employed,True,0.25,23549,,True,5.0,Loan Approved. Interest Rate: 5.0%
+35,US,600,109549,employed,True,0.35,16825,,True,10.0,Loan Approved. Interest Rate: 10.0%
+46,US,750,116680,self-employed,False,0.24,26675,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+20,US,800,31414,self-employed,True,0.24,13877,,True,5.0,Loan Approved. Interest Rate: 5.0%
+33,US,800,54054,employed,False,0.12,29713,{'credit_score': 720},True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,750,84316,self-employed,False,0.29,32770,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+36,US,750,137879,self-employed,True,0.17,31125,,True,5.0,Loan Approved. Interest Rate: 5.0%
+30,US,600,136796,employed,True,0.12,36806,,True,10.0,Loan Approved. Interest Rate: 10.0%
+60,US,750,30136,self-employed,False,0.18,30122,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+54,US,600,122686,employed,True,0.29,5134,{'credit_score': 786},True,10.0,Loan Approved. Interest Rate: 10.0%
+58,US,800,34489,self-employed,False,0.25,47473,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+34,US,750,146656,self-employed,False,0.35,41809,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+49,US,600,89275,self-employed,True,0.24,35879,,True,10.0,Loan Approved. Interest Rate: 10.0%
+60,US,800,135410,employed,False,0.11,37977,,True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,600,147072,employed,False,0.34,15363,{'credit_score': 708},True,10.0,Loan Approved. Interest Rate: 10.0%
+63,US,650,55634,employed,False,0.28,42608,,True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,600,146601,self-employed,True,0.1,34587,{'credit_score': 707},True,10.0,Loan Approved. Interest Rate: 10.0%
+25,US,800,59700,self-employed,True,0.19,29006,,True,5.0,Loan Approved. Interest Rate: 5.0%
+35,US,600,118973,employed,False,0.38,47359,,True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,800,54098,self-employed,True,0.32,30495,{'credit_score': 623},True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,750,134105,employed,True,0.16,7736,,True,5.0,Loan Approved. Interest Rate: 5.0%
+43,US,650,36407,employed,False,0.38,6433,,True,10.0,Loan Approved. Interest Rate: 10.0%
+30,US,650,86823,employed,False,0.36,43794,,True,10.0,Loan Approved. Interest Rate: 10.0%
+25,US,750,135526,employed,True,0.24,11238,,True,5.0,Loan Approved. Interest Rate: 5.0%
+65,US,700,119813,self-employed,True,0.12,21737,,True,7.5,Loan Approved. Interest Rate: 7.5%
+41,US,700,92016,self-employed,True,0.19,44385,,True,7.5,Loan Approved. Interest Rate: 7.5%
+37,US,650,78028,employed,True,0.21,7296,,True,10.0,Loan Approved. Interest Rate: 10.0%
+64,US,600,101800,self-employed,False,0.28,42579,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+36,US,700,91245,self-employed,False,0.14,20117,{'credit_score': 762},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+47,US,750,138211,employed,False,0.3,42037,,True,5.0,Loan Approved. Interest Rate: 5.0%
+25,US,600,70500,self-employed,False,0.1,28210,{'credit_score': 761},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+37,US,750,103376,self-employed,True,0.38,49879,{'credit_score': 719},True,5.0,Loan Approved. Interest Rate: 5.0%
+42,US,750,141903,self-employed,True,0.27,34047,{'credit_score': 730},True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,650,60370,self-employed,False,0.19,12638,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+49,US,600,80203,employed,True,0.32,22845,,True,10.0,Loan Approved. Interest Rate: 10.0%
+42,US,750,46399,employed,False,0.22,30455,,True,5.0,Loan Approved. Interest Rate: 5.0%
+26,US,750,121585,self-employed,True,0.13,8561,,True,5.0,Loan Approved. Interest Rate: 5.0%
+18,US,650,56630,employed,False,0.21,31894,,True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,600,71841,employed,False,0.16,42052,{'credit_score': 639},True,10.0,Loan Approved. Interest Rate: 10.0%
+48,US,600,32519,self-employed,False,0.12,39019,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+31,US,700,83405,self-employed,True,0.1,22632,,True,7.5,Loan Approved. Interest Rate: 7.5%
+35,US,750,119426,employed,True,0.24,33327,,True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,650,125984,self-employed,True,0.24,29622,{'credit_score': 661},True,10.0,Loan Approved. Interest Rate: 10.0%
+50,US,600,51767,self-employed,False,0.14,18171,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+30,US,700,51838,self-employed,True,0.16,47553,,True,7.5,Loan Approved. Interest Rate: 7.5%
+24,US,700,93913,employed,True,0.2,7940,,True,7.5,Loan Approved. Interest Rate: 7.5%
+26,US,600,32714,employed,True,0.33,25257,,True,10.0,Loan Approved. Interest Rate: 10.0%
+28,US,800,104364,self-employed,False,0.38,9361,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+59,US,600,140922,self-employed,False,0.15,13732,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+59,US,750,122194,employed,False,0.33,44988,,True,5.0,Loan Approved. Interest Rate: 5.0%
+18,US,800,55947,self-employed,True,0.17,34615,,True,5.0,Loan Approved. Interest Rate: 5.0%
+29,US,800,63961,self-employed,False,0.39,43036,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+32,US,700,34559,employed,True,0.18,33029,,True,7.5,Loan Approved. Interest Rate: 7.5%
+32,US,800,57927,employed,True,0.32,9897,,True,5.0,Loan Approved. Interest Rate: 5.0%
+25,US,750,47085,self-employed,True,0.38,25398,,True,5.0,Loan Approved. Interest Rate: 5.0%
+52,US,700,48891,employed,True,0.25,15445,{'credit_score': 793},True,7.5,Loan Approved. Interest Rate: 7.5%
+57,US,650,100664,self-employed,True,0.28,18131,{'credit_score': 793},True,10.0,Loan Approved. Interest Rate: 10.0%
+19,US,800,83165,employed,True,0.18,45561,{'credit_score': 673},True,5.0,Loan Approved. Interest Rate: 5.0%
+33,US,750,86205,self-employed,True,0.26,9559,{'credit_score': 726},True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,650,43681,employed,True,0.26,36260,,True,10.0,Loan Approved. Interest Rate: 10.0%
+32,US,600,128518,self-employed,False,0.32,49847,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+29,US,750,110736,employed,False,0.34,9379,{'credit_score': 793},True,5.0,Loan Approved. Interest Rate: 5.0%
+23,US,700,80113,self-employed,False,0.38,46584,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+53,US,600,106221,employed,False,0.17,49669,,True,10.0,Loan Approved. Interest Rate: 10.0%
+62,US,800,85503,self-employed,True,0.32,19101,{'credit_score': 759},True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,750,147462,self-employed,False,0.14,10797,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+38,US,650,83800,self-employed,False,0.34,25837,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+23,US,600,128332,self-employed,False,0.16,36313,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+43,US,600,86668,self-employed,True,0.32,47102,{'credit_score': 666},True,10.0,Loan Approved. Interest Rate: 10.0%
+35,US,700,144225,self-employed,False,0.19,30450,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+18,US,750,148059,employed,True,0.15,19449,{'credit_score': 657},True,5.0,Loan Approved. Interest Rate: 5.0%
+24,US,600,126969,self-employed,False,0.39,24032,{'credit_score': 724},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+49,US,700,105765,employed,False,0.36,38149,{'credit_score': 752},True,7.5,Loan Approved. Interest Rate: 7.5%
+48,US,600,31319,employed,False,0.34,21344,{'credit_score': 706},True,10.0,Loan Approved. Interest Rate: 10.0%
+33,US,650,70778,employed,True,0.28,15148,{'credit_score': 661},True,10.0,Loan Approved. Interest Rate: 10.0%
+62,US,800,38966,self-employed,True,0.33,13527,,True,5.0,Loan Approved. Interest Rate: 5.0%
+54,US,800,136283,self-employed,False,0.27,10564,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+65,US,750,37049,employed,False,0.12,38814,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,800,90855,self-employed,True,0.14,36026,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,800,82391,employed,True,0.38,42137,{'credit_score': 737},True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,600,147416,self-employed,True,0.22,29609,,True,10.0,Loan Approved. Interest Rate: 10.0%
+63,US,750,91529,self-employed,False,0.13,47262,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+59,US,800,81327,employed,False,0.33,42078,{'credit_score': 764},True,5.0,Loan Approved. Interest Rate: 5.0%
+26,US,700,132811,self-employed,False,0.24,21255,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+27,US,750,83593,employed,True,0.36,37746,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,700,106410,employed,True,0.18,40822,{'credit_score': 619},True,7.5,Loan Approved. Interest Rate: 7.5%
+29,US,600,106786,self-employed,True,0.21,19220,{'credit_score': 658},True,10.0,Loan Approved. Interest Rate: 10.0%
+31,US,700,132184,self-employed,False,0.3,10261,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+35,US,700,79008,self-employed,True,0.29,34532,,True,7.5,Loan Approved. Interest Rate: 7.5%
+39,US,750,86379,self-employed,True,0.22,32458,,True,5.0,Loan Approved. Interest Rate: 5.0%
+31,US,650,130922,self-employed,True,0.28,27867,{'credit_score': 765},True,10.0,Loan Approved. Interest Rate: 10.0%
+34,US,800,116559,self-employed,False,0.27,21646,{'credit_score': 641},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+45,US,700,52368,employed,True,0.13,11812,,True,7.5,Loan Approved. Interest Rate: 7.5%
+22,US,800,142319,employed,False,0.12,20105,{'credit_score': 694},True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,600,56309,self-employed,False,0.35,49232,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+58,US,750,56579,employed,True,0.32,36293,,True,5.0,Loan Approved. Interest Rate: 5.0%
+27,US,600,78367,self-employed,False,0.34,40903,{'credit_score': 721},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+37,US,800,65516,self-employed,False,0.21,45609,{'credit_score': 656},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+23,US,650,92160,employed,False,0.36,44878,{'credit_score': 677},True,10.0,Loan Approved. Interest Rate: 10.0%
+18,US,650,106461,employed,False,0.36,18973,,True,10.0,Loan Approved. Interest Rate: 10.0%
+61,US,750,62538,self-employed,True,0.28,6116,,True,5.0,Loan Approved. Interest Rate: 5.0%
+25,US,750,144066,self-employed,True,0.19,48409,,True,5.0,Loan Approved. Interest Rate: 5.0%
+46,US,700,143856,employed,False,0.16,14479,,True,7.5,Loan Approved. Interest Rate: 7.5%
+25,US,800,62541,employed,True,0.25,47575,,True,5.0,Loan Approved. Interest Rate: 5.0%
+60,US,800,88334,employed,True,0.34,40059,,True,5.0,Loan Approved. Interest Rate: 5.0%
+19,US,700,123391,self-employed,False,0.24,27773,{'credit_score': 710},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+58,US,700,59944,employed,False,0.34,26509,,True,7.5,Loan Approved. Interest Rate: 7.5%
+61,US,800,43907,self-employed,True,0.22,38185,,True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,600,120313,employed,True,0.12,27398,,True,10.0,Loan Approved. Interest Rate: 10.0%
+33,US,650,105208,self-employed,True,0.3,39173,,True,10.0,Loan Approved. Interest Rate: 10.0%
+50,US,650,78760,self-employed,False,0.2,42812,{'credit_score': 718},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+27,US,700,71198,self-employed,True,0.22,33643,,True,7.5,Loan Approved. Interest Rate: 7.5%
+37,US,600,73909,employed,True,0.27,22771,,True,10.0,Loan Approved. Interest Rate: 10.0%
+52,US,750,78476,employed,False,0.29,5951,,True,5.0,Loan Approved. Interest Rate: 5.0%
+20,US,650,120770,self-employed,False,0.15,32707,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+47,US,800,133489,self-employed,True,0.14,32555,{'credit_score': 718},True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,600,144573,employed,True,0.16,15498,,True,10.0,Loan Approved. Interest Rate: 10.0%
+33,US,700,72559,self-employed,False,0.16,21986,{'credit_score': 665},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+35,US,650,74202,self-employed,True,0.15,35099,,True,10.0,Loan Approved. Interest Rate: 10.0%
+35,US,800,73082,employed,False,0.16,18232,,True,5.0,Loan Approved. Interest Rate: 5.0%
+51,US,650,110450,employed,True,0.28,42757,,True,10.0,Loan Approved. Interest Rate: 10.0%
+53,US,650,113201,self-employed,False,0.21,30748,{'credit_score': 610},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+22,US,700,36828,self-employed,False,0.24,39889,{'credit_score': 789},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+37,US,800,63482,employed,False,0.19,19875,,True,5.0,Loan Approved. Interest Rate: 5.0%
+22,US,600,147946,employed,False,0.2,26153,,True,10.0,Loan Approved. Interest Rate: 10.0%
+35,US,650,81134,self-employed,True,0.2,26784,{'credit_score': 733},True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,750,118630,self-employed,False,0.2,30787,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+53,US,600,132726,employed,True,0.27,47233,,True,10.0,Loan Approved. Interest Rate: 10.0%
+24,US,650,88328,self-employed,False,0.25,47082,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+27,US,600,59068,employed,False,0.22,42424,,True,10.0,Loan Approved. Interest Rate: 10.0%
+49,US,750,30183,self-employed,True,0.22,35181,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,700,36757,employed,True,0.2,29471,,True,7.5,Loan Approved. Interest Rate: 7.5%
+49,US,800,87282,employed,False,0.14,16841,{'credit_score': 645},True,5.0,Loan Approved. Interest Rate: 5.0%
+34,US,600,52536,employed,False,0.28,20802,,True,10.0,Loan Approved. Interest Rate: 10.0%
+62,US,600,54744,self-employed,False,0.14,16476,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+57,US,800,116934,employed,False,0.18,21038,,True,5.0,Loan Approved. Interest Rate: 5.0%
+26,US,600,51524,self-employed,False,0.36,18875,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+46,US,600,118438,employed,False,0.26,31117,,True,10.0,Loan Approved. Interest Rate: 10.0%
+57,US,750,56088,employed,False,0.3,6491,,True,5.0,Loan Approved. Interest Rate: 5.0%
+63,US,700,80180,self-employed,True,0.27,46064,,True,7.5,Loan Approved. Interest Rate: 7.5%
+27,US,800,144688,self-employed,True,0.19,37786,,True,5.0,Loan Approved. Interest Rate: 5.0%
+23,US,800,137216,employed,True,0.33,11642,,True,5.0,Loan Approved. Interest Rate: 5.0%
+34,US,750,145049,self-employed,False,0.3,33531,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+26,US,600,88366,employed,False,0.24,41110,,True,10.0,Loan Approved. Interest Rate: 10.0%
+30,US,750,131605,self-employed,False,0.33,39312,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+37,US,650,48518,employed,True,0.12,26545,,True,10.0,Loan Approved. Interest Rate: 10.0%
+24,US,750,122359,self-employed,False,0.36,11426,{'credit_score': 620},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+19,US,800,111196,self-employed,False,0.23,25221,{'credit_score': 626},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+60,US,800,142973,employed,True,0.39,39029,,True,5.0,Loan Approved. Interest Rate: 5.0%
+49,US,700,123392,self-employed,True,0.37,20517,,True,7.5,Loan Approved. Interest Rate: 7.5%
+34,US,650,70760,employed,False,0.22,15474,,True,10.0,Loan Approved. Interest Rate: 10.0%
+21,US,650,90044,self-employed,True,0.19,25756,,True,10.0,Loan Approved. Interest Rate: 10.0%
+48,US,650,124290,self-employed,True,0.39,11550,{'credit_score': 770},True,10.0,Loan Approved. Interest Rate: 10.0%
+40,US,650,96171,self-employed,False,0.37,18079,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+24,US,700,131692,self-employed,True,0.11,5666,,True,7.5,Loan Approved. Interest Rate: 7.5%
+48,US,600,116280,employed,False,0.12,24100,,True,10.0,Loan Approved. Interest Rate: 10.0%
+60,US,650,78181,employed,False,0.38,38559,,True,10.0,Loan Approved. Interest Rate: 10.0%
+27,US,750,100203,employed,False,0.32,30902,,True,5.0,Loan Approved. Interest Rate: 5.0%
+22,US,800,106418,employed,False,0.39,30001,,True,5.0,Loan Approved. Interest Rate: 5.0%
+46,US,800,53194,self-employed,True,0.11,20812,{'credit_score': 788},True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,600,144063,employed,False,0.12,8082,{'credit_score': 737},True,10.0,Loan Approved. Interest Rate: 10.0%
+44,US,600,45635,employed,True,0.23,31227,,True,10.0,Loan Approved. Interest Rate: 10.0%
+22,US,650,48185,self-employed,False,0.32,8921,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+42,US,800,42267,self-employed,True,0.25,28967,,True,5.0,Loan Approved. Interest Rate: 5.0%
+65,US,750,68053,employed,True,0.16,33948,,True,5.0,Loan Approved. Interest Rate: 5.0%
+33,US,750,53260,employed,True,0.31,46267,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,600,31488,employed,False,0.3,31983,{'credit_score': 734},True,10.0,Loan Approved. Interest Rate: 10.0%
+23,US,700,75272,self-employed,True,0.28,9242,,True,7.5,Loan Approved. Interest Rate: 7.5%
+62,US,700,139726,self-employed,True,0.33,5109,,True,7.5,Loan Approved. Interest Rate: 7.5%
+33,US,650,100544,employed,False,0.18,37659,{'credit_score': 693},True,10.0,Loan Approved. Interest Rate: 10.0%
+28,US,750,146721,self-employed,True,0.37,22996,{'credit_score': 735},True,5.0,Loan Approved. Interest Rate: 5.0%
+50,US,750,45366,self-employed,True,0.12,47956,,True,5.0,Loan Approved. Interest Rate: 5.0%
+18,US,800,45672,self-employed,True,0.2,41692,,True,5.0,Loan Approved. Interest Rate: 5.0%
+25,US,750,93459,self-employed,True,0.22,25313,,True,5.0,Loan Approved. Interest Rate: 5.0%
+37,US,750,114842,self-employed,True,0.21,27095,{'credit_score': 663},True,5.0,Loan Approved. Interest Rate: 5.0%
+35,US,700,38898,self-employed,False,0.11,33519,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+28,US,600,58060,self-employed,True,0.26,38258,,True,10.0,Loan Approved. Interest Rate: 10.0%
+41,US,800,127146,self-employed,True,0.34,11988,,True,5.0,Loan Approved. Interest Rate: 5.0%
+37,US,800,66033,self-employed,True,0.28,11985,,True,5.0,Loan Approved. Interest Rate: 5.0%
+47,US,750,123589,self-employed,False,0.26,34075,{'credit_score': 741},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+24,US,800,72369,employed,False,0.29,30018,{'credit_score': 760},True,5.0,Loan Approved. Interest Rate: 5.0%
+49,US,700,126296,self-employed,False,0.34,25067,{'credit_score': 626},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+47,US,650,144580,employed,True,0.31,31772,,True,10.0,Loan Approved. Interest Rate: 10.0%
+53,US,750,115197,self-employed,True,0.26,48813,,True,5.0,Loan Approved. Interest Rate: 5.0%
+46,US,750,34867,self-employed,False,0.36,25836,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+55,US,700,122385,employed,False,0.33,48859,,True,7.5,Loan Approved. Interest Rate: 7.5%
+48,US,700,37001,self-employed,True,0.1,43153,,True,7.5,Loan Approved. Interest Rate: 7.5%
+38,US,750,56415,employed,True,0.12,12303,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,800,33800,self-employed,True,0.2,48778,,True,5.0,Loan Approved. Interest Rate: 5.0%
+43,US,800,31606,employed,False,0.24,12333,,True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,600,111523,self-employed,False,0.33,11815,{'credit_score': 714},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+21,US,750,76785,employed,True,0.15,32952,{'credit_score': 601},True,5.0,Loan Approved. Interest Rate: 5.0%
+54,US,650,128090,self-employed,False,0.22,26767,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+29,US,650,40799,employed,True,0.33,49931,,True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,700,132972,self-employed,True,0.22,25063,{'credit_score': 657},True,7.5,Loan Approved. Interest Rate: 7.5%
+19,US,600,108952,self-employed,False,0.32,30592,{'credit_score': 791},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+31,US,800,80793,employed,False,0.18,18666,,True,5.0,Loan Approved. Interest Rate: 5.0%
+35,US,700,128457,employed,True,0.28,26494,,True,7.5,Loan Approved. Interest Rate: 7.5%
+35,US,600,106965,self-employed,False,0.37,19814,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+26,US,750,133950,self-employed,True,0.35,27019,,True,5.0,Loan Approved. Interest Rate: 5.0%
+46,US,600,85238,employed,True,0.27,17541,,True,10.0,Loan Approved. Interest Rate: 10.0%
+58,US,600,47079,self-employed,False,0.13,21643,{'credit_score': 635},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+22,US,800,56128,self-employed,False,0.28,47217,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+49,US,700,85262,employed,True,0.22,8828,,True,7.5,Loan Approved. Interest Rate: 7.5%
+46,US,800,97849,employed,False,0.3,5170,{'credit_score': 662},True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,650,47880,self-employed,True,0.32,23875,,True,10.0,Loan Approved. Interest Rate: 10.0%
+45,US,600,71371,self-employed,True,0.21,34548,{'credit_score': 688},True,10.0,Loan Approved. Interest Rate: 10.0%
+48,US,700,35687,self-employed,True,0.37,47368,{'credit_score': 633},True,7.5,Loan Approved. Interest Rate: 7.5%
+26,US,700,51001,employed,False,0.25,31313,{'credit_score': 685},True,7.5,Loan Approved. Interest Rate: 7.5%
+63,US,800,123596,self-employed,False,0.12,35752,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+46,US,700,147154,self-employed,False,0.22,18705,{'credit_score': 779},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+37,US,700,126848,employed,False,0.19,22105,,True,7.5,Loan Approved. Interest Rate: 7.5%
+43,US,750,67792,employed,False,0.12,17883,,True,5.0,Loan Approved. Interest Rate: 5.0%
+30,US,800,67835,employed,True,0.1,16524,,True,5.0,Loan Approved. Interest Rate: 5.0%
+30,US,750,41774,employed,True,0.35,28601,{'credit_score': 691},True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,800,122460,self-employed,True,0.18,39349,,True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,800,101989,employed,True,0.34,32277,,True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,600,144240,self-employed,True,0.11,36615,,True,10.0,Loan Approved. Interest Rate: 10.0%
+58,US,650,84285,employed,True,0.14,10029,,True,10.0,Loan Approved. Interest Rate: 10.0%
+63,US,600,140647,employed,False,0.17,36509,{'credit_score': 645},True,10.0,Loan Approved. Interest Rate: 10.0%
+25,US,650,59166,employed,False,0.29,9387,{'credit_score': 751},True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,800,83690,self-employed,False,0.35,19268,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+41,US,600,77844,employed,False,0.38,43879,{'credit_score': 636},True,10.0,Loan Approved. Interest Rate: 10.0%
+19,US,700,31213,employed,True,0.36,23342,,True,7.5,Loan Approved. Interest Rate: 7.5%
+29,US,650,138784,employed,True,0.12,45232,,True,10.0,Loan Approved. Interest Rate: 10.0%
+60,US,700,117421,self-employed,False,0.14,11353,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+33,US,700,89440,employed,True,0.25,12693,{'credit_score': 688},True,7.5,Loan Approved. Interest Rate: 7.5%
+59,US,800,88167,self-employed,True,0.38,22342,,True,5.0,Loan Approved. Interest Rate: 5.0%
+43,US,800,73367,employed,False,0.34,11898,,True,5.0,Loan Approved. Interest Rate: 5.0%
+62,US,650,54946,self-employed,True,0.15,37952,,True,10.0,Loan Approved. Interest Rate: 10.0%
+26,US,650,83370,employed,True,0.18,30974,,True,10.0,Loan Approved. Interest Rate: 10.0%
+31,US,750,132059,employed,False,0.17,24516,,True,5.0,Loan Approved. Interest Rate: 5.0%
+21,US,800,107479,employed,True,0.33,10132,,True,5.0,Loan Approved. Interest Rate: 5.0%
+64,US,600,79256,self-employed,True,0.14,33720,{'credit_score': 673},True,10.0,Loan Approved. Interest Rate: 10.0%
+32,US,600,73672,self-employed,False,0.13,22177,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+30,US,600,97293,self-employed,True,0.21,39057,{'credit_score': 630},True,10.0,Loan Approved. Interest Rate: 10.0%
+50,US,600,47639,employed,True,0.2,13153,,True,10.0,Loan Approved. Interest Rate: 10.0%
+62,US,750,42010,employed,False,0.26,33302,,True,5.0,Loan Approved. Interest Rate: 5.0%
+58,US,600,75842,self-employed,True,0.32,10596,,True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,750,122857,employed,True,0.3,29852,,True,5.0,Loan Approved. Interest Rate: 5.0%
+32,US,800,127584,employed,False,0.24,26482,{'credit_score': 639},True,5.0,Loan Approved. Interest Rate: 5.0%
+38,US,600,111432,self-employed,False,0.27,26633,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+22,US,600,121068,self-employed,True,0.27,48735,,True,10.0,Loan Approved. Interest Rate: 10.0%
+59,US,650,119138,employed,False,0.33,20835,,True,10.0,Loan Approved. Interest Rate: 10.0%
+51,US,800,85756,self-employed,False,0.34,18371,{'credit_score': 629},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+27,US,800,143753,employed,True,0.37,6132,,True,5.0,Loan Approved. Interest Rate: 5.0%
+31,US,750,145092,employed,True,0.2,35433,,True,5.0,Loan Approved. Interest Rate: 5.0%
+60,US,800,105409,employed,True,0.22,15749,,True,5.0,Loan Approved. Interest Rate: 5.0%
+42,US,700,32934,employed,False,0.28,23580,{'credit_score': 753},True,7.5,Loan Approved. Interest Rate: 7.5%
+45,US,800,47592,self-employed,False,0.11,34599,{'credit_score': 636},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+32,US,700,36133,employed,False,0.29,7897,,True,7.5,Loan Approved. Interest Rate: 7.5%
+30,US,800,35612,employed,False,0.27,45339,{'credit_score': 647},True,5.0,Loan Approved. Interest Rate: 5.0%
+24,US,700,56351,employed,True,0.28,11135,,True,7.5,Loan Approved. Interest Rate: 7.5%
+18,US,800,118379,self-employed,False,0.12,36200,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+52,US,600,103727,self-employed,False,0.34,41346,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+27,US,650,76456,employed,False,0.38,14557,,True,10.0,Loan Approved. Interest Rate: 10.0%
+52,US,600,108047,self-employed,True,0.25,23524,,True,10.0,Loan Approved. Interest Rate: 10.0%
+55,US,600,142085,employed,True,0.39,37594,{'credit_score': 685},True,10.0,Loan Approved. Interest Rate: 10.0%
+44,US,800,77441,self-employed,False,0.2,33692,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+28,US,650,90260,self-employed,True,0.35,32483,,True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,750,34405,employed,True,0.27,47527,{'credit_score': 621},True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,800,102517,employed,True,0.25,16711,{'credit_score': 602},True,5.0,Loan Approved. Interest Rate: 5.0%
+44,US,800,127153,employed,True,0.1,7065,,True,5.0,Loan Approved. Interest Rate: 5.0%
+47,US,700,135028,self-employed,False,0.21,33273,{'credit_score': 714},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+25,US,650,115329,self-employed,True,0.35,20463,,True,10.0,Loan Approved. Interest Rate: 10.0%
+44,US,700,80630,self-employed,True,0.19,25972,{'credit_score': 669},True,7.5,Loan Approved. Interest Rate: 7.5%
+62,US,750,43289,employed,True,0.29,32417,,True,5.0,Loan Approved. Interest Rate: 5.0%
+51,US,800,90631,employed,False,0.23,22508,,True,5.0,Loan Approved. Interest Rate: 5.0%
+55,US,650,122890,self-employed,False,0.2,32792,{'credit_score': 729},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+24,US,750,39432,self-employed,False,0.11,14414,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+22,US,800,97733,employed,True,0.16,5775,{'credit_score': 638},True,5.0,Loan Approved. Interest Rate: 5.0%
+60,US,700,75956,employed,False,0.17,30922,,True,7.5,Loan Approved. Interest Rate: 7.5%
+36,US,700,143460,employed,True,0.18,9391,,True,7.5,Loan Approved. Interest Rate: 7.5%
+32,US,800,132966,self-employed,True,0.29,42510,{'credit_score': 705},True,5.0,Loan Approved. Interest Rate: 5.0%
+41,US,600,30583,employed,False,0.32,49778,,True,10.0,Loan Approved. Interest Rate: 10.0%
+32,US,600,86700,self-employed,False,0.12,6569,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+63,US,650,102016,employed,True,0.38,41027,{'credit_score': 683},True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,600,136744,self-employed,True,0.37,7506,{'credit_score': 690},True,10.0,Loan Approved. Interest Rate: 10.0%
+28,US,800,117832,self-employed,True,0.11,23625,,True,5.0,Loan Approved. Interest Rate: 5.0%
+18,US,600,78009,employed,False,0.32,15651,{'credit_score': 765},True,10.0,Loan Approved. Interest Rate: 10.0%
+26,US,800,138829,self-employed,True,0.27,14331,,True,5.0,Loan Approved. Interest Rate: 5.0%
+43,US,600,76746,self-employed,False,0.24,7692,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+36,US,600,115200,self-employed,True,0.21,27375,{'credit_score': 677},True,10.0,Loan Approved. Interest Rate: 10.0%
+27,US,750,72148,self-employed,True,0.14,43402,{'credit_score': 640},True,5.0,Loan Approved. Interest Rate: 5.0%
+24,US,800,135365,employed,True,0.14,5965,,True,5.0,Loan Approved. Interest Rate: 5.0%
+45,US,650,134694,self-employed,True,0.25,40199,,True,10.0,Loan Approved. Interest Rate: 10.0%
+36,US,750,77134,employed,True,0.33,36249,,True,5.0,Loan Approved. Interest Rate: 5.0%
+53,US,650,33133,self-employed,False,0.22,16204,{'credit_score': 799},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+38,US,700,84728,self-employed,False,0.19,45749,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+58,US,700,31092,employed,False,0.38,47572,{'credit_score': 701},True,7.5,Loan Approved. Interest Rate: 7.5%
+45,US,700,50347,employed,False,0.25,22054,,True,7.5,Loan Approved. Interest Rate: 7.5%
+51,US,700,122182,employed,True,0.12,30192,{'credit_score': 630},True,7.5,Loan Approved. Interest Rate: 7.5%
+54,US,800,101971,self-employed,False,0.13,9465,{'credit_score': 633},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+44,US,600,81162,self-employed,True,0.11,23054,,True,10.0,Loan Approved. Interest Rate: 10.0%
+65,US,750,102365,employed,False,0.16,33020,,True,5.0,Loan Approved. Interest Rate: 5.0%
+18,US,600,143345,self-employed,False,0.22,41477,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+63,US,800,116561,employed,True,0.16,44254,,True,5.0,Loan Approved. Interest Rate: 5.0%
+61,US,750,69663,self-employed,False,0.27,38698,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+45,US,800,134853,self-employed,False,0.21,39844,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+48,US,800,43123,self-employed,True,0.26,41844,,True,5.0,Loan Approved. Interest Rate: 5.0%
+56,US,600,140700,employed,True,0.24,15045,,True,10.0,Loan Approved. Interest Rate: 10.0%
+41,US,800,76704,employed,True,0.39,15779,,True,5.0,Loan Approved. Interest Rate: 5.0%
+29,US,600,37411,employed,True,0.27,47710,{'credit_score': 609},True,10.0,Loan Approved. Interest Rate: 10.0%
+65,US,800,97467,self-employed,False,0.39,21680,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+48,US,600,82387,self-employed,True,0.18,21501,,True,10.0,Loan Approved. Interest Rate: 10.0%
+21,US,750,110224,self-employed,False,0.26,41055,{'credit_score': 785},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+38,US,750,81695,employed,False,0.27,23467,{'credit_score': 698},True,5.0,Loan Approved. Interest Rate: 5.0%
+63,US,750,49118,employed,False,0.35,41828,,True,5.0,Loan Approved. Interest Rate: 5.0%
+41,US,750,148578,employed,False,0.36,27527,,True,5.0,Loan Approved. Interest Rate: 5.0%
+44,US,750,115154,self-employed,True,0.35,21416,,True,5.0,Loan Approved. Interest Rate: 5.0%
+25,US,650,140298,self-employed,False,0.2,38427,,False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+34,US,750,127171,employed,True,0.31,19522,{'credit_score': 644},True,5.0,Loan Approved. Interest Rate: 5.0%
+23,US,700,97676,self-employed,False,0.29,31919,{'credit_score': 735},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+29,US,750,123499,employed,True,0.25,30935,,True,5.0,Loan Approved. Interest Rate: 5.0%
+40,US,600,126967,employed,True,0.37,17826,{'credit_score': 763},True,10.0,Loan Approved. Interest Rate: 10.0%
+24,US,750,56308,employed,False,0.3,42163,,True,5.0,Loan Approved. Interest Rate: 5.0%
+50,US,700,116153,self-employed,True,0.14,7934,{'credit_score': 735},True,7.5,Loan Approved. Interest Rate: 7.5%
+35,US,600,134807,self-employed,True,0.38,8936,,True,10.0,Loan Approved. Interest Rate: 10.0%
+37,US,600,84029,employed,False,0.34,49398,,True,10.0,Loan Approved. Interest Rate: 10.0%
+65,US,700,48699,employed,False,0.34,26050,,True,7.5,Loan Approved. Interest Rate: 7.5%
+63,US,650,78170,employed,False,0.31,31304,,True,10.0,Loan Approved. Interest Rate: 10.0%
+29,US,600,101571,employed,False,0.2,35761,,True,10.0,Loan Approved. Interest Rate: 10.0%
+47,US,650,124034,self-employed,True,0.16,22367,,True,10.0,Loan Approved. Interest Rate: 10.0%
+48,US,650,50698,employed,False,0.35,31489,,True,10.0,Loan Approved. Interest Rate: 10.0%
+49,US,700,78164,self-employed,False,0.1,13440,{'credit_score': 787},False,0.0,Self-employed applicants must provide at least 2 years of financial records.
+48,US,800,135673,employed,False,0.21,25511,,True,5.0,Loan Approved. Interest Rate: 5.0%
+61,US,800,56465,employed,False,0.37,40516,{'credit_score': 656},True,5.0,Loan Approved. Interest Rate: 5.0%
+16,Mexico,550,10000,self-employed,False,0.58,60000,{'credit_score': 452},False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,10000,self-employed,False,0.53,60000,{'credit_score': 484},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,10000,unemployed,False,0.48,1000,{'credit_score': 528},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,20000,self-employed,False,0.69,1000,{'credit_score': 437},False,0.0,Applicant must be at least 18 years old.
+66,Canada,550,20000,self-employed,False,0.7,1000,{'credit_score': 426},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,29000,unemployed,False,0.63,60000,{'credit_score': 469},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,20000,unemployed,False,0.46,60000,{'credit_score': 456},False,0.0,Applicant must be at least 18 years old.
+17,UK,400,29000,self-employed,False,0.55,60000,{'credit_score': 511},False,0.0,Applicant must be at least 18 years old.
+17,UK,500,10000,unemployed,False,0.47,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,29000,unemployed,False,0.58,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,20000,unemployed,False,0.59,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,500,29000,self-employed,False,0.57,60000,{'credit_score': 538},False,0.0,Applicant must be at least 18 years old.
+75,UK,550,10000,unemployed,False,0.52,1000,{'credit_score': 493},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,500,10000,unemployed,False,0.79,60000,{'credit_score': 545},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,10000,unemployed,False,0.56,60000,{'credit_score': 511},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,10000,self-employed,False,0.71,1000,{'credit_score': 479},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,self-employed,False,0.65,60000,{'credit_score': 439},False,0.0,Applicant must be at least 18 years old.
+66,Canada,550,10000,self-employed,False,0.6,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,29000,unemployed,False,0.72,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,10000,unemployed,False,0.68,1000,{'credit_score': 514},False,0.0,Applicant must be at least 18 years old.
+17,UK,550,29000,unemployed,False,0.57,60000,{'credit_score': 449},False,0.0,Applicant must be at least 18 years old.
+16,Canada,500,20000,self-employed,False,0.55,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,10000,self-employed,False,0.75,60000,{'credit_score': 512},False,0.0,Applicant must be at least 18 years old.
+66,UK,500,10000,self-employed,False,0.42,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,29000,unemployed,False,0.61,60000,{'credit_score': 419},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,29000,self-employed,False,0.49,60000,{'credit_score': 481},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,29000,unemployed,False,0.54,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,400,29000,self-employed,False,0.43,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,20000,unemployed,False,0.7,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,29000,unemployed,False,0.62,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,29000,self-employed,False,0.74,60000,{'credit_score': 438},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,500,10000,self-employed,False,0.54,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,500,20000,self-employed,False,0.52,60000,{'credit_score': 407},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,10000,unemployed,False,0.54,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,20000,self-employed,False,0.52,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,20000,self-employed,False,0.44,60000,,False,0.0,Applicant must be at least 18 years old.
+16,UK,500,20000,self-employed,False,0.59,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,29000,self-employed,False,0.76,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,29000,unemployed,False,0.65,60000,{'credit_score': 408},False,0.0,Applicant must be at least 18 years old.
+75,UK,550,20000,unemployed,False,0.52,60000,{'credit_score': 431},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,20000,self-employed,False,0.56,1000,{'credit_score': 534},False,0.0,Applicant must be at least 18 years old.
+75,UK,550,10000,unemployed,False,0.73,1000,{'credit_score': 486},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,29000,self-employed,False,0.75,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,29000,unemployed,False,0.41,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,10000,self-employed,False,0.72,1000,{'credit_score': 538},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,20000,unemployed,False,0.52,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,500,20000,self-employed,False,0.52,1000,{'credit_score': 482},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,self-employed,False,0.7,60000,,False,0.0,Applicant must be at least 18 years old.
+16,UK,500,20000,unemployed,False,0.76,60000,{'credit_score': 497},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,10000,self-employed,False,0.47,60000,{'credit_score': 491},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,20000,self-employed,False,0.55,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,20000,unemployed,False,0.65,1000,{'credit_score': 413},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,20000,self-employed,False,0.42,1000,{'credit_score': 469},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,500,20000,self-employed,False,0.68,60000,,False,0.0,Applicant must be at least 18 years old.
+16,UK,400,29000,self-employed,False,0.57,60000,{'credit_score': 409},False,0.0,Applicant must be at least 18 years old.
+17,Canada,550,10000,unemployed,False,0.71,1000,{'credit_score': 438},False,0.0,Applicant must be at least 18 years old.
+66,UK,400,20000,unemployed,False,0.79,60000,{'credit_score': 453},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,29000,unemployed,False,0.61,60000,{'credit_score': 413},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,29000,self-employed,False,0.7,1000,{'credit_score': 529},False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,10000,self-employed,False,0.71,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,500,20000,self-employed,False,0.48,1000,{'credit_score': 457},False,0.0,Applicant must be at least 18 years old.
+16,UK,550,10000,unemployed,False,0.56,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,20000,unemployed,False,0.76,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,400,10000,unemployed,False,0.59,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,29000,self-employed,False,0.65,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,20000,self-employed,False,0.66,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,400,29000,unemployed,False,0.58,1000,{'credit_score': 481},False,0.0,Applicant must be at least 18 years old.
+66,Canada,550,29000,unemployed,False,0.77,1000,{'credit_score': 446},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,400,10000,unemployed,False,0.43,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,500,20000,unemployed,False,0.53,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,10000,unemployed,False,0.53,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,20000,self-employed,False,0.56,1000,{'credit_score': 442},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,20000,self-employed,False,0.79,1000,{'credit_score': 514},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,20000,self-employed,False,0.57,1000,{'credit_score': 443},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,20000,self-employed,False,0.65,1000,{'credit_score': 408},False,0.0,Applicant must be at least 18 years old.
+16,Canada,550,20000,self-employed,False,0.8,60000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,550,10000,unemployed,False,0.5,60000,{'credit_score': 445},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,10000,self-employed,False,0.73,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,10000,self-employed,False,0.58,60000,{'credit_score': 406},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,20000,self-employed,False,0.6,1000,{'credit_score': 535},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,unemployed,False,0.51,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,self-employed,False,0.76,1000,{'credit_score': 420},False,0.0,Applicant must be at least 18 years old.
+66,UK,400,29000,self-employed,False,0.46,1000,{'credit_score': 424},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,500,29000,self-employed,False,0.46,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,500,10000,self-employed,False,0.46,1000,{'credit_score': 488},False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,20000,unemployed,False,0.58,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,10000,unemployed,False,0.53,60000,{'credit_score': 512},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,10000,self-employed,False,0.43,60000,{'credit_score': 479},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,self-employed,False,0.64,1000,{'credit_score': 489},False,0.0,Applicant must be at least 18 years old.
+75,Canada,500,29000,unemployed,False,0.58,60000,{'credit_score': 417},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,29000,unemployed,False,0.48,60000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,550,10000,unemployed,False,0.65,1000,{'credit_score': 402},False,0.0,Applicant must be at least 18 years old.
+66,UK,500,20000,unemployed,False,0.42,1000,{'credit_score': 438},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,20000,self-employed,False,0.53,1000,{'credit_score': 425},False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,29000,unemployed,False,0.57,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,29000,self-employed,False,0.49,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,29000,unemployed,False,0.68,60000,{'credit_score': 444},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,500,20000,self-employed,False,0.73,1000,{'credit_score': 415},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,29000,unemployed,False,0.59,60000,{'credit_score': 454},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,10000,unemployed,False,0.6,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,10000,self-employed,False,0.44,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,29000,unemployed,False,0.76,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,400,20000,unemployed,False,0.53,1000,{'credit_score': 542},False,0.0,Applicant must be at least 18 years old.
+17,UK,500,29000,unemployed,False,0.78,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,550,10000,self-employed,False,0.78,60000,{'credit_score': 459},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,20000,self-employed,False,0.56,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,20000,self-employed,False,0.46,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,10000,unemployed,False,0.7,60000,{'credit_score': 438},False,0.0,Applicant must be at least 18 years old.
+16,Canada,400,20000,unemployed,False,0.59,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,500,10000,self-employed,False,0.47,60000,{'credit_score': 512},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,400,20000,self-employed,False,0.67,1000,{'credit_score': 475},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,400,20000,self-employed,False,0.49,1000,{'credit_score': 416},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,400,29000,self-employed,False,0.43,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,550,29000,unemployed,False,0.65,60000,{'credit_score': 442},False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,10000,unemployed,False,0.78,1000,{'credit_score': 435},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,10000,unemployed,False,0.57,60000,,False,0.0,Applicant must be at least 18 years old.
+66,UK,550,20000,unemployed,False,0.46,60000,{'credit_score': 470},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,10000,unemployed,False,0.5,1000,{'credit_score': 518},False,0.0,Applicant must be at least 18 years old.
+17,UK,550,20000,self-employed,False,0.44,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,29000,unemployed,False,0.79,60000,{'credit_score': 544},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,10000,unemployed,False,0.67,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,20000,self-employed,False,0.66,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,20000,self-employed,False,0.76,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,29000,unemployed,False,0.59,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,10000,self-employed,False,0.41,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,29000,unemployed,False,0.53,60000,{'credit_score': 535},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,29000,unemployed,False,0.41,1000,{'credit_score': 429},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,400,10000,self-employed,False,0.66,1000,{'credit_score': 516},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,self-employed,False,0.71,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,550,10000,unemployed,False,0.59,1000,{'credit_score': 537},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,20000,unemployed,False,0.51,60000,{'credit_score': 498},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,550,10000,unemployed,False,0.47,1000,{'credit_score': 547},False,0.0,Applicant must be at least 18 years old.
+66,UK,550,29000,self-employed,False,0.8,60000,{'credit_score': 476},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,500,20000,unemployed,False,0.59,1000,{'credit_score': 515},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,500,20000,self-employed,False,0.8,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,400,10000,self-employed,False,0.78,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,29000,unemployed,False,0.77,1000,{'credit_score': 401},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,550,29000,unemployed,False,0.68,1000,{'credit_score': 515},False,0.0,Applicant must be at least 18 years old.
+75,UK,500,29000,self-employed,False,0.6,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,20000,self-employed,False,0.51,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,unemployed,False,0.49,1000,{'credit_score': 402},False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,10000,unemployed,False,0.65,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,29000,self-employed,False,0.54,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,10000,unemployed,False,0.71,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,20000,unemployed,False,0.47,60000,{'credit_score': 442},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,29000,unemployed,False,0.67,1000,{'credit_score': 435},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,20000,self-employed,False,0.69,1000,{'credit_score': 501},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,20000,self-employed,False,0.45,60000,{'credit_score': 424},False,0.0,Applicant must be at least 18 years old.
+16,UK,400,20000,unemployed,False,0.76,60000,{'credit_score': 485},False,0.0,Applicant must be at least 18 years old.
+66,Canada,550,29000,self-employed,False,0.75,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,10000,unemployed,False,0.43,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,self-employed,False,0.43,1000,{'credit_score': 526},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,self-employed,False,0.59,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,29000,self-employed,False,0.79,60000,{'credit_score': 423},False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,10000,self-employed,False,0.5,1000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,400,29000,self-employed,False,0.47,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,550,10000,self-employed,False,0.71,60000,{'credit_score': 506},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,10000,unemployed,False,0.77,1000,{'credit_score': 408},False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,29000,unemployed,False,0.79,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,400,29000,unemployed,False,0.49,1000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,400,20000,unemployed,False,0.76,1000,{'credit_score': 547},False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,10000,unemployed,False,0.59,60000,{'credit_score': 465},False,0.0,Applicant must be at least 18 years old.
+16,UK,500,20000,self-employed,False,0.69,1000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,500,10000,self-employed,False,0.62,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,10000,self-employed,False,0.8,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,500,10000,unemployed,False,0.75,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,10000,unemployed,False,0.74,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,29000,self-employed,False,0.6,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,500,29000,self-employed,False,0.55,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,10000,self-employed,False,0.74,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,10000,unemployed,False,0.65,60000,{'credit_score': 513},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,20000,unemployed,False,0.66,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,20000,unemployed,False,0.59,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,20000,unemployed,False,0.42,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,29000,self-employed,False,0.56,1000,{'credit_score': 535},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,10000,unemployed,False,0.52,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,10000,self-employed,False,0.47,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,500,10000,self-employed,False,0.79,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,400,10000,unemployed,False,0.73,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,10000,unemployed,False,0.42,1000,{'credit_score': 414},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,20000,unemployed,False,0.49,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,10000,self-employed,False,0.42,60000,{'credit_score': 452},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,10000,unemployed,False,0.56,60000,{'credit_score': 521},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,10000,unemployed,False,0.64,60000,{'credit_score': 414},False,0.0,Applicant must be at least 18 years old.
+16,Canada,550,10000,self-employed,False,0.5,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,10000,self-employed,False,0.65,1000,{'credit_score': 410},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,500,29000,self-employed,False,0.48,60000,{'credit_score': 437},False,0.0,Applicant must be at least 18 years old.
+66,UK,550,29000,unemployed,False,0.47,60000,{'credit_score': 530},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,550,20000,self-employed,False,0.77,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,20000,unemployed,False,0.5,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,500,29000,self-employed,False,0.78,1000,{'credit_score': 459},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,500,20000,self-employed,False,0.73,1000,,False,0.0,Applicant must be at least 18 years old.
+16,UK,400,20000,self-employed,False,0.58,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,unemployed,False,0.73,1000,{'credit_score': 540},False,0.0,Applicant must be at least 18 years old.
+16,Canada,550,29000,unemployed,False,0.55,1000,{'credit_score': 406},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,unemployed,False,0.76,1000,{'credit_score': 426},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,10000,self-employed,False,0.68,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,20000,unemployed,False,0.42,1000,{'credit_score': 406},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,10000,self-employed,False,0.74,1000,{'credit_score': 464},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,29000,self-employed,False,0.45,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,10000,self-employed,False,0.65,60000,{'credit_score': 469},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,29000,self-employed,False,0.68,60000,{'credit_score': 452},False,0.0,Applicant must be at least 18 years old.
+66,UK,550,10000,self-employed,False,0.49,1000,{'credit_score': 409},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,20000,unemployed,False,0.59,1000,{'credit_score': 417},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,10000,self-employed,False,0.72,60000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,400,29000,self-employed,False,0.63,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,10000,self-employed,False,0.7,1000,,False,0.0,Applicant must be at least 18 years old.
+16,UK,550,29000,self-employed,False,0.45,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,29000,unemployed,False,0.49,1000,{'credit_score': 504},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,550,20000,self-employed,False,0.65,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,10000,self-employed,False,0.68,1000,{'credit_score': 456},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,self-employed,False,0.47,60000,,False,0.0,Applicant must be at least 18 years old.
+66,UK,400,29000,self-employed,False,0.64,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,500,29000,unemployed,False,0.47,60000,{'credit_score': 458},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,29000,self-employed,False,0.49,1000,{'credit_score': 403},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,10000,unemployed,False,0.53,1000,{'credit_score': 404},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,29000,self-employed,False,0.48,1000,{'credit_score': 543},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,10000,self-employed,False,0.48,1000,{'credit_score': 535},False,0.0,Applicant must be at least 18 years old.
+75,Mexico,500,29000,self-employed,False,0.79,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,10000,self-employed,False,0.62,60000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,500,20000,unemployed,False,0.73,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,self-employed,False,0.74,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,29000,self-employed,False,0.66,60000,{'credit_score': 401},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,20000,unemployed,False,0.6,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,20000,self-employed,False,0.48,60000,{'credit_score': 465},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,29000,unemployed,False,0.57,1000,{'credit_score': 450},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,500,20000,self-employed,False,0.65,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,10000,self-employed,False,0.77,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,20000,self-employed,False,0.75,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,10000,unemployed,False,0.78,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,20000,self-employed,False,0.8,1000,{'credit_score': 422},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,20000,self-employed,False,0.7,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,10000,self-employed,False,0.72,60000,{'credit_score': 453},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,500,20000,unemployed,False,0.62,60000,{'credit_score': 497},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,10000,self-employed,False,0.72,60000,{'credit_score': 402},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,unemployed,False,0.75,60000,{'credit_score': 454},False,0.0,Applicant must be at least 18 years old.
+66,Canada,550,10000,self-employed,False,0.45,1000,{'credit_score': 514},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,10000,self-employed,False,0.42,1000,{'credit_score': 542},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,10000,self-employed,False,0.61,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,20000,unemployed,False,0.66,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,10000,self-employed,False,0.67,60000,{'credit_score': 525},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,400,29000,unemployed,False,0.45,60000,{'credit_score': 549},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,500,10000,unemployed,False,0.75,1000,{'credit_score': 481},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,self-employed,False,0.43,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,550,20000,self-employed,False,0.74,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,29000,unemployed,False,0.51,60000,{'credit_score': 492},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,10000,unemployed,False,0.7,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,10000,unemployed,False,0.74,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,550,29000,unemployed,False,0.57,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,20000,unemployed,False,0.54,60000,{'credit_score': 531},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,29000,self-employed,False,0.74,1000,{'credit_score': 539},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,10000,self-employed,False,0.56,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,20000,self-employed,False,0.45,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,10000,self-employed,False,0.78,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,29000,self-employed,False,0.74,60000,{'credit_score': 446},False,0.0,Applicant must be at least 18 years old.
+66,UK,500,10000,unemployed,False,0.67,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,10000,self-employed,False,0.48,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,10000,self-employed,False,0.44,60000,{'credit_score': 447},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,10000,self-employed,False,0.61,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,500,10000,self-employed,False,0.78,60000,{'credit_score': 533},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,400,10000,unemployed,False,0.66,60000,{'credit_score': 544},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,10000,unemployed,False,0.45,60000,{'credit_score': 509},False,0.0,Applicant must be at least 18 years old.
+17,UK,400,10000,unemployed,False,0.62,1000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,550,10000,unemployed,False,0.65,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,10000,unemployed,False,0.75,1000,{'credit_score': 534},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,29000,self-employed,False,0.65,1000,{'credit_score': 531},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,550,20000,self-employed,False,0.71,60000,,False,0.0,Applicant must be at least 18 years old.
+66,UK,550,20000,unemployed,False,0.8,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,10000,self-employed,False,0.7,1000,{'credit_score': 444},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,29000,self-employed,False,0.58,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,400,29000,unemployed,False,0.67,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,10000,unemployed,False,0.61,1000,{'credit_score': 432},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,29000,unemployed,False,0.79,1000,{'credit_score': 443},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,29000,unemployed,False,0.8,60000,,False,0.0,Applicant must be at least 18 years old.
+66,UK,500,29000,unemployed,False,0.6,1000,{'credit_score': 449},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,20000,unemployed,False,0.54,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,10000,unemployed,False,0.48,60000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,550,29000,self-employed,False,0.55,1000,{'credit_score': 457},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,10000,unemployed,False,0.57,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,10000,unemployed,False,0.51,1000,{'credit_score': 529},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,29000,unemployed,False,0.44,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,20000,unemployed,False,0.58,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,500,10000,self-employed,False,0.75,60000,{'credit_score': 400},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,20000,self-employed,False,0.51,60000,{'credit_score': 516},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,10000,unemployed,False,0.47,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,10000,unemployed,False,0.49,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,29000,unemployed,False,0.41,60000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,500,10000,unemployed,False,0.8,60000,{'credit_score': 543},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,10000,unemployed,False,0.5,60000,{'credit_score': 432},False,0.0,Applicant must be at least 18 years old.
+17,Canada,550,29000,unemployed,False,0.47,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,400,10000,unemployed,False,0.61,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,500,29000,unemployed,False,0.42,1000,{'credit_score': 441},False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,10000,self-employed,False,0.8,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,500,10000,self-employed,False,0.76,1000,{'credit_score': 479},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,550,10000,unemployed,False,0.45,60000,,False,0.0,Applicant must be at least 18 years old.
+16,UK,550,10000,unemployed,False,0.65,60000,{'credit_score': 428},False,0.0,Applicant must be at least 18 years old.
+17,UK,400,10000,self-employed,False,0.59,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,10000,unemployed,False,0.55,1000,{'credit_score': 411},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,self-employed,False,0.54,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,29000,unemployed,False,0.45,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,400,20000,unemployed,False,0.41,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,10000,unemployed,False,0.74,60000,{'credit_score': 492},False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,10000,unemployed,False,0.78,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,20000,unemployed,False,0.77,1000,{'credit_score': 465},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,10000,self-employed,False,0.78,60000,{'credit_score': 489},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,20000,unemployed,False,0.69,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,20000,self-employed,False,0.45,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,400,29000,self-employed,False,0.66,1000,{'credit_score': 506},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,20000,self-employed,False,0.64,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,29000,unemployed,False,0.63,1000,{'credit_score': 472},False,0.0,Applicant must be at least 18 years old.
+75,Mexico,400,29000,unemployed,False,0.44,1000,{'credit_score': 436},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,20000,self-employed,False,0.56,60000,{'credit_score': 550},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,29000,self-employed,False,0.62,60000,{'credit_score': 490},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,20000,unemployed,False,0.7,60000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,500,10000,unemployed,False,0.43,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,29000,self-employed,False,0.43,1000,{'credit_score': 471},False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,29000,unemployed,False,0.75,1000,{'credit_score': 440},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,20000,self-employed,False,0.69,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,self-employed,False,0.49,1000,{'credit_score': 436},False,0.0,Applicant must be at least 18 years old.
+16,UK,400,20000,self-employed,False,0.67,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,400,20000,self-employed,False,0.52,60000,{'credit_score': 485},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,29000,self-employed,False,0.65,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,20000,unemployed,False,0.75,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,500,29000,self-employed,False,0.72,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,20000,self-employed,False,0.66,60000,{'credit_score': 520},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,10000,unemployed,False,0.46,60000,{'credit_score': 428},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,20000,self-employed,False,0.76,1000,{'credit_score': 406},False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,20000,self-employed,False,0.72,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,10000,unemployed,False,0.64,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,500,20000,self-employed,False,0.47,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,400,20000,self-employed,False,0.8,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,400,29000,unemployed,False,0.57,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,550,29000,unemployed,False,0.79,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,20000,self-employed,False,0.42,1000,{'credit_score': 454},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,29000,self-employed,False,0.44,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,550,29000,self-employed,False,0.65,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,20000,unemployed,False,0.48,60000,{'credit_score': 436},False,0.0,Applicant must be at least 18 years old.
+17,UK,500,10000,self-employed,False,0.58,1000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,550,10000,unemployed,False,0.54,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,400,10000,self-employed,False,0.69,60000,{'credit_score': 489},False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,20000,unemployed,False,0.77,1000,{'credit_score': 492},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,10000,self-employed,False,0.66,1000,{'credit_score': 476},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,20000,unemployed,False,0.56,60000,{'credit_score': 482},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,20000,self-employed,False,0.57,1000,{'credit_score': 435},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,550,10000,unemployed,False,0.57,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,20000,self-employed,False,0.54,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,20000,self-employed,False,0.42,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,400,20000,unemployed,False,0.65,1000,{'credit_score': 471},False,0.0,Applicant must be at least 18 years old.
+75,Canada,500,29000,self-employed,False,0.75,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,29000,self-employed,False,0.49,1000,{'credit_score': 504},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,500,20000,unemployed,False,0.44,60000,{'credit_score': 547},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,29000,unemployed,False,0.68,60000,{'credit_score': 509},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,500,29000,unemployed,False,0.48,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,self-employed,False,0.59,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,10000,self-employed,False,0.65,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,550,20000,unemployed,False,0.62,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,29000,self-employed,False,0.45,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,10000,unemployed,False,0.41,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,20000,unemployed,False,0.54,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,10000,self-employed,False,0.8,60000,{'credit_score': 504},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,20000,self-employed,False,0.44,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,500,20000,unemployed,False,0.42,60000,,False,0.0,Applicant must be at least 18 years old.
+75,UK,550,20000,self-employed,False,0.74,1000,{'credit_score': 430},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,20000,unemployed,False,0.56,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,10000,self-employed,False,0.71,1000,{'credit_score': 503},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,29000,unemployed,False,0.67,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,29000,self-employed,False,0.7,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,10000,self-employed,False,0.67,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,29000,self-employed,False,0.72,60000,{'credit_score': 510},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,10000,self-employed,False,0.54,1000,{'credit_score': 444},False,0.0,Applicant must be at least 18 years old.
+75,UK,550,29000,unemployed,False,0.58,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,550,29000,self-employed,False,0.53,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,29000,self-employed,False,0.45,1000,{'credit_score': 459},False,0.0,Applicant must be at least 18 years old.
+16,UK,550,29000,self-employed,False,0.52,60000,{'credit_score': 470},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,29000,self-employed,False,0.57,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,20000,unemployed,False,0.77,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,20000,unemployed,False,0.71,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,550,10000,self-employed,False,0.6,1000,{'credit_score': 530},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,500,20000,unemployed,False,0.76,60000,{'credit_score': 530},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,10000,unemployed,False,0.44,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,20000,unemployed,False,0.7,60000,{'credit_score': 489},False,0.0,Applicant must be at least 18 years old.
+16,Mexico,500,20000,unemployed,False,0.43,60000,{'credit_score': 546},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,10000,self-employed,False,0.41,1000,{'credit_score': 455},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,500,20000,unemployed,False,0.69,60000,{'credit_score': 525},False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,10000,unemployed,False,0.77,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,20000,unemployed,False,0.54,1000,{'credit_score': 419},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,29000,self-employed,False,0.48,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,10000,self-employed,False,0.46,60000,,False,0.0,Applicant must be at least 18 years old.
+66,UK,550,29000,self-employed,False,0.63,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,10000,unemployed,False,0.55,60000,{'credit_score': 496},False,0.0,Applicant must be at least 18 years old.
+75,UK,500,10000,unemployed,False,0.65,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,10000,unemployed,False,0.52,1000,{'credit_score': 534},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,10000,self-employed,False,0.78,1000,{'credit_score': 519},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,self-employed,False,0.74,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,400,10000,self-employed,False,0.73,60000,{'credit_score': 531},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,500,29000,self-employed,False,0.56,60000,{'credit_score': 425},False,0.0,Applicant must be at least 18 years old.
+75,Canada,500,20000,unemployed,False,0.48,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,20000,self-employed,False,0.46,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,29000,self-employed,False,0.73,60000,{'credit_score': 465},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,500,29000,self-employed,False,0.48,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,20000,self-employed,False,0.78,1000,{'credit_score': 400},False,0.0,Applicant must be at least 18 years old.
+17,Canada,500,10000,unemployed,False,0.64,60000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,20000,unemployed,False,0.51,60000,{'credit_score': 400},False,0.0,Applicant must be at least 18 years old.
+17,Canada,400,10000,unemployed,False,0.51,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,20000,unemployed,False,0.74,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,29000,unemployed,False,0.52,60000,{'credit_score': 459},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,10000,unemployed,False,0.61,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,500,10000,unemployed,False,0.63,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,20000,self-employed,False,0.47,1000,{'credit_score': 518},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,29000,unemployed,False,0.44,1000,{'credit_score': 524},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,29000,self-employed,False,0.64,60000,{'credit_score': 414},False,0.0,Applicant must be at least 18 years old.
+16,UK,400,10000,self-employed,False,0.67,1000,{'credit_score': 463},False,0.0,Applicant must be at least 18 years old.
+66,UK,550,10000,self-employed,False,0.72,60000,{'credit_score': 450},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,10000,self-employed,False,0.56,1000,{'credit_score': 401},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,unemployed,False,0.71,60000,{'credit_score': 415},False,0.0,Applicant must be at least 18 years old.
+75,UK,550,20000,self-employed,False,0.72,60000,{'credit_score': 550},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,20000,self-employed,False,0.43,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,29000,self-employed,False,0.57,60000,{'credit_score': 492},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,500,10000,unemployed,False,0.66,1000,{'credit_score': 480},False,0.0,Applicant must be at least 18 years old.
+66,UK,400,20000,self-employed,False,0.69,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,500,20000,unemployed,False,0.58,60000,{'credit_score': 513},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,20000,unemployed,False,0.72,60000,{'credit_score': 480},False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,29000,self-employed,False,0.65,60000,{'credit_score': 542},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,550,29000,self-employed,False,0.44,60000,,False,0.0,Applicant must be at least 18 years old.
+66,UK,550,29000,unemployed,False,0.78,1000,{'credit_score': 517},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,500,10000,self-employed,False,0.55,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,550,10000,self-employed,False,0.52,1000,{'credit_score': 482},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,10000,unemployed,False,0.65,1000,,False,0.0,Applicant must be at least 18 years old.
+16,Canada,550,10000,unemployed,False,0.64,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,29000,self-employed,False,0.45,60000,{'credit_score': 414},False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,20000,self-employed,False,0.57,1000,{'credit_score': 486},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,20000,self-employed,False,0.69,1000,{'credit_score': 484},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,500,10000,unemployed,False,0.54,1000,{'credit_score': 401},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,500,20000,unemployed,False,0.74,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,550,29000,unemployed,False,0.71,1000,{'credit_score': 542},False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,20000,unemployed,False,0.55,60000,{'credit_score': 480},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,500,29000,self-employed,False,0.47,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,400,29000,self-employed,False,0.5,1000,{'credit_score': 549},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,29000,self-employed,False,0.72,60000,{'credit_score': 419},False,0.0,Applicant must be at least 18 years old.
+16,UK,500,10000,unemployed,False,0.59,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,20000,self-employed,False,0.69,1000,{'credit_score': 493},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,29000,unemployed,False,0.49,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,29000,unemployed,False,0.69,60000,{'credit_score': 494},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Canada,400,29000,self-employed,False,0.78,60000,{'credit_score': 548},False,0.0,Applicant must be at least 18 years old.
+75,UK,400,29000,unemployed,False,0.61,1000,{'credit_score': 448},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,500,20000,self-employed,False,0.54,1000,{'credit_score': 401},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,500,29000,self-employed,False,0.71,1000,{'credit_score': 522},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,550,29000,unemployed,False,0.56,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,500,20000,unemployed,False,0.78,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,29000,self-employed,False,0.7,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,29000,unemployed,False,0.67,1000,{'credit_score': 513},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,550,20000,self-employed,False,0.55,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,29000,self-employed,False,0.68,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,20000,unemployed,False,0.75,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,20000,unemployed,False,0.75,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Canada,500,20000,self-employed,False,0.48,60000,{'credit_score': 510},False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,550,20000,self-employed,False,0.73,1000,{'credit_score': 529},False,0.0,Applicant must be at least 18 years old.
+17,Mexico,550,29000,self-employed,False,0.72,60000,{'credit_score': 502},False,0.0,Applicant must be at least 18 years old.
+75,UK,550,10000,self-employed,False,0.64,60000,{'credit_score': 475},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,29000,unemployed,False,0.53,60000,{'credit_score': 469},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,500,20000,self-employed,False,0.55,60000,,False,0.0,Applicant must be at least 18 years old.
+16,Mexico,400,10000,self-employed,False,0.63,1000,{'credit_score': 496},False,0.0,Applicant must be at least 18 years old.
+17,Canada,500,20000,self-employed,False,0.73,60000,{'credit_score': 421},False,0.0,Applicant must be at least 18 years old.
+75,Canada,400,10000,self-employed,False,0.49,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,550,29000,unemployed,False,0.75,60000,{'credit_score': 419},False,0.0,Applicant must be a resident or citizen of the United States.
+17,UK,500,20000,unemployed,False,0.67,1000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,20000,self-employed,False,0.72,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,400,20000,self-employed,False,0.62,60000,{'credit_score': 499},False,0.0,Applicant must be at least 18 years old.
+66,Mexico,400,20000,unemployed,False,0.67,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,400,29000,self-employed,False,0.45,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,UK,500,10000,self-employed,False,0.67,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,400,29000,self-employed,False,0.45,1000,,False,0.0,Applicant must be at least 18 years old.
+75,Mexico,550,29000,unemployed,False,0.67,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,29000,unemployed,False,0.62,60000,{'credit_score': 511},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Mexico,550,20000,unemployed,False,0.44,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,550,10000,unemployed,False,0.79,60000,,False,0.0,Applicant must be at least 18 years old.
+75,Canada,550,29000,self-employed,False,0.73,60000,{'credit_score': 474},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,500,20000,unemployed,False,0.63,60000,{'credit_score': 533},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,29000,self-employed,False,0.68,60000,{'credit_score': 405},False,0.0,Applicant must be at least 18 years old.
+16,UK,500,29000,unemployed,False,0.75,1000,{'credit_score': 411},False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,20000,self-employed,False,0.48,60000,{'credit_score': 500},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,400,29000,self-employed,False,0.67,60000,{'credit_score': 413},False,0.0,Applicant must be at least 18 years old.
+66,UK,500,29000,self-employed,False,0.75,1000,{'credit_score': 502},False,0.0,Applicant must be a resident or citizen of the United States.
+17,Mexico,500,20000,self-employed,False,0.72,60000,{'credit_score': 421},False,0.0,Applicant must be at least 18 years old.
+66,Canada,400,20000,unemployed,False,0.71,60000,,False,0.0,Applicant must be a resident or citizen of the United States.
+66,Canada,550,20000,unemployed,False,0.45,1000,{'credit_score': 515},False,0.0,Applicant must be a resident or citizen of the United States.
+75,Canada,400,20000,self-employed,False,0.64,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,Mexico,400,10000,unemployed,False,0.69,60000,{'credit_score': 476},False,0.0,Applicant must be at least 18 years old.
+75,Mexico,500,20000,self-employed,False,0.66,1000,{'credit_score': 508},False,0.0,Applicant must be a resident or citizen of the United States.
+66,UK,400,10000,unemployed,False,0.58,60000,{'credit_score': 503},False,0.0,Applicant must be a resident or citizen of the United States.
+66,Mexico,400,10000,unemployed,False,0.42,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+17,Canada,550,10000,unemployed,False,0.48,60000,{'credit_score': 440},False,0.0,Applicant must be at least 18 years old.
+75,UK,400,29000,self-employed,False,0.42,1000,{'credit_score': 481},False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,29000,unemployed,False,0.58,60000,,False,0.0,Applicant must be at least 18 years old.
+66,Mexico,550,20000,unemployed,False,0.64,1000,,False,0.0,Applicant must be a resident or citizen of the United States.
+16,UK,500,20000,self-employed,False,0.69,1000,,False,0.0,Applicant must be at least 18 years old.
+17,UK,550,29000,self-employed,False,0.78,1000,,False,0.0,Applicant must be at least 18 years old.
+17,Canada,500,29000,unemployed,False,0.51,60000,{'credit_score': 408},False,0.0,Applicant must be at least 18 years old.
+16,UK,550,29000,unemployed,False,0.57,1000,{'credit_score': 541},False,0.0,Applicant must be at least 18 years old.
+16,Canada,500,29000,unemployed,False,0.49,60000,,False,0.0,Applicant must be at least 18 years old.

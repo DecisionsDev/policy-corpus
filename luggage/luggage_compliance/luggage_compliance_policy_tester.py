@@ -83,5 +83,5 @@ if __name__ == "__main__":
     }
 
     # Instantiate and run the PolicyTester
-    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'], config['eval_columns'], config['evaluators'])
+    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'], config['eval_columns'], config.setdefault('evaluators'))
     tester.run()

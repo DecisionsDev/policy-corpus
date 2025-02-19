@@ -1,140 +1,76 @@
-import random
-
-import pandas as pd
-
 import sys
 import os
+import random
+import pandas as pd
+from typing import List, Dict, Tuple
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-from common.generic_data_generator import DataGenerator
+
+from common.generic_data_generator import DataGenerator, format_data_units
+from loan_compliance import LoanApprovalCompliance
 
 
-class LoanApprovalDataGenerator(DataGenerator):
+class LoanDataGenerator(DataGenerator):
+    ################# CONSTANT PROPERTIES #################
     COLUMN_NAMES = [
-        'age',
-        'residency',
-        'credit_score',
-        'annual_income',
-        'employment_status',
-        'dti',
-        'loan_amount',
-        'eligibility'
+        "age", "residency", "credit_score", "income", "employment_status",
+        "financial_records", "dti", "loan_amount", "co_signer",
+        "eligibility", "interest_rate", "message"
     ]
 
-    def determine_eligibility(self, row):
-        if row['age'] < 18:
-            return False
-        if row['residency'] not in ['citizen', 'resident']:
-            return False
-        if row['credit_score'] < 600:
-            return False
-        if row['annual_income'] < 30000:
-            return False
-        if row['employment_status'] == 'unemployed':
-            return False
-        if row['dti'] > 0.40:
-            return False
-        if not (5000 <= row['loan_amount'] <= 50000):
-            return False
-        return True
-    def generate_test_dataset(self, num_samples=100):
-        data = []
-        eligible_count = 0
-        non_eligible_count = 0
+    EVAL_COLUMN_NAMES = ["eligibility", "interest_rate", "message"]
 
-        while len(data) < num_samples:
-            age = random.randint(18, 80)
-            residency = random.choice(['citizen', 'resident', 'foreigner'])
-            credit_score = random.randint(300, 850)
-            annual_income = random.randint(20000, 100000)
-            employment_status = random.choice(['employed', 'self-employed', 'unemployed'])
-            dti = round(random.uniform(0.05, 0.60), 2)  # Debt-to-Income Ratio
-            loan_amount = random.randint(1000, 60000)
+    def __init__(self):
+        super().__init__(LoanApprovalCompliance())
 
-            row = {
-                'age': age,
-                'residency': residency,
-                'credit_score': credit_score,
-                'annual_income': annual_income,
-                'employment_status': employment_status,
-                'dti': dti,
-                'loan_amount': loan_amount
-            }
-            eligibility = self.determine_eligibility(row)
+    def generate_eligible_case(self) -> Dict:
+        """
+        Generates a case that meets all eligibility requirements.
+        """
+        case = {
+            "age": random.randint(18, 65),
+            "residency": "US",
+            "credit_score": random.choice([600, 650, 700, 750, 800]),
+            "income": random.randint(30000, 150000),
+            "employment_status": random.choice(["employed", "self-employed"]),
+            "financial_records": True if random.choice([True, False]) else False,
+            "dti": round(random.uniform(0.1, 0.39), 2),
+            "loan_amount": random.randint(5000, 50000),
+            "co_signer": None if random.randint(1, 10) > 3 else {"credit_score": random.randint(600, 800)}
+        }
 
-            if eligibility:
-                eligible_count += 1
-            else:
-                non_eligible_count += 1
+        eligibility, interest_rate, message = super().determine_eligibility(case)
+        case.update({"eligibility": eligibility, "interest_rate": interest_rate, "message": message})
+        return case
 
-            row['eligibility'] = eligibility
-            data.append(row)
+    def generate_non_eligible_case(self) -> Dict:
+        """
+        Generates a case that violates at least one eligibility criterion.
+        """
+        case = {
+            "age": random.choice([16, 17, 66, 75]),  # Below or above acceptable age range
+            "residency": random.choice(["Canada", "Mexico", "UK"]),
+            "credit_score": random.choice([400, 500, 550]),  # Below required score
+            "income": random.choice([10000, 20000, 29000]),  # Below required income
+            "employment_status": random.choice(["unemployed", "self-employed"]),
+            "financial_records": False,  # Required if self-employed
+            "dti": round(random.uniform(0.41, 0.8), 2),  # Above max allowed ratio
+            "loan_amount": random.choice([1000, 60000]),  # Out of range loan amounts
+            "co_signer": None if random.randint(1, 10) > 5 else {"credit_score": random.randint(400, 550)}
+        }
 
-            # Ensure at least 40% of both eligible and non-eligible entries
-            if eligible_count >= 0.4 * num_samples and non_eligible_count >= 0.4 * num_samples:
-                break
-
-        # If we don't have enough eligible or non-eligible entries, adjust the dataset
-        if eligible_count < 0.4 * num_samples:
-            while eligible_count < 0.4 * num_samples:
-                age = random.randint(18, 80)
-                residency = random.choice(['citizen', 'resident'])
-                credit_score = random.randint(600, 850)
-                annual_income = random.randint(30000, 100000)
-                employment_status = random.choice(['employed', 'self-employed'])
-                dti = round(random.uniform(0.05, 0.40), 2)  # Debt-to-Income Ratio
-                loan_amount = random.randint(5000, 50000)
-
-                row = {
-                    'age': age,
-                    'residency': residency,
-                    'credit_score': credit_score,
-                    'annual_income': annual_income,
-                    'employment_status': employment_status,
-                    'dti': dti,
-                    'loan_amount': loan_amount
-                }
-                eligibility = self.determine_eligibility(row)
-
-                if eligibility:
-                    eligible_count += 1
-                    row['eligibility'] = eligibility
-                    data.append(row)
-
-        if non_eligible_count < 0.4 * num_samples:
-            while non_eligible_count < 0.4 * num_samples:
-                age = random.randint(18, 80)
-                residency = random.choice(['foreigner'])
-                credit_score = random.randint(300, 599)
-                annual_income = random.randint(20000, 29999)
-                employment_status = 'unemployed'
-                dti = round(random.uniform(0.41, 0.60), 2)  # Debt-to-Income Ratio
-                loan_amount = random.choice([1000, 60000])
-
-                row = {
-                    'age': age,
-                    'residency': residency,
-                    'credit_score': credit_score,
-                    'annual_income': annual_income,
-                    'employment_status': employment_status,
-                    'dti': dti,
-                    'loan_amount': loan_amount
-                }
-                eligibility = self.determine_eligibility(row)
-
-                if not eligibility:
-                    non_eligible_count += 1
-                    row['eligibility'] = eligibility
-                    data.append(row)
-
-        return pd.DataFrame(data)
+        eligibility, interest_rate, message = super().determine_eligibility(case)
+        case.update({"eligibility": eligibility, "interest_rate": interest_rate, "message": message})
+        return case
 
 
+
+# Example usage
 if __name__ == "__main__":
-    generator = LoanApprovalDataGenerator()
+    sizes = [100, 1000]
+    generator = LoanDataGenerator()
 
-    data = generator.generate_test_dataset()
-    # Write the data to a CSV file
-    data.to_csv('basic_loan_approval_dataset.csv', index=False)
-
-    print("Test dataset generated and saved to 'basic_loan_approval_dataset.csv'")
+    for size in sizes:
+        df = generator.generate_test_dataset(size)
+        data_units = format_data_units(size)
+        df.to_csv(f'loan_policy_test_dataset_{data_units}.csv', index=False)

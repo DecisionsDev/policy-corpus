@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import Tuple
 
 
-class Policy(ABC):
+class Compliance(ABC):
     """
     Abstract base class for defining a policy.
 

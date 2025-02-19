@@ -1,3 +1,13 @@
+**Prompt**:
+
+I need you to inherit and implement a Python class by **strictly adhering** to a given abstract class structure and ensuring that the generated data aligns with the provided compliance checker.
+
+The generated test data should **fully respect** the eligibility logic implemented in the compliance_checker while following the structure of the DataGenerator abstract class. It must contain **tricky samples**, covering **all** the cases described in compliance.
+
+The generated test data should fully respect the eligibility logic implemented in the compliance_checker while following the structure of the DataGenerator abstract class. Additionally, the implementation must call the super ``determine_eligibility`` method and store its results correctly in the dataset.
+
+* Below is the abstract class that defines the structure:
+```python
 from abc import ABC, abstractmethod
 from typing import List, Dict, Tuple
 import pandas as pd
@@ -115,3 +125,56 @@ def format_data_units(n):
 
     label = f'{nb_units}{unit}'
     return label
+
+```
+
+* Compliance Checker (Policy subclass): This defines how eligibility is determined and should be used to guide test data generation:
+
+```python
+{compliance_class_without_unittests}
+```
+
+* Here is the policy description document outlining the implementation details:
+```text
+{policy_document}
+```
+
+**Requirements:**
+
+1. Strict Structure Compliance:
+   * The implementation must follow the DataGenerator abstract class precisely.
+   * Do not modify method signatures or inheritance.
+   * Implement the abstract properties COLUMN_NAMES and EVAL_COLUMN_NAMES correctly.
+2. Generate Data Consistently with the Compliance Checker:
+   * Implement generate_eligible_case to create cases that pass compliance_checker.test_eligibility().
+   * Implement generate_non_eligible_case to create cases that fail.
+   * Ensure the generated dataset has a balanced distribution (50% eligible, 50% non-eligible).
+3. Use the Compliance Checker as Context:
+    * The compliance_checker implementation should directly inform how test cases are structured.
+    * If any conflicts or ambiguities arise, prioritize the logic of the compliance checker.
+4. Call ``determine_eligibility`` and Store Results Correctly:
+   * The method ``determine_eligibility(row)`` must be called on each generated data sample.
+   * Store the results exactly as returned by ``determine_eligibility``, ensuring they match the expected structure from test_eligibility.
+   * The dataset should include:
+     * The original data sample (formatted as required by the compliance checker).
+     * The attributes from the sample.
+     * The results returned by determine_eligibility, using the same column names as in ``test_eligibility``.
+5. Import Instead of Redefining provided Class:
+   * Do not repeat the provided abstract DataGenerator class and functions in it.
+   * Instead, import it at the beginning of the implementation:
+```python
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from common.generic_data_generator import DataGenerator
+```
+
+  * Do not repeat the provided Compliance class.
+  * Instead, import it at the beginning of the implementation:
+```python
+from {file_name} import {compliance_name}
+```
+
+## Now, please generate the full implementation of the DataGenerator subclass based on these instructions.
