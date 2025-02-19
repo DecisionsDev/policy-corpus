@@ -82,6 +82,6 @@ if __name__ == "__main__":
         'evaluators': [cargo_items_evaluator]
     }
 
-    # Instantiate and run the PolicyTester
-    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'], config['eval_columns'], config.setdefault('evaluators'))
+    # Instantiate and run the tester
+    tester = PolicyTester(config['policy_class'], config['csv_file'], config['parse_functions'], config['eval_columns'], config.setdefault('evaluators', None))
     tester.run()
