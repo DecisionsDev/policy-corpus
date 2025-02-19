@@ -16,7 +16,7 @@ Associated code contains:
     ```shell
     coverage report -m
     ```
-- [a generator of decisions with respect to the reference Python implementation](luggage_compliance/luggage_compliance_pricing_data_generator.py)
+- [a generator of decisions with respect to the reference Python implementation](luggage_compliance/luggage_data_generator.py)
 
 ## Data
 ### Schema
@@ -71,4 +71,4 @@ Data provided out of the box and produced by the generator and policy reference 
 - [a decision dataset with 100 entries](luggage_compliance/luggage_policy_test_dataset_100.csv)
 - [a decision dataset with 1000 entries](luggage_compliance/luggage_policy_test_dataset_1K.csv)
 
-Generate more datasets by running [this generation file](luggage_compliance/luggage_compliance_pricing_data_generator.py)
+Generate more datasets by running [this generation file](luggage_compliance/luggage_data_generator.py)

@@ -64,8 +64,6 @@ class LoanDataGenerator(DataGenerator):
         return case
 
 
-
-# Example usage
 if __name__ == "__main__":
     sizes = [100, 1000]
     generator = LoanDataGenerator()

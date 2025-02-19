@@ -1,4 +1,4 @@
-from luggage_compliance_pricing_data_generator import LuggageDataGenerator
+from luggage_data_generator import LuggageDataGenerator
 
 if __name__ == "__main__":
     generator = LuggageDataGenerator()
