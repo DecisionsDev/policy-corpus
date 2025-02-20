@@ -1,0 +1,1001 @@
+age,license_status,vehicle_registered,vehicle_use,vehicle_age,major_violations,minor_violations,insurance_lapse,residency_valid,credit_score,liability_coverage,state_min_liability,eligible,premium_fee,error_message
+28,valid,True,personal,3,0,2,False,True,724,80566,14522,True,1100.0,
+31,international,True,personal,13,0,2,False,True,618,87845,41537,True,1200.0000000000002,
+21,valid,True,personal,8,0,2,False,True,522,191590,21394,True,1400.0000000000002,
+54,international,True,personal,19,0,2,False,True,766,178306,19033,True,1100.0,
+66,valid,True,personal,13,0,2,False,True,711,59027,12539,True,1100.0,
+19,international,True,personal,17,0,0,False,True,526,145380,26904,True,1300.0,
+37,international,True,personal,5,0,2,False,True,572,81001,18249,True,1200.0000000000002,
+38,valid,True,personal,10,0,2,False,True,541,197760,37397,True,1200.0000000000002,
+19,international,True,personal,4,0,3,False,True,678,111680,44419,True,1350.0,
+35,international,True,personal,7,0,3,False,True,565,150317,11342,True,1250.0,
+58,valid,True,personal,0,0,3,False,True,780,98051,49055,True,1150.0,
+57,international,True,personal,15,0,0,False,True,593,75469,30039,True,1100.0,
+72,valid,True,personal,4,0,2,False,True,672,61141,23531,True,1100.0,
+18,valid,True,personal,1,0,0,False,True,616,94379,37302,True,1300.0,
+23,international,True,personal,13,0,1,False,True,623,142327,48274,True,1350.0,
+63,international,True,personal,1,0,0,False,True,744,103821,21897,True,1000.0,
+63,international,True,personal,3,0,3,False,True,621,174360,47521,True,1250.0,
+33,international,True,personal,19,0,3,False,True,585,74113,41809,True,1250.0,
+47,international,True,personal,13,0,2,False,True,527,92579,24832,True,1200.0000000000002,
+57,international,True,personal,6,0,2,False,True,542,127317,25710,True,1200.0000000000002,
+46,international,True,personal,3,0,2,False,True,847,119027,30154,True,1100.0,
+56,valid,True,personal,7,0,1,False,True,677,119306,43253,True,1050.0,
+67,international,True,personal,1,0,3,False,True,725,121152,26164,True,1150.0,
+53,international,True,personal,11,0,3,False,True,765,192142,49044,True,1150.0,
+35,international,True,personal,0,0,3,False,True,520,157019,18801,True,1250.0,
+54,valid,True,personal,4,0,3,False,True,702,191175,28025,True,1150.0,
+75,international,True,personal,8,0,2,False,True,850,78895,27078,True,1100.0,
+47,valid,True,personal,8,0,1,False,True,785,193307,28621,True,1050.0,
+75,valid,True,personal,6,0,0,False,True,543,104773,34990,True,1100.0,
+27,valid,True,personal,5,0,0,False,True,822,138132,13242,True,1000.0,
+72,valid,True,personal,11,0,0,False,True,525,140073,41582,True,1100.0,
+74,valid,True,personal,14,0,3,False,True,623,130127,11085,True,1250.0,
+20,international,True,personal,2,0,3,False,True,515,105694,46908,True,1450.0000000000002,
+54,valid,True,personal,6,0,3,False,True,797,84968,27695,True,1150.0,
+74,valid,True,personal,16,0,3,False,True,603,79038,36081,True,1250.0,
+35,international,True,personal,20,0,0,False,True,706,123195,20441,True,1000.0,
+25,valid,True,personal,18,0,2,False,True,632,134792,31887,True,1200.0000000000002,
+50,international,True,personal,17,0,0,False,True,767,54736,33067,True,1000.0,
+65,valid,True,personal,18,0,3,False,True,801,75030,40687,True,1150.0,
+34,international,True,personal,1,0,1,False,True,662,77820,45066,True,1050.0,
+75,valid,True,personal,1,0,3,False,True,803,193156,48771,True,1150.0,
+58,valid,True,personal,18,0,0,False,True,572,145870,12638,True,1100.0,
+44,valid,True,personal,16,0,3,False,True,700,78650,45386,True,1150.0,
+39,valid,True,personal,20,0,0,False,True,743,162128,37903,True,1000.0,
+60,international,True,personal,18,0,2,False,True,580,184912,16757,True,1200.0000000000002,
+44,valid,True,personal,4,0,2,False,True,643,125067,25268,True,1200.0000000000002,
+71,valid,True,personal,12,0,3,False,True,651,126385,33754,True,1150.0,
+54,valid,True,personal,10,0,1,False,True,700,126007,13792,True,1050.0,
+59,valid,True,personal,3,0,1,False,True,635,162997,40725,True,1150.0000000000002,
+41,international,True,personal,20,0,3,False,True,745,57481,32548,True,1150.0,
+26,valid,True,personal,18,0,2,False,True,615,76307,27556,True,1200.0000000000002,
+37,international,True,personal,3,0,1,False,True,737,106345,45700,True,1050.0,
+72,valid,True,personal,4,0,2,False,True,542,130299,13460,True,1200.0000000000002,
+71,valid,True,personal,17,0,1,False,True,523,67912,14232,True,1150.0000000000002,
+73,valid,True,personal,10,0,2,False,True,567,138502,47820,True,1200.0000000000002,
+62,international,True,personal,10,0,1,False,True,803,128632,45929,True,1050.0,
+29,valid,True,personal,5,0,2,False,True,512,187102,26023,True,1200.0000000000002,
+68,international,True,personal,18,0,3,False,True,591,115527,41644,True,1250.0,
+31,international,True,personal,18,0,0,False,True,812,118780,29032,True,1000.0,
+75,valid,True,personal,2,0,0,False,True,639,117075,14487,True,1100.0,
+52,valid,True,personal,14,0,1,False,True,717,129236,31230,True,1050.0,
+59,international,True,personal,9,0,0,False,True,811,179069,16456,True,1000.0,
+53,international,True,personal,8,0,2,False,True,677,179497,17627,True,1100.0,
+58,international,True,personal,8,0,0,False,True,655,115046,36701,True,1000.0,
+23,international,True,personal,19,0,0,False,True,602,86956,43061,True,1300.0,
+37,international,True,personal,7,0,0,False,True,528,52473,35778,True,1100.0,
+58,international,True,personal,5,0,2,False,True,627,53985,19112,True,1200.0000000000002,
+18,international,True,personal,17,0,2,False,True,644,141967,37196,True,1400.0000000000002,
+32,international,True,personal,1,0,2,False,True,627,136368,20073,True,1200.0000000000002,
+30,international,True,personal,18,0,1,False,True,677,107593,13293,True,1050.0,
+52,international,True,personal,11,0,3,False,True,686,138037,41869,True,1150.0,
+55,international,True,personal,14,0,0,False,True,548,82992,47286,True,1100.0,
+69,valid,True,personal,18,0,0,False,True,518,110367,17890,True,1100.0,
+59,valid,True,personal,4,0,0,False,True,623,101967,25979,True,1100.0,
+64,international,True,personal,11,0,1,False,True,817,164890,10635,True,1050.0,
+54,international,True,personal,12,0,1,False,True,753,109290,48001,True,1050.0,
+21,international,True,personal,8,0,0,False,True,720,104004,19534,True,1200.0,
+36,international,True,personal,15,0,1,False,True,547,68067,48187,True,1150.0000000000002,
+18,international,True,personal,15,0,3,False,True,736,106770,33329,True,1350.0,
+58,international,True,personal,1,0,3,False,True,506,115849,47365,True,1250.0,
+32,valid,True,personal,16,0,2,False,True,821,164672,20180,True,1100.0,
+23,valid,True,personal,15,0,1,False,True,534,150352,23097,True,1350.0,
+20,international,True,personal,9,0,0,False,True,665,146571,46304,True,1200.0,
+24,valid,True,personal,3,0,1,False,True,828,82629,36123,True,1250.0,
+45,valid,True,personal,16,0,1,False,True,742,90154,28810,True,1050.0,
+23,international,True,personal,15,0,3,False,True,534,163478,46378,True,1450.0000000000002,
+29,valid,True,personal,9,0,0,False,True,823,144582,24974,True,1000.0,
+66,international,True,personal,7,0,1,False,True,688,64113,14855,True,1050.0,
+34,valid,True,personal,6,0,1,False,True,557,69613,16846,True,1150.0000000000002,
+39,international,True,personal,14,0,2,False,True,729,88858,11929,True,1100.0,
+50,valid,True,personal,10,0,2,False,True,779,112902,22854,True,1100.0,
+21,international,True,personal,3,0,3,False,True,621,149272,22903,True,1450.0000000000002,
+63,international,True,personal,0,0,0,False,True,617,61693,14339,True,1100.0,
+23,international,True,personal,4,0,3,False,True,562,58936,45012,True,1450.0000000000002,
+44,international,True,personal,8,0,3,False,True,760,192724,18748,True,1150.0,
+59,valid,True,personal,8,0,0,False,True,743,96885,41972,True,1000.0,
+47,international,True,personal,12,0,3,False,True,660,118158,16551,True,1150.0,
+24,valid,True,personal,6,0,2,False,True,625,87971,46406,True,1400.0000000000002,
+52,international,True,personal,17,0,2,False,True,632,115467,11427,True,1200.0000000000002,
+66,international,True,personal,1,0,0,False,True,756,105430,47096,True,1000.0,
+21,valid,True,personal,10,0,0,False,True,708,179180,28918,True,1200.0,
+64,valid,True,personal,14,0,3,False,True,528,81003,33859,True,1250.0,
+40,international,True,personal,15,0,0,False,True,751,138315,38656,True,1000.0,
+36,international,True,personal,6,0,1,False,True,708,62470,18118,True,1050.0,
+71,international,True,personal,2,0,3,False,True,513,183118,34922,True,1250.0,
+34,valid,True,personal,10,0,2,False,True,623,139523,44852,True,1200.0000000000002,
+25,valid,True,personal,1,0,2,False,True,760,149864,30410,True,1100.0,
+18,international,True,personal,5,0,2,False,True,581,156925,19042,True,1400.0000000000002,
+64,valid,True,personal,6,0,0,False,True,671,113746,17428,True,1000.0,
+42,international,True,personal,12,0,3,False,True,709,197869,38586,True,1150.0,
+45,valid,True,personal,8,0,3,False,True,636,143161,22596,True,1250.0,
+74,valid,True,personal,16,0,1,False,True,631,118169,16373,True,1150.0000000000002,
+53,valid,True,personal,5,0,1,False,True,663,116975,17937,True,1050.0,
+71,valid,True,personal,2,0,0,False,True,800,69709,35424,True,1000.0,
+52,valid,True,personal,9,0,2,False,True,703,157803,27597,True,1100.0,
+19,valid,True,personal,18,0,3,False,True,511,109605,29822,True,1450.0000000000002,
+72,international,True,personal,12,0,1,False,True,836,150956,21120,True,1050.0,
+35,valid,True,personal,11,0,0,False,True,716,141753,21361,True,1000.0,
+58,valid,True,personal,2,0,0,False,True,572,194746,23498,True,1100.0,
+41,valid,True,personal,20,0,2,False,True,827,181142,10774,True,1100.0,
+42,international,True,personal,19,0,0,False,True,762,123274,10001,True,1000.0,
+36,international,True,personal,20,0,2,False,True,848,72480,34746,True,1100.0,
+27,valid,True,personal,5,0,0,False,True,696,99429,29212,True,1000.0,
+55,international,True,personal,1,0,1,False,True,679,95036,27608,True,1050.0,
+44,international,True,personal,9,0,1,False,True,765,114754,30050,True,1050.0,
+59,international,True,personal,12,0,2,False,True,830,84959,37450,True,1100.0,
+39,valid,True,personal,2,0,2,False,True,577,116450,10858,True,1200.0000000000002,
+58,valid,True,personal,0,0,0,False,True,584,73177,31303,True,1100.0,
+45,international,True,personal,6,0,3,False,True,817,191401,40444,True,1150.0,
+43,international,True,personal,19,0,0,False,True,551,187346,12837,True,1100.0,
+37,international,True,personal,6,0,3,False,True,543,177884,35256,True,1250.0,
+43,international,True,personal,4,0,1,False,True,643,132207,11903,True,1150.0000000000002,
+21,valid,True,personal,17,0,2,False,True,791,184009,32686,True,1300.0,
+19,international,True,personal,4,0,2,False,True,692,130009,22657,True,1300.0,
+69,valid,True,personal,6,0,2,False,True,823,71380,16625,True,1100.0,
+50,valid,True,personal,3,0,0,False,True,643,140565,26193,True,1100.0,
+31,valid,True,personal,19,0,3,False,True,530,176668,23436,True,1250.0,
+68,valid,True,personal,18,0,3,False,True,718,125700,31208,True,1150.0,
+40,international,True,personal,15,0,0,False,True,552,173323,39801,True,1100.0,
+33,international,True,personal,9,0,2,False,True,660,153150,18177,True,1100.0,
+30,international,True,personal,16,0,1,False,True,765,102599,17170,True,1050.0,
+22,international,True,personal,3,0,0,False,True,573,132478,19357,True,1300.0,
+68,valid,True,personal,7,0,2,False,True,824,72259,24278,True,1100.0,
+28,valid,True,personal,8,0,0,False,True,585,78289,21099,True,1100.0,
+37,international,True,personal,4,0,0,False,True,667,146977,34716,True,1000.0,
+57,international,True,personal,9,0,3,False,True,556,62763,48062,True,1250.0,
+66,valid,True,personal,19,0,2,False,True,712,185524,49121,True,1100.0,
+42,valid,True,personal,11,0,2,False,True,779,185255,38427,True,1100.0,
+57,valid,True,personal,6,0,1,False,True,656,182980,37647,True,1050.0,
+58,valid,True,personal,13,0,1,False,True,809,72987,25181,True,1050.0,
+60,international,True,personal,4,0,2,False,True,783,56006,11186,True,1100.0,
+31,valid,True,personal,6,0,3,False,True,655,132100,43337,True,1150.0,
+49,international,True,personal,11,0,3,False,True,769,84145,23071,True,1150.0,
+33,international,True,personal,3,0,3,False,True,829,125716,36592,True,1150.0,
+53,valid,True,personal,7,0,1,False,True,724,187968,11069,True,1050.0,
+61,international,True,personal,10,0,0,False,True,648,145328,22805,True,1100.0,
+21,valid,True,personal,16,0,1,False,True,597,138303,33267,True,1350.0,
+29,international,True,personal,1,0,0,False,True,781,87644,34128,True,1000.0,
+70,international,True,personal,16,0,1,False,True,716,68090,49700,True,1050.0,
+35,valid,True,personal,3,0,1,False,True,640,51144,41830,True,1150.0000000000002,
+54,international,True,personal,6,0,0,False,True,534,80200,27160,True,1100.0,
+68,valid,True,personal,11,0,2,False,True,789,158260,45759,True,1100.0,
+67,international,True,personal,6,0,0,False,True,541,118228,40999,True,1100.0,
+56,international,True,personal,19,0,0,False,True,528,180086,31659,True,1100.0,
+74,valid,True,personal,13,0,3,False,True,696,184062,34712,True,1150.0,
+49,valid,True,personal,13,0,2,False,True,672,101680,48638,True,1100.0,
+20,international,True,personal,2,0,0,False,True,829,71721,28692,True,1200.0,
+22,valid,True,personal,1,0,1,False,True,589,73948,19408,True,1350.0,
+19,international,True,personal,11,0,1,False,True,848,123786,46288,True,1250.0,
+43,valid,True,personal,3,0,0,False,True,550,192409,42207,True,1100.0,
+64,valid,True,personal,12,0,2,False,True,601,154395,49660,True,1200.0000000000002,
+49,valid,True,personal,8,0,1,False,True,769,78174,43414,True,1050.0,
+67,valid,True,personal,19,0,3,False,True,619,94500,15907,True,1250.0,
+31,valid,True,personal,11,0,3,False,True,630,118608,14130,True,1250.0,
+45,international,True,personal,18,0,1,False,True,559,115201,45579,True,1150.0000000000002,
+69,international,True,personal,17,0,1,False,True,542,160612,12458,True,1150.0000000000002,
+39,international,True,personal,2,0,0,False,True,719,71723,11352,True,1000.0,
+43,international,True,personal,9,0,1,False,True,818,198614,13332,True,1050.0,
+68,international,True,personal,18,0,2,False,True,613,198779,12980,True,1200.0000000000002,
+56,valid,True,personal,0,0,2,False,True,840,79456,23002,True,1100.0,
+48,valid,True,personal,17,0,0,False,True,662,59429,47700,True,1000.0,
+42,valid,True,personal,11,0,3,False,True,618,171006,45419,True,1250.0,
+46,valid,True,personal,17,0,2,False,True,725,170523,45828,True,1100.0,
+27,international,True,personal,6,0,2,False,True,800,81118,25581,True,1100.0,
+20,international,True,personal,3,0,0,False,True,825,90548,12386,True,1200.0,
+34,valid,True,personal,16,0,2,False,True,787,167536,11835,True,1100.0,
+73,international,True,personal,14,0,3,False,True,764,165313,30158,True,1150.0,
+50,international,True,personal,11,0,0,False,True,733,123158,36519,True,1000.0,
+40,international,True,personal,11,0,2,False,True,570,186562,40962,True,1200.0000000000002,
+65,valid,True,personal,20,0,0,False,True,798,140776,44431,True,1000.0,
+48,international,True,personal,2,0,0,False,True,516,152576,47204,True,1100.0,
+41,valid,True,personal,8,0,0,False,True,760,97024,29201,True,1000.0,
+71,valid,True,personal,15,0,1,False,True,592,114184,37394,True,1150.0000000000002,
+46,international,True,personal,12,0,0,False,True,819,174365,12134,True,1000.0,
+75,valid,True,personal,15,0,2,False,True,727,89622,30688,True,1100.0,
+50,valid,True,personal,0,0,0,False,True,599,159348,18549,True,1100.0,
+69,valid,True,personal,15,0,2,False,True,801,110565,45370,True,1100.0,
+64,international,True,personal,20,0,2,False,True,515,98226,10220,True,1200.0000000000002,
+47,valid,True,personal,12,0,1,False,True,558,142587,36205,True,1150.0000000000002,
+64,valid,True,personal,1,0,2,False,True,510,70141,34124,True,1200.0000000000002,
+69,valid,True,personal,13,0,0,False,True,501,105277,46562,True,1100.0,
+27,valid,True,personal,12,0,2,False,True,571,61697,38041,True,1200.0000000000002,
+62,valid,True,personal,4,0,1,False,True,626,158758,11101,True,1150.0000000000002,
+43,international,True,personal,4,0,0,False,True,719,88558,11381,True,1000.0,
+28,international,True,personal,5,0,1,False,True,783,66892,14626,True,1050.0,
+30,valid,True,personal,19,0,2,False,True,563,184702,26928,True,1200.0000000000002,
+24,valid,True,personal,14,0,0,False,True,528,177683,27341,True,1300.0,
+72,valid,True,personal,20,0,3,False,True,834,120514,49245,True,1150.0,
+25,valid,True,personal,1,0,2,False,True,845,107055,10048,True,1100.0,
+42,valid,True,personal,7,0,2,False,True,781,185469,30916,True,1100.0,
+72,international,True,personal,2,0,1,False,True,707,151854,10397,True,1050.0,
+63,valid,True,personal,10,0,2,False,True,642,174749,36131,True,1200.0000000000002,
+39,international,True,personal,15,0,0,False,True,832,186661,35523,True,1000.0,
+28,valid,True,personal,0,0,3,False,True,709,85510,18751,True,1150.0,
+64,international,True,personal,6,0,0,False,True,507,137004,21419,True,1100.0,
+35,valid,True,personal,9,0,1,False,True,506,155738,49856,True,1150.0000000000002,
+48,valid,True,personal,11,0,2,False,True,794,89078,18458,True,1100.0,
+42,international,True,personal,12,0,1,False,True,521,63633,31896,True,1150.0000000000002,
+39,international,True,personal,3,0,3,False,True,752,165338,14540,True,1150.0,
+32,international,True,personal,8,0,1,False,True,642,119970,46276,True,1150.0000000000002,
+60,valid,True,personal,1,0,1,False,True,783,161384,45926,True,1050.0,
+47,international,True,personal,12,0,3,False,True,838,160611,21387,True,1150.0,
+60,valid,True,personal,7,0,0,False,True,797,175427,13380,True,1000.0,
+59,valid,True,personal,2,0,2,False,True,596,175067,13682,True,1200.0000000000002,
+26,international,True,personal,9,0,0,False,True,758,124586,33424,True,1000.0,
+57,international,True,personal,5,0,1,False,True,586,127231,13838,True,1150.0000000000002,
+46,valid,True,personal,9,0,2,False,True,540,139421,37228,True,1200.0000000000002,
+18,international,True,personal,12,0,0,False,True,593,147746,39567,True,1300.0,
+67,international,True,personal,2,0,0,False,True,800,188557,15723,True,1000.0,
+65,international,True,personal,12,0,1,False,True,801,177044,33424,True,1050.0,
+48,international,True,personal,16,0,2,False,True,794,89505,44809,True,1100.0,
+46,valid,True,personal,4,0,1,False,True,739,188585,28232,True,1050.0,
+29,valid,True,personal,11,0,1,False,True,665,84819,44011,True,1050.0,
+24,international,True,personal,11,0,2,False,True,847,108723,21038,True,1300.0,
+64,valid,True,personal,14,0,2,False,True,773,146370,28230,True,1100.0,
+45,international,True,personal,13,0,2,False,True,719,151749,30265,True,1100.0,
+43,valid,True,personal,3,0,0,False,True,728,163497,25938,True,1000.0,
+29,valid,True,personal,14,0,3,False,True,510,109750,24949,True,1250.0,
+53,valid,True,personal,0,0,0,False,True,638,135319,45566,True,1100.0,
+41,international,True,personal,12,0,2,False,True,726,170272,45069,True,1100.0,
+64,international,True,personal,9,0,2,False,True,637,94876,39076,True,1200.0000000000002,
+23,valid,True,personal,0,0,0,False,True,568,185693,32147,True,1300.0,
+58,international,True,personal,13,0,1,False,True,786,84431,38504,True,1050.0,
+39,international,True,personal,1,0,0,False,True,645,138146,32118,True,1100.0,
+58,valid,True,personal,3,0,0,False,True,572,198676,15239,True,1100.0,
+66,valid,True,personal,7,0,2,False,True,843,69602,23956,True,1100.0,
+74,valid,True,personal,17,0,2,False,True,657,62978,15943,True,1100.0,
+60,valid,True,personal,18,0,3,False,True,805,169677,30916,True,1150.0,
+45,international,True,personal,7,0,3,False,True,739,110485,28099,True,1150.0,
+66,valid,True,personal,19,0,3,False,True,630,174153,11226,True,1250.0,
+75,international,True,personal,15,0,0,False,True,583,167799,47280,True,1100.0,
+36,international,True,personal,14,0,2,False,True,732,122472,40022,True,1100.0,
+32,valid,True,personal,17,0,3,False,True,797,126756,17147,True,1150.0,
+40,valid,True,personal,3,0,1,False,True,527,146939,28512,True,1150.0000000000002,
+25,international,True,personal,5,0,3,False,True,756,143611,21553,True,1150.0,
+46,valid,True,personal,15,0,1,False,True,633,81778,15968,True,1150.0000000000002,
+46,valid,True,personal,19,0,1,False,True,531,186581,40887,True,1150.0000000000002,
+25,valid,True,personal,13,0,2,False,True,791,171561,12516,True,1100.0,
+37,international,True,personal,8,0,1,False,True,703,161022,10866,True,1050.0,
+59,valid,True,personal,11,0,2,False,True,694,75281,28433,True,1100.0,
+61,international,True,personal,6,0,3,False,True,653,109483,39980,True,1150.0,
+65,international,True,personal,12,0,1,False,True,843,157940,14356,True,1050.0,
+28,valid,True,personal,11,0,0,False,True,533,86732,25343,True,1100.0,
+34,international,True,personal,3,0,1,False,True,519,113406,32926,True,1150.0000000000002,
+54,international,True,personal,10,0,3,False,True,672,133379,43964,True,1150.0,
+20,valid,True,personal,3,0,0,False,True,679,160570,33282,True,1200.0,
+27,international,True,personal,7,0,1,False,True,810,52438,10164,True,1050.0,
+39,valid,True,personal,20,0,1,False,True,627,136194,32596,True,1150.0000000000002,
+51,international,True,personal,10,0,3,False,True,754,171718,35425,True,1150.0,
+49,international,True,personal,4,0,1,False,True,668,158947,44601,True,1050.0,
+72,international,True,personal,3,0,1,False,True,526,108330,47450,True,1150.0000000000002,
+56,valid,True,personal,0,0,2,False,True,736,175423,26089,True,1100.0,
+50,international,True,personal,20,0,0,False,True,818,109828,27600,True,1000.0,
+29,valid,True,personal,6,0,0,False,True,819,114518,17769,True,1000.0,
+36,valid,True,personal,9,0,1,False,True,579,194539,12574,True,1150.0000000000002,
+27,valid,True,personal,12,0,1,False,True,585,111839,28317,True,1150.0000000000002,
+26,international,True,personal,13,0,0,False,True,543,196559,42731,True,1100.0,
+70,valid,True,personal,14,0,2,False,True,741,60014,15491,True,1100.0,
+54,international,True,personal,2,0,3,False,True,528,71012,32116,True,1250.0,
+54,international,True,personal,13,0,2,False,True,834,62072,15139,True,1100.0,
+70,international,True,personal,13,0,3,False,True,788,183265,44975,True,1150.0,
+51,valid,True,personal,11,0,3,False,True,707,138554,15432,True,1150.0,
+57,international,True,personal,6,0,3,False,True,580,160976,20477,True,1250.0,
+53,international,True,personal,16,0,0,False,True,547,112037,10010,True,1100.0,
+53,international,True,personal,7,0,2,False,True,589,155545,14220,True,1200.0000000000002,
+71,valid,True,personal,9,0,2,False,True,715,109555,39559,True,1100.0,
+27,valid,True,personal,11,0,3,False,True,605,131370,45782,True,1250.0,
+30,valid,True,personal,17,0,2,False,True,822,67645,40392,True,1100.0,
+30,international,True,personal,2,0,2,False,True,739,168674,14235,True,1100.0,
+35,valid,True,personal,6,0,0,False,True,790,136638,31075,True,1000.0,
+27,international,True,personal,8,0,2,False,True,538,108473,47916,True,1200.0000000000002,
+23,international,True,personal,3,0,3,False,True,601,116788,30431,True,1450.0000000000002,
+34,valid,True,personal,12,0,2,False,True,778,146552,11393,True,1100.0,
+34,valid,True,personal,11,0,0,False,True,505,185783,10724,True,1100.0,
+26,international,True,personal,18,0,2,False,True,661,51246,45746,True,1100.0,
+51,valid,True,personal,10,0,0,False,True,662,54528,42585,True,1000.0,
+68,valid,True,personal,20,0,2,False,True,552,97494,48012,True,1200.0000000000002,
+71,valid,True,personal,1,0,3,False,True,713,124109,41239,True,1150.0,
+52,international,True,personal,5,0,1,False,True,563,160123,41959,True,1150.0000000000002,
+36,international,True,personal,10,0,0,False,True,501,58697,39404,True,1100.0,
+35,valid,True,personal,10,0,1,False,True,724,104532,17135,True,1050.0,
+70,international,True,personal,7,0,3,False,True,678,194827,47821,True,1150.0,
+55,international,True,personal,16,0,3,False,True,558,161189,41433,True,1250.0,
+31,international,True,personal,0,0,3,False,True,684,131389,24442,True,1150.0,
+63,valid,True,personal,2,0,1,False,True,662,82866,23897,True,1050.0,
+60,international,True,personal,2,0,0,False,True,809,89284,15082,True,1000.0,
+50,valid,True,personal,17,0,3,False,True,728,114383,36903,True,1150.0,
+74,valid,True,personal,17,0,1,False,True,568,152582,24468,True,1150.0000000000002,
+51,valid,True,personal,16,0,0,False,True,733,65581,34467,True,1000.0,
+54,international,True,personal,5,0,2,False,True,753,155573,16086,True,1100.0,
+40,valid,True,personal,14,0,2,False,True,820,198544,41289,True,1100.0,
+68,international,True,personal,7,0,2,False,True,799,129097,39006,True,1100.0,
+66,valid,True,personal,18,0,0,False,True,682,103206,33016,True,1000.0,
+42,international,True,personal,14,0,0,False,True,634,76769,24593,True,1100.0,
+68,international,True,personal,10,0,1,False,True,610,128030,28383,True,1150.0000000000002,
+62,international,True,personal,7,0,1,False,True,592,109741,37390,True,1150.0000000000002,
+59,valid,True,personal,12,0,1,False,True,822,193620,39089,True,1050.0,
+47,international,True,personal,1,0,3,False,True,584,96580,21879,True,1250.0,
+59,valid,True,personal,8,0,3,False,True,588,168892,40295,True,1250.0,
+32,valid,True,personal,2,0,2,False,True,699,98309,16599,True,1100.0,
+18,valid,True,personal,15,0,3,False,True,796,92337,16376,True,1350.0,
+29,valid,True,personal,16,0,3,False,True,508,172526,31423,True,1250.0,
+24,international,True,personal,5,0,3,False,True,719,101542,22834,True,1350.0,
+59,international,True,personal,20,0,2,False,True,730,115158,36325,True,1100.0,
+74,valid,True,personal,5,0,1,False,True,766,99494,18229,True,1050.0,
+25,international,True,personal,13,0,0,False,True,731,90252,31808,True,1000.0,
+61,international,True,personal,0,0,3,False,True,638,119284,15373,True,1250.0,
+75,valid,True,personal,9,0,1,False,True,772,144674,46348,True,1050.0,
+40,valid,True,personal,15,0,1,False,True,632,76195,46050,True,1150.0000000000002,
+74,valid,True,personal,20,0,3,False,True,565,159030,12004,True,1250.0,
+71,valid,True,personal,13,0,3,False,True,596,97928,44733,True,1250.0,
+18,valid,True,personal,0,0,1,False,True,505,105718,30099,True,1350.0,
+72,international,True,personal,8,0,1,False,True,570,152905,38559,True,1150.0000000000002,
+50,international,True,personal,4,0,2,False,True,726,140416,10934,True,1100.0,
+27,valid,True,personal,17,0,3,False,True,644,53601,45869,True,1250.0,
+20,international,True,personal,17,0,2,False,True,693,88106,30901,True,1300.0,
+39,valid,True,personal,8,0,1,False,True,724,182004,47995,True,1050.0,
+34,international,True,personal,10,0,1,False,True,761,113351,21929,True,1050.0,
+41,international,True,personal,11,0,1,False,True,806,147904,43261,True,1050.0,
+53,international,True,personal,13,0,3,False,True,794,158622,29865,True,1150.0,
+56,international,True,personal,17,0,3,False,True,776,87272,21012,True,1150.0,
+71,international,True,personal,7,0,3,False,True,748,143656,12410,True,1150.0,
+71,valid,True,personal,15,0,1,False,True,666,191545,34943,True,1050.0,
+35,international,True,personal,14,0,3,False,True,582,58601,28591,True,1250.0,
+63,valid,True,personal,20,0,1,False,True,540,86792,16182,True,1150.0000000000002,
+72,international,True,personal,1,0,0,False,True,641,154935,14922,True,1100.0,
+53,international,True,personal,9,0,0,False,True,845,109244,49425,True,1000.0,
+52,international,True,personal,13,0,1,False,True,590,70051,14102,True,1150.0000000000002,
+67,valid,True,personal,6,0,3,False,True,713,138007,35592,True,1150.0,
+57,valid,True,personal,6,0,3,False,True,681,154272,16233,True,1150.0,
+31,valid,True,personal,8,0,3,False,True,850,139600,16715,True,1150.0,
+54,valid,True,personal,9,0,0,False,True,655,150391,23933,True,1000.0,
+20,international,True,personal,20,0,0,False,True,745,61886,42597,True,1200.0,
+71,valid,True,personal,8,0,2,False,True,526,91227,46216,True,1200.0000000000002,
+29,international,True,personal,11,0,3,False,True,653,86810,31715,True,1150.0,
+35,valid,True,personal,4,0,1,False,True,795,137898,23128,True,1050.0,
+71,valid,True,personal,10,0,3,False,True,744,64477,29054,True,1150.0,
+67,international,True,personal,4,0,2,False,True,637,148179,49179,True,1200.0000000000002,
+36,international,True,personal,6,0,2,False,True,644,193308,11255,True,1200.0000000000002,
+33,valid,True,personal,3,0,3,False,True,519,60027,28611,True,1250.0,
+42,valid,True,personal,13,0,0,False,True,713,59432,33992,True,1000.0,
+25,international,True,personal,3,0,2,False,True,501,113007,15226,True,1200.0000000000002,
+23,valid,True,personal,13,0,2,False,True,794,60947,35374,True,1300.0,
+25,valid,True,personal,12,0,0,False,True,786,103315,44313,True,1000.0,
+28,valid,True,personal,3,0,0,False,True,801,68492,49243,True,1000.0,
+56,valid,True,personal,0,0,3,False,True,788,92955,45767,True,1150.0,
+20,valid,True,personal,3,0,0,False,True,678,129401,39183,True,1200.0,
+52,international,True,personal,3,0,3,False,True,676,56505,48368,True,1150.0,
+51,valid,True,personal,6,0,0,False,True,839,185942,23383,True,1000.0,
+32,valid,True,personal,19,0,2,False,True,660,111883,13782,True,1100.0,
+49,valid,True,personal,11,0,2,False,True,673,191070,38579,True,1100.0,
+47,international,True,personal,6,0,1,False,True,755,110483,21921,True,1050.0,
+54,valid,True,personal,2,0,1,False,True,656,126408,45899,True,1050.0,
+23,international,True,personal,15,0,1,False,True,679,123620,10083,True,1250.0,
+44,valid,True,personal,15,0,0,False,True,760,111302,23172,True,1000.0,
+39,international,True,personal,7,0,0,False,True,803,142793,14757,True,1000.0,
+57,valid,True,personal,4,0,0,False,True,521,157282,21660,True,1100.0,
+74,international,True,personal,4,0,0,False,True,658,115196,14254,True,1000.0,
+33,international,True,personal,11,0,3,False,True,584,64268,23895,True,1250.0,
+44,international,True,personal,5,0,0,False,True,841,56457,25063,True,1000.0,
+26,international,True,personal,18,0,1,False,True,593,145419,40795,True,1150.0000000000002,
+41,international,True,personal,12,0,1,False,True,517,127515,31785,True,1150.0000000000002,
+21,valid,True,personal,13,0,3,False,True,783,181787,20957,True,1350.0,
+49,valid,True,personal,9,0,2,False,True,569,53629,35176,True,1200.0000000000002,
+50,valid,True,personal,6,0,3,False,True,784,166097,25754,True,1150.0,
+54,international,True,personal,6,0,1,False,True,730,161793,18861,True,1050.0,
+40,valid,True,personal,17,0,0,False,True,609,115556,49231,True,1100.0,
+61,international,True,personal,0,0,3,False,True,528,107596,24598,True,1250.0,
+46,international,True,personal,15,0,0,False,True,790,119666,30086,True,1000.0,
+65,international,True,personal,0,0,0,False,True,814,60917,11334,True,1000.0,
+57,valid,True,personal,8,0,3,False,True,568,51163,32468,True,1250.0,
+68,valid,True,personal,2,0,2,False,True,702,95808,42873,True,1100.0,
+36,valid,True,personal,5,0,2,False,True,621,113100,28465,True,1200.0000000000002,
+47,international,True,personal,1,0,0,False,True,832,107905,28197,True,1000.0,
+38,international,True,personal,16,0,1,False,True,663,79571,20677,True,1050.0,
+74,valid,True,personal,16,0,3,False,True,777,148479,25911,True,1150.0,
+19,valid,True,personal,9,0,3,False,True,627,136262,29638,True,1450.0000000000002,
+60,valid,True,personal,6,0,0,False,True,579,52410,37502,True,1100.0,
+48,valid,True,personal,5,0,0,False,True,840,93850,38003,True,1000.0,
+31,valid,True,personal,6,0,3,False,True,780,168017,27609,True,1150.0,
+28,valid,True,personal,19,0,3,False,True,828,184509,47154,True,1150.0,
+56,valid,True,personal,20,0,1,False,True,649,55001,15014,True,1150.0000000000002,
+33,international,True,personal,5,0,0,False,True,716,186615,42078,True,1000.0,
+59,valid,True,personal,16,0,0,False,True,686,119297,33222,True,1000.0,
+40,valid,True,personal,0,0,2,False,True,638,67937,12668,True,1200.0000000000002,
+51,valid,True,personal,17,0,0,False,True,783,144001,31667,True,1000.0,
+37,valid,True,personal,17,0,3,False,True,815,104478,34363,True,1150.0,
+26,valid,True,personal,3,0,0,False,True,523,64584,27560,True,1100.0,
+69,international,True,personal,17,0,1,False,True,684,193560,46560,True,1050.0,
+67,valid,True,personal,15,0,3,False,True,829,171950,23127,True,1150.0,
+50,valid,True,personal,12,0,3,False,True,613,138160,30220,True,1250.0,
+32,international,True,personal,11,0,3,False,True,561,158232,21368,True,1250.0,
+20,valid,True,personal,6,0,2,False,True,760,155628,31054,True,1300.0,
+20,valid,True,personal,20,0,2,False,True,598,168830,11964,True,1400.0000000000002,
+69,international,True,personal,5,0,2,False,True,764,138576,21087,True,1100.0,
+41,international,True,personal,12,0,0,False,True,644,169201,42565,True,1100.0,
+38,international,True,personal,3,0,0,False,True,576,159833,29658,True,1100.0,
+66,valid,True,personal,7,0,0,False,True,779,85642,26002,True,1000.0,
+66,valid,True,personal,12,0,3,False,True,676,173586,10063,True,1150.0,
+26,valid,True,personal,16,0,2,False,True,816,67187,31463,True,1100.0,
+32,international,True,personal,19,0,1,False,True,820,92373,11149,True,1050.0,
+49,international,True,personal,5,0,2,False,True,680,89501,44653,True,1100.0,
+57,valid,True,personal,0,0,0,False,True,721,61680,31045,True,1000.0,
+57,international,True,personal,2,0,1,False,True,729,90333,12784,True,1050.0,
+51,valid,True,personal,20,0,2,False,True,825,106524,12932,True,1100.0,
+56,valid,True,personal,9,0,2,False,True,664,117909,49926,True,1100.0,
+40,international,True,personal,16,0,2,False,True,694,183797,41449,True,1100.0,
+53,valid,True,personal,5,0,1,False,True,716,170457,31035,True,1050.0,
+38,international,True,personal,16,0,1,False,True,774,67088,26705,True,1050.0,
+63,valid,True,personal,6,0,0,False,True,558,111720,25672,True,1100.0,
+43,international,True,personal,1,0,1,False,True,783,83372,14559,True,1050.0,
+54,valid,True,personal,5,0,1,False,True,562,138657,35079,True,1150.0000000000002,
+57,international,True,personal,11,0,0,False,True,669,140854,35742,True,1000.0,
+42,valid,True,personal,9,0,1,False,True,792,184452,46206,True,1050.0,
+25,international,True,personal,7,0,2,False,True,549,173505,32276,True,1200.0000000000002,
+68,valid,True,personal,4,0,2,False,True,699,183042,28686,True,1100.0,
+50,international,True,personal,10,0,3,False,True,847,168734,49432,True,1150.0,
+39,valid,True,personal,13,0,0,False,True,547,178504,46785,True,1100.0,
+64,international,True,personal,2,0,0,False,True,831,66117,26973,True,1000.0,
+57,international,True,personal,17,0,3,False,True,591,145429,20043,True,1250.0,
+45,valid,True,personal,18,0,2,False,True,716,127774,13590,True,1100.0,
+44,international,True,personal,14,0,1,False,True,551,137675,47830,True,1150.0000000000002,
+65,valid,True,personal,10,0,2,False,True,739,196455,31847,True,1100.0,
+35,valid,True,personal,19,0,3,False,True,542,118796,41459,True,1250.0,
+37,international,True,personal,20,0,2,False,True,732,176215,40767,True,1100.0,
+53,international,True,personal,4,0,1,False,True,692,100900,48330,True,1050.0,
+57,valid,True,personal,20,0,2,False,True,533,105943,27047,True,1200.0000000000002,
+74,international,True,personal,4,0,3,False,True,798,163770,12464,True,1150.0,
+73,international,True,personal,17,0,0,False,True,794,187367,24560,True,1000.0,
+33,valid,True,personal,13,0,1,False,True,811,58457,38423,True,1050.0,
+73,international,True,personal,5,0,3,False,True,565,125845,39096,True,1250.0,
+44,valid,True,personal,8,0,2,False,True,579,68505,34638,True,1200.0000000000002,
+22,valid,True,personal,10,0,2,False,True,663,187307,32924,True,1300.0,
+43,international,True,personal,15,0,3,False,True,829,146774,43802,True,1150.0,
+49,international,True,personal,1,0,1,False,True,850,125331,27744,True,1050.0,
+75,international,True,personal,16,0,1,False,True,516,81121,22264,True,1150.0000000000002,
+21,valid,True,personal,18,0,2,False,True,790,59749,32993,True,1300.0,
+38,international,True,personal,15,0,1,False,True,504,185405,14701,True,1150.0000000000002,
+61,valid,True,personal,14,0,2,False,True,769,175107,31990,True,1100.0,
+73,valid,True,personal,18,0,3,False,True,834,72822,44208,True,1150.0,
+71,international,True,personal,1,0,0,False,True,722,185036,14478,True,1000.0,
+64,valid,True,personal,15,0,3,False,True,562,64418,22025,True,1250.0,
+39,international,True,personal,12,0,0,False,True,693,142569,21722,True,1000.0,
+22,international,True,personal,18,0,2,False,True,814,109212,17206,True,1300.0,
+53,valid,True,personal,10,0,0,False,True,774,55561,42117,True,1000.0,
+52,valid,True,personal,15,0,1,False,True,771,171795,35623,True,1050.0,
+47,international,True,personal,18,0,1,False,True,638,86388,20137,True,1150.0000000000002,
+75,valid,True,personal,8,0,1,False,True,707,91537,30745,True,1050.0,
+21,international,True,personal,11,0,3,False,True,646,159719,25274,True,1450.0000000000002,
+70,valid,True,personal,17,0,0,False,True,791,73220,12708,True,1000.0,
+33,international,True,personal,3,0,1,False,True,666,146462,36297,True,1050.0,
+44,valid,True,personal,10,0,3,False,True,781,138701,12812,True,1150.0,
+66,international,True,personal,8,0,3,False,True,548,126680,48385,True,1250.0,
+71,valid,True,personal,11,0,3,False,True,681,165042,47737,True,1150.0,
+21,valid,True,personal,7,0,3,False,True,596,58543,29499,True,1450.0000000000002,
+43,valid,True,personal,15,0,0,False,True,530,74717,35518,True,1100.0,
+37,valid,True,personal,16,0,1,False,True,815,100924,28115,True,1050.0,
+67,international,True,personal,10,0,2,False,True,633,73783,45647,True,1200.0000000000002,
+30,valid,True,personal,3,0,3,False,True,821,50157,27556,True,1150.0,
+48,international,True,personal,1,0,1,False,True,648,166306,14611,True,1150.0000000000002,
+52,valid,True,personal,19,0,0,False,True,605,145418,16899,True,1100.0,
+72,international,True,personal,19,0,1,False,True,838,96190,20168,True,1050.0,
+75,valid,True,personal,11,0,2,False,True,581,80704,10000,True,1200.0000000000002,
+56,valid,True,personal,8,0,1,False,True,801,103788,14489,True,1050.0,
+61,valid,True,personal,3,0,2,False,True,717,174496,11165,True,1100.0,
+57,international,True,personal,20,0,2,False,True,554,144933,10330,True,1200.0000000000002,
+23,international,True,personal,6,0,3,False,True,796,121098,13266,True,1350.0,
+66,valid,True,personal,12,0,3,False,True,599,60162,11118,True,1250.0,
+39,valid,True,personal,4,0,1,False,True,830,192930,43504,True,1050.0,
+47,international,True,personal,20,0,3,False,True,525,168224,18596,True,1250.0,
+20,valid,True,personal,0,0,1,False,True,615,90847,31255,True,1350.0,
+37,valid,True,personal,9,0,2,False,True,543,112449,30718,True,1200.0000000000002,
+47,valid,True,personal,18,0,1,False,True,622,115149,23400,True,1150.0000000000002,
+73,valid,True,personal,14,0,2,False,True,711,172880,30072,True,1100.0,
+34,valid,True,personal,16,0,3,False,True,714,145018,21471,True,1150.0,
+54,international,True,personal,6,0,1,False,True,558,115856,17374,True,1150.0000000000002,
+46,valid,True,personal,1,0,3,False,True,749,113020,48029,True,1150.0,
+37,valid,True,personal,6,0,3,False,True,623,186682,27432,True,1250.0,
+38,valid,True,personal,15,0,1,False,True,652,102976,44537,True,1050.0,
+19,international,True,personal,16,0,0,False,True,594,158721,24328,True,1300.0,
+91,expired,False,rental,22,3,10,True,False,353,6667,11473,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,True,rental,23,4,5,True,False,335,5819,24266,False,0.0,Drivers over 75 may require additional medical assessments.
+83,revoked,False,commercial,25,1,8,True,False,405,5657,37810,False,0.0,Drivers over 75 may require additional medical assessments.
+97,expired,False,rental,28,3,10,True,False,489,2665,26196,False,0.0,Drivers over 75 may require additional medical assessments.
+80,invalid,True,rental,22,4,4,True,False,337,652,31379,False,0.0,Drivers over 75 may require additional medical assessments.
+99,expired,True,commercial,25,1,7,True,False,359,6118,14347,False,0.0,Drivers over 75 may require additional medical assessments.
+6,expired,False,commercial,26,2,7,True,False,304,8622,49134,False,0.0,Primary policyholder must be at least 18 years old.
+81,revoked,False,commercial,21,1,8,True,False,347,7449,37682,False,0.0,Drivers over 75 may require additional medical assessments.
+13,invalid,True,commercial,29,5,5,True,False,373,7652,23247,False,0.0,Primary policyholder must be at least 18 years old.
+12,revoked,True,rental,23,3,10,True,False,346,7047,34669,False,0.0,Primary policyholder must be at least 18 years old.
+90,revoked,False,commercial,30,5,7,True,False,371,6033,27002,False,0.0,Drivers over 75 may require additional medical assessments.
+1,invalid,False,commercial,28,4,8,True,False,450,6900,28840,False,0.0,Primary policyholder must be at least 18 years old.
+15,revoked,False,rental,26,4,6,True,False,482,4622,40067,False,0.0,Primary policyholder must be at least 18 years old.
+97,expired,True,commercial,23,2,9,True,False,352,4010,25642,False,0.0,Drivers over 75 may require additional medical assessments.
+76,revoked,True,commercial,21,5,9,True,False,456,3076,12775,False,0.0,Drivers over 75 may require additional medical assessments.
+9,expired,True,commercial,25,3,8,True,False,304,2661,38891,False,0.0,Primary policyholder must be at least 18 years old.
+4,invalid,True,rental,28,3,6,True,False,426,5063,17664,False,0.0,Primary policyholder must be at least 18 years old.
+91,invalid,True,rental,27,1,10,True,False,320,6560,47631,False,0.0,Drivers over 75 may require additional medical assessments.
+89,invalid,True,commercial,24,2,8,True,False,429,4886,23272,False,0.0,Drivers over 75 may require additional medical assessments.
+88,expired,True,commercial,28,3,5,True,False,381,5560,34425,False,0.0,Drivers over 75 may require additional medical assessments.
+10,invalid,False,rental,21,3,7,True,False,476,5149,15664,False,0.0,Primary policyholder must be at least 18 years old.
+4,invalid,False,commercial,26,3,10,True,False,487,565,11820,False,0.0,Primary policyholder must be at least 18 years old.
+10,invalid,True,commercial,30,5,9,True,False,328,1575,23282,False,0.0,Primary policyholder must be at least 18 years old.
+88,invalid,True,rental,25,4,10,True,False,335,7976,26972,False,0.0,Drivers over 75 may require additional medical assessments.
+14,expired,True,rental,25,2,10,True,False,333,7278,18873,False,0.0,Primary policyholder must be at least 18 years old.
+88,invalid,False,commercial,22,5,5,True,False,396,6438,47937,False,0.0,Drivers over 75 may require additional medical assessments.
+93,expired,True,commercial,22,2,5,True,False,436,623,39635,False,0.0,Drivers over 75 may require additional medical assessments.
+88,invalid,False,commercial,25,3,8,True,False,314,5531,35968,False,0.0,Drivers over 75 may require additional medical assessments.
+89,invalid,True,rental,24,4,7,True,False,493,7578,28282,False,0.0,Drivers over 75 may require additional medical assessments.
+88,expired,False,rental,27,3,10,True,False,451,2266,12441,False,0.0,Drivers over 75 may require additional medical assessments.
+1,revoked,True,rental,26,5,9,True,False,396,509,25250,False,0.0,Primary policyholder must be at least 18 years old.
+11,expired,True,rental,29,2,8,True,False,437,5311,32227,False,0.0,Primary policyholder must be at least 18 years old.
+88,expired,False,rental,26,3,8,True,False,413,6451,34525,False,0.0,Drivers over 75 may require additional medical assessments.
+6,expired,True,rental,25,3,9,True,False,420,1861,20062,False,0.0,Primary policyholder must be at least 18 years old.
+6,expired,True,commercial,21,1,10,True,False,347,2600,39838,False,0.0,Primary policyholder must be at least 18 years old.
+3,invalid,False,commercial,21,3,6,True,False,344,2777,17255,False,0.0,Primary policyholder must be at least 18 years old.
+86,revoked,True,rental,29,1,5,True,False,359,2215,43968,False,0.0,Drivers over 75 may require additional medical assessments.
+16,revoked,False,commercial,29,3,9,True,False,396,8466,30712,False,0.0,Primary policyholder must be at least 18 years old.
+16,revoked,True,commercial,27,3,9,True,False,449,3394,43387,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,True,rental,23,5,9,True,False,368,2868,44195,False,0.0,Primary policyholder must be at least 18 years old.
+76,revoked,True,commercial,25,1,9,True,False,462,5227,20768,False,0.0,Drivers over 75 may require additional medical assessments.
+9,expired,True,commercial,29,5,6,True,False,397,4731,21627,False,0.0,Primary policyholder must be at least 18 years old.
+90,revoked,True,commercial,26,2,10,True,False,434,7826,46713,False,0.0,Drivers over 75 may require additional medical assessments.
+76,expired,False,commercial,25,3,6,True,False,425,4109,10027,False,0.0,Drivers over 75 may require additional medical assessments.
+77,invalid,True,commercial,23,4,7,True,False,408,5105,13208,False,0.0,Drivers over 75 may require additional medical assessments.
+9,revoked,False,rental,30,4,6,True,False,369,1475,44609,False,0.0,Primary policyholder must be at least 18 years old.
+9,revoked,False,commercial,27,1,7,True,False,477,3885,21216,False,0.0,Primary policyholder must be at least 18 years old.
+0,revoked,False,rental,30,4,5,True,False,393,189,42521,False,0.0,Primary policyholder must be at least 18 years old.
+79,revoked,True,commercial,28,2,5,True,False,442,8195,41081,False,0.0,Drivers over 75 may require additional medical assessments.
+77,revoked,True,commercial,30,2,5,True,False,406,6292,23215,False,0.0,Drivers over 75 may require additional medical assessments.
+83,invalid,False,commercial,28,3,10,True,False,333,8355,17875,False,0.0,Drivers over 75 may require additional medical assessments.
+5,revoked,False,rental,23,3,10,True,False,403,5310,40498,False,0.0,Primary policyholder must be at least 18 years old.
+86,expired,False,commercial,24,5,10,True,False,476,1435,22435,False,0.0,Drivers over 75 may require additional medical assessments.
+12,revoked,False,commercial,22,1,7,True,False,300,4411,29889,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,False,commercial,27,3,4,True,False,309,548,38589,False,0.0,Primary policyholder must be at least 18 years old.
+93,revoked,True,commercial,21,3,10,True,False,376,8404,39032,False,0.0,Drivers over 75 may require additional medical assessments.
+88,invalid,False,rental,27,4,9,True,False,375,5576,42782,False,0.0,Drivers over 75 may require additional medical assessments.
+79,revoked,True,rental,28,4,8,True,False,349,6483,19902,False,0.0,Drivers over 75 may require additional medical assessments.
+7,revoked,True,rental,26,2,4,True,False,324,506,47219,False,0.0,Primary policyholder must be at least 18 years old.
+95,invalid,False,commercial,23,2,8,True,False,362,2605,31629,False,0.0,Drivers over 75 may require additional medical assessments.
+3,revoked,True,rental,27,5,4,True,False,415,7861,31842,False,0.0,Primary policyholder must be at least 18 years old.
+90,invalid,False,commercial,29,1,8,True,False,386,6743,47081,False,0.0,Drivers over 75 may require additional medical assessments.
+10,expired,True,rental,23,3,8,True,False,332,2945,20993,False,0.0,Primary policyholder must be at least 18 years old.
+86,invalid,True,rental,27,2,8,True,False,408,6771,23058,False,0.0,Drivers over 75 may require additional medical assessments.
+12,invalid,False,commercial,27,2,5,True,False,488,8774,25636,False,0.0,Primary policyholder must be at least 18 years old.
+88,expired,False,commercial,25,1,6,True,False,436,2741,31464,False,0.0,Drivers over 75 may require additional medical assessments.
+13,revoked,False,rental,23,1,10,True,False,464,610,47405,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,False,rental,29,5,5,True,False,368,2346,27552,False,0.0,Primary policyholder must be at least 18 years old.
+89,invalid,True,rental,23,4,4,True,False,397,460,47343,False,0.0,Drivers over 75 may require additional medical assessments.
+3,invalid,True,commercial,25,4,10,True,False,446,2583,32063,False,0.0,Primary policyholder must be at least 18 years old.
+0,expired,True,commercial,26,3,4,True,False,416,6887,24362,False,0.0,Primary policyholder must be at least 18 years old.
+91,revoked,False,commercial,29,4,5,True,False,330,4728,26890,False,0.0,Drivers over 75 may require additional medical assessments.
+11,invalid,False,rental,29,2,10,True,False,306,663,11840,False,0.0,Primary policyholder must be at least 18 years old.
+100,expired,False,commercial,26,3,7,True,False,308,5366,20902,False,0.0,Drivers over 75 may require additional medical assessments.
+78,expired,False,rental,23,1,4,True,False,390,2998,25678,False,0.0,Drivers over 75 may require additional medical assessments.
+4,expired,False,commercial,29,5,8,True,False,471,8041,31497,False,0.0,Primary policyholder must be at least 18 years old.
+98,revoked,True,rental,22,3,10,True,False,450,2265,11048,False,0.0,Drivers over 75 may require additional medical assessments.
+79,revoked,True,rental,21,1,9,True,False,436,4697,14606,False,0.0,Drivers over 75 may require additional medical assessments.
+87,expired,False,rental,22,1,8,True,False,308,4644,33115,False,0.0,Drivers over 75 may require additional medical assessments.
+78,revoked,False,commercial,25,4,9,True,False,361,8124,17692,False,0.0,Drivers over 75 may require additional medical assessments.
+7,expired,False,rental,23,2,6,True,False,336,380,41447,False,0.0,Primary policyholder must be at least 18 years old.
+79,expired,True,commercial,25,5,5,True,False,404,24,37621,False,0.0,Drivers over 75 may require additional medical assessments.
+7,invalid,True,commercial,25,2,9,True,False,412,6710,27629,False,0.0,Primary policyholder must be at least 18 years old.
+85,invalid,False,rental,27,2,6,True,False,323,3554,43789,False,0.0,Drivers over 75 may require additional medical assessments.
+5,revoked,True,rental,30,5,4,True,False,355,5640,38500,False,0.0,Primary policyholder must be at least 18 years old.
+6,invalid,False,rental,28,3,6,True,False,359,146,38032,False,0.0,Primary policyholder must be at least 18 years old.
+12,revoked,False,rental,25,1,6,True,False,456,6746,18874,False,0.0,Primary policyholder must be at least 18 years old.
+9,invalid,True,commercial,29,4,8,True,False,331,2750,26855,False,0.0,Primary policyholder must be at least 18 years old.
+92,revoked,False,commercial,25,1,4,True,False,323,8819,25994,False,0.0,Drivers over 75 may require additional medical assessments.
+8,revoked,False,commercial,23,2,7,True,False,389,4372,22113,False,0.0,Primary policyholder must be at least 18 years old.
+85,invalid,True,commercial,25,3,10,True,False,475,228,25586,False,0.0,Drivers over 75 may require additional medical assessments.
+14,expired,False,rental,30,2,7,True,False,456,6543,37641,False,0.0,Primary policyholder must be at least 18 years old.
+94,expired,True,rental,25,5,4,True,False,378,4679,18211,False,0.0,Drivers over 75 may require additional medical assessments.
+14,invalid,True,rental,28,4,4,True,False,306,7033,46933,False,0.0,Primary policyholder must be at least 18 years old.
+10,invalid,True,rental,27,2,7,True,False,344,8868,43760,False,0.0,Primary policyholder must be at least 18 years old.
+11,expired,False,commercial,22,3,8,True,False,413,586,36850,False,0.0,Primary policyholder must be at least 18 years old.
+10,invalid,True,rental,29,1,7,True,False,426,2273,30787,False,0.0,Primary policyholder must be at least 18 years old.
+8,invalid,True,commercial,30,3,6,True,False,376,6653,23755,False,0.0,Primary policyholder must be at least 18 years old.
+81,invalid,False,rental,30,4,7,True,False,375,20,11952,False,0.0,Drivers over 75 may require additional medical assessments.
+80,invalid,True,commercial,27,1,10,True,False,496,8307,12178,False,0.0,Drivers over 75 may require additional medical assessments.
+83,expired,True,commercial,28,4,5,True,False,345,3079,23196,False,0.0,Drivers over 75 may require additional medical assessments.
+81,invalid,False,commercial,25,3,6,True,False,372,3009,18830,False,0.0,Drivers over 75 may require additional medical assessments.
+9,invalid,False,commercial,26,5,5,True,False,394,1919,32762,False,0.0,Primary policyholder must be at least 18 years old.
+93,expired,False,commercial,26,4,7,True,False,490,5847,24635,False,0.0,Drivers over 75 may require additional medical assessments.
+95,invalid,False,rental,25,5,9,True,False,377,7516,42591,False,0.0,Drivers over 75 may require additional medical assessments.
+98,revoked,True,rental,26,3,4,True,False,480,8985,40160,False,0.0,Drivers over 75 may require additional medical assessments.
+0,revoked,True,rental,25,1,4,True,False,367,1902,46234,False,0.0,Primary policyholder must be at least 18 years old.
+11,expired,False,rental,22,2,6,True,False,423,716,12642,False,0.0,Primary policyholder must be at least 18 years old.
+83,invalid,True,commercial,21,4,8,True,False,334,6329,23730,False,0.0,Drivers over 75 may require additional medical assessments.
+13,revoked,True,rental,23,4,9,True,False,371,1564,14250,False,0.0,Primary policyholder must be at least 18 years old.
+3,revoked,False,rental,27,3,7,True,False,449,1348,30810,False,0.0,Primary policyholder must be at least 18 years old.
+15,expired,False,rental,26,5,5,True,False,340,5076,32308,False,0.0,Primary policyholder must be at least 18 years old.
+3,invalid,False,rental,30,1,7,True,False,446,599,17292,False,0.0,Primary policyholder must be at least 18 years old.
+11,revoked,False,commercial,22,5,10,True,False,441,4004,35634,False,0.0,Primary policyholder must be at least 18 years old.
+89,revoked,False,commercial,24,1,7,True,False,305,6553,39644,False,0.0,Drivers over 75 may require additional medical assessments.
+7,expired,True,commercial,21,1,5,True,False,434,6007,11152,False,0.0,Primary policyholder must be at least 18 years old.
+91,invalid,False,commercial,22,2,5,True,False,436,416,41223,False,0.0,Drivers over 75 may require additional medical assessments.
+8,invalid,True,commercial,24,4,5,True,False,497,2381,31357,False,0.0,Primary policyholder must be at least 18 years old.
+84,invalid,True,commercial,22,2,10,True,False,412,1612,11308,False,0.0,Drivers over 75 may require additional medical assessments.
+88,revoked,False,rental,25,5,4,True,False,378,2565,14768,False,0.0,Drivers over 75 may require additional medical assessments.
+100,invalid,True,rental,27,5,4,True,False,324,794,47078,False,0.0,Drivers over 75 may require additional medical assessments.
+80,invalid,True,rental,26,5,6,True,False,368,8992,37653,False,0.0,Drivers over 75 may require additional medical assessments.
+16,revoked,True,rental,23,1,4,True,False,490,219,38879,False,0.0,Primary policyholder must be at least 18 years old.
+86,revoked,True,commercial,26,1,8,True,False,325,627,40819,False,0.0,Drivers over 75 may require additional medical assessments.
+81,invalid,True,commercial,28,3,5,True,False,375,5993,33021,False,0.0,Drivers over 75 may require additional medical assessments.
+100,invalid,False,rental,21,2,9,True,False,385,5259,12294,False,0.0,Drivers over 75 may require additional medical assessments.
+78,invalid,False,commercial,25,5,9,True,False,303,7365,32426,False,0.0,Drivers over 75 may require additional medical assessments.
+4,invalid,True,rental,29,3,4,True,False,475,4809,29108,False,0.0,Primary policyholder must be at least 18 years old.
+95,expired,True,commercial,27,4,7,True,False,492,2653,13872,False,0.0,Drivers over 75 may require additional medical assessments.
+12,expired,True,rental,22,1,7,True,False,426,6029,35941,False,0.0,Primary policyholder must be at least 18 years old.
+78,expired,True,commercial,22,5,8,True,False,452,7326,38289,False,0.0,Drivers over 75 may require additional medical assessments.
+90,revoked,True,commercial,22,4,6,True,False,385,2071,26993,False,0.0,Drivers over 75 may require additional medical assessments.
+17,invalid,False,commercial,25,4,8,True,False,369,4144,39738,False,0.0,Primary policyholder must be at least 18 years old.
+17,expired,False,rental,26,5,4,True,False,455,3640,24621,False,0.0,Primary policyholder must be at least 18 years old.
+78,revoked,True,commercial,25,1,4,True,False,404,464,13039,False,0.0,Drivers over 75 may require additional medical assessments.
+83,expired,True,commercial,21,3,8,True,False,366,5740,20561,False,0.0,Drivers over 75 may require additional medical assessments.
+100,expired,False,rental,23,1,10,True,False,456,4053,24602,False,0.0,Drivers over 75 may require additional medical assessments.
+99,invalid,False,rental,24,5,5,True,False,365,3922,16854,False,0.0,Drivers over 75 may require additional medical assessments.
+16,expired,False,commercial,27,2,10,True,False,408,590,17501,False,0.0,Primary policyholder must be at least 18 years old.
+97,invalid,True,rental,21,1,5,True,False,496,5801,11208,False,0.0,Drivers over 75 may require additional medical assessments.
+5,revoked,False,commercial,26,2,9,True,False,367,8134,31781,False,0.0,Primary policyholder must be at least 18 years old.
+88,invalid,False,commercial,27,5,8,True,False,492,3658,10105,False,0.0,Drivers over 75 may require additional medical assessments.
+81,revoked,False,rental,21,5,10,True,False,311,2529,37122,False,0.0,Drivers over 75 may require additional medical assessments.
+8,invalid,True,commercial,25,1,4,True,False,466,4228,17864,False,0.0,Primary policyholder must be at least 18 years old.
+1,revoked,True,rental,21,4,5,True,False,366,8946,18770,False,0.0,Primary policyholder must be at least 18 years old.
+81,expired,True,commercial,25,4,9,True,False,478,2110,30579,False,0.0,Drivers over 75 may require additional medical assessments.
+5,revoked,True,commercial,23,2,9,True,False,343,2613,40508,False,0.0,Primary policyholder must be at least 18 years old.
+89,revoked,True,commercial,25,3,9,True,False,356,5822,29544,False,0.0,Drivers over 75 may require additional medical assessments.
+14,revoked,True,rental,24,3,10,True,False,371,2086,46684,False,0.0,Primary policyholder must be at least 18 years old.
+80,invalid,False,rental,28,5,4,True,False,473,6776,38223,False,0.0,Drivers over 75 may require additional medical assessments.
+92,revoked,False,commercial,27,1,4,True,False,333,5767,25332,False,0.0,Drivers over 75 may require additional medical assessments.
+78,revoked,False,rental,26,4,4,True,False,307,2175,27197,False,0.0,Drivers over 75 may require additional medical assessments.
+81,expired,False,commercial,21,4,10,True,False,444,996,30530,False,0.0,Drivers over 75 may require additional medical assessments.
+100,expired,True,rental,25,4,10,True,False,334,357,33001,False,0.0,Drivers over 75 may require additional medical assessments.
+1,invalid,False,commercial,26,5,5,True,False,457,8920,41471,False,0.0,Primary policyholder must be at least 18 years old.
+82,revoked,False,rental,22,2,9,True,False,448,7942,25331,False,0.0,Drivers over 75 may require additional medical assessments.
+13,revoked,False,commercial,23,1,4,True,False,328,4968,37856,False,0.0,Primary policyholder must be at least 18 years old.
+7,revoked,False,rental,25,1,8,True,False,451,4297,14585,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,False,rental,30,1,10,True,False,384,4622,26755,False,0.0,Primary policyholder must be at least 18 years old.
+90,invalid,True,commercial,24,2,8,True,False,394,7812,11205,False,0.0,Drivers over 75 may require additional medical assessments.
+93,revoked,False,rental,25,3,7,True,False,436,4006,43287,False,0.0,Drivers over 75 may require additional medical assessments.
+13,revoked,True,rental,27,5,6,True,False,402,8026,21386,False,0.0,Primary policyholder must be at least 18 years old.
+7,invalid,False,rental,24,3,9,True,False,480,8194,13172,False,0.0,Primary policyholder must be at least 18 years old.
+16,expired,False,rental,30,4,9,True,False,321,1156,31240,False,0.0,Primary policyholder must be at least 18 years old.
+96,expired,False,commercial,24,5,6,True,False,373,7900,10985,False,0.0,Drivers over 75 may require additional medical assessments.
+6,expired,True,rental,29,5,6,True,False,433,2905,47204,False,0.0,Primary policyholder must be at least 18 years old.
+12,expired,False,commercial,25,3,5,True,False,307,6305,20130,False,0.0,Primary policyholder must be at least 18 years old.
+84,invalid,False,commercial,22,1,4,True,False,467,206,30684,False,0.0,Drivers over 75 may require additional medical assessments.
+86,invalid,True,rental,28,5,6,True,False,439,7270,11136,False,0.0,Drivers over 75 may require additional medical assessments.
+82,revoked,False,rental,25,2,9,True,False,372,464,38076,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,False,rental,25,5,5,True,False,418,1901,26703,False,0.0,Drivers over 75 may require additional medical assessments.
+89,expired,True,commercial,26,2,5,True,False,359,2385,29217,False,0.0,Drivers over 75 may require additional medical assessments.
+93,invalid,False,rental,28,1,7,True,False,499,5970,25396,False,0.0,Drivers over 75 may require additional medical assessments.
+8,expired,False,commercial,23,2,10,True,False,315,71,46882,False,0.0,Primary policyholder must be at least 18 years old.
+1,expired,False,commercial,24,5,7,True,False,328,3691,25356,False,0.0,Primary policyholder must be at least 18 years old.
+91,invalid,False,rental,21,3,10,True,False,373,3879,19312,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,True,commercial,21,2,4,True,False,499,4878,17520,False,0.0,Drivers over 75 may require additional medical assessments.
+16,invalid,True,rental,23,3,5,True,False,333,1876,35569,False,0.0,Primary policyholder must be at least 18 years old.
+11,invalid,False,commercial,27,2,9,True,False,303,7867,23524,False,0.0,Primary policyholder must be at least 18 years old.
+99,invalid,True,commercial,22,2,10,True,False,489,3373,49655,False,0.0,Drivers over 75 may require additional medical assessments.
+90,expired,True,commercial,22,2,7,True,False,314,6631,28121,False,0.0,Drivers over 75 may require additional medical assessments.
+85,invalid,False,commercial,21,4,6,True,False,328,2764,16447,False,0.0,Drivers over 75 may require additional medical assessments.
+3,expired,False,commercial,26,4,7,True,False,448,918,41049,False,0.0,Primary policyholder must be at least 18 years old.
+8,revoked,True,commercial,22,2,7,True,False,465,3885,28372,False,0.0,Primary policyholder must be at least 18 years old.
+94,expired,True,rental,21,5,9,True,False,307,3054,21174,False,0.0,Drivers over 75 may require additional medical assessments.
+77,expired,True,rental,28,3,7,True,False,465,8415,45485,False,0.0,Drivers over 75 may require additional medical assessments.
+81,revoked,True,commercial,25,1,4,True,False,342,1878,12812,False,0.0,Drivers over 75 may require additional medical assessments.
+13,revoked,True,rental,28,2,6,True,False,324,8715,11452,False,0.0,Primary policyholder must be at least 18 years old.
+99,expired,False,rental,24,3,7,True,False,362,3274,29614,False,0.0,Drivers over 75 may require additional medical assessments.
+91,invalid,True,rental,29,5,7,True,False,327,5383,13939,False,0.0,Drivers over 75 may require additional medical assessments.
+79,expired,False,rental,24,4,4,True,False,354,2431,28663,False,0.0,Drivers over 75 may require additional medical assessments.
+13,expired,True,rental,21,5,4,True,False,343,6279,14848,False,0.0,Primary policyholder must be at least 18 years old.
+3,expired,False,rental,26,3,4,True,False,314,3207,44059,False,0.0,Primary policyholder must be at least 18 years old.
+98,revoked,True,commercial,22,3,10,True,False,359,5476,21558,False,0.0,Drivers over 75 may require additional medical assessments.
+77,expired,True,rental,29,3,5,True,False,327,3728,45085,False,0.0,Drivers over 75 may require additional medical assessments.
+77,expired,False,rental,24,1,4,True,False,310,469,20768,False,0.0,Drivers over 75 may require additional medical assessments.
+11,invalid,False,commercial,25,2,7,True,False,333,7146,41662,False,0.0,Primary policyholder must be at least 18 years old.
+2,invalid,False,rental,25,3,8,True,False,443,6524,22666,False,0.0,Primary policyholder must be at least 18 years old.
+8,expired,False,rental,30,4,4,True,False,317,8896,41098,False,0.0,Primary policyholder must be at least 18 years old.
+2,expired,True,commercial,26,3,8,True,False,321,6583,15687,False,0.0,Primary policyholder must be at least 18 years old.
+78,revoked,False,commercial,28,2,8,True,False,429,547,47626,False,0.0,Drivers over 75 may require additional medical assessments.
+12,revoked,False,commercial,28,2,8,True,False,478,4298,41643,False,0.0,Primary policyholder must be at least 18 years old.
+78,invalid,False,commercial,26,1,8,True,False,364,2268,11088,False,0.0,Drivers over 75 may require additional medical assessments.
+16,invalid,True,rental,27,5,10,True,False,336,5166,17588,False,0.0,Primary policyholder must be at least 18 years old.
+0,revoked,False,commercial,27,2,7,True,False,348,8179,44670,False,0.0,Primary policyholder must be at least 18 years old.
+85,expired,True,rental,28,1,6,True,False,494,1714,25667,False,0.0,Drivers over 75 may require additional medical assessments.
+12,invalid,True,commercial,30,3,9,True,False,363,2007,23327,False,0.0,Primary policyholder must be at least 18 years old.
+88,expired,False,rental,25,2,9,True,False,317,8267,37072,False,0.0,Drivers over 75 may require additional medical assessments.
+84,expired,False,commercial,30,4,4,True,False,459,4769,48860,False,0.0,Drivers over 75 may require additional medical assessments.
+16,expired,False,commercial,27,1,9,True,False,400,470,45028,False,0.0,Primary policyholder must be at least 18 years old.
+91,revoked,False,commercial,24,2,8,True,False,376,3529,19291,False,0.0,Drivers over 75 may require additional medical assessments.
+88,expired,True,commercial,26,1,5,True,False,451,4503,38615,False,0.0,Drivers over 75 may require additional medical assessments.
+1,expired,False,rental,23,3,5,True,False,487,2404,30187,False,0.0,Primary policyholder must be at least 18 years old.
+82,revoked,False,rental,22,4,4,True,False,499,6518,11740,False,0.0,Drivers over 75 may require additional medical assessments.
+94,invalid,False,rental,24,3,8,True,False,463,8552,24938,False,0.0,Drivers over 75 may require additional medical assessments.
+94,expired,False,rental,22,5,6,True,False,340,7990,13063,False,0.0,Drivers over 75 may require additional medical assessments.
+79,expired,True,rental,21,4,6,True,False,452,7460,49091,False,0.0,Drivers over 75 may require additional medical assessments.
+88,expired,False,commercial,29,5,6,True,False,468,7988,36723,False,0.0,Drivers over 75 may require additional medical assessments.
+78,invalid,True,rental,26,4,6,True,False,468,3988,32370,False,0.0,Drivers over 75 may require additional medical assessments.
+13,expired,False,rental,22,3,5,True,False,465,6437,39350,False,0.0,Primary policyholder must be at least 18 years old.
+86,expired,True,rental,30,1,10,True,False,409,2652,44460,False,0.0,Drivers over 75 may require additional medical assessments.
+88,revoked,False,rental,21,1,8,True,False,490,7573,31869,False,0.0,Drivers over 75 may require additional medical assessments.
+3,expired,True,commercial,22,3,6,True,False,358,1027,30334,False,0.0,Primary policyholder must be at least 18 years old.
+9,expired,True,commercial,30,5,5,True,False,308,8416,24784,False,0.0,Primary policyholder must be at least 18 years old.
+99,invalid,False,rental,21,2,4,True,False,473,8603,20357,False,0.0,Drivers over 75 may require additional medical assessments.
+93,invalid,True,commercial,29,1,6,True,False,430,6356,22412,False,0.0,Drivers over 75 may require additional medical assessments.
+1,invalid,True,commercial,30,1,7,True,False,313,802,22211,False,0.0,Primary policyholder must be at least 18 years old.
+3,expired,False,rental,26,1,8,True,False,418,6856,28829,False,0.0,Primary policyholder must be at least 18 years old.
+6,invalid,False,rental,26,5,4,True,False,373,710,18594,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,True,rental,29,4,5,True,False,462,8122,45759,False,0.0,Primary policyholder must be at least 18 years old.
+11,revoked,False,commercial,22,3,5,True,False,352,1286,31875,False,0.0,Primary policyholder must be at least 18 years old.
+97,revoked,False,commercial,27,2,5,True,False,462,986,15816,False,0.0,Drivers over 75 may require additional medical assessments.
+86,invalid,False,rental,28,2,8,True,False,436,514,30209,False,0.0,Drivers over 75 may require additional medical assessments.
+12,invalid,False,rental,25,1,6,True,False,332,1604,28515,False,0.0,Primary policyholder must be at least 18 years old.
+81,invalid,False,rental,29,2,8,True,False,419,1694,24073,False,0.0,Drivers over 75 may require additional medical assessments.
+0,revoked,False,commercial,21,2,9,True,False,417,789,19493,False,0.0,Primary policyholder must be at least 18 years old.
+83,invalid,True,commercial,21,1,5,True,False,497,8534,17191,False,0.0,Drivers over 75 may require additional medical assessments.
+80,invalid,False,commercial,25,4,7,True,False,317,2466,45161,False,0.0,Drivers over 75 may require additional medical assessments.
+1,invalid,True,commercial,26,4,5,True,False,355,418,36630,False,0.0,Primary policyholder must be at least 18 years old.
+14,invalid,True,rental,26,5,4,True,False,418,6502,11330,False,0.0,Primary policyholder must be at least 18 years old.
+14,revoked,True,rental,22,1,10,True,False,461,282,34280,False,0.0,Primary policyholder must be at least 18 years old.
+77,expired,True,rental,30,5,9,True,False,377,3033,12344,False,0.0,Drivers over 75 may require additional medical assessments.
+84,expired,True,commercial,25,1,8,True,False,460,2873,42050,False,0.0,Drivers over 75 may require additional medical assessments.
+13,expired,False,rental,23,1,7,True,False,379,3908,13331,False,0.0,Primary policyholder must be at least 18 years old.
+5,revoked,True,rental,23,2,8,True,False,404,2582,31313,False,0.0,Primary policyholder must be at least 18 years old.
+94,invalid,False,rental,22,1,4,True,False,492,8529,25888,False,0.0,Drivers over 75 may require additional medical assessments.
+100,invalid,False,commercial,28,1,10,True,False,324,7769,15516,False,0.0,Drivers over 75 may require additional medical assessments.
+94,invalid,True,rental,22,3,9,True,False,438,5229,19221,False,0.0,Drivers over 75 may require additional medical assessments.
+12,expired,False,rental,25,4,7,True,False,475,69,36710,False,0.0,Primary policyholder must be at least 18 years old.
+0,revoked,False,commercial,22,4,6,True,False,355,5156,28105,False,0.0,Primary policyholder must be at least 18 years old.
+85,revoked,True,rental,27,1,5,True,False,323,8154,16334,False,0.0,Drivers over 75 may require additional medical assessments.
+8,expired,True,rental,27,1,10,True,False,459,4565,46185,False,0.0,Primary policyholder must be at least 18 years old.
+2,revoked,False,commercial,28,3,4,True,False,464,5795,25393,False,0.0,Primary policyholder must be at least 18 years old.
+94,invalid,False,rental,27,2,5,True,False,300,3564,35979,False,0.0,Drivers over 75 may require additional medical assessments.
+0,invalid,False,rental,27,5,8,True,False,462,4125,23067,False,0.0,Primary policyholder must be at least 18 years old.
+84,revoked,True,rental,30,1,10,True,False,405,8472,29474,False,0.0,Drivers over 75 may require additional medical assessments.
+97,expired,False,commercial,28,4,5,True,False,445,7533,44042,False,0.0,Drivers over 75 may require additional medical assessments.
+95,revoked,True,commercial,27,1,6,True,False,425,8585,24623,False,0.0,Drivers over 75 may require additional medical assessments.
+84,invalid,False,rental,22,2,10,True,False,361,1937,35787,False,0.0,Drivers over 75 may require additional medical assessments.
+17,invalid,False,commercial,21,3,9,True,False,387,3277,23457,False,0.0,Primary policyholder must be at least 18 years old.
+17,expired,False,rental,25,3,7,True,False,487,4274,17523,False,0.0,Primary policyholder must be at least 18 years old.
+79,expired,True,commercial,24,2,10,True,False,454,2702,27120,False,0.0,Drivers over 75 may require additional medical assessments.
+1,invalid,True,commercial,28,5,4,True,False,495,3550,30235,False,0.0,Primary policyholder must be at least 18 years old.
+87,expired,True,commercial,24,1,4,True,False,374,7741,46679,False,0.0,Drivers over 75 may require additional medical assessments.
+92,revoked,False,commercial,26,3,4,True,False,419,2184,35353,False,0.0,Drivers over 75 may require additional medical assessments.
+0,expired,False,commercial,28,5,4,True,False,310,6022,40446,False,0.0,Primary policyholder must be at least 18 years old.
+86,invalid,False,rental,25,5,6,True,False,383,4711,22791,False,0.0,Drivers over 75 may require additional medical assessments.
+87,expired,True,rental,25,1,7,True,False,394,3089,39243,False,0.0,Drivers over 75 may require additional medical assessments.
+9,invalid,False,rental,21,5,4,True,False,472,1999,11512,False,0.0,Primary policyholder must be at least 18 years old.
+10,invalid,True,rental,25,2,6,True,False,458,6864,22714,False,0.0,Primary policyholder must be at least 18 years old.
+15,expired,True,rental,21,2,7,True,False,469,2540,19443,False,0.0,Primary policyholder must be at least 18 years old.
+77,expired,False,rental,30,1,8,True,False,363,5895,43824,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,False,rental,26,5,9,True,False,324,3485,13285,False,0.0,Drivers over 75 may require additional medical assessments.
+98,revoked,False,rental,28,2,10,True,False,411,4435,28383,False,0.0,Drivers over 75 may require additional medical assessments.
+1,expired,True,commercial,22,5,7,True,False,301,3368,29918,False,0.0,Primary policyholder must be at least 18 years old.
+5,revoked,True,commercial,28,5,4,True,False,487,2697,13540,False,0.0,Primary policyholder must be at least 18 years old.
+7,revoked,False,rental,21,4,8,True,False,441,3825,41849,False,0.0,Primary policyholder must be at least 18 years old.
+12,revoked,False,rental,21,5,8,True,False,431,7219,22279,False,0.0,Primary policyholder must be at least 18 years old.
+85,invalid,True,rental,25,1,7,True,False,494,1775,43307,False,0.0,Drivers over 75 may require additional medical assessments.
+9,revoked,False,commercial,23,4,4,True,False,405,4795,33909,False,0.0,Primary policyholder must be at least 18 years old.
+1,invalid,False,rental,24,5,5,True,False,477,5278,21496,False,0.0,Primary policyholder must be at least 18 years old.
+86,invalid,False,rental,26,5,4,True,False,435,691,21873,False,0.0,Drivers over 75 may require additional medical assessments.
+9,invalid,True,rental,27,4,8,True,False,490,1655,44014,False,0.0,Primary policyholder must be at least 18 years old.
+97,expired,True,commercial,27,2,7,True,False,476,2064,13842,False,0.0,Drivers over 75 may require additional medical assessments.
+98,revoked,False,commercial,28,1,5,True,False,333,3195,36548,False,0.0,Drivers over 75 may require additional medical assessments.
+87,invalid,False,rental,23,3,10,True,False,399,5019,46113,False,0.0,Drivers over 75 may require additional medical assessments.
+81,revoked,False,commercial,21,4,10,True,False,412,595,15092,False,0.0,Drivers over 75 may require additional medical assessments.
+80,invalid,True,rental,22,2,4,True,False,438,5476,31893,False,0.0,Drivers over 75 may require additional medical assessments.
+7,invalid,False,rental,22,1,10,True,False,485,6118,40930,False,0.0,Primary policyholder must be at least 18 years old.
+15,revoked,False,rental,23,4,4,True,False,303,2960,39361,False,0.0,Primary policyholder must be at least 18 years old.
+87,expired,True,commercial,25,2,4,True,False,322,3862,37751,False,0.0,Drivers over 75 may require additional medical assessments.
+100,revoked,True,commercial,27,1,5,True,False,491,5525,38064,False,0.0,Drivers over 75 may require additional medical assessments.
+9,revoked,True,commercial,30,4,4,True,False,413,3393,27203,False,0.0,Primary policyholder must be at least 18 years old.
+81,revoked,False,commercial,27,5,7,True,False,395,6278,16896,False,0.0,Drivers over 75 may require additional medical assessments.
+87,invalid,True,rental,24,2,5,True,False,452,5090,35874,False,0.0,Drivers over 75 may require additional medical assessments.
+85,invalid,True,rental,27,4,9,True,False,408,475,10721,False,0.0,Drivers over 75 may require additional medical assessments.
+95,revoked,False,commercial,24,5,6,True,False,495,3302,45533,False,0.0,Drivers over 75 may require additional medical assessments.
+94,revoked,True,rental,27,1,8,True,False,330,8166,12692,False,0.0,Drivers over 75 may require additional medical assessments.
+10,expired,True,commercial,29,2,4,True,False,315,3613,41558,False,0.0,Primary policyholder must be at least 18 years old.
+11,revoked,False,rental,30,1,8,True,False,441,3426,33069,False,0.0,Primary policyholder must be at least 18 years old.
+3,revoked,False,commercial,23,2,8,True,False,440,6626,13091,False,0.0,Primary policyholder must be at least 18 years old.
+94,expired,True,commercial,26,2,9,True,False,415,8324,38997,False,0.0,Drivers over 75 may require additional medical assessments.
+98,revoked,True,commercial,25,5,7,True,False,341,7811,39477,False,0.0,Drivers over 75 may require additional medical assessments.
+6,expired,False,rental,22,4,10,True,False,376,1180,37465,False,0.0,Primary policyholder must be at least 18 years old.
+12,expired,False,commercial,22,2,9,True,False,470,7024,18648,False,0.0,Primary policyholder must be at least 18 years old.
+94,invalid,True,commercial,22,5,7,True,False,492,5634,31540,False,0.0,Drivers over 75 may require additional medical assessments.
+4,revoked,False,rental,25,4,10,True,False,451,8361,38256,False,0.0,Primary policyholder must be at least 18 years old.
+96,expired,True,rental,26,3,8,True,False,349,591,49827,False,0.0,Drivers over 75 may require additional medical assessments.
+94,revoked,True,rental,30,2,8,True,False,379,4054,40764,False,0.0,Drivers over 75 may require additional medical assessments.
+0,invalid,False,commercial,25,4,9,True,False,471,8186,27203,False,0.0,Primary policyholder must be at least 18 years old.
+13,revoked,True,commercial,22,4,5,True,False,453,222,15669,False,0.0,Primary policyholder must be at least 18 years old.
+15,expired,True,rental,25,3,5,True,False,320,6753,38711,False,0.0,Primary policyholder must be at least 18 years old.
+12,invalid,True,rental,26,4,10,True,False,356,3691,42577,False,0.0,Primary policyholder must be at least 18 years old.
+16,revoked,True,rental,25,3,7,True,False,473,1561,31033,False,0.0,Primary policyholder must be at least 18 years old.
+99,revoked,False,rental,29,1,9,True,False,389,5657,38026,False,0.0,Drivers over 75 may require additional medical assessments.
+3,expired,False,rental,29,5,5,True,False,406,1149,13004,False,0.0,Primary policyholder must be at least 18 years old.
+77,invalid,False,commercial,26,3,8,True,False,386,4448,13194,False,0.0,Drivers over 75 may require additional medical assessments.
+6,invalid,False,commercial,30,3,9,True,False,337,5838,23915,False,0.0,Primary policyholder must be at least 18 years old.
+0,expired,False,commercial,29,2,6,True,False,379,6667,48510,False,0.0,Primary policyholder must be at least 18 years old.
+81,expired,True,rental,30,5,8,True,False,420,3028,23025,False,0.0,Drivers over 75 may require additional medical assessments.
+11,expired,False,rental,27,1,4,True,False,442,6290,17687,False,0.0,Primary policyholder must be at least 18 years old.
+11,revoked,True,rental,26,1,6,True,False,427,855,13275,False,0.0,Primary policyholder must be at least 18 years old.
+82,expired,True,rental,27,5,5,True,False,456,8084,41014,False,0.0,Drivers over 75 may require additional medical assessments.
+0,revoked,False,commercial,30,5,9,True,False,327,7935,46418,False,0.0,Primary policyholder must be at least 18 years old.
+14,invalid,True,rental,27,5,5,True,False,385,4053,11410,False,0.0,Primary policyholder must be at least 18 years old.
+84,revoked,True,rental,29,3,9,True,False,391,2221,25103,False,0.0,Drivers over 75 may require additional medical assessments.
+9,expired,True,rental,27,5,4,True,False,466,7271,36655,False,0.0,Primary policyholder must be at least 18 years old.
+98,revoked,True,rental,30,5,10,True,False,416,2904,44995,False,0.0,Drivers over 75 may require additional medical assessments.
+10,revoked,True,commercial,30,2,8,True,False,423,1736,10560,False,0.0,Primary policyholder must be at least 18 years old.
+6,invalid,True,rental,28,2,8,True,False,491,931,14520,False,0.0,Primary policyholder must be at least 18 years old.
+86,revoked,True,rental,30,4,7,True,False,405,5860,13384,False,0.0,Drivers over 75 may require additional medical assessments.
+5,expired,False,commercial,25,2,5,True,False,468,5857,32885,False,0.0,Primary policyholder must be at least 18 years old.
+85,invalid,False,rental,28,3,10,True,False,392,588,33788,False,0.0,Drivers over 75 may require additional medical assessments.
+89,revoked,False,rental,30,2,4,True,False,476,7575,32676,False,0.0,Drivers over 75 may require additional medical assessments.
+9,invalid,False,commercial,28,5,8,True,False,472,2687,19083,False,0.0,Primary policyholder must be at least 18 years old.
+5,invalid,False,rental,29,1,9,True,False,496,5492,35643,False,0.0,Primary policyholder must be at least 18 years old.
+7,revoked,True,commercial,27,1,7,True,False,335,3955,44031,False,0.0,Primary policyholder must be at least 18 years old.
+83,invalid,True,commercial,26,5,6,True,False,444,7719,16093,False,0.0,Drivers over 75 may require additional medical assessments.
+83,revoked,True,rental,23,1,5,True,False,340,7249,42883,False,0.0,Drivers over 75 may require additional medical assessments.
+94,expired,True,rental,21,1,9,True,False,376,5128,21211,False,0.0,Drivers over 75 may require additional medical assessments.
+96,revoked,True,commercial,25,2,5,True,False,367,4706,36737,False,0.0,Drivers over 75 may require additional medical assessments.
+0,invalid,False,commercial,30,3,9,True,False,472,702,46453,False,0.0,Primary policyholder must be at least 18 years old.
+94,invalid,False,rental,26,2,7,True,False,339,1485,16805,False,0.0,Drivers over 75 may require additional medical assessments.
+97,expired,True,commercial,22,2,5,True,False,474,6070,21735,False,0.0,Drivers over 75 may require additional medical assessments.
+10,invalid,True,commercial,23,2,8,True,False,394,4083,18863,False,0.0,Primary policyholder must be at least 18 years old.
+5,expired,True,commercial,24,2,10,True,False,461,418,31045,False,0.0,Primary policyholder must be at least 18 years old.
+86,invalid,True,commercial,23,1,7,True,False,322,8783,38674,False,0.0,Drivers over 75 may require additional medical assessments.
+7,invalid,True,commercial,28,1,5,True,False,458,123,30387,False,0.0,Primary policyholder must be at least 18 years old.
+100,expired,True,rental,24,5,5,True,False,490,6377,49921,False,0.0,Drivers over 75 may require additional medical assessments.
+16,expired,False,commercial,22,4,4,True,False,427,2611,46177,False,0.0,Primary policyholder must be at least 18 years old.
+4,revoked,True,rental,22,5,7,True,False,397,997,48180,False,0.0,Primary policyholder must be at least 18 years old.
+98,expired,True,commercial,29,3,5,True,False,469,4883,24387,False,0.0,Drivers over 75 may require additional medical assessments.
+97,expired,False,commercial,27,5,4,True,False,408,5786,14136,False,0.0,Drivers over 75 may require additional medical assessments.
+1,expired,False,rental,29,1,10,True,False,406,6332,19045,False,0.0,Primary policyholder must be at least 18 years old.
+15,invalid,True,commercial,29,5,9,True,False,484,7045,19508,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,True,commercial,21,2,5,True,False,381,2915,36575,False,0.0,Primary policyholder must be at least 18 years old.
+97,revoked,False,rental,28,1,6,True,False,397,5684,43698,False,0.0,Drivers over 75 may require additional medical assessments.
+81,invalid,False,rental,23,3,4,True,False,464,6748,44653,False,0.0,Drivers over 75 may require additional medical assessments.
+13,revoked,True,rental,29,3,9,True,False,438,1690,14944,False,0.0,Primary policyholder must be at least 18 years old.
+91,expired,False,commercial,21,3,5,True,False,349,2772,46069,False,0.0,Drivers over 75 may require additional medical assessments.
+4,expired,True,commercial,21,3,8,True,False,323,2649,26178,False,0.0,Primary policyholder must be at least 18 years old.
+4,invalid,False,commercial,27,1,9,True,False,479,7565,17325,False,0.0,Primary policyholder must be at least 18 years old.
+79,revoked,True,commercial,21,3,4,True,False,420,1102,43878,False,0.0,Drivers over 75 may require additional medical assessments.
+85,revoked,True,rental,25,5,10,True,False,455,7372,21044,False,0.0,Drivers over 75 may require additional medical assessments.
+6,invalid,True,rental,27,3,6,True,False,385,3775,17291,False,0.0,Primary policyholder must be at least 18 years old.
+96,expired,False,commercial,30,5,6,True,False,328,2578,18757,False,0.0,Drivers over 75 may require additional medical assessments.
+14,invalid,False,commercial,26,5,6,True,False,325,5637,16850,False,0.0,Primary policyholder must be at least 18 years old.
+12,revoked,False,commercial,29,4,5,True,False,463,4047,13268,False,0.0,Primary policyholder must be at least 18 years old.
+1,expired,False,commercial,23,1,8,True,False,398,8956,36897,False,0.0,Primary policyholder must be at least 18 years old.
+1,invalid,True,rental,26,3,6,True,False,405,7177,44042,False,0.0,Primary policyholder must be at least 18 years old.
+13,expired,False,rental,26,3,9,True,False,303,7350,28943,False,0.0,Primary policyholder must be at least 18 years old.
+4,expired,False,commercial,26,4,9,True,False,477,1558,41039,False,0.0,Primary policyholder must be at least 18 years old.
+76,expired,True,commercial,28,4,8,True,False,495,7482,39472,False,0.0,Drivers over 75 may require additional medical assessments.
+86,invalid,True,rental,30,4,10,True,False,344,2998,32721,False,0.0,Drivers over 75 may require additional medical assessments.
+90,invalid,True,rental,29,2,5,True,False,475,4920,21838,False,0.0,Drivers over 75 may require additional medical assessments.
+87,revoked,True,commercial,27,1,5,True,False,428,6746,43096,False,0.0,Drivers over 75 may require additional medical assessments.
+11,expired,False,rental,24,5,8,True,False,338,5380,10905,False,0.0,Primary policyholder must be at least 18 years old.
+15,expired,False,rental,24,5,4,True,False,475,5600,29944,False,0.0,Primary policyholder must be at least 18 years old.
+96,expired,False,rental,24,4,9,True,False,452,560,49240,False,0.0,Drivers over 75 may require additional medical assessments.
+79,revoked,False,rental,21,1,7,True,False,315,7742,22168,False,0.0,Drivers over 75 may require additional medical assessments.
+2,invalid,True,commercial,21,4,7,True,False,421,2574,32947,False,0.0,Primary policyholder must be at least 18 years old.
+91,invalid,False,rental,25,4,6,True,False,479,2901,49738,False,0.0,Drivers over 75 may require additional medical assessments.
+91,expired,False,rental,29,1,5,True,False,351,7018,32445,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,True,commercial,23,3,10,True,False,310,8550,14698,False,0.0,Drivers over 75 may require additional medical assessments.
+17,invalid,True,commercial,21,5,4,True,False,459,3399,49725,False,0.0,Primary policyholder must be at least 18 years old.
+97,revoked,True,rental,28,3,8,True,False,335,8051,37904,False,0.0,Drivers over 75 may require additional medical assessments.
+14,revoked,False,rental,28,2,4,True,False,408,6261,42595,False,0.0,Primary policyholder must be at least 18 years old.
+3,revoked,True,commercial,24,5,6,True,False,393,3243,44647,False,0.0,Primary policyholder must be at least 18 years old.
+96,invalid,True,commercial,30,3,5,True,False,455,1903,47086,False,0.0,Drivers over 75 may require additional medical assessments.
+93,invalid,True,rental,21,3,4,True,False,483,7364,46185,False,0.0,Drivers over 75 may require additional medical assessments.
+0,expired,False,rental,24,2,7,True,False,445,5955,10001,False,0.0,Primary policyholder must be at least 18 years old.
+80,invalid,False,rental,30,4,8,True,False,376,7893,43970,False,0.0,Drivers over 75 may require additional medical assessments.
+1,expired,True,commercial,27,5,8,True,False,329,8317,37012,False,0.0,Primary policyholder must be at least 18 years old.
+16,revoked,True,rental,24,1,4,True,False,402,3080,49091,False,0.0,Primary policyholder must be at least 18 years old.
+2,expired,False,rental,21,4,9,True,False,405,5036,32403,False,0.0,Primary policyholder must be at least 18 years old.
+2,expired,True,rental,29,3,6,True,False,408,3464,12968,False,0.0,Primary policyholder must be at least 18 years old.
+78,invalid,True,commercial,30,1,6,True,False,457,2113,49279,False,0.0,Drivers over 75 may require additional medical assessments.
+0,invalid,True,rental,25,1,5,True,False,391,241,27768,False,0.0,Primary policyholder must be at least 18 years old.
+10,revoked,True,commercial,25,2,9,True,False,320,3241,34530,False,0.0,Primary policyholder must be at least 18 years old.
+89,revoked,True,commercial,28,2,5,True,False,321,4522,46743,False,0.0,Drivers over 75 may require additional medical assessments.
+4,revoked,True,commercial,25,4,4,True,False,417,5666,30737,False,0.0,Primary policyholder must be at least 18 years old.
+1,expired,True,rental,25,4,9,True,False,345,5084,31877,False,0.0,Primary policyholder must be at least 18 years old.
+12,revoked,False,rental,21,1,6,True,False,457,6610,17053,False,0.0,Primary policyholder must be at least 18 years old.
+96,expired,True,rental,26,2,5,True,False,323,2710,48465,False,0.0,Drivers over 75 may require additional medical assessments.
+15,revoked,True,rental,23,3,9,True,False,317,1128,15478,False,0.0,Primary policyholder must be at least 18 years old.
+82,expired,True,commercial,24,2,10,True,False,470,8012,15368,False,0.0,Drivers over 75 may require additional medical assessments.
+90,invalid,False,commercial,22,3,5,True,False,427,1112,20424,False,0.0,Drivers over 75 may require additional medical assessments.
+83,expired,False,rental,27,1,7,True,False,380,5505,16090,False,0.0,Drivers over 75 may require additional medical assessments.
+76,revoked,False,commercial,29,4,7,True,False,403,6518,18063,False,0.0,Drivers over 75 may require additional medical assessments.
+14,invalid,True,rental,30,5,8,True,False,388,4990,27961,False,0.0,Primary policyholder must be at least 18 years old.
+12,invalid,False,rental,27,4,7,True,False,493,6886,19670,False,0.0,Primary policyholder must be at least 18 years old.
+76,revoked,False,commercial,21,5,6,True,False,341,1672,24891,False,0.0,Drivers over 75 may require additional medical assessments.
+14,invalid,True,commercial,25,2,6,True,False,300,8159,16982,False,0.0,Primary policyholder must be at least 18 years old.
+94,invalid,True,rental,30,2,9,True,False,331,8894,45507,False,0.0,Drivers over 75 may require additional medical assessments.
+4,expired,True,commercial,23,2,4,True,False,448,3738,19681,False,0.0,Primary policyholder must be at least 18 years old.
+3,expired,False,rental,30,5,10,True,False,486,6307,46815,False,0.0,Primary policyholder must be at least 18 years old.
+83,revoked,False,commercial,28,3,4,True,False,311,7787,41611,False,0.0,Drivers over 75 may require additional medical assessments.
+12,invalid,True,rental,21,5,5,True,False,486,6076,41388,False,0.0,Primary policyholder must be at least 18 years old.
+3,revoked,False,commercial,22,3,5,True,False,429,604,37443,False,0.0,Primary policyholder must be at least 18 years old.
+2,invalid,False,commercial,25,1,6,True,False,468,4446,34571,False,0.0,Primary policyholder must be at least 18 years old.
+17,revoked,False,commercial,23,2,5,True,False,388,7483,31191,False,0.0,Primary policyholder must be at least 18 years old.
+17,revoked,False,rental,29,1,6,True,False,318,4253,39430,False,0.0,Primary policyholder must be at least 18 years old.
+85,revoked,True,commercial,21,4,9,True,False,403,354,44931,False,0.0,Drivers over 75 may require additional medical assessments.
+84,revoked,False,rental,25,2,7,True,False,437,5485,16441,False,0.0,Drivers over 75 may require additional medical assessments.
+16,invalid,True,commercial,24,2,5,True,False,358,6987,30400,False,0.0,Primary policyholder must be at least 18 years old.
+15,invalid,False,commercial,21,2,6,True,False,418,7174,45338,False,0.0,Primary policyholder must be at least 18 years old.
+15,revoked,False,rental,26,2,7,True,False,486,3447,27858,False,0.0,Primary policyholder must be at least 18 years old.
+12,revoked,False,rental,24,3,5,True,False,448,5736,32535,False,0.0,Primary policyholder must be at least 18 years old.
+91,expired,False,rental,24,2,9,True,False,387,8961,24611,False,0.0,Drivers over 75 may require additional medical assessments.
+7,expired,True,rental,26,2,9,True,False,487,7949,39132,False,0.0,Primary policyholder must be at least 18 years old.
+83,revoked,True,commercial,25,5,9,True,False,406,4008,32684,False,0.0,Drivers over 75 may require additional medical assessments.
+2,revoked,False,rental,23,1,10,True,False,496,1472,48263,False,0.0,Primary policyholder must be at least 18 years old.
+3,invalid,True,rental,21,5,8,True,False,434,1455,38576,False,0.0,Primary policyholder must be at least 18 years old.
+80,expired,True,rental,27,4,5,True,False,365,1693,32697,False,0.0,Drivers over 75 may require additional medical assessments.
+0,expired,False,commercial,22,3,7,True,False,342,8982,49625,False,0.0,Primary policyholder must be at least 18 years old.
+95,invalid,False,rental,21,3,9,True,False,415,4207,32484,False,0.0,Drivers over 75 may require additional medical assessments.
+85,expired,False,rental,28,3,4,True,False,442,310,25820,False,0.0,Drivers over 75 may require additional medical assessments.
+76,revoked,False,commercial,27,5,10,True,False,485,4211,40405,False,0.0,Drivers over 75 may require additional medical assessments.
+87,revoked,False,rental,30,4,4,True,False,334,5305,21937,False,0.0,Drivers over 75 may require additional medical assessments.
+92,expired,True,rental,28,2,9,True,False,427,2287,48114,False,0.0,Drivers over 75 may require additional medical assessments.
+0,invalid,False,commercial,22,2,8,True,False,495,8920,30435,False,0.0,Primary policyholder must be at least 18 years old.
+81,revoked,False,commercial,28,1,7,True,False,317,585,34312,False,0.0,Drivers over 75 may require additional medical assessments.
+82,expired,False,commercial,26,3,10,True,False,391,521,22748,False,0.0,Drivers over 75 may require additional medical assessments.
+8,expired,False,commercial,24,2,6,True,False,422,1973,16845,False,0.0,Primary policyholder must be at least 18 years old.
+77,expired,False,rental,28,1,10,True,False,488,8510,10720,False,0.0,Drivers over 75 may require additional medical assessments.
+3,revoked,True,commercial,29,3,6,True,False,322,3097,25862,False,0.0,Primary policyholder must be at least 18 years old.
+16,invalid,False,rental,30,4,9,True,False,376,116,31849,False,0.0,Primary policyholder must be at least 18 years old.
+81,invalid,True,rental,27,3,6,True,False,484,6060,29735,False,0.0,Drivers over 75 may require additional medical assessments.
+94,invalid,True,commercial,28,2,4,True,False,405,8054,37750,False,0.0,Drivers over 75 may require additional medical assessments.
+7,expired,False,rental,21,2,4,True,False,316,7218,16461,False,0.0,Primary policyholder must be at least 18 years old.
+92,invalid,True,commercial,29,4,4,True,False,367,2171,30027,False,0.0,Drivers over 75 may require additional medical assessments.
+7,invalid,False,commercial,22,2,7,True,False,357,8587,17006,False,0.0,Primary policyholder must be at least 18 years old.
+7,invalid,False,rental,24,3,5,True,False,316,5159,49459,False,0.0,Primary policyholder must be at least 18 years old.
+88,invalid,False,commercial,24,3,4,True,False,467,5895,13807,False,0.0,Drivers over 75 may require additional medical assessments.
+81,revoked,False,rental,30,4,7,True,False,469,316,37824,False,0.0,Drivers over 75 may require additional medical assessments.
+14,invalid,False,commercial,26,3,7,True,False,347,5686,24617,False,0.0,Primary policyholder must be at least 18 years old.
+9,expired,True,commercial,28,5,8,True,False,423,6038,16634,False,0.0,Primary policyholder must be at least 18 years old.
+11,expired,True,commercial,29,2,4,True,False,376,1226,47882,False,0.0,Primary policyholder must be at least 18 years old.
+95,revoked,False,rental,23,5,9,True,False,393,8879,10660,False,0.0,Drivers over 75 may require additional medical assessments.
+97,invalid,False,commercial,22,1,10,True,False,305,1878,20023,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,False,rental,29,1,6,True,False,318,594,37568,False,0.0,Drivers over 75 may require additional medical assessments.
+99,revoked,True,rental,27,1,5,True,False,375,3309,40237,False,0.0,Drivers over 75 may require additional medical assessments.
+80,invalid,False,rental,30,5,9,True,False,335,8449,42791,False,0.0,Drivers over 75 may require additional medical assessments.
+96,expired,True,commercial,26,5,10,True,False,348,3059,10547,False,0.0,Drivers over 75 may require additional medical assessments.
+93,revoked,False,commercial,23,5,9,True,False,485,4508,45861,False,0.0,Drivers over 75 may require additional medical assessments.
+4,expired,False,rental,25,5,6,True,False,448,4988,34598,False,0.0,Primary policyholder must be at least 18 years old.
+10,revoked,True,rental,23,2,6,True,False,300,2177,30781,False,0.0,Primary policyholder must be at least 18 years old.
+5,invalid,False,commercial,28,2,8,True,False,411,511,27131,False,0.0,Primary policyholder must be at least 18 years old.
+79,revoked,False,commercial,23,2,8,True,False,350,2358,32048,False,0.0,Drivers over 75 may require additional medical assessments.
+94,revoked,False,rental,24,2,6,True,False,346,4464,32038,False,0.0,Drivers over 75 may require additional medical assessments.
+82,revoked,False,commercial,21,4,10,True,False,366,7953,42289,False,0.0,Drivers over 75 may require additional medical assessments.
+2,revoked,False,commercial,30,5,8,True,False,449,7570,18502,False,0.0,Primary policyholder must be at least 18 years old.
+8,revoked,True,rental,24,5,8,True,False,388,694,12464,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,True,commercial,28,5,4,True,False,361,3909,12132,False,0.0,Primary policyholder must be at least 18 years old.
+77,invalid,False,rental,27,3,7,True,False,300,6761,21042,False,0.0,Drivers over 75 may require additional medical assessments.
+3,expired,False,rental,27,5,10,True,False,370,1912,30031,False,0.0,Primary policyholder must be at least 18 years old.
+0,invalid,False,commercial,24,1,7,True,False,361,42,28381,False,0.0,Primary policyholder must be at least 18 years old.
+97,invalid,True,rental,23,4,5,True,False,492,4698,33147,False,0.0,Drivers over 75 may require additional medical assessments.
+15,expired,False,rental,26,3,9,True,False,366,1963,21732,False,0.0,Primary policyholder must be at least 18 years old.
+83,invalid,False,rental,28,4,9,True,False,427,7094,26653,False,0.0,Drivers over 75 may require additional medical assessments.
+97,invalid,True,rental,21,5,7,True,False,396,2716,20615,False,0.0,Drivers over 75 may require additional medical assessments.
+91,revoked,True,commercial,24,4,4,True,False,378,5597,26680,False,0.0,Drivers over 75 may require additional medical assessments.
+83,expired,True,commercial,26,1,5,True,False,314,7721,10280,False,0.0,Drivers over 75 may require additional medical assessments.
+86,revoked,True,commercial,24,5,10,True,False,455,446,28877,False,0.0,Drivers over 75 may require additional medical assessments.
+83,revoked,False,commercial,22,5,4,True,False,409,1173,30886,False,0.0,Drivers over 75 may require additional medical assessments.
+90,expired,False,commercial,21,4,5,True,False,303,7623,11257,False,0.0,Drivers over 75 may require additional medical assessments.
+13,expired,True,commercial,30,3,7,True,False,471,8785,29942,False,0.0,Primary policyholder must be at least 18 years old.
+83,invalid,True,commercial,23,5,10,True,False,306,7410,12902,False,0.0,Drivers over 75 may require additional medical assessments.
+13,expired,False,rental,26,5,8,True,False,426,7859,27639,False,0.0,Primary policyholder must be at least 18 years old.
+4,invalid,True,commercial,22,1,8,True,False,463,1564,18823,False,0.0,Primary policyholder must be at least 18 years old.
+100,revoked,True,commercial,30,3,9,True,False,402,2525,20070,False,0.0,Drivers over 75 may require additional medical assessments.
+82,expired,True,commercial,30,2,10,True,False,445,5676,12792,False,0.0,Drivers over 75 may require additional medical assessments.
+98,revoked,True,commercial,30,4,10,True,False,306,6543,21729,False,0.0,Drivers over 75 may require additional medical assessments.
+16,revoked,False,commercial,28,3,10,True,False,310,650,19526,False,0.0,Primary policyholder must be at least 18 years old.
+4,revoked,True,rental,21,2,7,True,False,383,634,14783,False,0.0,Primary policyholder must be at least 18 years old.
+17,revoked,True,commercial,29,1,6,True,False,491,5793,43889,False,0.0,Primary policyholder must be at least 18 years old.
+86,invalid,True,rental,27,2,5,True,False,433,3791,47492,False,0.0,Drivers over 75 may require additional medical assessments.
+10,expired,False,rental,24,2,10,True,False,443,3109,41586,False,0.0,Primary policyholder must be at least 18 years old.
+9,invalid,False,rental,29,3,6,True,False,466,1594,21449,False,0.0,Primary policyholder must be at least 18 years old.
+76,invalid,True,rental,23,2,7,True,False,393,8926,20823,False,0.0,Drivers over 75 may require additional medical assessments.

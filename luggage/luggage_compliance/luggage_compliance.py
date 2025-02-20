@@ -1,11 +1,15 @@
-from common.Policy import Policy
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+from common.generic_policy import Compliance
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
 
 import unittest
 
 
-class LuggageCompliance(Policy):
+class LuggageCompliance(Compliance):
     def __init__(self):
         self.classes = {
             "Economy": {

@@ -97,6 +97,29 @@ class Luggage:
                 luggage_list.append(Luggage.from_dict(row))
         return luggage_list
 
+    def __eq__(self, other):
+        if not isinstance(other, Luggage):
+            return False
+        return (
+                self.storage == other.storage and
+                self.weight == other.weight and
+                self.dim == other.dim and
+                self.excess == other.excess and
+                self.special == other.special and
+                self.compliance == other.compliance
+        )
+
+    def __hash__(self):
+        """Defines a hash so Luggage objects can be stored in sets/dictionaries."""
+        return hash((
+            self.storage,
+            self.weight,
+            frozenset(self.dim.items()),  # Convert dict to frozenset for hashing
+            self.excess,
+            self.special,
+            self.compliance
+        ))
+
     def __repr__(self):
         return (
             f"Luggage(storage={self.storage}, weight={self.weight}kg, "
