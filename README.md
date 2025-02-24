@@ -23,4 +23,4 @@ The list of business policies captured in this corpus:
 - [loan approval](loan-approval)
 
 ## How to extend the corpus to your own policies
-If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](adding_policy_docs/README)
+If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](adding_policy_docs/adding_policy_docs)
