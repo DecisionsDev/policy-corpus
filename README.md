@@ -8,4 +8,6 @@ It includes synthetic policies and a catalog of links of real public policies fo
 - [loan approval](loan-approval)
 - [luggage compliance & pricing](luggage/luggage_policy.md)
 
+For each domain and use case this project proposes data and an open framework to automatically benchmark automated decisions with respect to a business policy expressed in plain text.
+
 If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](adding_policy_docs/README)
