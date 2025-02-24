@@ -7,8 +7,7 @@ It includes synthetic policies and a catalog of links of real public policies fo
 LLMs are told to bring reasoning capabilities. While they are progressing for more than 2 years in this direction when performing specific tasks, question remains open when automating the decision making of business policies.
 To go beyond intuition or any biais the idea is to measure any solution (LLM, generated code, human choice) to decide in comparison of a ground truth dataset.
 
-
-## Policy pack
+## Policy reference implementation
 For a panel of business domain and use cases, this project proposes data and code to benchmark automated decisions with respect to a business policy expressed in plain text.
 Each policy is described by:
 - a plain text specifying the requirements, criteria and logic to deduce a decision from a given context.
@@ -16,6 +15,7 @@ Each policy is described by:
 - a Data generator code. It invokes the automation code on synthetic inputs to produce outcomes
 - a list of decision datasets. They are ready to use as a baseline to measure the performances of any machines (pure LLMs, code generated thanks to LLMs, others).  
 
+## Policy list
 The list of business policies captured in this corpus:
 - [luggage compliance & pricing](luggage/luggage_policy.md)
 - [time off](human-resources/acme_time_off.md)
