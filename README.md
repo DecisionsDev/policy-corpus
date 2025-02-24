@@ -13,7 +13,10 @@ Each policy is described by:
 - a plain text specifying the requirements, criteria and logic to deduce a decision from a given context.
 - a Python code implementating the policy. This implementation has been validated by a human, based on an interpretation where policy brings ambiguity or misses information.
 - a Data generator code. It invokes the automation code on synthetic inputs to produce outcomes
-- a list of decision datasets. They are ready to use as a baseline to measure the performances of any machines (pure LLMs, code generated thanks to LLMs, others).  
+- a list of decision datasets. They are ready to use as a baseline to measure the performances of any machines (pure LLMs, code generated thanks to LLMs, others) that automate the decision making.  
+
+## Common framework
+As we are cooking a similar recipe for each policy, the project proposes a common framework to support and accelerate the definition, and data generation of a policy: [Common framework](common/commons_descriptor.md)
 
 ## Policy list
 The list of business policies captured in this corpus:
