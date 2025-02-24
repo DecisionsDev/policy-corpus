@@ -7,6 +7,12 @@ It includes synthetic policies and a catalog of links of real public policies fo
 LLMs are told to bring reasoning capabilities. While they are progressing for more than 2 years in this direction when performing specific tasks, question remains open when automating the decision making of business policies.
 To go beyond intuition or any biais the idea is to measure any solution (LLM, generated code, human choice) to decide in comparison of a ground truth dataset.
 
+For synthetic but real life inspired business policies what are the performances of:
+- pure LLM decision making, given a single prompt, a request and the policy,
+- a chain of thoughts involving a sequence or tree of generations
+- a generated code thanks to an LLM
+- other means involving other technics (optimization, genetic algorithms, tensor based logic inference, etc)
+
 ## Policy reference implementation
 For a panel of business domain and use cases, this project proposes data and code to benchmark automated decisions with respect to a business policy expressed in plain text.
 Each policy is described by:
