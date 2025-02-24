@@ -20,9 +20,6 @@ Associated code contains:
 
 ## Data
 ### Schema
-## Data
-
-### Schema
 
 #### Input Parameters
 
