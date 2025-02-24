@@ -68,4 +68,4 @@ Data provided out of the box and produced by the generator and policy reference 
 - [a decision dataset with 100 entries](luggage_compliance/luggage_policy_test_dataset_100.csv)
 - [a decision dataset with 1000 entries](luggage_compliance/luggage_policy_test_dataset_1K.csv)
 
-You are free to generate more synthetic datasets by running this [decision code generator](luggage_compliance/luggage_data_generator.py)
+You are free to generate more synthetic datasets by running the [decision code generator](luggage_compliance/luggage_data_generator.py)
