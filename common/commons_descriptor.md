@@ -1,13 +1,130 @@
 # Common elements description
-## generic_tester.py
+## [generic_policy.py](generic_policy.py)
+
+The ``Compliance`` class is an abstract base class (ABC) designed to define a policy framework. It serves as a template for implementing various policies that assess eligibility based on predefined criteria. Any subclass of Compliance must implement the test_eligibility method to evaluate an applicant's compliance with a given policy.
+
+---
+
+### Abstract methods (to be implemented)
+
+```python
+def test_eligibility(self, case) -> Tuple:
+```
+
+This abstract method must be implemented by any subclass. It determines whether an applicant meets the eligibility criteria defined by the specific policy.
+
+**Parameters**:
+* ``case`` (dict or a related policy class instance): The input data containing the necessary information to evaluate eligibility.
+
+**Returns**: A tuple, which allows to determine if the outcome of the test is positive and negative.
+
+### Implementation Requirements
+
+1. **Subclassing**: Any subclass must inherit from ``Compliance`` and implement the ``test_eligibility`` method.
+2. **Unit Testing**: Implement meaningful unit tests covering various cases described in the policy document.
+
+## [generic_data_generator.py](generic_data_generator.py)
+
+The ``DataGenerator`` class is an abstract base class (ABC) designed for generating test datasets for policy evaluation. It provides a structured approach to generating eligible and non-eligible test cases and ensures that child classes define key column names and case-generation methods.
+
+---
+
+### Abstract Properties
+
+Abstract properties that must be implemented by subclasses.
+
+```python
+COLUMN_NAMES (List[str])
+```
+A property to define the dataset's column names.
+
+```python
+EVAL_COLUMN_NAMES (List[str])
+```
+
+A property to specify the column names expected in policy evaluation results.
+
+### Constructor
+```python
+def __init__(self, compliance_checker: Compliance):
+```
+**Parameters**:
+
+* ``compliance_checker (Compliance)``: An instance of a policy class used to determine eligibility.
+
+### Methods
+
+```python
+def generate_test_dataset(self, num_samples=100) -> pd.DataFrame
+```
+
+Generates a test dataset with approximately equal numbers of positive and negative cases.
+
+**Parameters**:
+* ``num_samples (int)``: The total number of test cases to generate.
+
+**Returns**:
+* A ``pandas.DataFrame`` containing the generated test cases.
+
+```python 
+def determine_eligibility(self, row) -> Tuple
+```
+
+Uses the ``compliance_checker`` instance to determine the eligibility of a given row.
+
+**Parameter**:
+
+* ``row (dict)``: A single test case from the dataset.
+
+**Returns**:
+* A tuple containing the eligibility result and relevant details.
+
+```python
+def get_constant(self) -> Dict
+```
+
+Collects and returns a dictionary of all uppercase-defined constants in the class.
+
+**Returns**:
+* A dictionary where keys are constant names and values are their assigned values.
+
+### Utility Function
+```python
+def format_data_units(n) -> str
+```
+
+Formats a numeric value into a human-readable string with units (K for thousands, M for millions).
+
+**Parameter**:
+* ``n (int)``: The numeric value to format.
+
+**Returns**:
+* A formatted string representing the number with an appropriate unit suffix.
+
+### Abstract methods (to be implemented)
+```python
+def generate_eligible_case(self) -> Dict
+```
+Must be implemented to generate an individual test case that is eligible.
+
+**Returns**:
+* A dictionary representing an eligible test case.
+
+```python
+def generate_non_eligible_case(self) -> Dict
+```
+Must be implemented to generate an individual test case that is not eligible.
+
+**Returns**:
+* A dictionary representing a non-eligible test case.
+
+## [generic_tester.py](generic_tester.py)
 
 The ``PolicyTester`` class inside is designed to evaluate the performance of a policy implementation by testing its eligibility function on a dataset loaded from a CSV file. The class supports custom parsing of input data, execution time measurement, and statistical evaluation of policy results.
 
 ---
 
-### Class: PolicyTester
-
-#### Constructor
+### Constructor
 ```python
 def __init__(self, policy_class, csv_file, parse_functions=None, eval_columns=None, evaluators=None)
 ```
