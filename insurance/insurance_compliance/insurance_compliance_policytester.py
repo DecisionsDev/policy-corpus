@@ -1,7 +1,7 @@
 import sys
 import os
 
-from insurance.insurance_eligibility.insurance_eligibility_compliance import CarInsuranceCompliance
+from insurance.insurance_compliance.insurance_compliance import CarInsuranceCompliance
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 

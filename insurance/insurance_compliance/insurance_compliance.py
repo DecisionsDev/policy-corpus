@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 from datetime import date, timedelta
 from typing import Tuple
 from common.generic_policy import Compliance
-from insurance.insurance_eligibility.car_insurance_request import CarInsuranceRequest, Vehicle, Applicant, \
+from insurance.insurance_compliance.insurance_request import CarInsuranceRequest, Vehicle, Applicant, \
     DrivingLicense
 
 

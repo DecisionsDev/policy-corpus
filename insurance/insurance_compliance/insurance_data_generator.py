@@ -5,13 +5,13 @@ from datetime import date, timedelta
 import pandas as pd
 from typing import List, Dict, Tuple
 
-from insurance.insurance_eligibility.insurance_eligibility_compliance import CarInsuranceCompliance
+from insurance.insurance_compliance.insurance_compliance import CarInsuranceCompliance
 
 # Append the path to import the abstract class and compliance checker
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from common.generic_data_generator import DataGenerator
-from insurance.insurance_eligibility.car_insurance_request import CarInsuranceRequest, Vehicle, Applicant, DrivingLicense
+from insurance.insurance_compliance.insurance_request import CarInsuranceRequest, Vehicle, Applicant, DrivingLicense
 
 class CarInsuranceDataGenerator(DataGenerator):
 

@@ -219,8 +219,8 @@ class CarInsuranceRequest:
         return {
             "applicants": json.dumps(
                 [applicant.to_dict() for applicant in self.applicants], indent=2  # Pretty print JSON
-            ),
-            "vehicle": json.dumps(self.vehicle.to_dict()),
+            ).replace("\n", ""),
+            "vehicle": json.dumps(self.vehicle.to_dict()).replace("\n", ""),
             "liability_coverage": self.liability_coverage,
             "state_min_liability": self.state_min_liability
         }
