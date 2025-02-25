@@ -2,3 +2,4 @@
 /loan/basic_loan_approval.egg-info/
 /insurance/insurence_eligibility.egg-info/
 /common/common.egg-info/
+__pycache__/
