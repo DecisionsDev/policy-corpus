@@ -22,10 +22,13 @@ class CarInsuranceCompliance(Compliance):
     def check_address_validity(self, address: dict) -> bool:
         # OTHER checks
 
-        return (address and str.lower(address.get("country")) in self.LOCAL_COUNTRIES_ABBREVIATIONS
-                and str.lower(address.get("state")) in self.STATES)
+        return (address and str.lower(address.setdefault("country", "")) in self.LOCAL_COUNTRIES_ABBREVIATIONS
+                and str.lower(address.setdefault("state", "")) in self.STATES)
 
-    def test_eligibility(self, case: CarInsuranceRequest) -> Tuple:
+    def test_eligibility(self, case) -> Tuple:
+        if not isinstance(case, CarInsuranceRequest):
+            case = CarInsuranceRequest.from_dict(case)
+
         primary_applicant = case.primary_applicant()
         if not primary_applicant:
             return False, None, "No primary applicant found."
@@ -123,7 +126,7 @@ class CarInsuranceCompliance(Compliance):
         # Credit Score (if applicable)
         for applicant in case.applicants:
             if applicant.credit_score < self.MINIMUM_CREDIT_SCORE:
-                return False, 0.0, "Poor credit score impacts eligibility."
+                return False, None, "Poor credit score impacts eligibility."
 
         # Estimated premium fee (based on risk factors, age, and violations)
         base_premium = 1000
@@ -139,7 +142,7 @@ class CarInsuranceCompliance(Compliance):
 
         premium_fee = base_premium * premium_multiplier
 
-        return True, premium_fee, ""
+        return True, round(premium_fee, 2), ""
 
 
 class TestCarInsuranceCompliance(unittest.TestCase):

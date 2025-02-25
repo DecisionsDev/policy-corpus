@@ -220,7 +220,7 @@ class CarInsuranceRequest:
             "applicants": json.dumps(
                 [applicant.to_dict() for applicant in self.applicants], indent=2  # Pretty print JSON
             ),
-            "vehicle": self.vehicle.to_dict(),
+            "vehicle": json.dumps(self.vehicle.to_dict()),
             "liability_coverage": self.liability_coverage,
             "state_min_liability": self.state_min_liability
         }
@@ -229,9 +229,9 @@ class CarInsuranceRequest:
     def from_dict(data: dict):
         return CarInsuranceRequest(
             applicants=[Applicant.from_dict(a) for a in json.loads(data["applicants"])],
-            vehicle=Vehicle.from_dict(data["vehicle"]),
-            liability_coverage=data["liability_coverage"],
-            state_min_liability=data["state_min_liability"]
+            vehicle=Vehicle.from_dict(json.loads(data["vehicle"])),
+            liability_coverage=float(data["liability_coverage"]),
+            state_min_liability=float(data["state_min_liability"])
         )
 
     def __eq__(self, other):

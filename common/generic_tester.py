@@ -76,6 +76,7 @@ class PolicyTester:
         for idx, column in enumerate(self.eval_columns):
             y_true = self.data[column]
             y_pred = results_transposed[idx] if idx < len(results_transposed) else []
+            y_pred = ['' if i is None else i for i in y_pred]
 
             if len(y_pred) != len(y_true):
                 print(f"Skipping evaluation for {column} due to size mismatch.")

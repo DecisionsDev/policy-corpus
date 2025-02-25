@@ -10,8 +10,8 @@ from common.generic_tester import PolicyTester
 if __name__ == "__main__":
     config = {
         'policy_class': CarInsuranceCompliance,
-        'csv_file': 'insurance_test_dataset_1K.csv',
-        'eval_columns': ["eligible", "premium_fee", "error_message"],
+        'csv_file': 'insurance_test_dataset_100.csv',
+        'eval_columns': ["eligible", "premium_fee", "reason"],
     }
     tester = PolicyTester(
         config['policy_class'],
