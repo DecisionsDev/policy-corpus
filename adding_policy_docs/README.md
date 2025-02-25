@@ -1,4 +1,4 @@
-# How to extend this policy corpus
+# How to extend the policy corpus
 
 ## General requirements
 You can easily augment this corpus of policies to add a new one matching your business needs by respecting these guidelines:

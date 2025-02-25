@@ -8,7 +8,7 @@ This luggage compliance and pricing policy aims to provide clear guidelines to p
 
 ## Code
 Associated code contains:
-- [a reference implementation of the policy in Python](luggage_policy.py)
+- [a reference implementation of the policy in Python](luggage_compliance/luggage_compliance.py)
    - How to run it with unit tests
     ```shell
     coverage run -m unittest luggage_compliance/luggage_compliance.py
@@ -19,9 +19,6 @@ Associated code contains:
 - [a generator of decisions with respect to the reference Python implementation](luggage_compliance/luggage_data_generator.py)
 
 ## Data
-### Schema
-## Data
-
 ### Schema
 
 #### Input Parameters
@@ -71,4 +68,4 @@ Data provided out of the box and produced by the generator and policy reference 
 - [a decision dataset with 100 entries](luggage_compliance/luggage_policy_test_dataset_100.csv)
 - [a decision dataset with 1000 entries](luggage_compliance/luggage_policy_test_dataset_1K.csv)
 
-Generate more datasets by running [this generation file](luggage_compliance/luggage_data_generator.py)
+You are free to generate more synthetic datasets by running the [decision code generator](luggage_compliance/luggage_data_generator.py)
