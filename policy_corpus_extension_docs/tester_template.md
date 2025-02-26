@@ -24,13 +24,16 @@ if __name__ == "__main__":
         'eval_columns': [{list_of_columns_names_exactly_as_they_are_returned_with_compliance}], # Example:  ["compliance_result", "compliance_message", "cargo_items", "fees"],
         # (Optional):
         'evaluators': [{list_of_evaluators_functions}] # Example: [cargo_items_evaluator]
+        # (Optional) set to True to save the testing results in the ./output folder:
+        'save_in_csv': {True_or_False_value}
     }
     tester = PolicyTester(
         config['policy_class'], 
         config['csv_file'], 
         config.setdefault('parse_functions', None), 
         config.setdefault('eval_columns', None), 
-        config.setdefault('evaluators', None)
+        config.setdefault('evaluators', None),
+        config.setdefault('save_in_csv', False)
     )
     tester.run()
 

@@ -8,7 +8,7 @@ To generate new compliance cases and test them on an existing dataset, follow th
    - This file determines whether a case is eligible according to the policy text document.  
    - The code can be:
      1. Written manually (not recommended).
-     2. Generated using an LLM (Granit, Llama, Mistral, GPT, Cloud) by adapting the [policy prompt template](prompt_template_compliance.md):  
+     2. Generated using an LLM (Granit, Llama, Mistral, GPT, Cloud) by adapting the [policy prompt template](prompt_template_benchmark_compliance.md):  
         - Update the values in `{}` (curly brackets) within the template.  
         - Copy and paste the policy text document.  
         - If other classes from preexisting compliance cases are needed, copy and paste them instead of `{predefined_data_structures}`. Otherwise, remove this point.
