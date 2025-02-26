@@ -28,6 +28,7 @@ You can easily augment this corpus of policies to add a new one matching your bu
      2. Generated using an LLM (Granit, Llama, Mistral, GPT, Cloud) by adapting the [policy prompt template](prompt_template_compliance.md). 
         - Update the values in `{}` (curly brackets) within the template.
         - Copy and paste the policy text document created in step 2.
+        - (If there are other classes, which are used in the preexisting compliance): copy and paste them instead of `{predefined_data_structures}`. Otherwise, delete this point.
 
 4. **(Skip if step 3.2 was chosen) Add Unit Tests:**
    - In the same `{policy_name}_compliance.py` file, include a unit test class.
