@@ -2,7 +2,7 @@
 
 To generate new compliance cases and test them on an existing dataset, follow these guidelines:
 
-1. **Create/Generate the `{n}_{policy_name}_compliance.py` File**, where `n` is the compliance example number written in words (e.g., `one_luggage_compliance.py`):  
+1. **Create/Generate the `{n}_{policy_name}_compliance.py` file**, where `n` is the compliance example number written in words (e.g., `one_luggage_compliance.py`):  
    - This file determines whether a case is eligible according to the policy text document.  
    - The code can be:
      1. Fully manually written fully.
