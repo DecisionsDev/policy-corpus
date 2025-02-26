@@ -6,12 +6,12 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 
 from datetime import date, timedelta
 from typing import Tuple
-from common.generic_policy import Compliance
+from common.abstract_policy import Policy
 from insurance.insurance_compliance.insurance_request import CarInsuranceRequest, Vehicle, Applicant, \
     DrivingLicense
 
 
-class CarInsuranceCompliance(Compliance):
+class CarInsuranceCompliance(Policy):
 
     LOCAL_COUNTRIES_ABBREVIATIONS = ["us", "usa", "united states", "united states of america"]
     STATES = ["california", "texas", "florida", "ohio"]

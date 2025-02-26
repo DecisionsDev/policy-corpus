@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 from common.abstract_policy import Policy
 
 
-class LoanApprovalCompliance(Policy):
+class LoanApprovalComplianceWithErrors(Policy):
     """
     Implementation of the Loan Approval Policy for Acme Car Insurance.
     This class evaluates loan applications based on eligibility criteria.
@@ -35,9 +35,10 @@ class LoanApprovalCompliance(Policy):
         loan_amount = case.get("loan_amount", 0)
         co_signer = case.get("co_signer", None)
 
-        # Age check
-        if age < 18:
-            return False, 0, "Applicant must be at least 18 years old."
+        # Missing the age criteria
+        # # Age check
+        #if age < 18:
+        #    return False, 0, "Applicant must be at least 18 years old."
 
         # Residency check
         if residency.lower() != "us":
