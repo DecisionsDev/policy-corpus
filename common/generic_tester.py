@@ -135,6 +135,9 @@ class PolicyTester:
             if self.eval_columns:
                 for i in range(len(self.eval_columns)):
                     dd[self.eval_columns[i]] = results_transposed[i]
+            else:
+                for i in range(len(results_transposed)):
+                    dd[f"output_{i}"] = results_transposed[i]
 
             dd.to_csv(path, index=False)
 
