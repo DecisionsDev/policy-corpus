@@ -1,0 +1,23 @@
+# How to Benchmark the Policy Corpus with the New Compliance
+
+## Compliance Corpus Extension Guidelines
+
+To generate new compliance cases and test them on an existing dataset, follow these guidelines:
+
+1. **Create/Generate the `{n}_{policy_name}_compliance.py` File**, where `n` is the compliance example number written in words (e.g., `one_luggage_compliance.py`):  
+   - This file determines whether a case is eligible according to the policy text document.  
+   - The code can be:
+     1. Written manually (not recommended).
+     2. Generated using an LLM (Granit, Llama, Mistral, GPT, Cloud) by adapting the [policy prompt template](prompt_template_compliance.md):  
+        - Update the values in `{}` (curly brackets) within the template.  
+        - Copy and paste the policy text document.  
+        - If other classes from preexisting compliance cases are needed, copy and paste them instead of `{predefined_data_structures}`. Otherwise, remove this point.
+
+2. **Create `{n}_{policy_name}_policytester.py`**:  
+   - Test the alignment of the generated data with the `Compliance` class from `{policy_name}_compliance.py`.  
+   - Adapt the code from the [tester template](../policy_corpus_extension_docs/tester_template.md) or use a pre-existing policy tester inside the policy folder, replacing the `Compliance` class with the new one.  
+   - Add custom evaluators if the statistical metrics do not yield the desired results.
+
+3. **Run `{n}_{policy_name}_policytester.py`**:  
+   - If the returned metrics are `< 1.0`, investigate the errors and fix the `{n}_{policy_name}_compliance.py`.  
+   - If all metrics equal `1.0`, congratulations! You have successfully benchmarked a new compliance.

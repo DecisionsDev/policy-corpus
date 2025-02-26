@@ -38,6 +38,12 @@ class Compliance(ABC):
 
 ```
 
+* Here are the defined data structures, which you need to use in ``test_eligibility`` method:
+```python
+{predefined_data_structures}
+```
+If you use these data structures, make sure to add a check and to convert the ``case`` parameter from dictionary to the class instance.
+
 * Here is the policy description document outlining the implementation details:
 ```text
 {policy_document}

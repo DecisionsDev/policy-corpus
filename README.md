@@ -32,4 +32,7 @@ The list of business policies captured in this corpus:
 - [loan approval](loan-approval)
 
 ## How to extend the corpus to your own policies
-If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](adding_policy_docs/README.md)
+If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](policy_corpus_extension_docs/README.md)
+
+## How to benchmark new compliance version on already existing corpus datasets
+If you intend to benchmark your compliance version with a new policy please have a look to this section: [Benchmarking a compliance](compliance_benchmarking_docs/README.md)
