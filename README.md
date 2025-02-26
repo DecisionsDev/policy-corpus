@@ -21,9 +21,6 @@ Each policy is described by:
 - a Data generator code. It invokes the automation code on synthetic inputs to produce outcomes
 - a list of decision datasets. They are ready to use as a baseline to measure the performances of any machines (pure LLMs, code generated thanks to LLMs, others) that automate the decision making.  
 
-## Common framework
-As we are cooking a similar recipe for each policy, the project proposes a common framework to support and accelerate the definition, and data generation of a policy: [Common framework](common/commons_descriptor.md)
-
 ## Policy list
 The list of business policies captured in this corpus:
 - [luggage compliance & pricing](luggage/luggage_policy.md)
@@ -31,8 +28,15 @@ The list of business policies captured in this corpus:
 - [insurance](insurance)
 - [loan approval](loan-approval)
 
+## How to benchmark your policy automation against a test dataset
+You want to measure quantitatively the performance of your policy implementation this project is made for you.
+Run your own implementation (pure LLM, LLM generating code, etc) to produce decisions and compare these decisions with reference ones in the available datasets.
+Please have a look at this section: [Benchmark your policy implementation](benchmark_your_policy_automation_docs/README.md)
+
+## Common framework
+As we are cooking a similar recipe for each policy, the project proposes a common framework to support and accelerate the definition, and data generation of a policy: [Common framework](common/commons_descriptor.md)
+
 ## How to extend the corpus to your own policies
 If you intend to extend the corpus with a new policy please have a look to this section: [Adding a policy](policy_corpus_extension_docs/README.md)
 
-## How to benchmark new compliance version on already existing corpus datasets
-If you intend to benchmark your compliance version with a new policy please have a look to this section: [Benchmarking a compliance](compliance_benchmarking_docs/README.md)
+
