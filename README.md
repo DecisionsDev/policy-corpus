@@ -29,7 +29,7 @@ The list of business policies captured in this corpus:
 - [loan approval](loan-approval)
 
 ## How to benchmark your policy automation against a test dataset
-You want to measure quantitatively the performance of your policy implementation this project is made for you.
+You want to measure quantitatively the performance of your policy automation, this project is made for you.
 Run your own implementation (pure LLM, LLM generating code, etc) to produce decisions and compare these decisions with reference ones in the available datasets.
 Please have a look at this section: [Benchmark your policy implementation](benchmark_your_policy_automation_docs/README.md)
 
