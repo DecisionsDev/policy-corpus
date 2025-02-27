@@ -3,10 +3,10 @@ import os
 from typing import Tuple
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-from common.generic_policy import Compliance
+from common.generic_policy import Policy
 
 
-class LoanApprovalCompliance(Compliance):
+class LoanApprovalPolicy(Policy):
     """
     Implementation of the Loan Approval Policy for Acme Car Insurance.
     This class evaluates loan applications based on eligibility criteria.
@@ -87,7 +87,7 @@ class TestLoanApprovalCompliance(unittest.TestCase):
     """Unit tests for LoanApprovalPolicy"""
 
     def setUp(self):
-        self.policy = LoanApprovalCompliance()
+        self.policy = LoanApprovalPolicy()
 
     def test_valid_application(self):
         case = {

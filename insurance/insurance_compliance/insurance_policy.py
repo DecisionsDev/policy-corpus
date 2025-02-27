@@ -6,12 +6,12 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 
 from datetime import date, timedelta
 from typing import Tuple
-from common.generic_policy import Compliance
+from common.generic_policy import Policy
 from insurance.insurance_compliance.insurance_request import CarInsuranceRequest, Vehicle, Applicant, \
     DrivingLicense
 
 
-class CarInsuranceCompliance(Compliance):
+class CarInsurancePolicy(Policy):
 
     LOCAL_COUNTRIES_ABBREVIATIONS = ["us", "usa", "united states", "united states of america"]
     STATES = ["california", "texas", "florida", "ohio"]
@@ -148,7 +148,7 @@ class CarInsuranceCompliance(Compliance):
 class TestCarInsuranceCompliance(unittest.TestCase):
 
     def setUp(self):
-        self.compliance = CarInsuranceCompliance()
+        self.compliance = CarInsurancePolicy()
         self.today = date.today()
 
     def create_applicant(self, age, license_status="valid", issue_date=None, issue_country="us", driving_history=None,

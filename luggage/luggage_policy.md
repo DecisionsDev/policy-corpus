@@ -8,10 +8,10 @@ This luggage compliance and pricing policy aims to provide clear guidelines to p
 
 ## Code
 Associated code contains:
-- [a reference implementation of the policy in Python](luggage_compliance/luggage_compliance.py)
+- [a reference implementation of the policy in Python](luggage_compliance/luggage_policy.py)
    - How to run it with unit tests
     ```shell
-    coverage run -m unittest luggage_compliance/luggage_compliance.py
+    coverage run -m unittest luggage_compliance/luggage_policy.py
     ```
     ```shell
     coverage report -m

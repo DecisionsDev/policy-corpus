@@ -6,7 +6,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.generic_policy import Compliance
+from common.generic_policy import Policy
 
 
 class DataGenerator(ABC):
@@ -30,13 +30,13 @@ class DataGenerator(ABC):
 
     ## PUT ALL OTHER CONSTANTS/ENUMS USED IN THE CODE HERE
 
-    def __init__(self, compliance_checker: Compliance):
+    def __init__(self, policy_checker: Policy):
         """
-        Initializes the DataGenerator with a compliance checker instance.
+        Initializes the DataGenerator with a Policy checker instance.
 
-        :param compliance_checker: An instance of a Policy class used for checking compliance.
+        :param policy_checker: An instance of a Policy class used for automatic checking.
         """
-        self.compliance_checker = compliance_checker  # Policy instance
+        self.policy_checker = policy_checker  # Policy instance
 
     def generate_test_dataset(self, num_samples=100) -> pd.DataFrame:
         """
@@ -78,12 +78,12 @@ class DataGenerator(ABC):
 
     def determine_eligibility(self, row) -> Tuple:
         """
-        Determine the eligibility of a given row using the compliance checker.
+        Determine the eligibility of a given row using the policy checker.
 
         :param row: A row from the dataset.
-        :return: The result of the compliance checker.
+        :return: The result of the policy checker.
         """
-        return self.compliance_checker.test_eligibility(row)
+        return self.policy_checker.test_eligibility(row)
 
     def get_constant(self) -> Dict:
         """

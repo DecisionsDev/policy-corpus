@@ -5,7 +5,7 @@ from datetime import date, timedelta
 import pandas as pd
 from typing import List, Dict, Tuple
 
-from insurance.insurance_compliance.insurance_compliance import CarInsuranceCompliance
+from insurance.insurance_compliance.insurance_policy import CarInsurancePolicy
 
 # Append the path to import the abstract class and compliance checker
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
@@ -23,7 +23,7 @@ class CarInsuranceDataGenerator(DataGenerator):
     EVAL_COLUMN_NAMES = ["eligible", "premium_fee", "reason"]
 
     def __init__(self):
-        super().__init__(CarInsuranceCompliance())
+        super().__init__(CarInsurancePolicy())
 
     def generate_eligible_case(self) -> Dict:
         today = date.today()
@@ -211,7 +211,7 @@ class CarInsuranceDataGenerator(DataGenerator):
         return csv
 
     def determine_eligibility(self, row) -> Tuple:
-        return self.compliance_checker.test_eligibility(row)
+        return self.policy_checker.test_eligibility(row)
 
 
 from common.generic_data_generator import format_data_units

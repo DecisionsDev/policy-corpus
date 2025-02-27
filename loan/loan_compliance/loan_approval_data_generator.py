@@ -7,7 +7,7 @@ from typing import List, Dict, Tuple
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from common.generic_data_generator import DataGenerator, format_data_units
-from loan_compliance import LoanApprovalCompliance
+from loan_compliance import LoanApprovalPolicy
 
 
 class LoanDataGenerator(DataGenerator):
@@ -21,7 +21,7 @@ class LoanDataGenerator(DataGenerator):
     EVAL_COLUMN_NAMES = ["eligibility", "interest_rate", "message"]
 
     def __init__(self):
-        super().__init__(LoanApprovalCompliance())
+        super().__init__(LoanApprovalPolicy())
 
     def generate_eligible_case(self) -> Dict:
         """

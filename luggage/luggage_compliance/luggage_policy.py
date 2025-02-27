@@ -2,14 +2,14 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.generic_policy import Compliance
+from common.generic_policy import Policy
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
 
 import unittest
 
 
-class LuggageCompliance(Compliance):
+class LuggagePolicy(Policy):
     def __init__(self):
         self.classes = {
             "Economy": {
@@ -117,7 +117,7 @@ class LuggageCompliance(Compliance):
 
 def test1():
     # Instantiate the policy
-    policy = LuggageCompliance()
+    policy = LuggagePolicy()
     travel_class = "Economy"
 
     # Test case: Validate carry-on and checked luggage for Economy class
@@ -134,7 +134,7 @@ def test1():
 class TestLuggageCompliance(unittest.TestCase):
 
     def setUp(self):
-        self.policy = LuggageCompliance()
+        self.policy = LuggagePolicy()
 
     def test_carry_on_exceeds_quantity(self):
         """Carry-on and personal items exceed quantity limit."""

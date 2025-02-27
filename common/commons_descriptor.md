@@ -1,7 +1,7 @@
 # Common elements description
 ## [generic_policy.py](generic_policy.py)
 
-The ``Compliance`` class is an abstract base class (ABC) designed to define a policy framework. It serves as a template for implementing various policies that assess eligibility based on predefined criteria. Any subclass of Compliance must implement the test_eligibility method to evaluate an applicant's compliance with a given policy.
+The ``Policy`` class is an abstract base class (ABC) designed to define a policy framework. It serves as a template for implementing various policies that assess eligibility, or any other automation logic, based on predefined criteria. 
 
 ---
 
@@ -20,7 +20,7 @@ This abstract method must be implemented by any subclass. It determines whether 
 
 ### Implementation Requirements
 
-1. **Subclassing**: Any subclass must inherit from ``Compliance`` and implement the ``test_eligibility`` method.
+1. **Subclassing**: Any subclass must inherit from ``Policy`` and implement the ``test_eligibility`` method.
 2. **Unit Testing**: Implement meaningful unit tests covering various cases described in the policy document.
 
 ## [generic_data_generator.py](generic_data_generator.py)
@@ -46,11 +46,11 @@ A property to specify the column names expected in policy evaluation results.
 
 ### Constructor
 ```python
-def __init__(self, compliance_checker: Compliance):
+def __init__(self, policy_checker: Policy):
 ```
 **Parameters**:
 
-* ``compliance_checker (Compliance)``: An instance of a policy class used to determine eligibility.
+* ``policy_checker (Policy)``: An instance of a policy class used to determine eligibility.
 
 ### Methods
 
@@ -70,7 +70,7 @@ Generates a test dataset with approximately equal numbers of positive and negati
 def determine_eligibility(self, row) -> Tuple
 ```
 
-Uses the ``compliance_checker`` instance to determine the eligibility of a given row.
+Uses the ``policy_checker`` instance to determine the eligibility of a given row.
 
 **Parameter**:
 
