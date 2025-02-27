@@ -127,7 +127,7 @@ class Luggage:
             f"compliance={self.compliance})"
         )
 
-class TestLuggagePolicy(unittest.TestCase):
+class TestLuggageCompliance(unittest.TestCase):
 
     def setUp(self):
         """Initialize for all tests."""

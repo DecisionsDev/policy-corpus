@@ -7,7 +7,7 @@ from typing import List, Dict
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from common.generic_data_generator import DataGenerator, format_data_units
-from luggage_policy import LuggagePolicy
+from luggage_compliance import LuggageCompliance
 from luggage import Luggage
 from luggage_compliance_request import LuggageComplianceRequest
 
@@ -27,7 +27,7 @@ class LuggageDataGenerator(DataGenerator):
     MAX_WEIGHT = 50
 
     def __init__(self):
-        super().__init__(LuggagePolicy())
+        super().__init__(LuggageCompliance())
 
     def generate_eligible_case(self) -> Dict:
         travel_class = random.choice(self.TRAVEL_CLASSES)

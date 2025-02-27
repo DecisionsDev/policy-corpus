@@ -73,7 +73,7 @@ class LuggageComplianceRequest:
         return json.dumps(self.to_dict(), indent=2)  # Pretty print for better readability
 
 
-class TestLuggagePolicy(unittest.TestCase):
+class TestLuggageCompliance(unittest.TestCase):
 
     def setUp(self):
         """Initialize for all tests."""

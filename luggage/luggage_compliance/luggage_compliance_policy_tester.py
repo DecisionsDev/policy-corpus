@@ -6,7 +6,7 @@ from custom_evaluators import cargo_items_evaluator
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from luggage import Luggage
-from luggage_policy import LuggagePolicy
+from luggage_compliance import LuggageCompliance
 from common.generic_tester import PolicyTester
 import json
 import pandas as pd
@@ -41,7 +41,7 @@ def parse_carry_on_items(item_str):
 if __name__ == "__main__":
     # Define the configuration for the PolicyTester
     config = {
-        'policy_class': LuggagePolicy,
+        'policy_class': LuggageCompliance,
         'csv_file': 'luggage_policy_test_dataset_100.csv',
         'parse_functions': {
             'luggages': lambda x: [Luggage.from_dict(item) for item in json.loads(x)],

@@ -12,7 +12,7 @@ from common.generic_tester import PolicyTester
 
 if __name__ == "__main__":
     config = {
-        'policy_class': {policy_name}, # Example: LuggagePolicy
+        'policy_class': {policy_name}, # Example: LuggageCompliance
         'csv_file': {generated_csv_file_path_and_name}, # Example: 'luggage_policy_test_dataset_100.csv',
         # Example:    
         # 'parse_functions': {
