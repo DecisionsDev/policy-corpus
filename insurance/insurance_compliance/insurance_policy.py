@@ -3,10 +3,10 @@ import os
 import unittest
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from common.abstract_policy import Policy
 
 from datetime import date, timedelta
 from typing import Tuple
-from common.generic_policy import Policy
 from insurance.insurance_compliance.insurance_request import CarInsuranceRequest, Vehicle, Applicant, \
     DrivingLicense
 

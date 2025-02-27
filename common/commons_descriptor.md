@@ -1,5 +1,5 @@
 # Common elements description
-## [generic_policy.py](generic_policy.py)
+## [abstract_policy.py](abstract_policy.py)
 
 The ``Policy`` class is an abstract base class (ABC) designed to define a policy framework. It serves as a template for implementing various policies that assess eligibility, or any other automation logic, based on predefined criteria. 
 

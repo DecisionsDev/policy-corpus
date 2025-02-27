@@ -2,8 +2,9 @@ import sys
 import os
 from typing import Tuple
 
+from common.abstract_policy import Policy
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
-from common.generic_policy import Policy
 
 
 class LoanApprovalPolicy(Policy):
