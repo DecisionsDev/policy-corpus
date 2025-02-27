@@ -6,7 +6,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.generic_policy import Policy
+from common.abstract_policy import Policy
 
 
 class DataGenerator(ABC):
@@ -83,7 +83,7 @@ class DataGenerator(ABC):
         :param row: A row from the dataset.
         :return: The result of the policy checker.
         """
-        return self.policy_checker.test_eligibility(row)
+        return self.compliance_checker.test_eligibility(row)
 
     def get_constant(self) -> Dict:
         """
