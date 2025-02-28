@@ -83,7 +83,7 @@ class DataGenerator(ABC):
         :param row: A row from the dataset.
         :return: The result of the policy checker.
         """
-        return self.compliance_checker.test_eligibility(row)
+        return self.policy_checker.test_eligibility(row)
 
     def get_constant(self) -> Dict:
         """

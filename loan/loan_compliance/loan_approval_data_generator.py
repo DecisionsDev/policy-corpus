@@ -7,7 +7,7 @@ from typing import List, Dict, Tuple
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
 from common.generic_data_generator import DataGenerator, format_data_units
-from loan_compliance import LoanApprovalPolicy
+from loan_policy import LoanApprovalPolicy
 
 
 class LoanDataGenerator(DataGenerator):

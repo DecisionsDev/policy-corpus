@@ -1,7 +1,7 @@
 import sys
 import os
 
-from loan_compliance import LoanApprovalPolicy
+from loan_policy import LoanApprovalPolicy
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
