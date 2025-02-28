@@ -43,6 +43,8 @@ class Applicant:
 
     @staticmethod
     def from_dict(data: dict):
+        if not data:
+            return None
         return Applicant(
             birth_date=date.fromisoformat(data["birth_date"]) if data.get("birth_date") else None,
             address=data.get("address", {}),
@@ -78,8 +80,8 @@ class LoanRequest:
 
     def to_dict(self) -> dict:
         return {
-            "applicant": json.dumps(self.applicant.to_dict()).replace("\n", ""),
-            "co_signer": json.dumps(self.co_signer.to_dict()).replace("\n", "") if self.co_signer else None,
+            "applicant": self.applicant.to_dict(),
+            "co_signer": self.co_signer.to_dict() if self.co_signer else None,
             "loan_amount": self.loan_amount
         }
 

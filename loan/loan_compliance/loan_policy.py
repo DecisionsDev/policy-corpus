@@ -43,8 +43,7 @@ class LoanApprovalPolicy(Policy):
 
         # Credit Score Check
         if applicant.credit_score < 600:
-            if not co_signer or co_signer.credit_score < 600:
-                return False, 0.0, "Applicant or co-signer must have a minimum credit score of 600."
+            return False, 0.0, "Applicant must have a minimum credit score of 600."
 
         # Income Check
         if applicant.annual_income < 30000:
@@ -53,14 +52,16 @@ class LoanApprovalPolicy(Policy):
         if not applicant.income_document or applicant.income_document not in self.ACCEPTED_INCOME_PROOFS:
             return False, 0.0, "Applicant must have an income document proof of at least $30,000."
 
+        if applicant.employment_status == "unemployed":
+            return False, 0.0, "Unemployed applicant cannot get the loan."
+
         # Employment Check
         if applicant.employment_status == "self-employed" and not applicant.is_financial_record_present:
             return False, 0.0, "Self-employed applicants must provide 2 years of financial records."
 
         # Debt-to-Income Ratio Check
         if applicant.calculate_dti() > 0.40:
-            if not co_signer or co_signer.calculate_dti() > 0.4:
-                return False, 0.0, "Applicant's debt-to-income ratio must not exceed 40%."
+            return False, 0.0, "Applicant's debt-to-income ratio must not exceed 40%."
 
         # Loan Amount Check
         if not (5000 <= case.loan_amount <= 50000):

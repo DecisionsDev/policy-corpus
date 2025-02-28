@@ -4,7 +4,7 @@ I need you to inherit and implement a Python class by **strictly adhering** to a
 
 The generated test data should **fully respect** the eligibility logic implemented in the policy_checker while following the structure of the DataGenerator abstract class. It must contain **tricky samples**, covering **all** the cases described in automatic policy.
 
-The generated test data should fully respect the eligibility logic implemented in the policy_checker while following the structure of the DataGenerator abstract class. Additionally, the implementation must call the super ``determine_eligibility`` method and store its results correctly in the dataset.
+Additionally, the implementation must call the super ``determine_eligibility`` method and store its results correctly in the dataset.
 
 * Below is the abstract class that defines the structure:
 
