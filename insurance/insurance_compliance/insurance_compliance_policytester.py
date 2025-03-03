@@ -1,7 +1,7 @@
 import sys
 import os
 
-from insurance.insurance_compliance.insurance_compliance import CarInsuranceCompliance
+from insurance.insurance_compliance.insurance_policy import CarInsurancePolicy
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
@@ -9,7 +9,7 @@ from common.generic_tester import PolicyTester
 
 if __name__ == "__main__":
     config = {
-        'policy_class': CarInsuranceCompliance,
+        'policy_class': CarInsurancePolicy,
         'csv_file': 'insurance_test_dataset_100.csv',
         'eval_columns': ["eligible", "premium_fee", "reason"],
         'save_in_csv': True

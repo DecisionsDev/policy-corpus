@@ -34,7 +34,7 @@ class LuggageDataGenerator(DataGenerator):
         age_category = random.choice(self.AGE_CATEGORIES)
         luggages = self.generate_eligible_luggages(travel_class, age_category)
         request = LuggageComplianceRequest(travel_class, age_category, luggages)
-        compliance_result, compliance_message, cargo_items, fees = self.compliance_checker.test_eligibility(request)
+        compliance_result, compliance_message, cargo_items, fees = self.policy_checker.test_eligibility(request)
 
         return {
             "travel_class": travel_class,
@@ -52,7 +52,7 @@ class LuggageDataGenerator(DataGenerator):
         age_category = random.choice(self.AGE_CATEGORIES)
         luggages = self.generate_luggages()
         request = LuggageComplianceRequest(travel_class, age_category, luggages)
-        compliance_result, compliance_message, cargo_items, fees = self.compliance_checker.test_eligibility(request)
+        compliance_result, compliance_message, cargo_items, fees = self.policy_checker.test_eligibility(request)
         eligibility = compliance_result and not cargo_items
 
         return {
@@ -88,7 +88,7 @@ class LuggageDataGenerator(DataGenerator):
     def generate_eligible_luggages(self, travel_class, age_category) -> List[Luggage]:
         while True:
             luggages = []
-            class_policy = self.compliance_checker.classes[travel_class]
+            class_policy = self.policy_checker.classes[travel_class]
 
             for _ in range(class_policy["carry_on"]["quantity"]):
                 luggages.append(Luggage("carry-on", False, False, True,
@@ -115,7 +115,7 @@ class LuggageDataGenerator(DataGenerator):
                                         }))
 
             request = LuggageComplianceRequest(travel_class, age_category, luggages)
-            compliance_result, _, _, _ = self.compliance_checker.test_eligibility(request)
+            compliance_result, _, _, _ = self.policy_checker.test_eligibility(request)
 
             if compliance_result:
                 return luggages

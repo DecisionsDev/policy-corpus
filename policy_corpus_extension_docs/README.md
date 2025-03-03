@@ -1,4 +1,5 @@
 # How to extend the policy corpus
+P.S. The naming conventions used in this file are not mandatory and are introduced solely to facilitate understanding.
 
 ## General requirements
 You can easily augment this corpus of policies to add a new one matching your business needs by respecting these guidelines:
@@ -19,36 +20,36 @@ You can easily augment this corpus of policies to add a new one matching your bu
    4. From this point onward, work within the newly created folder as described above.
 
 2. **Create a Policy Description Document:**
-   - Write a text document outlining the general policy compliance. An example can be found in [luggage_policy.txt](../luggage/luggage_policy.txt).
+   - Write a text document outlining the general policy. An example can be found in [luggage_policy.txt](../luggage/luggage_policy.txt).
 
-3. **Create/Generate the `{policy_name}_compliance.py` File:**
-   - This file contains the policy description, determining whether a case is eligible according to the policy document created in step 2.
+3. **Create/Generate the `{policy_name}_policy.py` File:**
+   - This file contains the policy automation, determining whether a case is eligible according to the policy document created in step 2.
    - The file can be:
      1. Written manually (Not recommended).
-     2. Generated using an LLM (Granit, Llama, Mistral, GPT, Cloud) by adapting the [policy prompt template](prompt_template_compliance.md). 
+     2. Generated using an LLM (Granit, Llama, Mistral, GPT, Cloud) by adapting the [policy prompt template](prompt_template_policyautomation). 
         - Update the values in `{}` (curly brackets) within the template.
         - Copy and paste the policy text document created in step 2.
-        - (If there are other classes, which are used in the preexisting compliance): copy and paste them instead of `{predefined_data_structures}`. Otherwise, delete this point.
+        - (If there are other classes, which are used in the preexisting policy): copy and paste them instead of `{predefined_data_structures}`. Otherwise, delete this point.
 
 4. **(Skip if step 3.2 was chosen) Add Unit Tests:**
-   - In the same `{policy_name}_compliance.py` file, include a unit test class.
+   - In the same `{policy_name}_policy.py` file, include a unit test class.
 
 5. **Verify Unit Test Coverage:**
-   - Ensure that the unit tests in `{policy_name}_compliance.py` cover and handle the complex logic described in the policy document created in step 2.
+   - Ensure that the unit tests in `{policy_name}_policy.py` cover and handle the complex logic described in the policy document created in step 2.
    - If satisfied, proceed.
-   - If not satisfied, modify `{policy_name}_compliance.py` and return to step 4.
+   - If not satisfied, modify `{policy_name}_policy.py` and return to step 4.
 
 6. **Generate the Data Generator (`{policy_name}_data_generator.py`):**
-   - Use the `Compliance` class from `{policy_name}_compliance.py` to create this file.
+   - Use the `Policy` class from `{policy_name}_policy.py` to create this file.
    - The file can be:
      1. Written manually (Not recommended).
      2. Generated using an LLM by adapting the [data generator prompt template](prompt_template_data_generator.md).
         - Update the values in `{}` (curly brackets) within the template.
         - Copy and paste:
           - The policy text document (step 2)
-          - The compliance code (step 3)
-          - The `{policy_name}_compliance.py` filename (without `.py`)
-          - The `Compliance` class name from `{policy_name}_compliance.py`
+          - The policy code (step 3)
+          - The `{policy_name}_policy.py` filename (without `.py`)
+          - The `Policy` class name from `{policy_name}_policy.py`
 
 7. **Run `{policy_name}_data_generator.py`:**
    - Specify the number of samples needed.
@@ -59,9 +60,9 @@ You can easily augment this corpus of policies to add a new one matching your bu
    - If not satisfied, modify `{policy_name}_data_generator.py` and return to step 5.
 
 9. **Create `{policy_name}_policytester.py`:**
-   - Test the alignment of the generated data with the `Compliance` class from `{policy_name}_compliance.py`.
+   - Test the alignment of the generated data with the `Policy` class from `{policy_name}_policy.py`.
    - You can adapt the code from the [tester template](tester_template.md).
 
 10. **Run `{policy_name}_policytester.py`:**
-    - If the returned metrics are `< 1.0`, investigate the errors and fix `{policy_name}_data_generator.py` and `{policy_name}_compliance.py`.
+    - If the returned metrics are `< 1.0`, investigate the errors and fix `{policy_name}_data_generator.py` and `{policy_name}_policy.py`.
     - If all metrics equal `1.0`, congratulations! You have successfully created a new policy.

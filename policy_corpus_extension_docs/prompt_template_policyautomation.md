@@ -10,9 +10,9 @@ from abc import ABC, abstractmethod
 from typing import Tuple
 
 
-class Compliance(ABC):
+class Policy(ABC):
     """
-    Abstract base class for defining a policy compliance.
+    Abstract base class for defining a policy.
 
     This class provides a template for implementing various policies that need to test eligibility
     based on certain criteria. Any subclass must implement the `test_eligibility` method
@@ -50,19 +50,19 @@ If you use these data structures, make sure to add a check and to convert the ``
 ```
 
 **Strict Requirements**:
-1. Strict Structure Compliance:
-   * You must implement the test_eligibility method exactly as defined in the abstract class.
+1. Strict Structure Policy:
+   * You must implement the ``test_eligibility`` method exactly as defined in the abstract class.
    * Do not modify method signatures or class inheritance.
-   *Follow the comments within the abstract class precisely.
+   * Follow the comments within the abstract class precisely.
 2. Complete Policy Coverage:
     * Your implementation should fully cover all cases, rules, and logic described in the policy document.
     * Ensure that no details are omitted from the policy description.
 3. Unit Tests (MANDATORY):
-   * You must generate a unittest.TestCase class that thoroughly tests the implemented policy.
+   * You must generate a ``unittest.TestCase`` class that thoroughly tests the implemented policy.
    * Unit tests should cover as many meaningful cases from the policy document as possible, ensuring full validation.
    * Ensure edge cases, normal cases, and failure cases are tested.
 4. Import Instead of Redefining Abstract Class:
-   * Do not repeat the provided abstract Compliance class.
+   * Do not repeat the provided abstract Policy class.
    * Instead, import it at the beginning of the implementation:
 
 ```python
@@ -71,7 +71,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.generic_policy import Compliance
+from common.abstract_policy import Policy
 ```
 5. Pythonic & Readable Code:
    * The implementation must follow Pythonic best practices.

@@ -2,11 +2,12 @@
 
 I need you to inherit and implement a Python class by **strictly adhering** to a given abstract class structure and ensuring that the generated data aligns with the provided compliance checker.
 
-The generated test data should **fully respect** the eligibility logic implemented in the compliance_checker while following the structure of the DataGenerator abstract class. It must contain **tricky samples**, covering **all** the cases described in compliance.
+The generated test data should **fully respect** the eligibility logic implemented in the policy_checker while following the structure of the DataGenerator abstract class. It must contain **tricky samples**, covering **all** the cases described in automatic policy.
 
-The generated test data should fully respect the eligibility logic implemented in the compliance_checker while following the structure of the DataGenerator abstract class. Additionally, the implementation must call the super ``determine_eligibility`` method and store its results correctly in the dataset.
+The generated test data should fully respect the eligibility logic implemented in the policy_checker while following the structure of the DataGenerator abstract class. Additionally, the implementation must call the super ``determine_eligibility`` method and store its results correctly in the dataset.
 
 * Below is the abstract class that defines the structure:
+
 ```python
 from abc import ABC, abstractmethod
 from typing import List, Dict, Tuple
@@ -16,7 +17,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
 
-from common.generic_policy import Compliance
+from common.abstract_policy import Policy
 
 
 class DataGenerator(ABC):
@@ -40,13 +41,13 @@ class DataGenerator(ABC):
 
     ## PUT ALL OTHER CONSTANTS/ENUMS USED IN THE CODE HERE
 
-    def __init__(self, compliance_checker: Compliance):
+    def __init__(self, policy_checker: Policy):
         """
-        Initializes the DataGenerator with a compliance checker instance.
+        Initializes the DataGenerator with a policy checker instance.
 
-        :param compliance_checker: An instance of a Policy class used for checking compliance.
+        :param policy_checker: An instance of a Policy class used for automatic checking.
         """
-        self.compliance_checker = compliance_checker  # Policy instance
+        self.policy_checker = policy_checker  # Policy instance
 
     def generate_test_dataset(self, num_samples=100) -> pd.DataFrame:
         """
@@ -88,12 +89,12 @@ class DataGenerator(ABC):
 
     def determine_eligibility(self, row) -> Tuple:
         """
-        Determine the eligibility of a given row using the compliance checker.
+        Determine the eligibility of a given row using the policy checker.
 
         :param row: A row from the dataset.
-        :return: The result of the compliance checker.
+        :return: The result of the policy checker.
         """
-        return self.compliance_checker.test_eligibility(row)
+        return self.policy_checker.test_eligibility(row)
 
     def get_constant(self) -> Dict:
         """
@@ -128,10 +129,10 @@ def format_data_units(n):
 
 ```
 
-* Compliance Checker (Policy subclass): This defines how eligibility is determined and should be used to guide test data generation:
+* Policy Checker (Policy subclass): This defines how eligibility is determined and should be used to guide test data generation:
 
 ```python
-{compliance_class_without_unittests}
+{policy_class_without_unittests}
 ```
 
 * Here is the policy description document outlining the implementation details:
@@ -141,22 +142,22 @@ def format_data_units(n):
 
 **Requirements:**
 
-1. Strict Structure Compliance:
+1. Strict Structure Policy:
    * The implementation must follow the DataGenerator abstract class precisely.
    * Do not modify method signatures or inheritance.
    * Implement the abstract properties COLUMN_NAMES and EVAL_COLUMN_NAMES correctly.
-2. Generate Data Consistently with the Compliance Checker:
-   * Implement generate_eligible_case to create cases that pass compliance_checker.test_eligibility().
+2. Generate Data Consistently with the Policy Checker:
+   * Implement generate_eligible_case to create cases that pass policy_checker.test_eligibility().
    * Implement generate_non_eligible_case to create cases that fail.
    * Ensure the generated dataset has a balanced distribution (50% eligible, 50% non-eligible).
-3. Use the Compliance Checker as Context:
-    * The compliance_checker implementation should directly inform how test cases are structured.
-    * If any conflicts or ambiguities arise, prioritize the logic of the compliance checker.
+3. Use the Policy Checker as Context:
+    * The policy_checker implementation should directly inform how test cases are structured.
+    * If any conflicts or ambiguities arise, prioritize the logic of the policy checker.
 4. Call ``determine_eligibility`` and Store Results Correctly:
    * The method ``determine_eligibility(row)`` must be called on each generated data sample.
    * Store the results exactly as returned by ``determine_eligibility``, ensuring they match the expected structure from test_eligibility.
    * The dataset should include:
-     * The original data sample (formatted as required by the compliance checker).
+     * The original data sample (formatted as required by the policy checker).
      * The attributes from the sample.
      * The results returned by determine_eligibility, using the same column names as in ``test_eligibility``.
 5. Import Instead of Redefining provided Class:
@@ -171,10 +172,10 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 from common.generic_data_generator import DataGenerator
 ```
 
-  * Do not repeat the provided Compliance class.
+  * Do not repeat the provided Policy class.
   * Instead, import it at the beginning of the implementation:
 ```python
-from {file_name} import {compliance_name}
+from {file_name} import {policy_name}
 ```
 
 ## Now, please generate the full implementation of the DataGenerator subclass based on these instructions.
