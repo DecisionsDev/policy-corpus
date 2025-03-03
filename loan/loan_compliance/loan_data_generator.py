@@ -51,8 +51,8 @@ class LoanDataGenerator(DataGenerator):
         eligibility, interest_rate, reason = self.determine_eligibility(loan_request.to_dict())
 
         return {
-            "applicant": loan_request.applicant.to_dict(),
-            "co_signer": loan_request.co_signer.to_dict() if loan_request.co_signer else None,
+            "applicant": json.dumps(loan_request.applicant.to_dict()),
+            "co_signer": json.dumps(loan_request.co_signer.to_dict()) if loan_request.co_signer else None,
             "loan_amount": loan_request.loan_amount,
             "eligibility": eligibility,
             "interest_rate": interest_rate,
@@ -84,14 +84,20 @@ class LoanDataGenerator(DataGenerator):
         loan_request = LoanRequest(applicant, co_signer, random.randint(5000, 100000))
         eligibility, interest_rate, reason = self.determine_eligibility(loan_request.to_dict())
 
+        # csv = loan_request.to_dict()
+        # csv["eligibility"] = eligibility
+        # csv["interest_rate"] = interest_rate
+        # csv["reason"] = reason
+
         return {
-            "applicant": loan_request.applicant.to_dict(),
-            "co_signer": loan_request.co_signer.to_dict() if loan_request.co_signer else None,
+            "applicant": json.dumps(loan_request.applicant.to_dict()),
+            "co_signer": json.dumps(loan_request.co_signer.to_dict()) if loan_request.co_signer else None,
             "loan_amount": loan_request.loan_amount,
             "eligibility": eligibility,
             "interest_rate": interest_rate,
             "reason": reason
         }
+        # return csv
 
 
 if __name__ == "__main__":
@@ -101,4 +107,4 @@ if __name__ == "__main__":
     for size in sizes:
         df = generator.generate_test_dataset(size)
         data_units = format_data_units(size)
-        df.to_csv(f'loan_policy_test_dataset_{data_units}.csv', index=False)
+        df.to_csv(f'loan_policy_test_dataset_{data_units}.csv', index=False, quoting=1, doublequote=True)

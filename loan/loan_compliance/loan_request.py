@@ -88,9 +88,9 @@ class LoanRequest:
     @staticmethod
     def from_dict(data: dict):
         return LoanRequest(
-            applicant=Applicant.from_dict(data["applicant"]),
-            co_signer=Applicant.from_dict(data["co_signer"]),
-            loan_amount=data["loan_amount"]
+            applicant=Applicant.from_dict(json.loads(data["applicant"]) if isinstance(data["applicant"], str) else data["applicant"]),
+            co_signer=Applicant.from_dict(json.loads(data["co_signer"]) if isinstance(data["co_signer"], str) and len(data["co_signer"]) > 0 else data["co_signer"]),
+            loan_amount=float(data["loan_amount"])
         )
 
     def __eq__(self, other):

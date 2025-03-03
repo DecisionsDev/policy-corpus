@@ -21,7 +21,7 @@ class LoanApprovalPolicy(Policy):
         """
         Tests the eligibility of a loan applicant based on predefined criteria.
         """
-        if isinstance(case, dict):
+        if not isinstance(case, LoanRequest):
             case = LoanRequest.from_dict(case)
 
         applicant = case.applicant
