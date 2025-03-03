@@ -210,9 +210,6 @@ class CarInsuranceDataGenerator(DataGenerator):
 
         return csv
 
-    def determine_eligibility(self, row) -> Tuple:
-        return self.policy_checker.test_eligibility(row)
-
 
 from common.generic_data_generator import format_data_units
 
