@@ -10,7 +10,7 @@ Associated code contains:
 - [a reference implementation of the policy in Python](insurance_compliance/insurance_policy.py)
    - How to run it with unit tests
     ```shell
-    coverage run -m unittest luggage_compliance/insurance_policy.py
+    coverage run -m unittest insurance_compliance/insurance_policy.py
     ```
     ```shell
     coverage report -m

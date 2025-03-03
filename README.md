@@ -25,8 +25,8 @@ Each policy is described by:
 The list of business policies captured in this corpus:
 - [luggage compliance & pricing](luggage/luggage_policy.md)
 - [time off](human-resources/acme_time_off.md)
-- [insurance](insurance)
-- [loan approval](loan-approval)
+- [insurance](insurance/insurance_policy.md)
+- [loan approval](loan/loan_policy.md)
 
 ## How to benchmark your policy automation against a test dataset
 You want to measure quantitatively the performance of your policy automation, then this project is made for you.
