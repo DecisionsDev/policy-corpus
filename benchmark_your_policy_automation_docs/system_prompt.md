@@ -1,10 +1,6 @@
-**Prompt**:
-
 I need you to inherit and implement a Python class by strictly adhering to a given abstract class structure and incorporating all details from a policy description document.
 
-Additionally, you must provide unit tests that comprehensively cover the cases described in the policy document.
-
-* Below is the abstract class that defines the structure:
+Below is the abstract class that defines the structure:
 
 ```python
 from abc import ABC, abstractmethod
@@ -17,7 +13,6 @@ class Policy(ABC):
 
    This class provides a template for implementing various policies that need to test eligibility
    based on certain criteria. Any subclass must implement the `test_eligibility` method
-   and cover the newly generated policy with meaningful unittests.
    """
 
    @abstractmethod
@@ -32,22 +27,6 @@ class Policy(ABC):
       Elements of the tuple are external parameters, returned with the result (eligibility, fee, error message, etc).
       """
       pass
-
-#    Testing class, which implements unittest.TestCase
-#    and covers as much meaningful cases described in the text policy  document,
-#    as possible
-
-```
-
-* Here are the defined data structures, which you need to use in ``test_eligibility`` method:
-```python
-{predefined_data_structures}
-```
-If you use these data structures, make sure to add a check and to convert the ``case`` parameter from dictionary to the class instance.
-
-* Here is the policy description document outlining the implementation details:
-```text
-{policy_document}
 ```
 
 **Strict Requirements**:
@@ -70,10 +49,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 
 from common.abstract_policy import Policy
 ```
-5. Pythonic & Readable Code:
+4. Pythonic & Readable Code:
    * The implementation must follow Pythonic best practices.
    * Use clear variable names, docstrings, and structured error handling.
-
-## Now, please generate:
-* The full implementation of the policy class based on the provided abstract class and policy document.
-* A complete unittest class that thoroughly tests the policy class.

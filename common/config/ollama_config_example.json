@@ -1,0 +1,9 @@
+{
+  "model_name": "llama3",
+
+  "options": {
+    "temperature": 1.0,
+    "additional_num_ctx": 1000
+  }
+}
+
