@@ -2,7 +2,7 @@
   "model_name": "llama3",
 
   "options": {
-    "temperature": 1.0,
+    "temperature": 0.7,
     "additional_num_ctx": 15000
   }
 }

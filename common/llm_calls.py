@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Tuple, Dict
 import json
 
+from common.watson_utils import DEFAULT_PARAMETERS, DEFAULT_URL
 from insurance.insurance_compliance.insurance_request import CarInsuranceRequest, Vehicle, Applicant, DrivingLicense
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
@@ -46,10 +47,11 @@ def extract_code_from_response(response):
             break
     return response if not code_string else code_string
 
+
 def call_ollama(model_config: Dict, system_prompt, user_prompt) -> Tuple[str, str, int]:
     try:
         import ollama
-    except Exception as e:
+    except ImportError as e:
         raise e
 
     messages = [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
@@ -81,8 +83,44 @@ def call_ollama(model_config: Dict, system_prompt, user_prompt) -> Tuple[str, st
     return generated_response, generated_code, total_completion_token
 
 
-def call_watsonxai(model_config, system_prompt, user_prompt) -> Tuple[str, str, int]:
-    pass
+def call_watsonxai(model_config: Dict, system_prompt, user_prompt) -> Tuple[str, str, int]:
+    try:
+        from langchain_core.messages import SystemMessage, HumanMessage
+        from langchain_ibm import ChatWatsonx
+    except ImportError as e:
+        raise e
+
+    os.environ["WATSONX_APIKEY"] = os.getenv("IBM_API_KEY")
+
+    messages = [SystemMessage(content=system_prompt), HumanMessage(content=user_prompt)]
+
+    chat = ChatWatsonx(
+        model_id=model_config["model_id"],
+        url=model_config["url"] if model_config["url"] else DEFAULT_URL,
+        project_id=model_config["project_id"],
+        params=model_config["options"] if model_config["options"] else DEFAULT_PARAMETERS,
+    )
+
+    generated_code = None
+    generated_response = None
+    total_completion_token = 0
+
+    for attempt in range(1000):
+        try:
+            response_cur = chat.invoke(messages)
+
+            generated_response = response_cur.content
+            generated_code = extract_code_from_response(generated_response)
+
+            if generated_code:
+                total_completion_token += response_cur.response_metadata['token_usage']['generated_token_count'] + \
+                        response_cur.response_metadata['token_usage']['input_token_count']
+                break
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed with error: {e}")
+            time.sleep(1)
+
+    return generated_response, generated_code, total_completion_token
 
 
 def call_api(llm_api, model_config, system_prompt, user_prompt) -> Tuple[str, str, int]:
@@ -91,10 +129,10 @@ def call_api(llm_api, model_config, system_prompt, user_prompt) -> Tuple[str, st
     elif llm_api == LLM_API.WATSONXAI:
         return call_watsonxai(model_config, system_prompt, user_prompt)
 
-    return ("No supported LLM API type provided", "", 0)
+    return "No supported LLM API type provided", "", 0
 
 
-def call_llm(policy_description_file_path, llm_api: LLM_API, config_file_path, output_file, *args):
+def call_llm(policy_description_file_path, llm_api: LLM_API, config_file_path, code_output_file, response_output_file, *args):
     policy_document = file_to_string(policy_description_file_path)
 
     system_prompt = file_to_string(SYSTEM_PROMPT_FILE)
@@ -113,19 +151,25 @@ def call_llm(policy_description_file_path, llm_api: LLM_API, config_file_path, o
 
     generated_response, generated_code, number_tokens = call_api(llm_api, model_config, system_prompt, user_prompt)
 
-    output_file = Path(output_file)
-    output_file.parent.mkdir(exist_ok=True, parents=True)
-    output_file.write_text(generated_code)
+    code_output_file_path = Path(code_output_file)
+    code_output_file_path.parent.mkdir(exist_ok=True, parents=True)
+    code_output_file_path.write_text(generated_code)
+
+    response_output_file_path = Path(response_output_file)
+    response_output_file_path.parent.mkdir(exist_ok=True, parents=True)
+    response_output_file_path.write_text(generated_response)
+
     print(f"Number of tokens generated: {number_tokens}")
-    print(generated_response)
-    return generated_code, number_tokens
+
+    return generated_response, generated_code, number_tokens
 
 
 if __name__ == "__main__":
     call_llm(
         "../insurance/basic_eligibility_car_insurance.txt",
-        LLM_API.OLLAMA,
-        "./config/ollama_config_example.json",
+        LLM_API.WATSONXAI,
+        "./config/watsonx_config_example.json",
         "generation_result.py",
+        "generation_result.txt",
         DrivingLicense, Applicant, Vehicle, CarInsuranceRequest
     )
