@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 import inspect
 import time
@@ -21,7 +22,7 @@ USER_PROMPT_FILE_NO_DATASTRUCTURES = os.path.join(LLM_PROMPTS_PATH, "user_prompt
 CONFIG_DIR = os.path.join(ROOT_DIR, "config")
 
 
-class LLM_type(Enum):
+class LLM_API(Enum):
     OLLAMA = 1
     WATSONXAI = 2
 
@@ -36,14 +37,24 @@ def file_to_string(filename):
         return file.read()
 
 
-def call_ollama(model_config: Dict, system_prompt, user_prompt) -> Tuple[str, int]:
+def extract_code_from_response(response):
+    patterns = [r'```python(.*?)```', r'```Python(.*?)```', r'```(.*?)```', r'"""(.*?)"""', r'""(.*?)""', r'"(.*?)"']
+    for pattern in patterns:
+        code_string = re.search(pattern, response, re.DOTALL)
+        if code_string is not None:
+            code_string = code_string.group(1).strip()
+            break
+    return response if not code_string else code_string
+
+def call_ollama(model_config: Dict, system_prompt, user_prompt) -> Tuple[str, str, int]:
     try:
         import ollama
     except Exception as e:
         raise e
 
     messages = [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
-    response_cur = None
+    generated_code = None
+    generated_response = None
     total_completion_token = 0
 
     options = model_config["options"]
@@ -57,22 +68,33 @@ def call_ollama(model_config: Dict, system_prompt, user_prompt) -> Tuple[str, in
             )
             if not response_cur["done"]:
                 raise Exception("Non-200 response: " + str(response_cur))
+            generated_response = response_cur["message"]["content"]
+            generated_code = extract_code_from_response(generated_response)
 
-            break
+            if generated_code:
+                total_completion_token += response_cur["eval_count"]
+                break
         except Exception as e:
             print(f"Attempt {attempt + 1} failed with error: {e}")
             time.sleep(1)
 
-    total_completion_token += response_cur["eval_count"]
-
-    return str(response_cur["message"]["content"]), total_completion_token
+    return generated_response, generated_code, total_completion_token
 
 
-def call_watsonxai(model_config, system_prompt, user_prompt) -> Tuple[str, int]:
+def call_watsonxai(model_config, system_prompt, user_prompt) -> Tuple[str, str, int]:
     pass
 
 
-def call_llm(policy_description_file_path, llm_type: LLM_type, config_file_path, output_file, *args):
+def call_api(llm_api, model_config, system_prompt, user_prompt) -> Tuple[str, str, int]:
+    if llm_api == LLM_API.OLLAMA:
+        return call_ollama(model_config, system_prompt, user_prompt)
+    elif llm_api == LLM_API.WATSONXAI:
+        return call_watsonxai(model_config, system_prompt, user_prompt)
+
+    return ("No supported LLM API type provided", "", 0)
+
+
+def call_llm(policy_description_file_path, llm_api: LLM_API, config_file_path, output_file, *args):
     policy_document = file_to_string(policy_description_file_path)
 
     system_prompt = file_to_string(SYSTEM_PROMPT_FILE)
@@ -89,25 +111,20 @@ def call_llm(policy_description_file_path, llm_type: LLM_type, config_file_path,
         user_prompt = file_to_string(USER_PROMPT_FILE_NO_DATASTRUCTURES)
         user_prompt = user_prompt.format(policy_document=policy_document)
 
-    generated_content = None
-    number_tokens = 0
-
-    if llm_type == LLM_type.OLLAMA:
-        generated_content, number_tokens = call_ollama(model_config, system_prompt, user_prompt)
-    elif llm_type == LLM_type.WATSONXAI:
-        generated_content, number_tokens = call_watsonxai(model_config, system_prompt, user_prompt)
+    generated_response, generated_code, number_tokens = call_api(llm_api, model_config, system_prompt, user_prompt)
 
     output_file = Path(output_file)
     output_file.parent.mkdir(exist_ok=True, parents=True)
-    output_file.write_text(generated_content)
+    output_file.write_text(generated_code)
     print(f"Number of tokens generated: {number_tokens}")
-    return generated_content, number_tokens
+    print(generated_response)
+    return generated_code, number_tokens
 
 
 if __name__ == "__main__":
     call_llm(
         "../insurance/basic_eligibility_car_insurance.txt",
-        LLM_type.OLLAMA,
+        LLM_API.OLLAMA,
         "./config/ollama_config_example.json",
         "generation_result.py",
         DrivingLicense, Applicant, Vehicle, CarInsuranceRequest

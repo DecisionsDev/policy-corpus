@@ -2,7 +2,6 @@
 ```python
 {predefined_data_structures}
 ```
-If you use these data structures, make sure to add a check and to convert the ``case`` parameter from dictionary to the class instance.
 Do not copy the provided class in your response. Do not add any extra data classes or structures - work with what you have.
 
 * Here is the policy description document outlining the implementation details:
@@ -11,4 +10,4 @@ Do not copy the provided class in your response. Do not add any extra data class
 ```
 
 ## Now, please generate:
-* The full implementation of the policy class based on the provided abstract class and policy document.
+* The full implementation of the policy class based on the provided Policy abstract class in the system and policy document.

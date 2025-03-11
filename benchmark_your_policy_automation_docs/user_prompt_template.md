@@ -4,4 +4,4 @@
 ```
 
 ## Now, please generate:
-* The full implementation of the policy class based on the provided abstract class and policy document.
+* The full implementation of the policy class based on the provided Policy abstract class in the system and policy document.
