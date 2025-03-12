@@ -186,7 +186,7 @@ def call_llm(policy_description_file_path, csv_file, data_generator_class: DataG
     return results
 
 
-def benchmark_results(resulting_file, column_mapping: Dict[str, str]) -> List[Dict[str, float | int]]:
+def benchmark_results(resulting_file, column_mapping: Dict[str, str]) -> Dict[str, Dict[str, float | int]]:
     # Load JSON file
     with open(resulting_file, 'r', encoding='utf-8') as file:
         data = json.load(file)
