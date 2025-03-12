@@ -192,7 +192,7 @@ if __name__ == "__main__":
         LuggageDataGenerator(),
         LLM_API.OLLAMA,
         "./config/ollama_config_example.json",
-        "generation_result_watson.json",
+        "generation_result_ollama.json",
     )
     # call_llm(
     #     "../luggage/luggage_policy.txt",
