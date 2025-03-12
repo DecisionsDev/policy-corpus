@@ -162,7 +162,7 @@ def call_llm(policy_description_file_path, csv_file, data_generator_class: DataG
     dataFull = dataFull.sample(frac=1).reset_index(drop=True)
 
     data = dataFull.drop(columns=data_generator_class.EVAL_COLUMN_NAMES)
-    data = data.head(5)
+    # data = data.head(5)
 
     results = {}
     user_prompts = []
