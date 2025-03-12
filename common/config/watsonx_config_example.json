@@ -1,7 +1,7 @@
 {
-  "model_id": "codellama/codellama-34b-instruct-hf",
+  "model_id": "meta-llama/llama-3-3-70b-instruct",
   "url": "https://us-south.ml.cloud.ibm.com",
-  "project_id": "{YOUR_PROJECT_ID}",
+  "project_id": "104de9ce-71bb-4f9b-b8af-d87d05403eac",
 
   "options": {
     "temperature": 0.7,
