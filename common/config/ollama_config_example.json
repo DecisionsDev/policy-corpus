@@ -1,5 +1,5 @@
 {
-  "model_name": "llama3.2",
+  "model_name": "llama3",
 
   "options": {
     "temperature": 0.7,

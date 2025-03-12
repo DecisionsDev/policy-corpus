@@ -5,7 +5,6 @@ import time
 from enum import Enum
 from pathlib import Path
 from typing import Tuple, Dict
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 
 import pandas as pd
@@ -164,7 +163,7 @@ def call_llm(policy_description_file_path, csv_file, data_generator_class: DataG
         user_prompt = user_prompt_default.format(test_case=case.to_json())
         generated_response, generated_answer, number_tokens = call_api(llm_api, model_config, system_prompt, user_prompt)
         results[idx] = {
-            "test_case": dataFull.illoc[[idx]].to_dict(),
+            "test_case": dataFull.iloc[[idx]].to_dict(),
             "generated_response": generated_response,
             "generated_answer": json.loads(generated_answer) if generated_answer else None,
             "number_tokens": number_tokens
