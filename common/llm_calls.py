@@ -8,6 +8,7 @@ from typing import Tuple, Dict, List
 import json
 
 import pandas as pd
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
 
@@ -171,7 +172,7 @@ def call_llm(policy_description_file_path, csv_file, data_generator_class: DataG
     generated_responses, generated_answers, numbers_tokens = call_api(llm_api, model_config, system_prompt, user_prompts)
     for idx in range(len(generated_answers)):
         results[idx] = {
-            "test_case": dataFull.iloc[[idx]].to_dict(),
+            "test_case": dataFull.iloc[idx].to_dict(),
             "generated_response": generated_responses[idx],
             "generated_answer": json.loads(generated_answers[idx]) if generated_answers[idx] else None,
             "number_tokens": numbers_tokens[idx]
@@ -185,15 +186,61 @@ def call_llm(policy_description_file_path, csv_file, data_generator_class: DataG
     return results
 
 
+def benchmark_results(resulting_file, column_mapping: Dict[str, str]) -> List[Dict[str, float | int]]:
+    # Load JSON file
+    with open(resulting_file, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    # Extract test case and generated answer values
+    test_case_values = []
+    generated_values = []
+
+    for key, item in data.items():
+        test_case_entry = item["test_case"]
+        generated_entry = item["generated_answer"]
+
+        row_test_case = []
+        row_generated = []
+
+        for test_case_col, generated_col in column_mapping.items():
+            row_test_case.append(test_case_entry.get(test_case_col))
+            row_generated.append(generated_entry.get(generated_col))
+
+        test_case_values.append(row_test_case)
+        generated_values.append(row_generated)
+
+    # Convert to DataFrame
+    df_test_case = pd.DataFrame(test_case_values, columns=column_mapping.keys())
+    df_generated = pd.DataFrame(generated_values, columns=column_mapping.keys())
+
+    # Calculate metrics for each column
+    metrics = {}
+    for col in column_mapping.keys():
+        y_true = df_test_case[col]
+        y_pred = df_generated[col]
+
+        # Convert categorical values to strings for comparison
+        if not pd.api.types.is_numeric_dtype(y_true) or not pd.api.types.is_numeric_dtype(y_pred):
+            y_true = y_true.astype(str)
+            y_pred = y_pred.astype(str)
+
+        # Compute metrics
+        accuracy = accuracy_score(y_true, y_pred)
+        precision = precision_score(y_true, y_pred, average='weighted', zero_division=0)
+        recall = recall_score(y_true, y_pred, average='weighted', zero_division=0)
+        f1 = f1_score(y_true, y_pred, average='weighted', zero_division=0)
+
+        metrics[col] = {
+            "accuracy": accuracy,
+            "precision": precision,
+            "recall": recall,
+            "f1_score": f1
+        }
+
+    return metrics
+
+
 if __name__ == "__main__":
-    call_llm(
-        "../luggage/luggage_policy.txt",
-        "../luggage/luggage_compliance/luggage_policy_test_dataset_100.csv",
-        LuggageDataGenerator(),
-        LLM_API.OLLAMA,
-        "./config/ollama_config_example.json",
-        "generation_result_ollama.json",
-    )
     # call_llm(
     #     "../luggage/luggage_policy.txt",
     #     "../luggage/luggage_compliance/luggage_policy_test_dataset_100.csv",
@@ -202,3 +249,14 @@ if __name__ == "__main__":
     #     "./config/watsonx_config_example.json",
     #     "generation_result_watson.json",
     # )
+    call_llm(
+        "../luggage/luggage_policy.txt",
+        "../luggage/luggage_compliance/luggage_policy_test_dataset_100.csv",
+        LuggageDataGenerator(),
+        LLM_API.OLLAMA,
+        "./config/ollama_config_example.json",
+        "generation_result_ollama.json",
+    )
+
+    res = benchmark_results("generation_result_ollama.json", {"eligibility": "eligibility"})
+    print(res)

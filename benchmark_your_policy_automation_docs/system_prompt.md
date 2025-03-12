@@ -9,7 +9,7 @@ Your task is to determine whether the provided test cases are eligible or not ac
 * Here is the format in which I expect your response:
 ```json
 {{
-   "eligibility": "True" or "False"
+   "eligibility": true or false
 }}
 ```
 
