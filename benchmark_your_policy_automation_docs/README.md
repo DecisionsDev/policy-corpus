@@ -25,18 +25,21 @@ To generate new policy cases and test them on an existing dataset, follow these 
    - If all metrics equal `1.0`, congratulations! You have successfully benchmarked a new policy.
 
 ## How to benchmark the LLM on reference dataset
-The file responsible for the LLMs benchmarking is [llm_calls.py](../common/llm_calls.py).
-If you want to use ``ollama`` api to run the models, you should firstly install the ``ollama`` library,
-by running:
+The file responsible for benchmarking LLMs is [`llm_calls.py`](../common/llm_calls.py).
+
+### Installation
+
+To use the **`ollama`** API, install the [`ollama` app](https://ollama.com/) and then the Python library first:
+
 ```shell
 pip install ollama
 ```
-If you want to use ``watsonx`` api to run the models, you should firstly install the ``langchain_core`` and ``langchain_ibm`` libraries,
-by running:
+To use the **`watsonx`** API, install the required libraries:
 ```shell
 pip install langchain_core langchain_ibm
 ```
-After this, you can run the LLMs calls by executing the following command:
+### Running LLM Calls
+Once installed, execute the following command to run LLM calls:
 ```shell
 python ./llm_calls.py \
   --policy_desc "../luggage/luggage_policy.txt" \
@@ -45,7 +48,7 @@ python ./llm_calls.py \
   --api ollama \
   --config_file "./config/ollama_config_example.json" \
   --output_file "generation_result_test.json" \
-  --column_mapping '{"eligibility": "eligibility"}'
+  --column_mapping '{"eligibility": "eligible"}'
 ```
 where:
 
@@ -59,31 +62,30 @@ where:
 | `--output_file`     | `str`          | ✅ Yes      | The path for the benchmarking results output.                                                                                                                                                                                         |
 | `--column_mapping`  | `str (JSON)`   | ❌ No       | Optional **JSON string** for column name mapping in benchmark metrics calculation. This maps column names from the reference CSV dataset to those in the **LLM-generated output**. Example: `"{\"eligibility\": \"eligible\"}"`.      |
 
-**For the ``config_file``**:
+### Configuration Files (``--config_file`` parameters)
+In the `../common/config` folder, you will find two configuration templates:
 
-In the ``../common/config`` folder you can find 2 files: [ollama_config_example.json](../common/config/ollama_config_example.json)
-and [watsonx_config_example.json](../common/config/watsonx_config_example.json), which are the two configuration templates for calling ollama and watsonx APIs respectively.
+- [`ollama_config_example.json`](../common/config/ollama_config_example.json)
+- [`watsonx_config_example.json`](../common/config/watsonx_config_example.json)
+#### Ollama Configuration
+In the Ollama API config file, specify the `model_name` you want to use for benchmarking.
+#### Watsonx Configuration
+For the Watsonx API config file, specify:
+- `model_id`: The model identifier for benchmarking.
+- `url`: The IBM Cloud region where the Watson Machine Learning service is hosted (default: `"us-south"`).
+- `project_id`: A unique identifier for your IBM Cloud project workspace. [Learn how to get it here](https://medium.com/the-power-of-ai/ibm-watsonx-ai-the-interface-and-api-e8e1c7227358).
 
-* In ollama API config file, specify the ``model_name``, which you want to use in benchmarking.
-* In watsonx API config file, specify:
-  * the ``model_id``, which you want to use in benchmarking.
-  * the ``url``, which specifies the IBM Cloud region where the Watson Machine Learning service is hosted (you can keep it on ``us-south``).
-  * the ``project_id``, which is a unique identifier for your IBM Cloud project workspace. The guide on how to get it is [here](https://medium.com/the-power-of-ai/ibm-watsonx-ai-the-interface-and-api-e8e1c7227358).
+You can create your own configuration file, ensuring it includes the required fields from the example templates. Additional parameters can be added under the `"options"` field.
 
-You can create your own config file. The most important for it is to have the same mandatory elements specified in example (you can tune their values if needed)
-and add your parameters in ``options`` field.
+**NOTE** To use the Watsonx API, you must specify either the `WATSONX_APIKEY` or `IBM_API_KEY` as a global parameter.  
+[*How to get an API key?*](https://medium.com/the-power-of-ai/ibm-watsonx-ai-the-interface-and-api-e8e1c7227358)
 
-**NOTE** in order to use the watsonx API, you need to specify either the ``WATSONX_APIKEY`` global parameter, 
-or an ``IBM_API_KEY`` global parameter. [*How to get an API key?*](https://medium.com/the-power-of-ai/ibm-watsonx-ai-the-interface-and-api-e8e1c7227358)
-
-If you did not specify the ``column_mapping`` or you don't know the reference columns yet, 
-you can run the metrics calculation after with the help of [./benchmarking_results.py](../common/benchmarking_results.py).
-
-**Usage example**:
+### Running Benchmark Metrics Calculation Separately
+If you did not specify the `column_mapping` parameter or are unsure of the reference columns,  
+you can run the benchmark metrics calculation later using [`benchmarking_results.py`](../common/benchmarking_results.py):
 ```shell
-python ./benchmarking_results.py --output_file "generation_result_test.json" --column_mapping '{"eligibility": "eligibility"}'
+python ./benchmarking_results.py --output_file "generation_result_test.json" --column_mapping '{"eligibility": "eligible"}'
 ```
-
 where:
 
 | Argument            | Type           | Required   | Description                                                                                                                                                                                                               |
@@ -92,7 +94,10 @@ where:
 | `--column_mapping`  | `str (JSON)`   | ✅ Yes      | **JSON string** for column name mapping in benchmark metrics calculation. This maps column names from the reference CSV dataset to those in the **LLM-generated output**. Example: `"{\"eligibility\": \"eligible\"}"`.   |
 
 ### LLM prompts
-The LLM prompts templates (system and user) are saved in [system_prompt.md](system_prompt_template) and [user_prompt_template.md](user_prompt_template.md) respectively.
+LLM prompt templates (system and user prompts) are stored in:
+- [`system_prompt_template.md`](system_prompt_template.md)
+- [`user_prompt_template.md`](user_prompt_template.md)
 
-They are **NOT IDEAL** for all the models and can be modified. The essential elements are marked in the ``{}`` (curly brackets) **except for the return response format** in the [user_prompt_template.md](user_prompt_template.md).
-Modifications of values in this brackets will require modifications in the code formatting too.
+These templates **are not ideal for all models** and can be modified. Essential elements are marked with `{}` (curly brackets),  
+**except for the return response format** in [`system_prompt_template.md`](system_prompt_template.md), it can be modified the way it is needed.  
+If modifying bracketed values, corresponding changes in code formatting will also be required.
