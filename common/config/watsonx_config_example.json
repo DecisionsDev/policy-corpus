@@ -1,0 +1,11 @@
+{
+  "model_id": "meta-llama/llama-3-3-70b-instruct",
+  "url": "https://us-south.ml.cloud.ibm.com",
+  "project_id": "project_id",
+
+  "options": {
+    "temperature": 0.7,
+    "decoding_method": "sample"
+  }
+}
+

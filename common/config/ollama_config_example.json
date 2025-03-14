@@ -1,0 +1,9 @@
+{
+  "model_name": "deepseek-r1:8b",
+
+  "options": {
+    "temperature": 0.6,
+    "additional_num_ctx": 3000
+  }
+}
+

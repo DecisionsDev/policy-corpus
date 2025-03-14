@@ -18,7 +18,7 @@ class LuggageDataGenerator(DataGenerator):
         "compliance_result", "compliance_message", "cargo_items", "fees"
     ]
 
-    EVAL_COLUMN_NAMES = ["eligibility", "compliance_result", "fees"]
+    EVAL_COLUMN_NAMES = ["eligibility", "compliance_result", "fees", "compliance_message", "cargo_items"]
 
     TRAVEL_CLASSES = ["Economy", "Business", "First"]
     AGE_CATEGORIES = ["adult", "child", "infant"]

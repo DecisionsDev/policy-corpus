@@ -1,4 +1,5 @@
-# How to Benchmark your Policy automation against reference dataset
+# Benchmarking
+## How to Benchmark your Policy automation against reference dataset
 P.S. The naming conventions used in this file are not mandatory and are introduced solely to facilitate understanding.
 
 To generate new policy cases and test them on an existing dataset, follow these guidelines:
@@ -22,3 +23,81 @@ To generate new policy cases and test them on an existing dataset, follow these 
 3. **Run `{n}_{policy_name}_policytester.py`**:  
    - If the returned metrics are `< 1.0`, investigate the errors and fix the `{n}_{policy_name}_policy.py`.  
    - If all metrics equal `1.0`, congratulations! You have successfully benchmarked a new policy.
+
+## How to benchmark the LLM on reference dataset
+The file responsible for benchmarking LLMs is [`llm_calls.py`](../common/llm_calls.py).
+
+### Installation
+
+To use the **`ollama`** API, install the [`ollama` app](https://ollama.com/) and then the Python library first:
+
+```shell
+pip install ollama
+```
+To use the **`watsonx`** API, install the required libraries:
+```shell
+pip install langchain_core langchain_ibm
+```
+### Running LLM Calls
+Once installed, execute the following command to run LLM calls:
+```shell
+python ./llm_calls.py \
+  --policy_desc "../luggage/luggage_policy.txt" \
+  --csv_file "../luggage/luggage_compliance/luggage_policy_test_dataset_100.csv" \
+  --data_generator "luggage_data_generator.LuggageDataGenerator" \
+  --api ollama \
+  --config_file "./config/ollama_config_example.json" \
+  --output_file "generation_result_test.json" \
+  --column_mapping '{"eligibility": "eligible"}'
+```
+where:
+
+| Argument            | Type           | Required   | Description                                                                                                                                                                                                                           |
+|---------------------|----------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `--policy_desc`     | `str`          | ✅ Yes      | Path to the policy text description file.                                                                                                                                                                                             |
+| `--csv_file`        | `str`          | ✅ Yes      | Path to the reference testing dataset CSV file.                                                                                                                                                                                       |
+| `--data_generator`  | `str`          | ✅ Yes      | Either the full module path of a `DataGenerator` subclass, which was used to generate the reference testing dataset (e.g., `"my_module.MyGenerator"`) **or** a comma-separated list of evaluation columns (e.g., `"col1,col2,col3"`). |
+| `--api`             | `str`          | ❌ No       | The API to be used for the LLM call. Options: `"ollama"` or `"watsonx"`.                                                                                                                                                              |
+| `--config_file`     | `str`          | ✅ Yes      | Path to the model & API configuration file.                                                                                                                                                                                           |
+| `--output_file`     | `str`          | ✅ Yes      | The path for the benchmarking results output.                                                                                                                                                                                         |
+| `--column_mapping`  | `str (JSON)`   | ❌ No       | Optional **JSON string** for column name mapping in benchmark metrics calculation. This maps column names from the reference CSV dataset to those in the **LLM-generated output**. Example: `"{\"eligibility\": \"eligible\"}"`.      |
+
+### Configuration Files (``--config_file`` parameters)
+In the `../common/config` folder, you will find two configuration templates:
+
+- [`ollama_config_example.json`](../common/config/ollama_config_example.json)
+- [`watsonx_config_example.json`](../common/config/watsonx_config_example.json)
+#### Ollama Configuration
+In the Ollama API config file, specify the `model_name` you want to use for benchmarking.
+#### Watsonx Configuration
+For the Watsonx API config file, specify:
+- `model_id`: The model identifier for benchmarking.
+- `url`: The IBM Cloud region where the Watson Machine Learning service is hosted (default: `"us-south"`).
+- `project_id`: A unique identifier for your IBM Cloud project workspace. [Learn how to get it here](https://medium.com/the-power-of-ai/ibm-watsonx-ai-the-interface-and-api-e8e1c7227358).
+
+You can create your own configuration file, ensuring it includes the required fields from the example templates. Additional parameters can be added under the `"options"` field.
+
+**NOTE** To use the Watsonx API, you must specify either the `WATSONX_APIKEY` or `IBM_API_KEY` as a global parameter.  
+[*How to get an API key?*](https://medium.com/the-power-of-ai/ibm-watsonx-ai-the-interface-and-api-e8e1c7227358)
+
+### Running Benchmark Metrics Calculation Separately
+If you did not specify the `column_mapping` parameter or are unsure of the reference columns,  
+you can run the benchmark metrics calculation later using [`benchmarking_results.py`](../common/benchmarking_results.py):
+```shell
+python ./benchmarking_results.py --output_file "generation_result_test.json" --column_mapping '{"eligibility": "eligible"}'
+```
+where:
+
+| Argument            | Type           | Required   | Description                                                                                                                                                                                                               |
+|---------------------|----------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `--output_file`     | `str`          | ✅ Yes      | The path for the benchmarking results output.                                                                                                                                                                             |
+| `--column_mapping`  | `str (JSON)`   | ✅ Yes      | **JSON string** for column name mapping in benchmark metrics calculation. This maps column names from the reference CSV dataset to those in the **LLM-generated output**. Example: `"{\"eligibility\": \"eligible\"}"`.   |
+
+### LLM prompts
+LLM prompt templates (system and user prompts) are stored in:
+- [`system_prompt_template.md`](system_prompt_template.md)
+- [`user_prompt_template.md`](user_prompt_template.md)
+
+These templates **are not ideal for all models** and can be modified. Essential elements are marked with `{}` (curly brackets),  
+**except for the return response format** in [`system_prompt_template.md`](system_prompt_template.md), it can be modified the way it is needed.  
+If modifying bracketed values, corresponding changes in code formatting will also be required.
