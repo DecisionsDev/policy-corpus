@@ -1,0 +1,101 @@
+Synthetic Air Pollution Compliance Policy for Airplanes (SAPCPA-2025)
+
+Version: 1.0
+Effective Date: January 1, 2025
+Scope: All commercial aircraft operating flights that depart from, arrive at, or transit through the jurisdiction of the Global Aviation Environmental Authority (GAEA).
+
+Section 1 – Emissions Monitoring
+1.1. Every aircraft operator must monitor and record CO₂ emissions and fuel consumption for each flight using approved fuel measurement methods (fuel uplift, fuel flow meters, or block-off estimates).
+
+1.2. Monitoring data must include:
+
+Aircraft ID
+
+Flight number
+
+Departure and arrival airports
+
+Flight time
+
+Fuel type and volume
+
+CO₂ emissions (calculated using standard emission factors)
+
+1.3. Emissions reports must be:
+
+Submitted annually by March 31st for the preceding calendar year.
+
+Verified by an accredited third-party verifier.
+
+Retained for a minimum of 7 years.
+
+Section 2 – Emissions Limits
+2.1. Aircraft models certified on or after Jan 1, 2025, must meet the following per-seat CO₂ emissions standard:
+
+≤ 85 grams CO₂ per Revenue Passenger Kilometer (RPK)
+
+2.2. Aircraft engines must not exceed the following certified limits for Nitrogen Oxides (NOx):
+
+≤ 15 grams NOx per kilonewton of rated thrust during the Landing and Takeoff (LTO) cycle.
+
+2.3. Aircraft must not emit Visible Smoke or exceed Particulate Matter (PM) thresholds as follows:
+
+≤ 20 mg PM / kg fuel during LTO operations.
+
+Section 3 – Carbon Offsetting Requirements (CORSIA Compliance)
+3.1. Operators emitting more than 10,000 metric tons of CO₂ annually from international flights must:
+
+Participate in the GAEA Offsetting Mechanism.
+
+Purchase offset credits equivalent to their excess emissions above their baseline allocation (average of 2019–2020 CO₂ emissions).
+
+3.2. Operators may reduce offset obligations using Sustainable Aviation Fuel (SAF) with a verified lifecycle reduction ≥ 70% vs Jet-A.
+
+Section 4 – Sustainable Fuel Incentives
+4.1. A SAF credit shall be granted when:
+
+SAF is blended at ≥ 10% volume on any flight.
+
+The SAF meets GAEA sustainability criteria and is certified by an approved body.
+
+4.2. Each liter of SAF used reduces offsetting obligation by:
+
+2.5 kg of CO₂-equivalent, if the SAF lifecycle reduction is ≥ 80%.
+
+Section 5 – Ground Operations Emissions
+5.1. Operators must avoid auxiliary power unit (APU) use when Fixed Electrical Ground Power (FEGP) is available, except under operational emergency.
+
+5.2. All Ground Support Equipment (GSE) operating in GAEA airports must be electric or hybrid by 2027.
+
+Section 6 – Fleet Compliance
+6.1. Operators may not introduce new aircraft into service unless the aircraft type:
+
+Has been certified under the GAEA 2025 CO₂ standard.
+
+Meets the NOx and PM limits in Section 2.
+
+6.2. Existing aircraft that do not comply with Section 2 must:
+
+Be retrofitted by 2030, or
+
+Be phased out of service before 2032.
+
+Section 7 – Compliance & Penalties
+7.1. Failure to comply results in:
+
+Administrative penalties of up to $100 per metric ton of unreported or unoffset CO₂.
+
+Suspension of route rights for continuous or willful violations.
+
+7.2. GAEA may conduct random audits and on-site inspections.
+
+7.3. Operators may appeal compliance decisions within 30 days of notice.
+
+Section 8 – Definitions
+Flight: Any aircraft movement from gate departure to gate arrival.
+
+Revenue Passenger Kilometer (RPK): One paying passenger transported one kilometer.
+
+SAF: Sustainable Aviation Fuel, as defined by ISO 14067.
+
+Offset Credit: A verified emission reduction unit from an approved GHG registry.
