@@ -1,0 +1,101 @@
+Insect Classification Policy
+Objective: To determine whether an animal is an insect and, if so, classify it into a relevant insect order using observable characteristics related to morphology and development.
+
+Step 1: Determine if the animal is an insect
+To be classified as an insect (Class Insecta), the animal must meet all of the following morphological criteria:
+
+Body segmentation:
+  The body is clearly divided into three main regions:
+  Head (with sensory organs and mouthparts)
+  Thorax (with legs and wings)
+  Abdomen (housing reproductive and digestive organs)
+
+Limbs:
+  It has exactly three pairs of legs (total of six legs), all attached to the thorax.
+
+Antennae:
+  It possesses one pair of antennae, typically used for sensing.
+
+Exoskeleton:
+  The body is covered by a hard external skeleton made of chitin.
+
+Eyes:
+Most insects have compound eyes (made of many lenses), although some may also have simple eyes (ocelli).
+
+Wings (optional but common):
+  Most adult insects have one or two pairs of wings, though some are wingless.
+
+If all criteria are met, the animal is classified as an insect.
+If not, the animal is not an insect (possibly another arthropod such as an arachnid or crustacean).
+
+Step 2: Identify type of metamorphosis
+Once confirmed as an insect, identify how the insect develops from birth to adult:
+
+A. Complete Metamorphosis (Holometabolous)
+Involves four distinct life stages:
+  Egg
+  Larva (worm-like, active feeding stage)
+  Pupa (inactive transformation stage)
+  Adult
+
+The larva looks completely different from the adult.
+
+B. Incomplete Metamorphosis (Hemimetabolous)
+Involves three life stages:
+  Egg
+  Nymph (small version of the adult, often without wings)
+  Adult
+
+The nymph resembles the adult, and there is no pupal stage.
+
+Step 3: Determine the Insect Order
+Based on a combination of morphology and development type, the insect can be classified into one of several common orders:
+
+3.1 If the insect undergoes COMPLETE METAMORPHOSIS:
+Order Coleoptera (Beetles)
+  Hardened forewings (elytra) forming a protective shell
+Chewing mouthparts
+Variety of body sizes and shapes
+
+Order Lepidoptera (Butterflies and Moths)
+  Two pairs of wings covered in tiny scales
+  Long, coiled proboscis (for sipping nectar)
+  Caterpillar larval stage
+
+Order Diptera (Flies, Mosquitoes)
+  One pair of wings, second pair reduced to halteres (balance organs)
+  Sucking, sponging, or piercing mouthparts
+  Maggot-like larvae
+
+Order Hymenoptera (Bees, Wasps, Ants)
+
+Two pairs of membranous wings (or wingless in ants)
+  Narrow "waist" between thorax and abdomen
+  Often social insects with complex colonies
+
+3.2 If the insect undergoes INCOMPLETE METAMORPHOSIS:
+Order Hemiptera (True Bugs)
+  Piercing-sucking mouthparts
+  Wings may be partially hardened, folded flat over the back
+  Includes aphids, stink bugs, and cicadas
+
+Order Orthoptera (Grasshoppers, Crickets, Katydids)
+  Large hind legs for jumping
+  Chewing mouthparts
+  Long antennae and often sound-producing organs
+
+Order Odonata (Dragonflies, Damselflies)  
+  Long, slender bodies with two pairs of transparent wings
+  Aquatic nymphs (naiads) with gills
+  Predatory at both larval and adult stages
+
+Example of classification:
+  Observation:
+    Six legs, body in three segments
+      Two pairs of scaled wings
+      Long coiled mouthpart
+      Develops through egg → larva (caterpillar) → pupa → adult
+  Classification:
+    Passes Step 1 → Insect
+    Complete metamorphosis
+    Scaled wings and larval caterpillar stage → Order Lepidoptera
