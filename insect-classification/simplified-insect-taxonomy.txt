@@ -1,0 +1,67 @@
+Simplified Insect Classification Policy (Morphology-Centric)
+Objective: Determine if an animal is an insect and assign it to a common insect order based on visible traits. Developmental mode (metamorphosis) is considered implicitly, not as a separate step.
+
+Step 1: Is it an insect?
+An animal is an insect if it has:
+- A body divided into three parts: head, thorax, abdomen
+- Six legs, all attached to the thorax
+- One pair of antennae
+- Often wings (1 or 2 pairs), though some may lack them
+- An external skeleton (exoskeleton)
+
+If all true → classify as Insect
+If not → Not an insect
+
+Step 2: Assign to a Sub-Category (Order)
+Use visible features to classify the insect into one of the common orders:
+
+🪲 Coleoptera (Beetles)
+- Forewings are hardened into a shell (elytra)
+- Wings meet in a straight line down the back
+- Chewing mouthparts
+- Compact or oval body shapes
+
+🦋 Lepidoptera (Butterflies, Moths)
+- Two pairs of wings covered in tiny scales
+- Long coiled mouthpart (proboscis) for sipping
+- Wings often colorful or patterned
+- Often seen flying during the day (butterflies) or night (moths)
+
+🪰 Diptera (Flies, Mosquitoes)
+- One pair of wings; second pair reduced to small knobs (halteres)
+- Eyes often large and compound
+- Mouthparts may be sponging or piercing
+- Fast, agile fliers
+
+🐝 Hymenoptera (Bees, Wasps, Ants)
+- Two pairs of clear, membranous wings (some wingless like ants)
+- Narrow waist between thorax and abdomen
+- Often social, forming colonies
+- May have stingers or chewing parts
+
+🪳 Hemiptera (True Bugs)
+- Mouthparts form a beak for piercing/sucking
+- Wings often half-leathery, half-membranous
+- Held flat over the body or in an "X" shape
+- Includes stink bugs, aphids, cicadas
+
+🦗 Orthoptera (Grasshoppers, Crickets, Katydids)
+- Large hind legs for jumping
+- Chewing mouthparts
+- Often produce sound (stridulation)
+- Wings fold like a fan over the back
+
+🐉 Odonata (Dragonflies, Damselflies)
+- Long, slender body
+- Two pairs of long, clear wings
+- Large compound eyes
+- Often seen near water; strong fliers
+
+✅ Example:
+Observed Traits:
+6 legs, 3 body segments
+Two clear pairs of wings
+Narrow waist
+Active during the day, visits flowers
+Classification: 
+→ Insect → Hymenoptera (likely a bee or wasp)
