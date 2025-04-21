@@ -1,0 +1,62 @@
+Card Transaction Fraud Detection Policy (Advanced Version)
+Purpose: Detect and flag potentially fraudulent card transactions based on behavioral anomalies, velocity patterns, location discrepancies, risk categories, and historical deviations.
+
+1. Advanced Velocity Rules
+Rule 1.1: Multi-Tier Temporal Velocity
+
+If a card is used:
+≥ 3 times in under 1 minute, or
+≥ 6 times in under 5 minutes, or
+≥ 10 times in under 10 minutes,
+then assign increasing risk scores (10, 20, 30 respectively), and flag the card if the total exceeds 30.
+
+Rule 1.2: Cross-Merchant Velocity Spike
+If 3 or more transactions from the same card occur at distinct merchants within a 3-minute window, flag the transaction group for possible automation abuse or testing of stolen credentials.
+
+Rule 1.3: Interleaved Declines and Approvals
+If more than 2 declined transactions occur within a 5-minute window, followed by an approved transaction, assign a high fraud suspicion score (35).
+
+2. Geolocation Anomalies
+Rule 2.1: Improbable Geolocation Shift
+If two transactions from the same card originate from locations more than 500 km apart and occur within 30 minutes, flag the card for possible cloning.
+
+Rule 2.2: Geofencing Violation
+If a transaction occurs outside the customer’s usual country or region without prior travel notice, and no recent login or transaction was registered from that region, increase the fraud score by 25.
+
+3. Behavioral and Profile Deviations
+Rule 3.1: Transaction Time Deviation
+If the transaction occurs at an unusual time (±2 hours outside of the cardholder's typical transaction windows), and the transaction amount is greater than the daily average, increase fraud score by 15.
+
+Rule 3.2: Unusual Merchant Category
+If the transaction is from a merchant in a category not seen in the last 90 days for the user, and the amount is ≥ €100, increase the fraud score by 10.
+
+4. Transaction Context & Amount Irregularities
+Rule 4.1: High Amount Deviation
+If the transaction amount exceeds 5× the user’s median transaction amount, flag for review unless it's a recurring or previously whitelisted merchant.
+
+Rule 4.2: New Address or Device for High-Value Purchase
+If a transaction > €500 is made from a new device or new shipping address, and neither was verified, flag for manual review.
+
+5. Device, Network, and Environment Risks
+Rule 5.1: Device Fingerprint Mismatch
+If the current device fingerprint does not match any known trusted device, and the transaction amount exceeds €100, increase fraud score by 20.
+
+Rule 5.2: Risky Network Indicators
+If the transaction is made from a VPN, anonymized proxy, or TOR, flag regardless of amount, unless this behavior is previously profiled and marked trusted.
+
+6. Account and Card Status Awareness
+Rule 6.1: Dormancy Activation
+If a card was inactive for >30 days, and a transaction occurs above €200, flag unless preceded by a verified login or profile update.
+
+Rule 6.2: Historical Suspicion
+
+If the cardholder reported phishing or account takeover in the past 7 days, auto-flag all new transactions for escalation.
+7. Composite Scoring and Threshold Logic
+Each rule contributes to a composite fraud risk score, scaled between 0 and 100.
+
+Risk levels:
+Score 0–40: Low Risk – Approve transaction
+Score 41–70: Medium Risk – Send for review
+Score >70: High Risk – Block transaction, notify fraud team
+
+Risk scores decay over time for ongoing monitoring (e.g., 10% per hour) if no further suspicious activity is observed.
