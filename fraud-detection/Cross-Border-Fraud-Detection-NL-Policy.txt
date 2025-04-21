@@ -1,0 +1,40 @@
+Cross-Border Fraud Detection Policy (Concise, Natural Language)
+Purpose: Identify and manage risks associated with card transactions that involve foreign countries, currency exchange, or regulatory concerns.
+
+1. Cross-Border Activity Checks
+Flag any transaction made from a country that doesn’t match the card’s issuing country, unless the user has a history of transacting there.
+
+If a user makes three or more international transactions within 24 hours, across at least two different currencies, and spends over €1,000, review unless travel has been confirmed.
+
+Transactions in unusual or exotic currencies that the user hasn’t used before should raise a risk flag.
+
+2. Jurisdiction and Regulation Flags
+Automatically block transactions linked to countries under international sanctions (e.g., OFAC, EU, UN lists).
+
+If a transaction originates from a country considered high-risk for money laundering, and the amount is over €200, flag it for review.
+
+Payments to offshore financial centers (like the Cayman Islands or Seychelles) by personal cardholders without business profiles should trigger extra due diligence.
+
+3. User Identity and Location Consistency
+Hold cross-border transactions if the user’s identity verification (e.g., ID or address) is incomplete.
+
+If a user claims residence in one country but repeatedly makes transactions from another—especially if that country has strict financial controls—ask for justification.
+
+4. Merchant and Platform Risks
+Be cautious with foreign merchants in high-risk categories (such as gift card sellers, resale platforms, or unregulated crypto services). These should increase the transaction’s risk score.
+
+If a user repeatedly sends money to unlicensed or unregulated financial platforms based abroad, flag the activity for anti-money laundering (AML) review.
+
+5. Thresholds and Exceptions
+All cross-border transactions over €10,000 must be reported and reviewed for regulatory compliance.
+
+Low-value international transactions within trusted regions (like SEPA, EEA, or between the US and Canada) can be allowed with less scrutiny—unless other risks are detected.
+
+6. Risk Handling
+Each rule adds to a total fraud risk score.
+
+Low risk (0–30): Allow, but monitor.
+
+Medium risk (31–60): Flag for manual review.
+
+High risk (>60): Block and notify the compliance team.
