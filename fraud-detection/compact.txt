@@ -1,0 +1,30 @@
+Compact Cross-Border Fraud Detection Policy
+Goal: Detect and mitigate fraudulent or non-compliant card transactions involving international activity, high-risk jurisdictions, or regulatory issues.
+
+1. Cross-Border Risk Rules
+CB1: If transaction country ≠ issuing country AND user has no prior activity there → flag.
+CB2: ≥3 cross-border transactions in 24h across ≥2 currency zones AND total > €1,000 → escalate unless travel is verified.
+CB3: Currency not used in past 90 days or listed as exotic → increase risk score.
+
+2. Jurisdictional Compliance Rules
+JC1: Transaction from/to OFAC/EU/UN sanctioned country → block and escalate.
+JC2: Originates from FATF high-risk jurisdiction → flag if amount > €200.
+JC3: Offshore merchant (e.g., BVI, Seychelles) AND user is retail → trigger enhanced due diligence.
+
+3. Identity & Profile Integrity
+ID1: Missing key KYC info (e.g., verified ID/address) during cross-border transaction → hold.
+ID2: User declared residence ≠ frequent transaction location in restricted countries → flag for justification.
+
+4. Merchant & Payment Channel
+MP1: Foreign online merchant in high-risk category (gift cards, resale, unregulated crypto) → apply risk multiplier.
+MP2: Repeated payments to foreign financial platforms not in regulated whitelist → trigger AML check.
+
+5. Thresholds & Exceptions
+TH1: Any cross-border transaction > €10,000 → log and escalate per AML rules.
+TH2: Exempt low-risk cross-border activity within SEPA, EEA, or US/Canada if no other red flags.
+
+6. Scoring & Actions
+Risk scores per rule (e.g., 10–40 points).
+0–30: Accept with logging
+31–60: Flag for compliance review
+>60: Block, notify AML/compliance
