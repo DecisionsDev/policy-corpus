@@ -1,0 +1,50 @@
+Cardiovascular Risk Classification Policy (Text Version)
+1. Purpose
+This policy describes how to automatically classify patients into one of three cardiovascular disease (CVD) risk categories — Low, Medium, or High — based on structured clinical and lifestyle data.
+
+2. Data Requirements
+The system requires the following information for each patient:
+Age in years.
+Biological sex ("male" or "female").
+Systolic and diastolic blood pressure measurements in mmHg.
+Blood levels of LDL cholesterol, HDL cholesterol, and triglycerides, measured in mg/dL.
+Smoking history, classified as "never", "former", or "current" smoker.
+Diagnosis status for diabetes (true or false).
+Family history of cardiovascular disease (true or false).
+Current use of blood pressure medications (true or false).
+Current use of cholesterol-lowering medications (true or false).
+
+3. Handling Missing Data
+If numerical data is missing, it must be filled in using the median value observed in the training dataset.
+If categorical data is missing, it must be filled in using the most frequent value observed in the training dataset.
+If critical fields such as age, systolic blood pressure, or diabetes status are missing, the case must be flagged for manual review.
+
+4. Risk Classification Logic
+The risk classification process follows a strict evaluation order.
+
+A patient must be classified as High Risk if any of the following conditions are met:
+The patient is 60 years or older and has a systolic blood pressure of 140 mmHg or higher.
+The LDL cholesterol level is 160 mg/dL or higher.
+The patient is a current smoker.
+The patient has a confirmed diagnosis of diabetes.
+The patient has a family history of cardiovascular disease.
+If none of the High Risk conditions are met, the patient must be classified as Medium Risk if any of the following conditions are met:
+The patient is between 45 and 59 years old (inclusive).
+The systolic blood pressure is between 130 mmHg and 139 mmHg inclusive.
+The LDL cholesterol level is between 130 mg/dL and 159 mg/dL inclusive.
+The patient is a former smoker.
+The HDL cholesterol level is less than 40 mg/dL.
+If neither the High Risk nor Medium Risk conditions are met, the patient must be classified as Low Risk.
+
+Conditions must be evaluated sequentially, and once a patient meets criteria for a given risk level, evaluation must stop.
+
+5. Output Requirements
+Each patient must be assigned a risk level of "Low", "Medium", or "High".
+Optionally, a confidence score between 0 and 1 may be associated with the risk prediction if a probabilistic model is used.
+
+6. Validation Requirements
+The risk classification system must achieve an F1 Score of at least 80% on holdout validation data.
+The system must support feature attribution explanations for each classification and must log all inputs, outputs, and processing steps for auditability.
+
+7. Compliance
+All patient data must be handled in compliance with applicable regulations concerning patient privacy and data protection, including HIPAA and GDPR.
