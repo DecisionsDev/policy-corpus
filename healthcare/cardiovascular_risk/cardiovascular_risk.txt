@@ -1,4 +1,5 @@
-Cardiovascular Risk Classification Policy (Text Version)
+Cardiovascular Risk Classification Policy
+
 1. Purpose
 This policy describes how to automatically classify patients into one of three cardiovascular disease (CVD) risk categories — Low, Medium, or High — based on structured clinical and lifestyle data.
 
