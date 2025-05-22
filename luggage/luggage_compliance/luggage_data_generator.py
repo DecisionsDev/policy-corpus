@@ -43,7 +43,7 @@ class LuggageDataGenerator(DataGenerator):
             "eligibility": True,
             "compliance_result": compliance_result,
             "compliance_message": compliance_message,
-            "moved_to_checked": carry_on_to_check,
+            "moved_to_checked": json.dumps([item.to_dict() for item in carry_on_to_check]) if carry_on_to_check else None,
             "cargo_items": None,
             "fees": fees
         }
@@ -63,7 +63,7 @@ class LuggageDataGenerator(DataGenerator):
             "eligibility": eligibility,
             "compliance_result": compliance_result,
             "compliance_message": compliance_message,
-            "moved_to_checked": carry_on_to_check,
+            "moved_to_checked":  json.dumps([item.to_dict() for item in carry_on_to_check]) if carry_on_to_check else None,
             "cargo_items": json.dumps([item.to_dict() for item in cargo_items]) if cargo_items else None,
             "fees": fees
         }

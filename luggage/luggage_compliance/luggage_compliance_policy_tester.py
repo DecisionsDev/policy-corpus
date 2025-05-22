@@ -45,9 +45,11 @@ if __name__ == "__main__":
         'csv_file': 'luggage_policy_test_dataset_100.csv',
         'parse_functions': {
             'luggages': lambda x: [Luggage.from_dict(item) for item in json.loads(x)],
+            'moved_to_checked': lambda x: [Luggage.from_dict(item) for item in json.loads(x)] if pd.notnull(x) and len(
+                x) > 0 else [],
             'cargo_items': lambda x: [Luggage.from_dict(item) for item in json.loads(x)] if pd.notnull(x) and len(x) > 0 else []
         },
-        'eval_columns': ["compliance_result", "compliance_message", "cargo_items", "fees"],
+        'eval_columns': ["compliance_result", "compliance_message", "moved_to_checked", "cargo_items", "fees"],
         'evaluators': [cargo_items_evaluator]
     }
 
