@@ -51,16 +51,17 @@ Associated code contains:
 
 #### Output Parameters
 
-| Parameter          | Type          | Description                                                                 |
-|--------------------|---------------|-----------------------------------------------------------------------------|
-| `compliance_result` | `bool`        | Indicates if the luggage complies with the policy.                         |
-| `compliance_message` | `str`        | A message describing the compliance status.                                 |
-| `cargo_items`       | `List[Luggage]` | A list of luggage items that must be shipped as cargo.                     |
-| `fees`              | `float`       | The total fees for excess luggage.                                          |
+| Parameter          | Type          | Description                                                                                                                  |
+|--------------------|---------------|------------------------------------------------------------------------------------------------------------------------------|
+| `compliance_result` | `bool`        | Indicates if the luggage complies with the policy.                                                                           |
+| `compliance_message` | `str`        | A message describing the compliance status.                                                                                  |
+| `moved_to_checked`  | `List[Luggage]` | A list of luggage items that must be shipped as checked-in luggages (because of their weight, dimensions or number of bags). |
+| `cargo_items`       | `List[Luggage]` | A list of luggage items that must be shipped as cargo.                                                                       |
+| `fees`              | `float`       | The total fees for excess luggage.                                                                                           |
 
 An example of a decision row of the dataset, cumulating input and output parameters: 
 ```text
-Business,adult,"[{""storage"": ""checked"", ""excess"": false, ""special"": false, ""compliance"": true, ""weight"": 43.49, ""height"": 99.88, ""width"": 15.85, ""depth"": 15.52, ""unit"": ""cm""}, {""storage"": ""personal"", ""excess"": true, ""special"": true, ""compliance"": true, ""weight"": 26.64, ""height"": 76.8, ""width"": 39.53, ""depth"": 26.22, ""unit"": ""cm""}, {""storage"": ""checked"", ""excess"": true, ""special"": true, ""compliance"": true, ""weight"": 10.95, ""height"": 3.34, ""width"": 32.69, ""depth"": 29.85, ""unit"": ""cm""}, {""storage"": ""personal"", ""excess"": false, ""special"": true, ""compliance"": true, ""weight"": 30.36, ""height"": 10.56, ""width"": 67.72, ""depth"": 32.57, ""unit"": ""cm""}, {""storage"": ""personal"", ""excess"": true, ""special"": false, ""compliance"": true, ""weight"": 25.82, ""height"": 44.01, ""width"": 64.35, ""depth"": 38.18, ""unit"": ""cm""}]",False,False,Exceeded carry-on weight limit.,,0
+Business,adult,"[{""storage"": ""personal"", ""excess"": true, ""special"": true, ""compliance"": true, ""weight"": 46.23, ""height"": 63.28, ""width"": 49.7, ""depth"": 22.47, ""unit"": ""cm""}]",False,False,"REASON OF FAILURE: Some items must be shipped as cargo due to weight or size. The item with dimensions: [63.28, 49.7, 22.47] and weight: 46.23 is above weight limit; ","[{""storage"": ""personal"", ""excess"": true, ""special"": true, ""compliance"": true, ""weight"": 46.23, ""height"": 63.28, ""width"": 49.7, ""depth"": 22.47, ""unit"": ""cm""}]","[{""storage"": ""personal"", ""excess"": true, ""special"": true, ""compliance"": true, ""weight"": 46.23, ""height"": 63.28, ""width"": 49.7, ""depth"": 22.47, ""unit"": ""cm""}]",75
 ```
 
 ### Datasets
