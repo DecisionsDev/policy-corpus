@@ -34,7 +34,7 @@ class LuggageDataGenerator(DataGenerator):
         age_category = random.choice(self.AGE_CATEGORIES)
         luggages = self.generate_eligible_luggages(travel_class, age_category)
         request = LuggageComplianceRequest(travel_class, age_category, luggages)
-        compliance_result, compliance_message, cargo_items, fees = self.policy_checker.test_eligibility(request)
+        compliance_result,  compliance_message, carry_on_to_check, cargo_items, fees = self.policy_checker.test_eligibility(request)
 
         return {
             "travel_class": travel_class,
@@ -43,6 +43,7 @@ class LuggageDataGenerator(DataGenerator):
             "eligibility": True,
             "compliance_result": compliance_result,
             "compliance_message": compliance_message,
+            "moved_to_checked": carry_on_to_check,
             "cargo_items": None,
             "fees": fees
         }
@@ -52,7 +53,7 @@ class LuggageDataGenerator(DataGenerator):
         age_category = random.choice(self.AGE_CATEGORIES)
         luggages = self.generate_luggages()
         request = LuggageComplianceRequest(travel_class, age_category, luggages)
-        compliance_result, compliance_message, cargo_items, fees = self.policy_checker.test_eligibility(request)
+        compliance_result, compliance_message, carry_on_to_check, cargo_items, fees = self.policy_checker.test_eligibility(request)
         eligibility = compliance_result and not cargo_items
 
         return {
@@ -62,6 +63,7 @@ class LuggageDataGenerator(DataGenerator):
             "eligibility": eligibility,
             "compliance_result": compliance_result,
             "compliance_message": compliance_message,
+            "moved_to_checked": carry_on_to_check,
             "cargo_items": json.dumps([item.to_dict() for item in cargo_items]) if cargo_items else None,
             "fees": fees
         }
@@ -115,7 +117,7 @@ class LuggageDataGenerator(DataGenerator):
                                         }))
 
             request = LuggageComplianceRequest(travel_class, age_category, luggages)
-            compliance_result, _, _, _ = self.policy_checker.test_eligibility(request)
+            compliance_result, _, _, _, _ = self.policy_checker.test_eligibility(request)
 
             if compliance_result:
                 return luggages
