@@ -140,6 +140,9 @@ class LuggageCompliance(Policy):
             request.travel_class, all_checked_items, request.age_category, carry_on_capacity
         )
 
+        if fees > 0:
+            return False, checked_message, carry_on_to_check, cargo_items, fees
+
         return checked_result, checked_message, carry_on_to_check, cargo_items, fees
 
 
@@ -164,86 +167,61 @@ class TestLuggageCompliance(unittest.TestCase):
     def setUp(self):
         self.policy = LuggageCompliance()
 
-    def test_carry_on_exceeds_quantity(self):
-        """Carry-on and personal items exceed quantity limit."""
-        bag1 = Luggage(storage="carry-on", weight=5.0, dim={"height": 55, "width": 40, "depth": 20, "unit": "cm"})
-        bag2 = Luggage(storage="carry-on", weight=5.0, dim={"height": 55, "width": 40, "depth": 23, "unit": "cm"})
+    def test_carry_on_exceeds_quantity_moved_to_checked(self):
+        """Extra carry-on item is moved to checked baggage and accepted."""
+        bag1 = Luggage(storage="carry-on", weight=5.0, dim={"height": 55, "width": 40, "depth": 23, "unit": "cm"})
+        bag2 = Luggage(storage="carry-on", weight=6.0, dim={"height": 55, "width": 40, "depth": 23, "unit": "cm"})
         bag3 = Luggage(storage="personal", weight=2.0, dim={"height": 30, "width": 20, "depth": 10, "unit": "cm"})
-        bag4 = Luggage(storage="personal", weight=2.0, dim={"height": 30, "width": 20, "depth": 10, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1, bag2, bag3, bag4])
+        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1, bag2, bag3])
 
         result = self.policy.test_eligibility(compliance_request)
-        self.assertFalse(result[0])
-        self.assertIn("Exceeded carry-on quantity allowance", result[1])
+        self.assertTrue(result[0])  # Valid, even though one was shifted
+        self.assertEqual(len(result[2]), 1)  # One item moved to checked
+        self.assertEqual(result[4], 0)  # No fee
 
-    def test_carry_on_exceeds_weight(self):
-        """Combined carry-on weight exceeds the limit."""
-        bag1 = Luggage(storage="carry-on", weight=8.0, dim={"height": 55, "width": 40, "depth": 20, "unit": "cm"})
-        bag2 = Luggage(storage="personal", weight=3.0, dim={"height": 30, "width": 20, "depth": 10, "unit": "cm"})
+    def test_carry_on_too_heavy_but_valid_as_checked(self):
+        """Overweight carry-on is moved to checked baggage where it's valid."""
+        bag1 = Luggage(storage="carry-on", weight=10.0, dim={"height": 55, "width": 40, "depth": 23, "unit": "cm"})  # too heavy
+        bag2 = Luggage(storage="personal", weight=2.0, dim={"height": 30, "width": 20, "depth": 10, "unit": "cm"})
         compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1, bag2])
 
         result = self.policy.test_eligibility(compliance_request)
-        self.assertFalse(result[0])
-        self.assertIn("Exceeded carry-on weight limit", result[1])
+        self.assertTrue(result[0])  # Still valid
+        self.assertEqual(len(result[2]), 1)  # One item moved to checked
+        self.assertEqual(result[4], 0)  # No fee
 
-    def test_carry_on_exceeds_size(self):
-        """Carry-on bag exceeds size limits."""
-        bag1 = Luggage(storage="carry-on", weight=5.0, dim={"height": 60, "width": 45, "depth": 30, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1])
+    def test_carry_on_too_big_but_valid_as_checked(self):
+        """Oversized carry-on is moved to checked baggage and accepted."""
+        bag1 = Luggage(storage="carry-on", weight=6.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})  # too large
+        bag2 = Luggage(storage="personal", weight=2.0, dim={"height": 30, "width": 20, "depth": 10, "unit": "cm"})
+        compliance_request = LuggageComplianceRequest("Business", "adult", [bag1, bag2])
+
+        result = self.policy.test_eligibility(compliance_request)
+        self.assertTrue(result[0])
+        self.assertEqual(len(result[2]), 1)
+        self.assertEqual(result[4], 0)  # No fee
+
+    def test_carry_on_too_big_and_oversize_fee_in_checked(self):
+        """Oversized carry-on is moved to checked and incurs oversize fee."""
+        bag1 = Luggage(storage="carry-on", weight=6.0, dim={"height": 159, "width": 10, "depth": 10, "unit": "cm"})  # will be oversize
+        bag2 = Luggage(storage="personal", weight=2.0, dim={"height": 30, "width": 20, "depth": 10, "unit": "cm"})
+        compliance_request = LuggageComplianceRequest("Business", "adult", [bag1, bag2])
 
         result = self.policy.test_eligibility(compliance_request)
         self.assertFalse(result[0])
-        self.assertIn("Carry-on bag exceeds size limits", result[1])
+        self.assertIn("above size limit", result[1])
+        self.assertEqual(len(result[2]), 1)  # Moved to checked
+        self.assertGreater(result[4], 0)  # Fee applied
 
-    def test_checked_baggage_exceeds_allowance(self):
-        """Checked baggage exceeds allowance."""
-        bag1 = Luggage(storage="checked", weight=20.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        bag2 = Luggage(storage="checked", weight=20.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        bag3 = Luggage(storage="checked", weight=20.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1, bag2, bag3])
-
-        result = self.policy.test_eligibility(compliance_request)
-        self.assertTrue(result[0])  # Valid but with fees
-        self.assertGreater(result[3], 0)
-
-    def test_checked_baggage_exceeds_allowance(self):
-        """Checked baggage exceeds allowance."""
-        bag1 = Luggage(storage="checked", weight=20.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        bag2 = Luggage(storage="checked", weight=20.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        bag3 = Luggage(storage="checked", weight=20.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1, bag2, bag3])
-
-        result = self.policy.test_eligibility(compliance_request)
-        self.assertTrue(result[0])  # Valid but with fees
-        self.assertGreater(result[3], 0)
-
-    def test_checked_baggage_overweight(self):
-        """Checked baggage is overweight."""
-        bag1 = Luggage(storage="checked", weight=33.0, dim={"height": 70, "width": 50, "depth": 30, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1])
+    def test_carry_on_too_big_and_must_go_to_cargo(self):
+        """Carry-on item exceeds even checked limits and must go to cargo."""
+        bag1 = Luggage(storage="carry-on", weight=35.0, dim={"height": 100, "width": 80, "depth": 50, "unit": "cm"})
+        compliance_request = LuggageComplianceRequest("Business", "adult", [bag1])
 
         result = self.policy.test_eligibility(compliance_request)
         self.assertFalse(result[0])
-        self.assertIn("Some items must be shipped as cargo due to weight or size.", result[1])
-
-    def test_checked_baggage_oversized(self):
-        """Checked baggage is oversized but within limits."""
-        bag1 = Luggage(storage="checked", weight=25.0, dim={"height": 100, "width": 60, "depth": 50, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1])
-
-        result = self.policy.test_eligibility(compliance_request)
-        self.assertFalse(result[0])
-        self.assertGreater(result[3], 0)
-
-    def test_checked_baggage_max_exceeded(self):
-        """Checked baggage is too large or too heavy."""
-        bag1 = Luggage(storage="checked", weight=35.0, dim={"height": 100, "width": 80, "depth": 50, "unit": "cm"})
-        compliance_request = LuggageComplianceRequest("Economy", "adult", [bag1])
-
-        result = self.policy.test_eligibility(compliance_request)
-        self.assertFalse(result[0])
-        self.assertIn("Some items must be shipped as cargo due to weight or size.", result[1])
-        self.assertGreater(result[3], 0)
+        self.assertIn("must be shipped as cargo", result[1])
+        self.assertEqual(len(result[3]), 1)  # One cargo item
 
 
 if __name__ == "__main__":
