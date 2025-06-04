@@ -59,9 +59,9 @@ Whether the goods are:
 Example
 Scenario: You are importing electronics from China valued at $3,200 USD.
 Outcome:
-Goods are permitted ✅
-Commercial invoice is required ✅
-Import license is not required ❌
-Duty rate: based on tariff schedule
-Declaration type: Standard
-Inspection required: Yes (electronics + high-risk origin)
+- Goods are permitted ✅
+- Commercial invoice is required ✅
+- Import license is not required ❌
+- Duty rate: based on tariff schedule
+- Declaration type: Standard
+- Inspection required: Yes (electronics + high-risk origin)
