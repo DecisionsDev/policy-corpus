@@ -1,0 +1,67 @@
+Border Compliance Policy for Goods
+Welcome to the official page detailing the Border Compliance Policy for Imported Goods. This policy outlines the conditions under which goods may enter the country, the documentation required, applicable duty rates, declaration types, and circumstances under which inspections may occur.
+This information is essential for importers, logistics professionals, customs brokers, and trade compliance officers.
+
+Policy Overview
+This policy determines:
+- Whether the goods are permitted to enter the country
+- Which documents are required for customs clearance
+- The customs duty rate applied
+- The type of customs declaration required
+- Whether the shipment is subject to inspection
+
+Conditions for Compliance
+To ensure smooth entry into the country, imported goods must meet all of the following conditions.
+
+1. Are the Goods Allowed?
+Goods are not permitted to enter the country if they fall under the following categories:
+- Firearms
+- Explosives
+- Endangered species (including protected animals, plants, or products derived from them)
+
+All other goods are generally permitted, subject to proper documentation and compliance with other customs rules.
+
+2. What Documents Are Required?
+A commercial invoice is required if the total value of the shipment exceeds $1,000 USD.
+An import license is required if the goods are legally classified as controlled items. This includes sensitive technologies, certain chemicals, and goods subject to trade restrictions.
+
+3. Do Duties Apply?
+Goods originating from the European Union that are not agricultural products benefit from a 0% duty rate under applicable trade agreements.
+For all other goods, customs duties apply based on:
+- The type of goods
+- The country of origin
+- Duty rates are set according to an official tariff schedule published by the Customs Authority.
+
+4. What Kind of Declaration Is Needed?
+Shipments valued at $2,500 USD or less may use a Simplified Customs Declaration.
+Shipments valued above $2,500 USD must use the Standard Customs Declaration.
+
+5. Will the Shipment Be Inspected?
+Shipments are subject to inspection if:
+- The goods include electronics or luxury items
+- The goods are declared as luxury goods
+- The goods originate from a high-risk country (as defined by customs enforcement criteria)
+
+If none of these conditions apply, the shipment is not flagged for inspection unless otherwise warranted.
+
+Required Information Before Importing
+To assess compliance, importers must be ready to provide the following:
+- Value of the goods (in U.S. dollars)
+- Type of goods being imported
+- Country of origin
+
+Whether the goods are:
+- Legally controlled
+- Agricultural in nature
+- Considered luxury items
+- Coming from a high-risk country
+
+Example
+Scenario: You are importing electronics from China valued at $3,200 USD.
+Outcome:
+Goods are permitted ✅
+Commercial invoice is required ✅
+Import license is not required ❌
+Duty rate: based on tariff schedule
+Declaration type: Standard
+Inspection required: Yes (electronics + high-risk origin)
