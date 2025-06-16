@@ -1,0 +1,51 @@
+Acme Corp – Discount Approval Policy
+Effective Date: January 1, 2025
+Scope: This policy governs all discount approvals for customer deals submitted by the sales team. It applies to Sales Representatives, Sales Managers, and Finance Officers.
+
+Objective: To balance sales agility with financial discipline by defining clear thresholds and responsibilities for approving customer discounts.
+
+1. Discount Limits by Customer Tier
+Sales Representatives may approve discounts based on the customer’s classification in the CRM system. Customers are grouped into three tiers: Tier 1 (Enterprise), Tier 2 (SMB), and Tier 3 (Startups). The maximum allowable discount without further approval is 20% for Tier 1 customers, 15% for Tier 2 customers, and 10% for Tier 3 customers.
+
+2. Deal Size Restrictions
+Discounts are further limited by the size of the deal. For deals under $5,000, the representative may approve discounts up to their tier-based maximum. For deals between $5,000 and $25,000, any discount exceeding 10% requires approval from a Sales Manager, regardless of the customer tier. For deals over $25,000, Finance approval is required for any discount above 5%.
+
+3. Profit Margin Requirements
+No discount shall be granted if the resulting gross margin falls below 30%, unless explicitly approved by the Vice President of Sales. The gross margin must be computed using the CPQ tool’s automatic calculation, factoring in current pricing and cost structures.
+
+4. Approval Workflow
+Sales Managers may approve discounts up to 25%, provided the gross margin remains at or above 30%. Any discount above 25%, or any case where the gross margin drops below 35%, must also be approved by a Finance Officer. Additionally, if the deal includes a bundled offer involving hardware, Finance must co-approve regardless of margin.
+
+5. Automatic Approval Criteria
+A discount may be automatically approved without human intervention if all the following conditions are met: the discount is within the representative’s tier limit, the customer has no overdue invoices in the past 12 months, the quote uses the standard pricing template, and no custom contract terms are included.
+
+6. Exceptions Handling
+Any discount request that does not meet the criteria outlined in this policy must be submitted as an exception using the Discount Justification Form available in Salesforce. All exceptions are reviewed on a weekly basis by the Deal Desk Committee, which may grant or deny approval based on strategic or financial considerations.
+
+Policy Owner: Sales Operations
+Review Schedule: Reviewed semi-annually. Next scheduled review is June 15, 2025.
+
+Glossary
+Customer Tier: Classification of customers based on size, revenue potential, and strategic value. Tier 1 = Enterprise; Tier 2 = Small and Medium Businesses (SMBs); Tier 3 = Startups.
+
+CPQ: Configure, Price, Quote – a software tool that helps sales teams generate accurate pricing and quotes.
+
+CRM: Customer Relationship Management – a system used to manage customer data and interactions.
+
+Deal Desk Committee: A cross-functional team that reviews exception requests and complex deal structures.
+
+Discount Justification Form: A standard form submitted in Salesforce to request approval for non-standard discounts.
+
+Finance Officer: A designated member of the finance team responsible for ensuring deals meet financial guidelines.
+
+Gross Margin: The percentage difference between the selling price and the cost of goods sold, expressed as a percentage of the selling price.
+
+Sales Manager: A mid-level sales leader authorized to approve certain discount levels.
+
+Sales Representative: A member of the sales team directly engaged in negotiating and closing deals with customers.
+
+Salesforce: The platform used by Acme Corp for CRM, deal management, and workflow automation.
+
+Standard Pricing Template: A predefined quote structure with default pricing terms and approved configurations.
+
+VP of Sales: The executive responsible for the overall performance of the sales organization and final decision-maker on exceptional cases.
