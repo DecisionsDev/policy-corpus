@@ -27,25 +27,14 @@ Review Schedule: Reviewed semi-annually. Next scheduled review is June 15, 2025.
 
 Glossary
 Customer Tier: Classification of customers based on size, revenue potential, and strategic value. Tier 1 = Enterprise; Tier 2 = Small and Medium Businesses (SMBs); Tier 3 = Startups.
-
 CPQ: Configure, Price, Quote – a software tool that helps sales teams generate accurate pricing and quotes.
-
 CRM: Customer Relationship Management – a system used to manage customer data and interactions.
-
 Deal Desk Committee: A cross-functional team that reviews exception requests and complex deal structures.
-
 Discount Justification Form: A standard form submitted in Salesforce to request approval for non-standard discounts.
-
 Finance Officer: A designated member of the finance team responsible for ensuring deals meet financial guidelines.
-
 Gross Margin: The percentage difference between the selling price and the cost of goods sold, expressed as a percentage of the selling price.
-
 Sales Manager: A mid-level sales leader authorized to approve certain discount levels.
-
 Sales Representative: A member of the sales team directly engaged in negotiating and closing deals with customers.
-
 Salesforce: The platform used by Acme Corp for CRM, deal management, and workflow automation.
-
 Standard Pricing Template: A predefined quote structure with default pricing terms and approved configurations.
-
 VP of Sales: The executive responsible for the overall performance of the sales organization and final decision-maker on exceptional cases.
