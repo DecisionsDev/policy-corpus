@@ -25,7 +25,7 @@ Each policy is described by:
 The list of business policies captured in this corpus:
 - [luggage compliance & pricing](luggage/luggage_policy.md)
 - [time off](human-resources/acme_time_off.md)
-- [cardiovascular_risk](healthcare/cardiovascular_risk/cardiovascular_risk.txt))
+- [cardiovascular_risk](healthcare/cardiovascular_risk/cardiovascular_risk.txt)
 - [insurance](insurance/insurance_policy.md)
 - [loan approval](loan/loan_policy.md)
 
