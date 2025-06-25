@@ -25,8 +25,15 @@ Each policy is described by:
 The list of business policies captured in this corpus:
 - [luggage compliance & pricing](luggage/luggage_policy.md)
 - [time off](human-resources/acme_time_off.md)
+- [cardiovascular_risk](healthcare/cardiovascular_risk.md)
 - [insurance](insurance/insurance_policy.md)
 - [loan approval](loan/loan_policy.md)
+
+## Troubleshooting generated projects
+When generating projects in an assistant we may face parsing errors in the rules.
+- remove 'the' article before non boolean attributes
+- use add verb when using a list to set its content
+  
 
 ## How to benchmark your policy automation against a test dataset
 You want to measure quantitatively the performance of your policy automation, then this project is made for you.
