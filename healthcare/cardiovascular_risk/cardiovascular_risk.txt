@@ -29,23 +29,17 @@ The LDL cholesterol level is 160 mg/dL or higher.
 The patient is a current smoker.
 The patient has a confirmed diagnosis of diabetes.
 The patient has a family history of cardiovascular disease.
+
 If none of the High Risk conditions are met, the patient must be classified as Medium Risk if any of the following conditions are met:
 The patient is between 45 and 59 years old (inclusive).
 The systolic blood pressure is between 130 mmHg and 139 mmHg inclusive.
 The LDL cholesterol level is between 130 mg/dL and 159 mg/dL inclusive.
 The patient is a former smoker.
 The HDL cholesterol level is less than 40 mg/dL.
+
 If neither the High Risk nor Medium Risk conditions are met, the patient must be classified as Low Risk.
 
 Conditions must be evaluated sequentially, and once a patient meets criteria for a given risk level, evaluation must stop.
 
 5. Output Requirements
 Each patient must be assigned a risk level of "Low", "Medium", or "High".
-Optionally, a confidence score between 0 and 1 may be associated with the risk prediction if a probabilistic model is used.
-
-6. Validation Requirements
-The risk classification system must achieve an F1 Score of at least 80% on holdout validation data.
-The system must support feature attribution explanations for each classification and must log all inputs, outputs, and processing steps for auditability.
-
-7. Compliance
-All patient data must be handled in compliance with applicable regulations concerning patient privacy and data protection, including HIPAA and GDPR.
