@@ -1,0 +1,75 @@
+Mineral Classification Policy
+Policy Objective
+To assign each identified mineral specimen to one of the established mineral classes based on observable, testable, or measurable properties including chemical composition, reaction behavior, physical characteristics, and environmental context.
+
+Section 1: General Classification Rules
+Rule 1 — Native Element Identification
+Condition: The mineral consists of a single chemical element, without bonding to other elements.
+
+Directive: Classify the specimen as a Native Element.
+
+Rule 2 — Sulfide Identification
+Condition: The mineral exhibits metallic luster and produces a hydrogen sulfide (rotten egg) odor when in contact with acid.
+
+Directive: Classify the specimen as a Sulfide.
+
+Rule 3 — Carbonate Identification
+Condition: The mineral reacts with dilute hydrochloric acid by producing visible effervescence (CO₂ release).
+
+Directive: Classify the specimen as a Carbonate.
+
+Rule 4 — Halide Identification
+Condition: The mineral has a salty or bitter taste, dissolves easily in water, and typically forms in evaporite environments.
+
+Directive: Classify the specimen as a Halide.
+
+Rule 5 — Borate Identification
+Condition: The mineral is soft (Mohs < 3), white to pale-colored, and occurs in arid environments.
+
+Directive: Classify the specimen as a Borate.
+
+Rule 6 — Oxide Identification
+Condition: The mineral does not react with acid, has high specific gravity, and consists of a metal bonded with oxygen.
+
+Directive: Classify the specimen as an Oxide.
+
+Rule 7 — Sulfate Identification
+Condition: The mineral contains sulfur and oxygen (SO₄²⁻ group), may dissolve in water, and forms in evaporitic or sedimentary environments.
+
+Directive: Classify the specimen as a Sulfate.
+
+Rule 8 — Phosphate Identification
+Condition: The mineral contains phosphorus (PO₄³⁻ group), exhibits hexagonal or prismatic crystal habit, and does not react with acid.
+
+Directive: Classify the specimen as a Phosphate.
+
+Rule 9 — Silicate Identification
+Condition: The mineral is hard (Mohs > 5), displays a vitreous luster, shows no acid reactivity, and is composed of silicon-oxygen tetrahedra (SiO₄).
+
+Directive: Classify the specimen as a Silicate.
+
+Rule 10 — Organic Mineral Identification
+Condition: The mineral contains organic molecules and originates from biological or biochemical processes.
+
+Directive: Classify the specimen as an Organic Mineral.
+
+Section 2: Silicate Subclassification Policy
+Rule 11 — Nesosilicate (Isolated Tetrahedra)
+Condition: The mineral contains isolated SiO₄ groups, without shared oxygen atoms between tetrahedra.
+
+Directive: Classify as a Nesosilicate.
+
+Rule 12 — Phyllosilicate (Sheet Structure)
+Condition: The mineral forms sheets of tetrahedra with basal cleavage, and has platy or flaky habit.
+
+Directive: Classify as a Phyllosilicate.
+
+Rule 13 — Inosilicate (Chain Structure)
+Condition: The mineral forms single or double chains of tetrahedra, and has prismatic or fibrous habit with distinct cleavage.
+
+Directive: Classify as an Inosilicate.
+
+Rule 14 — Tectosilicate (Framework Structure)
+Condition: The mineral forms a three-dimensional network of SiO₄ tetrahedra with no cleavage and conchoidal fracture.
+
+Directive: Classify as a Tectosilicate.
