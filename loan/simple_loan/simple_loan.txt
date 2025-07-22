@@ -1,0 +1,33 @@
+Loan Approval Policy: Simple Personal Loan
+
+Eligibility Criteria
+An applicant is eligible if all the following conditions are met:
+- Age: Must be between 21 and 65 years old.
+- Employment Status: Must be employed (full-time or part-time) or self-employed for at least 12 months.
+- Monthly Income: Must have a minimum monthly income of $2,000.
+- Credit Score: Must have a minimum credit score of 650.
+- Debt-to-Income (DTI) Ratio: DTI must be less than or equal to 40%.
+- Loan Amount Requested: Must not exceed 10 times the applicant’s monthly income.
+
+Automatic Decision Rules
+   Auto-Approval if:
+   - All eligibility criteria are met.
+   - Credit score is 700 or higher.
+   - DTI is 30% or lower.
+
+   Auto-Rejection if:
+   - Credit score is below 600, or
+   - DTI is above 50%, or
+   - Applicant is unemployed or employed less than 12 months.
+
+Manual Review Required if eligibility criteria are met but:
+- Credit score is between 600–649, or
+- DTI is between 41–50%, or
+- Income verification is missing or ambiguous.
+
+Additional Notes
+Income Verification: Must be from recent pay slips, tax return, or bank statements.
+
+Loan Term Options: 12, 24, 36, or 48 months.
+
+Interest Rates are risk-based, tied to credit score bands.
