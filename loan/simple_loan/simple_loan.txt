@@ -10,7 +10,7 @@ An applicant is eligible if all the following conditions are met:
 - Loan Amount Requested: Must not exceed 10 times the applicant’s monthly income.
 
 Automatic Decision Rules
-   Auto-Approval if:
+   Auto-Approval if all following conditions are met:
    - All eligibility criteria are met.
    - Credit score is 700 or higher.
    - DTI is 30% or lower.
@@ -20,7 +20,7 @@ Automatic Decision Rules
    - DTI is above 50%, or
    - Applicant is unemployed or employed less than 12 months.
 
-Manual Review Required if eligibility criteria are met but:
+Manual Review Required if eligibility criteria are met:
 - Credit score is between 600–649, or
 - DTI is between 41–50%, or
 - Income verification is missing or ambiguous.
