@@ -1,0 +1,39 @@
+Use Case: Underwriting Eligibility for Basic Insurance Coverage
+
+Business Function: Insurance Underwriting
+Decision Owner: Underwriting Team
+Decision Frequency: Real-time (triggered during application submission)
+
+Data Model (Inputs)
+
+applicantAge: Number — Age of the applicant
+coverageAmount: Number — Requested coverage amount in dollars
+hasPreExistingConditions: Boolean — Whether the applicant has disclosed any pre-existing medical conditions
+employmentStatus: String — Employment status (e.g., "Employed", "Unemployed", "Retired")
+Decision Model
+
+Top-Level Decision: Is Applicant Eligible for Basic Coverage?
+
+Sub-Decisions:
+
+Check Age Range
+Check Coverage Limit
+Check Health Status
+Check Employment Status
+Business Rules
+
+Check Age Range
+Rule: Applicant must be between 18 and 65 years old
+Expression: applicantAge >= 18 AND applicantAge <= 65
+
+Check Coverage Limit
+Rule: Requested coverage must not exceed $250,000
+Expression: coverageAmount <= 250000
+
+Check Health Status
+Rule: Applicant must not have pre-existing conditions
+Expression: hasPreExistingConditions == false
+
+Check Employment Status
+Rule: Applicant must be currently employed
+Expression: employmentStatus == "Employed"
