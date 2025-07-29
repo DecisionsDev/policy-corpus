@@ -1,0 +1,42 @@
+Policy for Automated Detection of Money Laundering Activities
+
+1. High-Value Transactions
+Flag any single transaction with an amount greater than or equal to 10,000 USD (or equivalent in any supported currency).
+Flag any set of transactions from the same customer where the cumulative amount in a 24-hour window is greater than or equal to 10,000 USD.
+
+2. Structuring (Smurfing) Patterns
+Monitor all transactions under 10,000 USD made by the same customer (or linked accounts) over any rolling 7-day period.
+If the cumulative sum of those transactions within the 7-day window is greater than or equal to 10,000 USD, flag the pattern.
+If such 7-day structuring patterns occur in three or more distinct rolling 7-day windows within a 30-day period, escalate the case.
+
+3. High-Risk Jurisdiction Monitoring
+Maintain a list of jurisdictions classified as high-risk (e.g., based on FATF or internal risk scoring).
+Flag any transaction sent to or received from an account in a high-risk jurisdiction.
+Flag any customer with no prior cross-border activity who initiates a cross-border transaction with an amount greater than or equal to 5,000 USD.
+
+4. Dormant Account Reactivation
+Define a dormant account as one with no debit or credit activity for at least 180 consecutive days.
+If such an account receives a deposit greater than or equal to 5,000 USD, or initiates outbound transfers within 7 days after reactivation, flag the activity.
+
+5. Customer Risk Scoring
+Assign each customer a dynamic risk score between 0 and 1 based on:
+Customer industry (e.g., cash-intensive sectors),
+Geographic location,
+Volume and velocity of transactions,
+Incomplete or outdated KYC (Know Your Customer) documentation.
+Flag any transaction initiated by a customer whose risk score is greater than or equal to 0.8.
+Require manual review if the risk score is between 0.5 and 0.8 and the transaction exceeds 5,000 USD.
+
+6. Rapid Movement of Funds
+Flag any account that receives a deposit greater than or equal to 10,000 USD and initiates outbound transfers of 90% or more of that amount within 48 hours.
+
+7. Repeated Round-Number Transactions
+Flag any customer who executes three or more transactions involving round-number amounts (e.g., 5,000 / 9,900 / 10,000 / 20,000 USD) within a 7-day period.
+
+8. Circular or Clustered Transactions
+Identify clusters of accounts (3 or more) where funds are sent between them in a circular or repeating pattern within 72 hours.
+Flag if any such cluster completes two or more cycles of fund movement in a 30-day period.
+
+9. Alert Escalation and Reporting
+If any customer triggers three or more rules in this policy within a rolling 30-day period, escalate for compliance review.
+Automatically cross-reference flagged transactions with any entities or accounts listed in prior SARs (Suspicious Activity Reports). Escalate if a match is found.
